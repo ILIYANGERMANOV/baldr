@@ -12,6 +12,8 @@ fun main() {
 @Composable
 fun Content() {
     Header()
+
+    Products()
 }
 
 

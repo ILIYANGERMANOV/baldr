@@ -2,9 +2,9 @@ package data
 
 
 data class Product(
-    val title: String,
-    val subtitle: String?,
-    val description: String?,
+    val name: String,
+    val tagline: String?,
+    val description: String? = null,
     val price: Double,
     val currency: String,
     val media: List<Media>,

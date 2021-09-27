@@ -15,7 +15,7 @@ fun MediaView(media: Media) {
             )
         }
         MediaType.VIDEO -> {
-            //TODO: Implement
+            TODO()
         }
     }
 }
