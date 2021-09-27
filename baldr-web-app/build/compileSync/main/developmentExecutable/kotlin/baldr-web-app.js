@@ -53462,7 +53462,7 @@
   };
   function main() {
     var count$delegate = mutableStateOf$default(0, null, 2, null);
-    renderComposable$composable('root', _no_name_provided_$factory_171(composableLambdaInstance(-985534211, true, _no_name_provided_$factory_170(count$delegate))));
+    renderComposable$composable('root', _no_name_provided_$factory_171(composableLambdaInstance(-985533610, true, _no_name_provided_$factory_170(count$delegate))));
     Unit_getInstance();
   }
   function _no_name_provided__208($boundThis) {
@@ -53536,9 +53536,9 @@
   function ComposableSingletons$MainKt() {
     ComposableSingletons$MainKt_instance = this;
     var tmp = this;
-    tmp._lambda_1_1 = _no_name_provided_$factory_173(composableLambdaInstance(-985533572, false, _no_name_provided_$factory_172()));
+    tmp._lambda_1_1 = _no_name_provided_$factory_173(composableLambdaInstance(-985533551, false, _no_name_provided_$factory_172()));
     var tmp_0 = this;
-    tmp_0._lambda_2_0 = _no_name_provided_$factory_175(composableLambdaInstance(-985533857, false, _no_name_provided_$factory_174()));
+    tmp_0._lambda_2_0 = _no_name_provided_$factory_175(composableLambdaInstance(-985533776, false, _no_name_provided_$factory_174()));
   }
   ComposableSingletons$MainKt.prototype._get_lambda_1__0_k$ = function () {
     return this._lambda_1_1;
@@ -53796,7 +53796,7 @@
       Button$composable(tmp0_2, ComposableSingletons$MainKt_getInstance()._lambda_1_1, $composer_0, 0, 0);
       var tmp_1 = _no_name_provided_$factory_181();
       var tmp_2 = $composer_0;
-      Span$composable(tmp_1, _no_name_provided_$factory_183(composableLambda(tmp_2, -819895273, true, _no_name_provided_$factory_182(this._$count$delegate_6))), $composer_0, 0, 0);
+      Span$composable(tmp_1, _no_name_provided_$factory_183(composableLambda(tmp_2, -819894844, true, _no_name_provided_$factory_182(this._$count$delegate_6))), $composer_0, 0, 0);
       var tmp2_remember$composable_0 = _no_name_provided_$factory_184(this._$count$delegate_6);
       var tmp3_remember$composable_0 = $composer_0;
       var $composer_1_0 = tmp3_remember$composable_0;
@@ -53838,7 +53838,7 @@
     if (!(($changed & 81 ^ 16) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
       var tmp = _no_name_provided_$factory_176();
       var tmp_0 = $composer_0;
-      Div$composable(tmp, _no_name_provided_$factory_178(composableLambda(tmp_0, -819894428, true, _no_name_provided_$factory_177(this._$count$delegate_7))), $composer_0, 0, 0);
+      Div$composable(tmp, _no_name_provided_$factory_178(composableLambda(tmp_0, -819895079, true, _no_name_provided_$factory_177(this._$count$delegate_7))), $composer_0, 0, 0);
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
   };
