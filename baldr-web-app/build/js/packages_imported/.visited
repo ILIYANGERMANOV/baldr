@@ -27,6 +27,12 @@
     "86f9bdd1a041703da52b8693255b9d51": {
       "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-js/1.5.21/db9c8e994715fb1edd5bef91db179b60347cbfc9/kotlin-test-js-1.5.21.jar",
       "target": "kotlin-test/1.5.21"
+    },
+    "3d31f510aa4b3c4db6a5ddff89b132de": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.5.21/2f537cad7e9eeb9da73738c8812e1e4cf9b62e4e/kotlin-stdlib-1.5.21.jar"
+    },
+    "72ac29dee68b63d11710f49a42861308": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar"
     }
   }
 }

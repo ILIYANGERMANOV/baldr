@@ -27,6 +27,12 @@ kotlin {
                 implementation(compose.runtime)
             }
         }
+
+        val commonMain by getting {
+            dependencies {
+                implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.21")
+            }
+        }
     }
 }
 
