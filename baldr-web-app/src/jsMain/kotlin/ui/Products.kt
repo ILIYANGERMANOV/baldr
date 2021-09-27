@@ -25,4 +25,23 @@ fun Products() {
             orderId = 0.0
         )
     )
+
+    ProductItem(
+        Product(
+            name = "Feel Flux",
+            tagline = "kinetic toy",
+            price = 64.99,
+            currency = "BGN",
+            media = listOf(
+                Media(
+                    url = "https://www.youtube.com/embed/eq9bpu3zArI",
+                    alt = "feel-flux",
+                    type = MediaType.VIDEO
+                )
+            ),
+
+            id = "p2",
+            orderId = 0.1
+        )
+    )
 }

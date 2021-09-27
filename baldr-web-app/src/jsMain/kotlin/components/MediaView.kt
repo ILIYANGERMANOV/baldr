@@ -3,6 +3,7 @@ package components
 import androidx.compose.runtime.Composable
 import data.Media
 import data.MediaType
+import org.jetbrains.compose.web.dom.Iframe
 import org.jetbrains.compose.web.dom.Img
 
 @Composable
@@ -15,7 +16,11 @@ fun MediaView(media: Media) {
             )
         }
         MediaType.VIDEO -> {
-            TODO()
+            Iframe(
+                attrs = {
+                    attr("src", media.url)
+                }
+            )
         }
     }
 }
