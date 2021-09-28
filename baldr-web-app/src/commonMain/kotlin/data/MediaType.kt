@@ -1,5 +1,5 @@
 package data
 
 enum class MediaType {
-    IMAGE, VIDEO
+    IMAGE, YOUTUBE_VIDEO
 }
