@@ -1,10 +1,8 @@
 package ui
 
 import androidx.compose.runtime.Composable
-import org.jetbrains.compose.web.css.DisplayStyle
-import org.jetbrains.compose.web.css.FlexDirection
-import org.jetbrains.compose.web.css.display
-import org.jetbrains.compose.web.css.flexDirection
+import css.Ivy
+import org.jetbrains.compose.web.css.*
 import org.jetbrains.compose.web.dom.Div
 
 @Composable
@@ -13,8 +11,12 @@ fun Products(
 ) {
     Div({
         style {
+            width(100.percent)
+            backgroundColor(Ivy)
             display(DisplayStyle.Flex)
             flexDirection(FlexDirection.Row)
+            alignContent(AlignContent.Center)
+            justifyContent(JustifyContent.Center)
         }
     }) {
         Content()

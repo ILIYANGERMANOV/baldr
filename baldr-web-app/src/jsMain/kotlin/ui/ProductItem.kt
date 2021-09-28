@@ -14,20 +14,25 @@ import org.jetbrains.compose.web.dom.Text
 fun ProductItem(product: Product) {
     Div({
         style {
-            width(600.px)
             backgroundColor(Color("#f4f4f4"))
             display(DisplayStyle.Flex)
             flexDirection(FlexDirection.Column)
             alignContent(AlignContent.Center)
             justifyContent(JustifyContent.Center)
-            attr("margin", "auto")
+            marginLeft(32.px)
+            marginRight(32.px)
         }
     }) {
-        MediaView(product.media.first())
+        MediaView(
+            media = product.media.first(),
+            width = 420,
+            height = 420
+        )
 
         H1({
             style {
                 backgroundColor(Red)
+                textAlign("center")
             }
         }) {
             Text(product.name)
