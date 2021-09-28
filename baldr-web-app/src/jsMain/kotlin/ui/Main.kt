@@ -1,9 +1,13 @@
 package ui
 
-import androidx.compose.runtime.Composable
+import androidx.compose.runtime.*
+import css.Red
 import data.Media
 import data.MediaType
 import data.Product
+import org.jetbrains.compose.web.css.color
+import org.jetbrains.compose.web.dom.H1
+import org.jetbrains.compose.web.dom.Text
 import org.jetbrains.compose.web.renderComposable
 
 fun main() {
@@ -15,6 +19,20 @@ fun main() {
 @Composable
 fun Content() {
     Header()
+
+    var selectedProduct: Product? by remember {
+        mutableStateOf(null)
+    }
+
+    selectedProduct?.let {
+        H1({
+            style {
+                color(Red)
+            }
+        }) {
+            Text(selectedProduct.toString())
+        }
+    }
 
     Products {
         ProductItem(
@@ -34,7 +52,9 @@ fun Content() {
                 id = "p1",
                 orderId = 0.0
             )
-        )
+        ) {
+            selectedProduct = it
+        }
 
         ProductItem(
             Product(
@@ -53,7 +73,9 @@ fun Content() {
                 id = "p2",
                 orderId = 0.1
             )
-        )
+        ) {
+            selectedProduct = it
+        }
     }
 }
 

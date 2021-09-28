@@ -2,16 +2,15 @@ package ui
 
 import androidx.compose.runtime.Composable
 import components.MediaView
-import css.Red
 import data.Product
 import org.jetbrains.compose.web.css.*
-import org.jetbrains.compose.web.dom.Div
-import org.jetbrains.compose.web.dom.H1
-import org.jetbrains.compose.web.dom.H2
-import org.jetbrains.compose.web.dom.Text
+import org.jetbrains.compose.web.dom.*
 
 @Composable
-fun ProductItem(product: Product) {
+fun ProductItem(
+    product: Product,
+    onClick: (Product) -> Unit
+) {
     Div({
         style {
             backgroundColor(Color("#f4f4f4"))
@@ -22,6 +21,10 @@ fun ProductItem(product: Product) {
             marginLeft(32.px)
             marginRight(32.px)
         }
+
+        onClick {
+            onClick(product)
+        }
     }) {
         MediaView(
             media = product.media.first(),
@@ -29,19 +32,31 @@ fun ProductItem(product: Product) {
             height = 420
         )
 
-        H1({
+        Div({
             style {
-                backgroundColor(Red)
-                textAlign("center")
+                display(DisplayStyle.Flex)
+                flexDirection(FlexDirection.Row)
+                alignContent(AlignContent.Center)
+                justifyContent(JustifyContent.SpaceAround)
             }
         }) {
-            Text(product.name)
-        }
+            Div {
+                H1 {
+                    Text(product.name)
+                }
 
-        product.tagline?.let {
+                product.tagline?.let {
+                    P {
+                        Text(it)
+                    }
+                }
+            }
+
+            //Price
             H2 {
-                Text(it)
+                Text("${product.currency} ${product.price}")
             }
         }
+
     }
 }
