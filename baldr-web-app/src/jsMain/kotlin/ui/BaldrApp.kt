@@ -1,8 +1,8 @@
 package ui
 
-import core.Route
-import core.Routing
 import kotlinx.browser.window
+import navigation.Route
+import navigation.Routing
 import org.jetbrains.compose.web.renderComposable
 import ui.home.Home
 import ui.product.ProductDetails

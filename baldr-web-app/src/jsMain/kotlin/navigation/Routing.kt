@@ -1,4 +1,4 @@
-package core
+package navigation
 
 import androidx.compose.runtime.*
 import kotlinx.browser.window

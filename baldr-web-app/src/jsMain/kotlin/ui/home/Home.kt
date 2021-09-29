@@ -1,12 +1,12 @@
 package ui.home
 
 import androidx.compose.runtime.Composable
-import core.Route
-import core.Routing
 import data.Media
 import data.MediaType
 import data.Product
 import kotlinx.browser.window
+import navigation.Route
+import navigation.Routing
 import org.jetbrains.compose.web.dom.Text
 
 @Composable

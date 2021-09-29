@@ -667,12 +667,12 @@
   SecureRandomJs.prototype.constructor = SecureRandomJs;
   MediaType.prototype = Object.create(Enum.prototype);
   MediaType.prototype.constructor = MediaType;
+  Theme.prototype = Object.create(StyleSheet.prototype);
+  Theme.prototype.constructor = Theme;
   Home.prototype = Object.create(Route.prototype);
   Home.prototype.constructor = Home;
   ProductDetails.prototype = Object.create(Route.prototype);
   ProductDetails.prototype.constructor = ProductDetails;
-  Theme.prototype = Object.create(StyleSheet.prototype);
-  Theme.prototype.constructor = Theme;
   function fold(_this_, initial, operation) {
     var accumulator = initial;
     var indexedObject = _this_;
@@ -75015,297 +75015,6 @@
       return Unit_getInstance();
     };
   }
-  function _set_routePath_($this, _set___) {
-    var tmp0_setValue_0 = routePath$factory();
-    return $this._routePath$delegate._set_value__iav7o_k$(_set___);
-  }
-  function _get_routePath_($this) {
-    var tmp$ret$0;
-    $l$block: {
-      var tmp0_getValue_0 = routePath$factory_0();
-      tmp$ret$0 = $this._routePath$delegate._get_value__0_k$();
-      break $l$block;
-    }
-    return tmp$ret$0;
-  }
-  function updateRoute($this, path) {
-    _set_routePath_($this, path);
-  }
-  function init$composable$lambda($tmp0_rcvr, $Content, $$changed, $composer, $force) {
-    return $tmp0_rcvr.init$composable_f7x37y_k$($Content, $composer, $$changed | 1);
-  }
-  function _no_name_provided__229() {
-  }
-  _no_name_provided__229.prototype.invoke_aiy3zh_k$ = function (it) {
-    log('' + 'onpopstate: path = ' + window.location.pathname);
-    updateRoute(Routing_getInstance(), window.location.pathname);
-  };
-  _no_name_provided__229.prototype.invoke_20e8_k$ = function (p1) {
-    this.invoke_aiy3zh_k$(p1 instanceof PopStateEvent ? p1 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__229.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__230() {
-  }
-  _no_name_provided__230.prototype.invoke_eildf5_k$ = function (it) {
-    log('' + 'onhashchange: path = ' + window.location.pathname);
-    updateRoute(Routing_getInstance(), window.location.pathname);
-  };
-  _no_name_provided__230.prototype.invoke_20e8_k$ = function (p1) {
-    this.invoke_eildf5_k$(p1 instanceof HashChangeEvent ? p1 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__230.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__231($tmp0_rcvr, $Content, $$changed) {
-    this._$tmp0_rcvr = $tmp0_rcvr;
-    this._$Content = $Content;
-    this._$$changed_8 = $$changed;
-  }
-  _no_name_provided__231.prototype.invoke_xtxync_k$ = function (p0, p1) {
-    return init$composable$lambda(this._$tmp0_rcvr, this._$Content, this._$$changed_8, p0, p1);
-  };
-  _no_name_provided__231.prototype.invoke_osx4an_k$ = function (p1, p2) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
-    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__231.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function Routing() {
-    Routing_instance = this;
-    this._routePath$delegate = mutableStateOf('', neverEqualPolicy());
-    var tmp = window;
-    tmp.onpopstate = _no_name_provided_$factory_187();
-    var tmp_0 = window;
-    tmp_0.onhashchange = _no_name_provided_$factory_188();
-    this._$stable_43 = 0;
-  }
-  Routing.prototype.init_tziofv_k$ = function (Content) {
-    illegalDecoyCallException('init');
-  };
-  Routing.prototype.navigate_5p04ns_k$ = function (destination) {
-    var destinationPath = destination.path_0_k$();
-    window.history.pushState(null, '', destinationPath);
-    updateRoute(this, destinationPath);
-  };
-  Routing.prototype.init$composable_f7x37y_k$ = function (Content, $composer, $changed) {
-    var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(725478613);
-    sourceInformation($composer_0, 'C(init$composable)');
-    var $dirty = $changed;
-    if (($changed & 14) === 0)
-      $dirty = $dirty | ($composer_0.changed_wi7j7l_k$(Content) ? 4 : 2);
-    if (($changed & 112) === 0)
-      $dirty = $dirty | ($composer_0.changed_wi7j7l_k$(this) ? 32 : 16);
-    if (!(($dirty & 91 ^ 18) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
-      var $invokeComposable_dispatchReceiver = Content;
-      if ($invokeComposable_dispatchReceiver instanceof ComposableLambdaImpl)
-        $invokeComposable_dispatchReceiver.invoke_oku154_k$(_get_routePath_(this), $composer_0, 112 & $dirty << 3);
-      else {
-        $invokeComposable_dispatchReceiver(_get_routePath_(this), $composer_0, 112 & $dirty << 3);
-      }
-    } else
-      $composer_0.skipToGroupEnd_sv8swh_k$();
-    var tmp0_rcvr = this;
-    var tmp1_safe_receiver = $composer_0.endRestartGroup_0_k$();
-    if (tmp1_safe_receiver === null)
-      null;
-    else {
-      tmp1_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_189(tmp0_rcvr, Content, $changed));
-    }
-  };
-  Routing.$metadata$ = {
-    simpleName: 'Routing',
-    kind: 'object',
-    interfaces: []
-  };
-  var Routing_instance;
-  function Routing_getInstance() {
-    if (Routing_instance == null)
-      new Routing();
-    return Routing_instance;
-  }
-  function Home() {
-    Home_instance = this;
-    Route.call(this);
-    this._$stable_44 = 0;
-  }
-  Home.prototype.path_0_k$ = function () {
-    return '';
-  };
-  Home.$metadata$ = {
-    simpleName: 'Home',
-    kind: 'object',
-    interfaces: []
-  };
-  var Home_instance;
-  function Home_getInstance() {
-    if (Home_instance == null)
-      new Home();
-    return Home_instance;
-  }
-  function ProductDetails(productId) {
-    Route.call(this);
-    this._productId = productId;
-    this._$stable_45 = 0;
-  }
-  ProductDetails.prototype._get_productId__0_k$ = function () {
-    return this._productId;
-  };
-  ProductDetails.prototype.path_0_k$ = function () {
-    return '' + '/product/' + this._productId;
-  };
-  ProductDetails.prototype.component1_0_k$ = function () {
-    return this._productId;
-  };
-  ProductDetails.prototype.copy_6wfw3l_k$ = function (productId) {
-    return new ProductDetails(productId);
-  };
-  ProductDetails.prototype.copy$default_nmiqce_k$ = function (productId, $mask0, $handler) {
-    if (!(($mask0 & 1) === 0))
-      productId = this._productId;
-    return this.copy_6wfw3l_k$(productId);
-  };
-  ProductDetails.prototype.toString = function () {
-    return '' + 'ProductDetails(productId=' + this._productId + ')';
-  };
-  ProductDetails.prototype.hashCode = function () {
-    return getStringHashCode(this._productId);
-  };
-  ProductDetails.prototype.equals = function (other) {
-    if (this === other)
-      return true;
-    if (!(other instanceof ProductDetails))
-      return false;
-    else {
-    }
-    var tmp0_other_with_cast = other instanceof ProductDetails ? other : THROW_CCE();
-    if (!(this._productId === tmp0_other_with_cast._productId))
-      return false;
-    return true;
-  };
-  ProductDetails.$metadata$ = {
-    simpleName: 'ProductDetails',
-    kind: 'class',
-    interfaces: []
-  };
-  function Companion_44() {
-    Companion_instance_43 = this;
-  }
-  Companion_44.prototype.parse_6wfw3l_k$ = function (path) {
-    var tmp;
-    if (startsWith$default_0(path, '/product/', false, 2, null)) {
-      var tmp0_safe_receiver = getOrNull(split$default(path, ['/'], false, 0, 6, null), 2);
-      var tmp_0;
-      if (tmp0_safe_receiver == null) {
-        tmp_0 = null;
-      } else {
-        var tmp$ret$2;
-        $l$block_1: {
-          {
-          }
-          var tmp_1;
-          var tmp$ret$1;
-          $l$block_0: {
-            var tmp$ret$0;
-            $l$block: {
-              tmp$ret$0 = !isBlank(tmp0_safe_receiver);
-              break $l$block;
-            }
-            tmp$ret$1 = tmp$ret$0;
-            break $l$block_0;
-          }
-          if (tmp$ret$1) {
-            tmp_1 = tmp0_safe_receiver;
-          } else {
-            {
-              tmp_1 = null;
-            }
-          }
-          tmp$ret$2 = tmp_1;
-          break $l$block_1;
-        }
-        tmp_0 = tmp$ret$2;
-      }
-      var tmp1_elvis_lhs = tmp_0;
-      var tmp_2;
-      if (tmp1_elvis_lhs == null) {
-        return Home_getInstance();
-      } else {
-        tmp_2 = tmp1_elvis_lhs;
-      }
-      var productId = tmp_2;
-      tmp = new ProductDetails(productId);
-    } else {
-      {
-        tmp = Home_getInstance();
-      }
-    }
-    return tmp;
-  };
-  Companion_44.$metadata$ = {
-    simpleName: 'Companion',
-    kind: 'object',
-    interfaces: []
-  };
-  var Companion_instance_43;
-  function Companion_getInstance_43() {
-    if (Companion_instance_43 == null)
-      new Companion_44();
-    return Companion_instance_43;
-  }
-  function Route() {
-    Companion_getInstance_43();
-    this._$stable_46 = 0;
-  }
-  Route.$metadata$ = {
-    simpleName: 'Route',
-    kind: 'class',
-    interfaces: []
-  };
-  function routePath$factory() {
-    return getPropertyCallableRef('routePath', 1, KMutableProperty1, function (receiver) {
-      return _get_routePath_(receiver);
-    }, function (receiver_0, value) {
-      return _set_routePath_(receiver_0, value);
-    });
-  }
-  function routePath$factory_0() {
-    return getPropertyCallableRef('routePath', 1, KMutableProperty1, function (receiver) {
-      return _get_routePath_(receiver);
-    }, function (receiver_0, value) {
-      return _set_routePath_(receiver_0, value);
-    });
-  }
-  function _no_name_provided_$factory_187() {
-    var i = new _no_name_provided__229();
-    return function (p1) {
-      i.invoke_aiy3zh_k$(p1);
-      return Unit_getInstance();
-    };
-  }
-  function _no_name_provided_$factory_188() {
-    var i = new _no_name_provided__230();
-    return function (p1) {
-      i.invoke_eildf5_k$(p1);
-      return Unit_getInstance();
-    };
-  }
-  function _no_name_provided_$factory_189($tmp0_rcvr, $Content, $$changed) {
-    var i = new _no_name_provided__231($tmp0_rcvr, $Content, $$changed);
-    return function (p1, p2) {
-      i.invoke_xtxync_k$(p1, p2);
-      return Unit_getInstance();
-    };
-  }
   function _get_White_() {
     return White;
   }
@@ -75536,7 +75245,7 @@
   var Transparent;
   function ThemeVariables() {
     ThemeVariables_instance = this;
-    this._$stable_47 = 0;
+    this._$stable_43 = 0;
   }
   ThemeVariables.$metadata$ = {
     simpleName: 'ThemeVariables',
@@ -75552,7 +75261,7 @@
   function Theme() {
     Theme_instance = this;
     StyleSheet.call(this);
-    this._$stable_48 = 0;
+    this._$stable_44 = 0;
   }
   Theme.$metadata$ = {
     simpleName: 'Theme',
@@ -75565,34 +75274,325 @@
       new Theme();
     return Theme_instance;
   }
+  function _set_routePath_($this, _set___) {
+    var tmp0_setValue_0 = routePath$factory();
+    return $this._routePath$delegate._set_value__iav7o_k$(_set___);
+  }
+  function _get_routePath_($this) {
+    var tmp$ret$0;
+    $l$block: {
+      var tmp0_getValue_0 = routePath$factory_0();
+      tmp$ret$0 = $this._routePath$delegate._get_value__0_k$();
+      break $l$block;
+    }
+    return tmp$ret$0;
+  }
+  function updateRoute($this, path) {
+    _set_routePath_($this, path);
+  }
+  function init$composable$lambda($tmp0_rcvr, $Content, $$changed, $composer, $force) {
+    return $tmp0_rcvr.init$composable_f7x37y_k$($Content, $composer, $$changed | 1);
+  }
+  function _no_name_provided__229() {
+  }
+  _no_name_provided__229.prototype.invoke_aiy3zh_k$ = function (it) {
+    log('' + 'onpopstate: path = ' + window.location.pathname);
+    updateRoute(Routing_getInstance(), window.location.pathname);
+  };
+  _no_name_provided__229.prototype.invoke_20e8_k$ = function (p1) {
+    this.invoke_aiy3zh_k$(p1 instanceof PopStateEvent ? p1 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__229.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__230() {
+  }
+  _no_name_provided__230.prototype.invoke_eildf5_k$ = function (it) {
+    log('' + 'onhashchange: path = ' + window.location.pathname);
+    updateRoute(Routing_getInstance(), window.location.pathname);
+  };
+  _no_name_provided__230.prototype.invoke_20e8_k$ = function (p1) {
+    this.invoke_eildf5_k$(p1 instanceof HashChangeEvent ? p1 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__230.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__231($tmp0_rcvr, $Content, $$changed) {
+    this._$tmp0_rcvr = $tmp0_rcvr;
+    this._$Content = $Content;
+    this._$$changed_8 = $$changed;
+  }
+  _no_name_provided__231.prototype.invoke_xtxync_k$ = function (p0, p1) {
+    return init$composable$lambda(this._$tmp0_rcvr, this._$Content, this._$$changed_8, p0, p1);
+  };
+  _no_name_provided__231.prototype.invoke_osx4an_k$ = function (p1, p2) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
+    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__231.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function Routing() {
+    Routing_instance = this;
+    this._routePath$delegate = mutableStateOf('', neverEqualPolicy());
+    var tmp = window;
+    tmp.onpopstate = _no_name_provided_$factory_187();
+    var tmp_0 = window;
+    tmp_0.onhashchange = _no_name_provided_$factory_188();
+    this._$stable_45 = 0;
+  }
+  Routing.prototype.init_tziofv_k$ = function (Content) {
+    illegalDecoyCallException('init');
+  };
+  Routing.prototype.navigate_nqws7x_k$ = function (destination) {
+    var destinationPath = destination.path_0_k$();
+    window.history.pushState(null, '', destinationPath);
+    updateRoute(this, destinationPath);
+  };
+  Routing.prototype.init$composable_f7x37y_k$ = function (Content, $composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(-1949118458);
+    sourceInformation($composer_0, 'C(init$composable)');
+    var $dirty = $changed;
+    if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changed_wi7j7l_k$(Content) ? 4 : 2);
+    if (($changed & 112) === 0)
+      $dirty = $dirty | ($composer_0.changed_wi7j7l_k$(this) ? 32 : 16);
+    if (!(($dirty & 91 ^ 18) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
+      var $invokeComposable_dispatchReceiver = Content;
+      if ($invokeComposable_dispatchReceiver instanceof ComposableLambdaImpl)
+        $invokeComposable_dispatchReceiver.invoke_oku154_k$(_get_routePath_(this), $composer_0, 112 & $dirty << 3);
+      else {
+        $invokeComposable_dispatchReceiver(_get_routePath_(this), $composer_0, 112 & $dirty << 3);
+      }
+    } else
+      $composer_0.skipToGroupEnd_sv8swh_k$();
+    var tmp0_rcvr = this;
+    var tmp1_safe_receiver = $composer_0.endRestartGroup_0_k$();
+    if (tmp1_safe_receiver === null)
+      null;
+    else {
+      tmp1_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_189(tmp0_rcvr, Content, $changed));
+    }
+  };
+  Routing.$metadata$ = {
+    simpleName: 'Routing',
+    kind: 'object',
+    interfaces: []
+  };
+  var Routing_instance;
+  function Routing_getInstance() {
+    if (Routing_instance == null)
+      new Routing();
+    return Routing_instance;
+  }
+  function Home() {
+    Home_instance = this;
+    Route.call(this);
+    this._$stable_46 = 0;
+  }
+  Home.prototype.path_0_k$ = function () {
+    return '';
+  };
+  Home.$metadata$ = {
+    simpleName: 'Home',
+    kind: 'object',
+    interfaces: []
+  };
+  var Home_instance;
+  function Home_getInstance() {
+    if (Home_instance == null)
+      new Home();
+    return Home_instance;
+  }
+  function ProductDetails(productId) {
+    Route.call(this);
+    this._productId = productId;
+    this._$stable_47 = 0;
+  }
+  ProductDetails.prototype._get_productId__0_k$ = function () {
+    return this._productId;
+  };
+  ProductDetails.prototype.path_0_k$ = function () {
+    return '' + '/product/' + this._productId;
+  };
+  ProductDetails.prototype.component1_0_k$ = function () {
+    return this._productId;
+  };
+  ProductDetails.prototype.copy_6wfw3l_k$ = function (productId) {
+    return new ProductDetails(productId);
+  };
+  ProductDetails.prototype.copy$default_nmiqce_k$ = function (productId, $mask0, $handler) {
+    if (!(($mask0 & 1) === 0))
+      productId = this._productId;
+    return this.copy_6wfw3l_k$(productId);
+  };
+  ProductDetails.prototype.toString = function () {
+    return '' + 'ProductDetails(productId=' + this._productId + ')';
+  };
+  ProductDetails.prototype.hashCode = function () {
+    return getStringHashCode(this._productId);
+  };
+  ProductDetails.prototype.equals = function (other) {
+    if (this === other)
+      return true;
+    if (!(other instanceof ProductDetails))
+      return false;
+    else {
+    }
+    var tmp0_other_with_cast = other instanceof ProductDetails ? other : THROW_CCE();
+    if (!(this._productId === tmp0_other_with_cast._productId))
+      return false;
+    return true;
+  };
+  ProductDetails.$metadata$ = {
+    simpleName: 'ProductDetails',
+    kind: 'class',
+    interfaces: []
+  };
+  function Companion_44() {
+    Companion_instance_43 = this;
+  }
+  Companion_44.prototype.parse_6wfw3l_k$ = function (path) {
+    var tmp;
+    if (startsWith$default_0(path, '/product/', false, 2, null)) {
+      var tmp0_safe_receiver = getOrNull(split$default(path, ['/'], false, 0, 6, null), 2);
+      var tmp_0;
+      if (tmp0_safe_receiver == null) {
+        tmp_0 = null;
+      } else {
+        var tmp$ret$2;
+        $l$block_1: {
+          {
+          }
+          var tmp_1;
+          var tmp$ret$1;
+          $l$block_0: {
+            var tmp$ret$0;
+            $l$block: {
+              tmp$ret$0 = !isBlank(tmp0_safe_receiver);
+              break $l$block;
+            }
+            tmp$ret$1 = tmp$ret$0;
+            break $l$block_0;
+          }
+          if (tmp$ret$1) {
+            tmp_1 = tmp0_safe_receiver;
+          } else {
+            {
+              tmp_1 = null;
+            }
+          }
+          tmp$ret$2 = tmp_1;
+          break $l$block_1;
+        }
+        tmp_0 = tmp$ret$2;
+      }
+      var tmp1_elvis_lhs = tmp_0;
+      var tmp_2;
+      if (tmp1_elvis_lhs == null) {
+        return Home_getInstance();
+      } else {
+        tmp_2 = tmp1_elvis_lhs;
+      }
+      var productId = tmp_2;
+      tmp = new ProductDetails(productId);
+    } else {
+      {
+        tmp = Home_getInstance();
+      }
+    }
+    return tmp;
+  };
+  Companion_44.$metadata$ = {
+    simpleName: 'Companion',
+    kind: 'object',
+    interfaces: []
+  };
+  var Companion_instance_43;
+  function Companion_getInstance_43() {
+    if (Companion_instance_43 == null)
+      new Companion_44();
+    return Companion_instance_43;
+  }
+  function Route() {
+    Companion_getInstance_43();
+    this._$stable_48 = 0;
+  }
+  Route.$metadata$ = {
+    simpleName: 'Route',
+    kind: 'class',
+    interfaces: []
+  };
+  function routePath$factory() {
+    return getPropertyCallableRef('routePath', 1, KMutableProperty1, function (receiver) {
+      return _get_routePath_(receiver);
+    }, function (receiver_0, value) {
+      return _set_routePath_(receiver_0, value);
+    });
+  }
+  function routePath$factory_0() {
+    return getPropertyCallableRef('routePath', 1, KMutableProperty1, function (receiver) {
+      return _get_routePath_(receiver);
+    }, function (receiver_0, value) {
+      return _set_routePath_(receiver_0, value);
+    });
+  }
+  function _no_name_provided_$factory_187() {
+    var i = new _no_name_provided__229();
+    return function (p1) {
+      i.invoke_aiy3zh_k$(p1);
+      return Unit_getInstance();
+    };
+  }
+  function _no_name_provided_$factory_188() {
+    var i = new _no_name_provided__230();
+    return function (p1) {
+      i.invoke_eildf5_k$(p1);
+      return Unit_getInstance();
+    };
+  }
+  function _no_name_provided_$factory_189($tmp0_rcvr, $Content, $$changed) {
+    var i = new _no_name_provided__231($tmp0_rcvr, $Content, $$changed);
+    return function (p1, p2) {
+      i.invoke_xtxync_k$(p1, p2);
+      return Unit_getInstance();
+    };
+  }
   function main() {
     renderComposable$composable('root', ComposableSingletons$BaldrAppKt_getInstance()._lambda_2_0);
     Unit_getInstance();
   }
   function _no_name_provided__232() {
   }
-  _no_name_provided__232.prototype.invoke_tz7pqw_k$ = function (routePath2, $composer, $changed) {
+  _no_name_provided__232.prototype.invoke_tz7pqw_k$ = function (statePath, $composer, $changed) {
     var $composer_0 = $composer;
     var $dirty = $changed;
     if (($changed & 14) === 0)
-      $dirty = $dirty | ($composer_0.changed_wi7j7l_k$(routePath2) ? 4 : 2);
+      $dirty = $dirty | ($composer_0.changed_wi7j7l_k$(statePath) ? 4 : 2);
     if (!(($dirty & 91 ^ 18) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
       var routePath = window.location.pathname;
       var route = Companion_getInstance_43().parse_6wfw3l_k$(routePath);
-      log('' + "Routing.init: '" + routePath + "' (state path = " + routePath2 + ') translated to ' + route);
+      log('' + "Routing.init: '" + routePath + "' (state path = " + statePath + ') translated to ' + route);
       var tmp0_subject = route;
       if (equals_0(tmp0_subject, Home_getInstance())) {
-        $composer_0.startReplaceableGroup_majfzk_k$(-1021702959);
+        $composer_0.startReplaceableGroup_majfzk_k$(-1021702874);
         Home$composable($composer_0, 0);
         $composer_0.endReplaceableGroup_sv8swh_k$();
       } else {
         if (tmp0_subject instanceof ProductDetails) {
-          $composer_0.startReplaceableGroup_majfzk_k$(-1021702909);
+          $composer_0.startReplaceableGroup_majfzk_k$(-1021702824);
           ProductDetails$composable(route, $composer_0, 0);
           $composer_0.endReplaceableGroup_sv8swh_k$();
         } else {
           {
-            $composer_0.startReplaceableGroup_majfzk_k$(-1021702874);
+            $composer_0.startReplaceableGroup_majfzk_k$(-1021702789);
             $composer_0.endReplaceableGroup_sv8swh_k$();
           }
         }
@@ -75632,9 +75632,9 @@
   function ComposableSingletons$BaldrAppKt() {
     ComposableSingletons$BaldrAppKt_instance = this;
     var tmp = this;
-    tmp._lambda_1_1 = composableLambdaInstance(-985534375, false, _no_name_provided_$factory_190());
+    tmp._lambda_1_1 = composableLambdaInstance(-985534363, false, _no_name_provided_$factory_190());
     var tmp_0 = this;
-    tmp_0._lambda_2_0 = composableLambdaInstance(-985534400, false, _no_name_provided_$factory_191());
+    tmp_0._lambda_2_0 = composableLambdaInstance(-985534388, false, _no_name_provided_$factory_191());
   }
   ComposableSingletons$BaldrAppKt.prototype._get_lambda_1__0_k$ = function () {
     return this._lambda_1_1;
@@ -75802,7 +75802,7 @@
   function _no_name_provided__238() {
   }
   _no_name_provided__238.prototype.invoke_yftk9z_k$ = function (it) {
-    Routing_getInstance().navigate_5p04ns_k$(new ProductDetails(it._id_1));
+    Routing_getInstance().navigate_nqws7x_k$(new ProductDetails(it._id_1));
   };
   _no_name_provided__238.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_yftk9z_k$(p1 instanceof Product ? p1 : THROW_CCE());
@@ -75815,7 +75815,7 @@
   function _no_name_provided__239() {
   }
   _no_name_provided__239.prototype.invoke_yftk9z_k$ = function (it) {
-    Routing_getInstance().navigate_5p04ns_k$(new ProductDetails(it._id_1));
+    Routing_getInstance().navigate_nqws7x_k$(new ProductDetails(it._id_1));
   };
   _no_name_provided__239.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_yftk9z_k$(p1 instanceof Product ? p1 : THROW_CCE());
@@ -75851,7 +75851,7 @@
   function ComposableSingletons$HomeKt() {
     ComposableSingletons$HomeKt_instance = this;
     var tmp = this;
-    tmp._lambda_1_3 = composableLambdaInstance(-985534454, false, _no_name_provided_$factory_196());
+    tmp._lambda_1_3 = composableLambdaInstance(-985534442, false, _no_name_provided_$factory_196());
   }
   ComposableSingletons$HomeKt.prototype._get_lambda_1__0_k$ = function () {
     return this._lambda_1_3;
@@ -75869,7 +75869,7 @@
   }
   function Home$composable($composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(-2133825866);
+    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(-2133825854);
     sourceInformation($composer_0, 'C(Home$composable)');
     if (!($changed === 0) ? true : !$composer_0._get_skipping__0_k$()) {
       Header$composable($composer_0, 0);
@@ -76665,7 +76665,7 @@
   }
   function ProductDetails$composable(productDetails, $composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(965483107);
+    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(965483113);
     sourceInformation($composer_0, 'C(ProductDetails$composable)');
     var $dirty = $changed;
     if (($changed & 14) === 0)
