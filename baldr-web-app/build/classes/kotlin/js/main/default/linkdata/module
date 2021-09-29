@@ -1,4 +1,4 @@
 
 <com.baldr:baldr-web-app>:
 components:core:css:data:ui:ui.home:
-ui.product
+ui.product:util
