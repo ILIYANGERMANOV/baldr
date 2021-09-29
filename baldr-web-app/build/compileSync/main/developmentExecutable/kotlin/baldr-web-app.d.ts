@@ -5,4 +5,7 @@ export namespace kotlinx.atomicfu {
     function atomic$int$(initial: number, trace: kotlinx.atomicfu.TraceBase): kotlinx.atomicfu.AtomicInt;
     function atomic$long$(initial: kotlin.Long, trace: kotlinx.atomicfu.TraceBase): kotlinx.atomicfu.AtomicLong;
 }
+export namespace io.ktor.util {
+    function AttributesJsFn(concurrent: boolean): io.ktor.util.Attributes;
+}
 export as namespace baldr_web_app;

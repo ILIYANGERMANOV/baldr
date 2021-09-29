@@ -16,6 +16,7 @@ repositories {
     google()
 }
 
+
 // Enable JS(IR) target and add dependencies
 kotlin {
     js(IR) {
@@ -49,6 +50,12 @@ kotlin {
                 implementation("io.ktor:ktor-client-logging:$ktorVersion")
             }
         }
+
+//        val main by getting {
+//            dependencies {
+//                implementation(compose.desktop.currentOs)
+//            }
+//        }
     }
 }
 
@@ -56,3 +63,14 @@ rootProject.plugins.withType(org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJ
     rootProject.the<org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJsRootExtension>().versions.webpackDevServer.version =
         "4.0.0-rc.0"
 }
+
+//compose.desktop {
+//    application {
+//        mainClass = "MainKt"
+//        nativeDistributions {
+//            targetFormats(org.jetbrains.compose.desktop.application.dsl.TargetFormat.Dmg, org.jetbrains.compose.desktop.application.dsl.TargetFormat.Msi, org.jetbrains.compose.desktop.application.dsl.TargetFormat.Deb)
+//            packageName = "com.baldr"
+//            packageVersion = "1.0.0"
+//        }
+//    }
+//}
