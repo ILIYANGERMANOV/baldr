@@ -1,7 +1,8 @@
 builtins_platform=JS
 unique_name=com.baldr\:baldr-web-app
-compiler_version=1.5.21
-depends=org.jetbrains.compose.web\:web-core androidx.compose.runtime\:runtime org.jetbrains.kotlinx\:kotlinx-coroutines-core org.jetbrains.kotlinx\:atomicfu kotlin
+compiler_version=1.5.31
+depends=app.softwork\:routing-compose org.jetbrains.compose.web\:web-core org.jetbrains.compose.web\:internal-web-core-runtime androidx.compose.runtime\:runtime org.jetbrains.kotlinx\:kotlinx-coroutines-core app.softwork\:kotlinx-uuid-core org.jetbrains.kotlinx\:atomicfu org.jetbrains.kotlinx\:kotlinx-serialization-core kotlin
+jsOutputName=baldr-web-app
 abi_version=1.5.0
 metadata_version=1.4.1
 ir_version=1.0.0

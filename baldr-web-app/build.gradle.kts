@@ -1,7 +1,8 @@
 // Add compose gradle plugin
 plugins {
-    kotlin("multiplatform") version "1.5.21"
-    id("org.jetbrains.compose") version "0.5.0-build270"
+    //https://github.com/JetBrains/compose-jb
+    kotlin("multiplatform") version "1.5.31"
+    id("org.jetbrains.compose") version "1.0.0-alpha4-build362"
 }
 
 group = "com.baldr"
@@ -25,6 +26,9 @@ kotlin {
             dependencies {
                 implementation(compose.web.core)
                 implementation(compose.runtime)
+
+                //NOT NECESSARY: https://github.com/hfhbd/routing-compose
+                implementation("app.softwork:routing-compose:0.0.31")
             }
         }
 

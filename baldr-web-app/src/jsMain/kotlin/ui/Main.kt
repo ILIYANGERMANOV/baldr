@@ -5,10 +5,12 @@ import css.Red
 import data.Media
 import data.MediaType
 import data.Product
+import kotlinx.browser.window
 import org.jetbrains.compose.web.css.color
 import org.jetbrains.compose.web.dom.H1
 import org.jetbrains.compose.web.dom.Text
 import org.jetbrains.compose.web.renderComposable
+
 
 fun main() {
     renderComposable(rootElementId = "root") {
@@ -19,6 +21,8 @@ fun main() {
 @Composable
 fun Content() {
     Header()
+
+    Text("URL: ${window.location.pathname}")
 
     var selectedProduct: Product? by remember {
         mutableStateOf(null)
@@ -78,6 +82,5 @@ fun Content() {
         }
     }
 }
-
 
 

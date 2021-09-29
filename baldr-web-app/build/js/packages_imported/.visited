@@ -33,6 +33,79 @@
     },
     "72ac29dee68b63d11710f49a42861308": {
       "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar"
+    },
+    "5b337cc3610dde3ec3719bda35d999e0": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.5.31/43331609c7de811fed085e0dfd150874b157c32/kotlin-stdlib-common-1.5.31.jar"
+    },
+    "8f12400742bf130a0294b466a1dc70e7": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/app.softwork/routing-compose-js/0.0.31/776cbf8e09aa0a3e29c3f0de8763b4db34a036f6/routing-compose-js-0.0.31.klib"
+    },
+    "a13bd0228dc6b55c8afec77c31a4af61": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.web/web-core-js/1.0.0-alpha4-build362/c8b8f8295756a007e2dabb52f6dee9a8e0e583e3/web-core-js-1.0.0-alpha4-build362.klib"
+    },
+    "fa5e4099ae87a14018a452a029c15f6f": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.web/internal-web-core-runtime-js/1.0.0-alpha4-build362/35679300f47f34b722b96de70b6d5698da806bb3/internal-web-core-runtime-js-1.0.0-alpha4-build362.klib"
+    },
+    "7c5c72a605031620a2feb6cdf77c66dc": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.runtime/runtime-js/1.0.0-alpha4-build362/e040a358b7e457a720de9cde124e04371de4eeff/runtime-js-1.0.0-alpha4-build362.klib"
+    },
+    "7e46137bd84cd3d52afd0081f138b4c5": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-js/1.5.31/e735bb7789c907d1fec0d2dfbb11b046198822c7/kotlin-stdlib-js-1.5.31.jar",
+      "target": "kotlin/1.5.31"
+    },
+    "7212c2e79868ef89e29e60ce3f975c0b": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/app.softwork/kotlinx-uuid-core-js/0.0.11/3d1fd081cce3209a9e7a0381864b61d0a1970629/kotlinx-uuid-core-js-0.0.11.klib"
+    },
+    "d39c041eaebfda4f95969760881c2b82": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-js/1.3.0-RC/2c9f3c6efc56e38c43b2443171b9043bcdaf990d/kotlinx-serialization-core-jsir-1.3.0-RC.klib"
+    },
+    "d9d605da838674269971eb30300adce8": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin-wrappers/kotlin-react-router-dom/5.2.0-pre.235-kotlin-1.5.21/afec7c642e4ef35e58b59c48e6e7422d12f74c2d/kotlin-react-router-dom-5.2.0-pre.235-kotlin-1.5.21.klib",
+      "target": "kotlin-wrappers-kotlin-react-router-dom-js-ir/5.2.0-pre.235-kotlin-1.5.21"
+    },
+    "d2680077f10faa0fe3d976be99d24f6f": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin-wrappers/kotlin-react/17.0.2-pre.235-kotlin-1.5.21/cd153eb127ba70b94f4a73a47d9c5804af8ce528/kotlin-react-17.0.2-pre.235-kotlin-1.5.21.klib",
+      "target": "kotlin-wrappers-kotlin-react-js-ir/17.0.2-pre.235-kotlin-1.5.21"
+    },
+    "582c2a5bb758e6e6a6c754cd2826681a": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin-wrappers/kotlin-extensions/1.0.1-pre.235-kotlin-1.5.21/173711e08de482c2ec5bb1f879ade51ba7c7fb2f/kotlin-extensions-1.0.1-pre.235-kotlin-1.5.21.klib"
+    },
+    "36293041805304546a8ea610f86a5da8": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.5.30/649ffab7767038323fec0cc41e2d7b0a8f65a378/kotlin-stdlib-common-1.5.30.jar"
+    },
+    "ca71971feb5b19271082058429451d4c": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/app.softwork/routing-compose-js/0.0.29/b70f2bd296dbdbbf5cb5c53d61a43449baaa2bf9/routing-compose-js-0.0.29.klib"
+    },
+    "46f3cb0032b1da2aafcc704d174f78dc": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.web/web-core-js/1.0.0-alpha4-build344/2bf0b52f61a007cfbe2321d89f15ca930b2ac152/web-core-js-1.0.0-alpha4-build344.klib"
+    },
+    "625a176f208aac0d26b68d88a20cdc7a": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.web/internal-web-core-runtime-js/1.0.0-alpha4-build344/cd5c19c24c8d25f4a1fff288d24b89f475b59264/internal-web-core-runtime-js-1.0.0-alpha4-build344.klib"
+    },
+    "ccc9f6afb008513a686edee93ff507a0": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.runtime/runtime-js/1.0.0-alpha4-build344/196040e71f7981316d47e762dcf75924c3b5974a/runtime-js-1.0.0-alpha4-build344.klib"
+    },
+    "1365c6fcf53a7d3e05acba420b6c9be6": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-js/1.5.30/3b3f74ca387accb26dd20c274dcb354efdb6c9d9/kotlin-stdlib-js-1.5.30.jar",
+      "target": "kotlin/1.5.30"
+    },
+    "e946c321a8dff169c9f005d03a0c4afe": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/app.softwork/kotlinx-uuid-core-js/0.0.10/c2849597125ff7ffd8ae7b913f05292aa58d34f5/kotlinx-uuid-core-js-0.0.10.klib"
+    },
+    "d9774be3fee5ae639dfcb232a80117b1": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/app.softwork/routing-compose-js/0.0.26/bd8c884e9a0798051646399adfd3a1140d75f510/routing-compose-js-0.0.26.klib"
+    },
+    "31d3d80dd8bd32ec31b0b1fbef461931": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.web/web-core-js/1.0.0-alpha4-build321/ccae638cad5e1b484bc80b5d9a7299b2a7f7b187/web-core-js-1.0.0-alpha4-build321.klib"
+    },
+    "d0fe2c511425786bd9546f8b9e943e17": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.runtime/runtime-js/1.0.0-alpha4-build321/aa264c823787de23f6d2dfb9c2800561a40c21f9/runtime-js-1.0.0-alpha4-build321.klib"
+    },
+    "92c049bda6032ec5fc1b92ea39808e70": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/app.softwork/kotlinx-uuid-core-js/0.0.9/c0b7fe63da4f9c839b23112f3e5fc6438913b39f/kotlinx-uuid-core-js-0.0.9.klib"
+    },
+    "47c877fa6dd8ea7211072dd0ddeedcec": {
+      "src": "/home/iliyan/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-js/1.2.2/b12a1eef56f0fb8dc6d4b2012c4d8cc858a76200/kotlinx-serialization-core-jsir-1.2.2.klib"
     }
   }
 }

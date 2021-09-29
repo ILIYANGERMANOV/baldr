@@ -50,7 +50,8 @@
     open: true,
     static: [
       '/home/iliyan/ivy/repo/baldr/baldr-web-app/build/processedResources/js/main'
-    ]
+    ],
+    historyApiFallback: true
   },
   stats: {
     warnings: false,

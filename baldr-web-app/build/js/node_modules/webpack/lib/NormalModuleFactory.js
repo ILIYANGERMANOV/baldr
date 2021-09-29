@@ -168,6 +168,7 @@ const unsafeCacheData = new WeakMap();
 
 const ruleSetCompiler = new RuleSetCompiler([
 	new BasicMatcherRulePlugin("test", "resource"),
+	new BasicMatcherRulePlugin("scheme"),
 	new BasicMatcherRulePlugin("mimetype"),
 	new BasicMatcherRulePlugin("dependency"),
 	new BasicMatcherRulePlugin("include", "resource"),
@@ -443,6 +444,7 @@ class NormalModuleFactory extends ModuleFactory {
 						realResource: resourceData.path,
 						resourceQuery: resourceDataForRules.query,
 						resourceFragment: resourceDataForRules.fragment,
+						scheme,
 						mimetype: matchResourceData ? "" : resourceData.data.mimetype || "",
 						dependency: dependencyType,
 						descriptionData: matchResourceData
@@ -520,29 +522,33 @@ class NormalModuleFactory extends ModuleFactory {
 								)
 							);
 						}
-						Object.assign(data.createData, {
-							layer:
-								layer === undefined ? contextInfo.issuerLayer || null : layer,
-							request: stringifyLoadersAndResource(
-								allLoaders,
-								resourceData.resource
-							),
-							userRequest,
-							rawRequest: request,
-							loaders: allLoaders,
-							resource: resourceData.resource,
-							matchResource: matchResourceData
-								? matchResourceData.resource
-								: undefined,
-							resourceResolveData: resourceData.data,
-							settings,
-							type,
-							parser: this.getParser(type, settings.parser),
-							parserOptions: settings.parser,
-							generator: this.getGenerator(type, settings.generator),
-							generatorOptions: settings.generator,
-							resolveOptions
-						});
+						try {
+							Object.assign(data.createData, {
+								layer:
+									layer === undefined ? contextInfo.issuerLayer || null : layer,
+								request: stringifyLoadersAndResource(
+									allLoaders,
+									resourceData.resource
+								),
+								userRequest,
+								rawRequest: request,
+								loaders: allLoaders,
+								resource: resourceData.resource,
+								matchResource: matchResourceData
+									? matchResourceData.resource
+									: undefined,
+								resourceResolveData: resourceData.data,
+								settings,
+								type,
+								parser: this.getParser(type, settings.parser),
+								parserOptions: settings.parser,
+								generator: this.getGenerator(type, settings.generator),
+								generatorOptions: settings.generator,
+								resolveOptions
+							});
+						} catch (e) {
+							return callback(e);
+						}
 						callback();
 					});
 					this.resolveRequestArray(

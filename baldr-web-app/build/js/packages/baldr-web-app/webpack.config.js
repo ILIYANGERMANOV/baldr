@@ -52,7 +52,7 @@ config.devServer = {
     const handler = (percentage, message, ...args) => {
         const p = percentage * 100;
         let msg = `${Math.trunc(p / 10)}${Math.trunc(p % 10)}% ${message} ${args.join(' ')}`;
-        msg = msg.replace(new RegExp("/home/iliyan/ivy/repo/baldr/baldr-web-app/build/js", 'g'), '');;
+        msg = msg.replace("/home/iliyan/ivy/repo/baldr/baldr-web-app/build/js", '');;
         console.log(msg);
     };
 
@@ -69,6 +69,16 @@ config.devServer = {
         errors: false
     })
 })(config);
+
+// devServerConfig.js
+// YourProject/webpack.config.d/devServerConfig.js
+
+config.devServer = {
+    ...config.devServer, // Merge with other devServer settings
+    "historyApiFallback": true
+};
+
+
 // save evaluated config file
 ;(function(config) {
     const util = require('util');
