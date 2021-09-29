@@ -3,7 +3,6 @@ plugins {
     //https://github.com/JetBrains/compose-jb
     kotlin("multiplatform") version "1.5.31"
     id("org.jetbrains.compose") version "1.0.0-alpha4-build362"
-//    kotlin("jvm") version "1.5.31"
 }
 
 group = "com.baldr"
@@ -50,12 +49,6 @@ kotlin {
                 implementation("io.ktor:ktor-client-logging:$ktorVersion")
             }
         }
-
-//        val main by getting {
-//            dependencies {
-//                implementation(compose.desktop.currentOs)
-//            }
-//        }
     }
 }
 
@@ -63,14 +56,3 @@ rootProject.plugins.withType(org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJ
     rootProject.the<org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJsRootExtension>().versions.webpackDevServer.version =
         "4.0.0-rc.0"
 }
-
-//compose.desktop {
-//    application {
-//        mainClass = "MainKt"
-//        nativeDistributions {
-//            targetFormats(org.jetbrains.compose.desktop.application.dsl.TargetFormat.Dmg, org.jetbrains.compose.desktop.application.dsl.TargetFormat.Msi, org.jetbrains.compose.desktop.application.dsl.TargetFormat.Deb)
-//            packageName = "com.baldr"
-//            packageVersion = "1.0.0"
-//        }
-//    }
-//}
