@@ -3,6 +3,7 @@ plugins {
     //https://github.com/JetBrains/compose-jb
     kotlin("multiplatform") version "1.5.31"
     id("org.jetbrains.compose") version "1.0.0-alpha4-build362"
+//    kotlin("jvm") version "1.5.31"
 }
 
 group = "com.baldr"
@@ -22,19 +23,30 @@ kotlin {
         binaries.executable()
     }
     sourceSets {
+        val ktorVersion = "1.6.3"
+
         val jsMain by getting {
             dependencies {
                 implementation(compose.web.core)
                 implementation(compose.runtime)
-
-                //NOT NECESSARY: https://github.com/hfhbd/routing-compose
-                implementation("app.softwork:routing-compose:0.0.31")
+                implementation("io.ktor:ktor-client-js:$ktorVersion")
             }
         }
 
         val commonMain by getting {
             dependencies {
-                implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.21")
+                implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.31")
+
+                implementation("io.ktor:ktor-client-core:$ktorVersion")
+
+                //https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-core
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2")
+
+                //https://ktor.io/docs/json.html#configure_serializer
+                implementation("io.ktor:ktor-client-serialization:$ktorVersion")
+
+                //https://ktor.io/docs/client-logging.html
+                implementation("io.ktor:ktor-client-logging:$ktorVersion")
             }
         }
     }
