@@ -25,10 +25,10 @@
   ListIteratorImpl.prototype.constructor = ListIteratorImpl;
   AbstractSet.prototype = Object.create(AbstractCollection.prototype);
   AbstractSet.prototype.constructor = AbstractSet;
-  _no_name_provided__4.prototype = Object.create(AbstractSet.prototype);
-  _no_name_provided__4.prototype.constructor = _no_name_provided__4;
-  _no_name_provided__6.prototype = Object.create(AbstractCollection.prototype);
-  _no_name_provided__6.prototype.constructor = _no_name_provided__6;
+  _no_name_provided__5.prototype = Object.create(AbstractSet.prototype);
+  _no_name_provided__5.prototype.constructor = _no_name_provided__5;
+  _no_name_provided__7.prototype = Object.create(AbstractCollection.prototype);
+  _no_name_provided__7.prototype.constructor = _no_name_provided__7;
   SequenceBuilderIterator.prototype = Object.create(SequenceScope.prototype);
   SequenceBuilderIterator.prototype.constructor = SequenceBuilderIterator;
   InvocationKind.prototype = Object.create(Enum.prototype);
@@ -95,10 +95,10 @@
   AbstractMutableSet.prototype.constructor = AbstractMutableSet;
   AbstractEntrySet.prototype = Object.create(AbstractMutableSet.prototype);
   AbstractEntrySet.prototype.constructor = AbstractEntrySet;
-  _no_name_provided__20.prototype = Object.create(AbstractMutableSet.prototype);
-  _no_name_provided__20.prototype.constructor = _no_name_provided__20;
-  _no_name_provided__21.prototype = Object.create(AbstractMutableCollection.prototype);
-  _no_name_provided__21.prototype.constructor = _no_name_provided__21;
+  _no_name_provided__23.prototype = Object.create(AbstractMutableSet.prototype);
+  _no_name_provided__23.prototype.constructor = _no_name_provided__23;
+  _no_name_provided__24.prototype = Object.create(AbstractMutableCollection.prototype);
+  _no_name_provided__24.prototype.constructor = _no_name_provided__24;
   AbstractMutableMap.prototype = Object.create(AbstractMap.prototype);
   AbstractMutableMap.prototype.constructor = AbstractMutableMap;
   ArrayList.prototype = Object.create(AbstractMutableList.prototype);
@@ -135,30 +135,30 @@
   SimpleKClassImpl.prototype.constructor = SimpleKClassImpl;
   DurationUnit.prototype = Object.create(Enum.prototype);
   DurationUnit.prototype.constructor = DurationUnit;
-  _no_name_provided__48.prototype = Object.create(BooleanIterator.prototype);
-  _no_name_provided__48.prototype.constructor = _no_name_provided__48;
-  _no_name_provided__49.prototype = Object.create(CharIterator.prototype);
-  _no_name_provided__49.prototype.constructor = _no_name_provided__49;
-  _no_name_provided__50.prototype = Object.create(ByteIterator.prototype);
-  _no_name_provided__50.prototype.constructor = _no_name_provided__50;
-  _no_name_provided__51.prototype = Object.create(ShortIterator.prototype);
+  _no_name_provided__51.prototype = Object.create(BooleanIterator.prototype);
   _no_name_provided__51.prototype.constructor = _no_name_provided__51;
-  _no_name_provided__52.prototype = Object.create(IntIterator.prototype);
+  _no_name_provided__52.prototype = Object.create(CharIterator.prototype);
   _no_name_provided__52.prototype.constructor = _no_name_provided__52;
-  _no_name_provided__53.prototype = Object.create(FloatIterator.prototype);
+  _no_name_provided__53.prototype = Object.create(ByteIterator.prototype);
   _no_name_provided__53.prototype.constructor = _no_name_provided__53;
-  _no_name_provided__54.prototype = Object.create(LongIterator.prototype);
+  _no_name_provided__54.prototype = Object.create(ShortIterator.prototype);
   _no_name_provided__54.prototype.constructor = _no_name_provided__54;
-  _no_name_provided__55.prototype = Object.create(DoubleIterator.prototype);
+  _no_name_provided__55.prototype = Object.create(IntIterator.prototype);
   _no_name_provided__55.prototype.constructor = _no_name_provided__55;
+  _no_name_provided__56.prototype = Object.create(FloatIterator.prototype);
+  _no_name_provided__56.prototype.constructor = _no_name_provided__56;
+  _no_name_provided__57.prototype = Object.create(LongIterator.prototype);
+  _no_name_provided__57.prototype.constructor = _no_name_provided__57;
+  _no_name_provided__58.prototype = Object.create(DoubleIterator.prototype);
+  _no_name_provided__58.prototype.constructor = _no_name_provided__58;
   Long.prototype = Object.create(Number_0.prototype);
   Long.prototype.constructor = Long;
   _no_name_provided__1_2.prototype = Object.create(CoroutineImpl_0.prototype);
   _no_name_provided__1_2.prototype.constructor = _no_name_provided__1_2;
   _no_name_provided__1_3.prototype = Object.create(CoroutineImpl_0.prototype);
   _no_name_provided__1_3.prototype.constructor = _no_name_provided__1_3;
-  _no_name_provided__57.prototype = Object.create(CoroutineImpl_0.prototype);
-  _no_name_provided__57.prototype.constructor = _no_name_provided__57;
+  _no_name_provided__60.prototype = Object.create(CoroutineImpl_0.prototype);
+  _no_name_provided__60.prototype.constructor = _no_name_provided__60;
   IllegalArgumentException.prototype = Object.create(RuntimeException.prototype);
   IllegalArgumentException.prototype.constructor = IllegalArgumentException;
   NoSuchElementException.prototype = Object.create(RuntimeException.prototype);
@@ -235,8 +235,8 @@
   ChildCompletion.prototype.constructor = ChildCompletion;
   AwaitContinuation.prototype = Object.create(CancellableContinuationImpl.prototype);
   AwaitContinuation.prototype.constructor = AwaitContinuation;
-  _no_name_provided__59.prototype = Object.create(CoroutineImpl_0.prototype);
-  _no_name_provided__59.prototype.constructor = _no_name_provided__59;
+  _no_name_provided__62.prototype = Object.create(CoroutineImpl_0.prototype);
+  _no_name_provided__62.prototype.constructor = _no_name_provided__62;
   JobCancellingNode.prototype = Object.create(JobNode.prototype);
   JobCancellingNode.prototype.constructor = JobCancellingNode;
   ChildHandleNode.prototype = Object.create(JobCancellingNode.prototype);
@@ -309,8 +309,8 @@
   ArrayChannel.prototype.constructor = ArrayChannel;
   BufferOverflow.prototype = Object.create(Enum.prototype);
   BufferOverflow.prototype.constructor = BufferOverflow;
-  _no_name_provided__63.prototype = Object.create(CoroutineImpl_0.prototype);
-  _no_name_provided__63.prototype.constructor = _no_name_provided__63;
+  _no_name_provided__66.prototype = Object.create(CoroutineImpl_0.prototype);
+  _no_name_provided__66.prototype.constructor = _no_name_provided__66;
   $receiveOrNullCOROUTINE$0.prototype = Object.create(CoroutineImpl_0.prototype);
   $receiveOrNullCOROUTINE$0.prototype.constructor = $receiveOrNullCOROUTINE$0;
   Closed_0.prototype = Object.create(Failed.prototype);
@@ -343,16 +343,16 @@
   ChannelFlowOperator.prototype.constructor = ChannelFlowOperator;
   ChannelFlowOperatorImpl.prototype = Object.create(ChannelFlowOperator.prototype);
   ChannelFlowOperatorImpl.prototype.constructor = ChannelFlowOperatorImpl;
-  _no_name_provided__65.prototype = Object.create(CoroutineImpl_0.prototype);
-  _no_name_provided__65.prototype.constructor = _no_name_provided__65;
-  $collectCOROUTINE$4.prototype = Object.create(CoroutineImpl_0.prototype);
-  $collectCOROUTINE$4.prototype.constructor = $collectCOROUTINE$4;
-  _no_name_provided__66.prototype = Object.create(CoroutineImpl_0.prototype);
-  _no_name_provided__66.prototype.constructor = _no_name_provided__66;
-  _no_name_provided__67.prototype = Object.create(CoroutineImpl_0.prototype);
-  _no_name_provided__67.prototype.constructor = _no_name_provided__67;
   _no_name_provided__68.prototype = Object.create(CoroutineImpl_0.prototype);
   _no_name_provided__68.prototype.constructor = _no_name_provided__68;
+  $collectCOROUTINE$4.prototype = Object.create(CoroutineImpl_0.prototype);
+  $collectCOROUTINE$4.prototype.constructor = $collectCOROUTINE$4;
+  _no_name_provided__69.prototype = Object.create(CoroutineImpl_0.prototype);
+  _no_name_provided__69.prototype.constructor = _no_name_provided__69;
+  _no_name_provided__70.prototype = Object.create(CoroutineImpl_0.prototype);
+  _no_name_provided__70.prototype.constructor = _no_name_provided__70;
+  _no_name_provided__71.prototype = Object.create(CoroutineImpl_0.prototype);
+  _no_name_provided__71.prototype.constructor = _no_name_provided__71;
   $emit_3_9COROUTINE$7.prototype = Object.create(CoroutineImpl_0.prototype);
   $emit_3_9COROUTINE$7.prototype.constructor = $emit_3_9COROUTINE$7;
   $collect_2COROUTINE$6.prototype = Object.create(CoroutineImpl_0.prototype);
@@ -411,24 +411,24 @@
   StaticProvidableCompositionLocal.prototype.constructor = StaticProvidableCompositionLocal;
   DynamicProvidableCompositionLocal.prototype = Object.create(ProvidableCompositionLocal.prototype);
   DynamicProvidableCompositionLocal.prototype.constructor = DynamicProvidableCompositionLocal;
-  _no_name_provided__120.prototype = Object.create(CoroutineImpl_0.prototype);
-  _no_name_provided__120.prototype.constructor = _no_name_provided__120;
-  _no_name_provided__121.prototype = Object.create(CoroutineImpl_0.prototype);
-  _no_name_provided__121.prototype.constructor = _no_name_provided__121;
   _no_name_provided__123.prototype = Object.create(CoroutineImpl_0.prototype);
   _no_name_provided__123.prototype.constructor = _no_name_provided__123;
-  State.prototype = Object.create(Enum.prototype);
-  State.prototype.constructor = State;
+  _no_name_provided__124.prototype = Object.create(CoroutineImpl_0.prototype);
+  _no_name_provided__124.prototype.constructor = _no_name_provided__124;
   _no_name_provided__126.prototype = Object.create(CoroutineImpl_0.prototype);
   _no_name_provided__126.prototype.constructor = _no_name_provided__126;
-  _no_name_provided__127.prototype = Object.create(CoroutineImpl_0.prototype);
-  _no_name_provided__127.prototype.constructor = _no_name_provided__127;
+  State.prototype = Object.create(Enum.prototype);
+  State.prototype.constructor = State;
   _no_name_provided__129.prototype = Object.create(CoroutineImpl_0.prototype);
   _no_name_provided__129.prototype.constructor = _no_name_provided__129;
   _no_name_provided__130.prototype = Object.create(CoroutineImpl_0.prototype);
   _no_name_provided__130.prototype.constructor = _no_name_provided__130;
-  _no_name_provided__134.prototype = Object.create(CoroutineImpl_0.prototype);
-  _no_name_provided__134.prototype.constructor = _no_name_provided__134;
+  _no_name_provided__132.prototype = Object.create(CoroutineImpl_0.prototype);
+  _no_name_provided__132.prototype.constructor = _no_name_provided__132;
+  _no_name_provided__133.prototype = Object.create(CoroutineImpl_0.prototype);
+  _no_name_provided__133.prototype.constructor = _no_name_provided__133;
+  _no_name_provided__137.prototype = Object.create(CoroutineImpl_0.prototype);
+  _no_name_provided__137.prototype.constructor = _no_name_provided__137;
   $runFrameLoopCOROUTINE$0.prototype = Object.create(CoroutineImpl_0.prototype);
   $runFrameLoopCOROUTINE$0.prototype.constructor = $runFrameLoopCOROUTINE$0;
   $awaitWorkAvailableCOROUTINE$1.prototype = Object.create(CoroutineImpl_0.prototype);
@@ -525,20 +525,20 @@
   SnapshotApplyConflictException.prototype.constructor = SnapshotApplyConflictException;
   ReadonlySnapshot.prototype = Object.create(Snapshot.prototype);
   ReadonlySnapshot.prototype.constructor = ReadonlySnapshot;
-  _no_name_provided__155.prototype = Object.create(CoroutineImpl_0.prototype);
-  _no_name_provided__155.prototype.constructor = _no_name_provided__155;
+  _no_name_provided__158.prototype = Object.create(CoroutineImpl_0.prototype);
+  _no_name_provided__158.prototype.constructor = _no_name_provided__158;
   $withFrameNanosCOROUTINE$4.prototype = Object.create(CoroutineImpl_0.prototype);
   $withFrameNanosCOROUTINE$4.prototype.constructor = $withFrameNanosCOROUTINE$4;
   DomApplier.prototype = Object.create(AbstractApplier.prototype);
   DomApplier.prototype.constructor = DomApplier;
   DomElementWrapper.prototype = Object.create(DomNodeWrapper.prototype);
   DomElementWrapper.prototype.constructor = DomElementWrapper;
-  _no_name_provided__179.prototype = Object.create(CoroutineImpl_0.prototype);
-  _no_name_provided__179.prototype.constructor = _no_name_provided__179;
+  _no_name_provided__182.prototype = Object.create(CoroutineImpl_0.prototype);
+  _no_name_provided__182.prototype.constructor = _no_name_provided__182;
   JsMicrotasksDispatcher.prototype = Object.create(CoroutineDispatcher.prototype);
   JsMicrotasksDispatcher.prototype.constructor = JsMicrotasksDispatcher;
-  _no_name_provided__183.prototype = Object.create(CoroutineImpl_0.prototype);
-  _no_name_provided__183.prototype.constructor = _no_name_provided__183;
+  _no_name_provided__186.prototype = Object.create(CoroutineImpl_0.prototype);
+  _no_name_provided__186.prototype.constructor = _no_name_provided__186;
   AttrsBuilder.prototype = Object.create(EventsListenerBuilder.prototype);
   AttrsBuilder.prototype.constructor = AttrsBuilder;
   Ltr.prototype = Object.create(DirType.prototype);
@@ -567,8 +567,8 @@
   AnimationEventListener.prototype.constructor = AnimationEventListener;
   ElementScopeImpl.prototype = Object.create(ElementScopeBase.prototype);
   ElementScopeImpl.prototype.constructor = ElementScopeImpl;
-  _no_name_provided__198.prototype = Object.create(ElementBuilderImplementation.prototype);
-  _no_name_provided__198.prototype.constructor = _no_name_provided__198;
+  _no_name_provided__201.prototype = Object.create(ElementBuilderImplementation.prototype);
+  _no_name_provided__201.prototype.constructor = _no_name_provided__201;
   SyntheticAnimationEvent.prototype = Object.create(SyntheticEvent.prototype);
   SyntheticAnimationEvent.prototype.constructor = SyntheticAnimationEvent;
   SyntheticClipboardEvent.prototype = Object.create(SyntheticEvent.prototype);
@@ -667,6 +667,10 @@
   SecureRandomJs.prototype.constructor = SecureRandomJs;
   MediaType.prototype = Object.create(Enum.prototype);
   MediaType.prototype.constructor = MediaType;
+  Home.prototype = Object.create(Route.prototype);
+  Home.prototype.constructor = Home;
+  ProductDetails.prototype = Object.create(Route.prototype);
+  ProductDetails.prototype.constructor = ProductDetails;
   Theme.prototype = Object.create(StyleSheet.prototype);
   Theme.prototype.constructor = Theme;
   function fold(_this_, initial, operation) {
@@ -1279,6 +1283,9 @@
       transform = null;
     return joinToString_0(_this_, separator, prefix, postfix, limit, truncated, transform);
   }
+  function getOrNull(_this_, index) {
+    return (index >= 0 ? index <= _get_lastIndex__5(_this_) : false) ? _this_.get_ha5a7z_k$(index) : null;
+  }
   function first(_this_) {
     if (_this_.isEmpty_0_k$())
       throw NoSuchElementException_init_$Create$_0('List is empty.');
@@ -1420,6 +1427,35 @@
     }
     return false;
   }
+  function single_0(_this_) {
+    var tmp0_subject = _this_;
+    if (isInterface(tmp0_subject, List))
+      return single_1(_this_);
+    else {
+      {
+        var iterator_2 = _this_.iterator_0_k$();
+        if (!iterator_2.hasNext_0_k$())
+          throw NoSuchElementException_init_$Create$_0('Collection is empty.');
+        var single_2 = iterator_2.next_0_k$();
+        if (iterator_2.hasNext_0_k$())
+          throw IllegalArgumentException_init_$Create$_0('Collection has more than one element.');
+        return single_2;
+      }
+    }
+  }
+  function single_1(_this_) {
+    var tmp0_subject = _this_._get_size__0_k$();
+    var tmp;
+    switch (tmp0_subject) {
+      case 0:
+        throw NoSuchElementException_init_$Create$_0('List is empty.');
+      case 1:
+        tmp = _this_.get_ha5a7z_k$(0);
+        break;
+      default:throw IllegalArgumentException_init_$Create$_0('List has more than one element.');
+    }
+    return tmp;
+  }
   function sam$kotlin_Comparator$0(function_0) {
     this._function = function_0;
   }
@@ -1503,12 +1539,21 @@
   }
   function coerceIn_0(_this_, range) {
     if (isInterface(range, ClosedFloatingPointRange)) {
-      return coerceIn_1(_this_, range);
+      return coerceIn_2(_this_, range);
     } else {
     }
     if (range.isEmpty_0_k$())
       throw IllegalArgumentException_init_$Create$_0('' + 'Cannot coerce value to an empty range: ' + range + '.');
     return _this_.compareTo_wiekkq_k$(range._get_start__0_k$()) < 0 ? range._get_start__0_k$() : _this_.compareTo_wiekkq_k$(range._get_endInclusive__0_k$()) > 0 ? range._get_endInclusive__0_k$() : _this_;
+  }
+  function coerceIn_1(_this_, minimumValue, maximumValue) {
+    if (minimumValue > maximumValue)
+      throw IllegalArgumentException_init_$Create$_0('' + 'Cannot coerce value to an empty range: maximum ' + maximumValue + ' is less than minimum ' + minimumValue + '.');
+    if (_this_ < minimumValue)
+      return minimumValue;
+    if (_this_ > maximumValue)
+      return maximumValue;
+    return _this_;
   }
   function until_0(_this_, to_0) {
     Companion_getInstance_23();
@@ -1523,7 +1568,7 @@
     }
     return _this_.rangeTo_wiekkq_k$(tmp$ret$0.toLong_0_k$());
   }
-  function coerceIn_1(_this_, range) {
+  function coerceIn_2(_this_, range) {
     if (range.isEmpty_0_k$())
       throw IllegalArgumentException_init_$Create$_0('' + 'Cannot coerce value to an empty range: ' + range + '.');
     return (range.lessThanOrEquals_1qgdm_k$(_this_, range._get_start__0_k$()) ? !range.lessThanOrEquals_1qgdm_k$(range._get_start__0_k$(), _this_) : false) ? range._get_start__0_k$() : (range.lessThanOrEquals_1qgdm_k$(range._get_endInclusive__0_k$(), _this_) ? !range.lessThanOrEquals_1qgdm_k$(_this_, range._get_endInclusive__0_k$()) : false) ? range._get_endInclusive__0_k$() : _this_;
@@ -1537,6 +1582,33 @@
     }
     return false;
   }
+  function asIterable(_this_) {
+    var tmp$ret$0;
+    $l$block: {
+      tmp$ret$0 = new _no_name_provided__1(_this_);
+      break $l$block;
+    }
+    return tmp$ret$0;
+  }
+  function _no_name_provided__1($this_asIterable) {
+    this._$this_asIterable = $this_asIterable;
+  }
+  _no_name_provided__1.prototype.iterator_2_0_k$ = function () {
+    var tmp$ret$0;
+    $l$block: {
+      tmp$ret$0 = this._$this_asIterable.iterator_0_k$();
+      break $l$block;
+    }
+    return tmp$ret$0;
+  };
+  _no_name_provided__1.prototype.iterator_0_k$ = function () {
+    return this.iterator_2_0_k$();
+  };
+  _no_name_provided__1.$metadata$ = {
+    simpleName: '<no name provided>_1',
+    kind: 'class',
+    interfaces: [Iterable_0]
+  };
   function getOrElse(_this_, index, defaultValue) {
     return (index >= 0 ? index <= _get_lastIndex__6(_this_) : false) ? charSequenceGet(_this_, index) : defaultValue(index);
   }
@@ -1847,16 +1919,16 @@
     kind: 'class',
     interfaces: [Annotation]
   };
-  function _no_name_provided__1(this$0) {
+  function _no_name_provided__2(this$0) {
     this._this$0 = this$0;
   }
-  _no_name_provided__1.prototype.invoke_2bq_k$ = function (it) {
+  _no_name_provided__2.prototype.invoke_2bq_k$ = function (it) {
     return it === this._this$0 ? '(this Collection)' : toString_0(it);
   };
-  _no_name_provided__1.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__2.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_2bq_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
   };
-  _no_name_provided__1.$metadata$ = {
+  _no_name_provided__2.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -1950,7 +2022,7 @@
     interfaces: [Collection]
   };
   function _no_name_provided_$factory_1(this$0) {
-    var i = new _no_name_provided__1(this$0);
+    var i = new _no_name_provided__2(this$0);
     return function (p1) {
       return i.invoke_2bq_k$(p1);
     };
@@ -2180,29 +2252,29 @@
     kind: 'class',
     interfaces: [List]
   };
-  function _no_name_provided__2($entryIterator) {
+  function _no_name_provided__3($entryIterator) {
     this._$entryIterator = $entryIterator;
   }
-  _no_name_provided__2.prototype.hasNext_0_k$ = function () {
+  _no_name_provided__3.prototype.hasNext_0_k$ = function () {
     return this._$entryIterator.hasNext_0_k$();
   };
-  _no_name_provided__2.prototype.next_0_k$ = function () {
+  _no_name_provided__3.prototype.next_0_k$ = function () {
     return this._$entryIterator.next_0_k$()._get_key__0_k$();
   };
-  _no_name_provided__2.$metadata$ = {
+  _no_name_provided__3.$metadata$ = {
     kind: 'class',
     interfaces: [Iterator_3]
   };
-  function _no_name_provided__3($entryIterator) {
+  function _no_name_provided__4($entryIterator) {
     this._$entryIterator_0 = $entryIterator;
   }
-  _no_name_provided__3.prototype.hasNext_0_k$ = function () {
+  _no_name_provided__4.prototype.hasNext_0_k$ = function () {
     return this._$entryIterator_0.hasNext_0_k$();
   };
-  _no_name_provided__3.prototype.next_0_k$ = function () {
+  _no_name_provided__4.prototype.next_0_k$ = function () {
     return this._$entryIterator_0.next_0_k$()._get_value__0_k$();
   };
-  _no_name_provided__3.$metadata$ = {
+  _no_name_provided__4.$metadata$ = {
     kind: 'class',
     interfaces: [Iterator_3]
   };
@@ -2294,66 +2366,66 @@
       new Companion_1();
     return Companion_instance_0;
   }
-  function _no_name_provided__4(this$0) {
+  function _no_name_provided__5(this$0) {
     this._this$0_0 = this$0;
     AbstractSet.call(this);
   }
-  _no_name_provided__4.prototype.contains_2bw_k$ = function (element) {
+  _no_name_provided__5.prototype.contains_2bw_k$ = function (element) {
     return this._this$0_0.containsKey_2bw_k$(element);
   };
-  _no_name_provided__4.prototype.contains_2bq_k$ = function (element) {
+  _no_name_provided__5.prototype.contains_2bq_k$ = function (element) {
     if (!(element == null ? true : isObject(element)))
       return false;
     else {
     }
     return this.contains_2bw_k$((element == null ? true : isObject(element)) ? element : THROW_CCE());
   };
-  _no_name_provided__4.prototype.iterator_0_k$ = function () {
+  _no_name_provided__5.prototype.iterator_0_k$ = function () {
     var entryIterator = this._this$0_0._get_entries__0_k$().iterator_0_k$();
-    return new _no_name_provided__2(entryIterator);
+    return new _no_name_provided__3(entryIterator);
   };
-  _no_name_provided__4.prototype._get_size__0_k$ = function () {
+  _no_name_provided__5.prototype._get_size__0_k$ = function () {
     return this._this$0_0._get_size__0_k$();
-  };
-  _no_name_provided__4.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__5(this$0) {
-    this._this$0_1 = this$0;
-  }
-  _no_name_provided__5.prototype.invoke_4v0zae_k$ = function (it) {
-    return this._this$0_1.toString_4v0zae_k$(it);
-  };
-  _no_name_provided__5.prototype.invoke_20e8_k$ = function (p1) {
-    return this.invoke_4v0zae_k$((!(p1 == null) ? isInterface(p1, Entry) : false) ? p1 : THROW_CCE());
   };
   _no_name_provided__5.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
   function _no_name_provided__6(this$0) {
+    this._this$0_1 = this$0;
+  }
+  _no_name_provided__6.prototype.invoke_4v0zae_k$ = function (it) {
+    return this._this$0_1.toString_4v0zae_k$(it);
+  };
+  _no_name_provided__6.prototype.invoke_20e8_k$ = function (p1) {
+    return this.invoke_4v0zae_k$((!(p1 == null) ? isInterface(p1, Entry) : false) ? p1 : THROW_CCE());
+  };
+  _no_name_provided__6.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__7(this$0) {
     this._this$0_2 = this$0;
     AbstractCollection.call(this);
   }
-  _no_name_provided__6.prototype.contains_2c7_k$ = function (element) {
+  _no_name_provided__7.prototype.contains_2c7_k$ = function (element) {
     return this._this$0_2.containsValue_2c7_k$(element);
   };
-  _no_name_provided__6.prototype.contains_2bq_k$ = function (element) {
+  _no_name_provided__7.prototype.contains_2bq_k$ = function (element) {
     if (!(element == null ? true : isObject(element)))
       return false;
     else {
     }
     return this.contains_2c7_k$((element == null ? true : isObject(element)) ? element : THROW_CCE());
   };
-  _no_name_provided__6.prototype.iterator_0_k$ = function () {
+  _no_name_provided__7.prototype.iterator_0_k$ = function () {
     var entryIterator = this._this$0_2._get_entries__0_k$().iterator_0_k$();
-    return new _no_name_provided__3(entryIterator);
+    return new _no_name_provided__4(entryIterator);
   };
-  _no_name_provided__6.prototype._get_size__0_k$ = function () {
+  _no_name_provided__7.prototype._get_size__0_k$ = function () {
     return this._this$0_2._get_size__0_k$();
   };
-  _no_name_provided__6.$metadata$ = {
+  _no_name_provided__7.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -2493,7 +2565,7 @@
   AbstractMap.prototype._get_keys__0_k$ = function () {
     if (this.__keys == null) {
       var tmp = this;
-      tmp.__keys = new _no_name_provided__4(this);
+      tmp.__keys = new _no_name_provided__5(this);
     }return ensureNotNull(this.__keys);
   };
   AbstractMap.prototype.toString = function () {
@@ -2506,7 +2578,7 @@
   AbstractMap.prototype._get_values__0_k$ = function () {
     if (this.__values == null) {
       var tmp = this;
-      tmp.__values = new _no_name_provided__6(this);
+      tmp.__values = new _no_name_provided__7(this);
     }return ensureNotNull(this.__values);
   };
   AbstractMap.prototype._set__values__t1vx3b_k$ = function (_set___) {
@@ -2521,7 +2593,7 @@
     interfaces: [Map_0]
   };
   function _no_name_provided_$factory_2(this$0) {
-    var i = new _no_name_provided__5(this$0);
+    var i = new _no_name_provided__6(this$0);
     return function (p1) {
       return i.invoke_4v0zae_k$(p1);
     };
@@ -2947,7 +3019,7 @@
     interfaces: []
   };
   function Iterable(iterator_2) {
-    return new _no_name_provided__7(iterator_2);
+    return new _no_name_provided__8(iterator_2);
   }
   function collectionSizeOrDefault(_this_, default_0) {
     var tmp;
@@ -2974,13 +3046,13 @@
     kind: 'class',
     interfaces: [Iterable_0]
   };
-  function _no_name_provided__7($iterator) {
+  function _no_name_provided__8($iterator) {
     this._$iterator = $iterator;
   }
-  _no_name_provided__7.prototype.iterator_0_k$ = function () {
+  _no_name_provided__8.prototype.iterator_0_k$ = function () {
     return this._$iterator();
   };
-  _no_name_provided__7.$metadata$ = {
+  _no_name_provided__8.$metadata$ = {
     kind: 'class',
     interfaces: [Iterable_0]
   };
@@ -3596,15 +3668,15 @@
     interfaces: [Sequence]
   };
   function Sequence_0(iterator_2) {
-    return new _no_name_provided__8(iterator_2);
+    return new _no_name_provided__9(iterator_2);
   }
-  function _no_name_provided__8($iterator) {
+  function _no_name_provided__9($iterator) {
     this._$iterator_0 = $iterator;
   }
-  _no_name_provided__8.prototype.iterator_0_k$ = function () {
+  _no_name_provided__9.prototype.iterator_0_k$ = function () {
     return this._$iterator_0();
   };
-  _no_name_provided__8.$metadata$ = {
+  _no_name_provided__9.$metadata$ = {
     kind: 'class',
     interfaces: [Sequence]
   };
@@ -3715,10 +3787,10 @@
     kind: 'class',
     interfaces: [Comparator]
   };
-  function _no_name_provided__9($selector) {
+  function _no_name_provided__10($selector) {
     this._$selector_0 = $selector;
   }
-  _no_name_provided__9.prototype.invoke_1qgdm_k$ = function (a, b) {
+  _no_name_provided__10.prototype.invoke_1qgdm_k$ = function (a, b) {
     var tmp$ret$0;
     $l$block: {
       tmp$ret$0 = compareValues(this._$selector_0(a), this._$selector_0(b));
@@ -3726,16 +3798,16 @@
     }
     return tmp$ret$0;
   };
-  _no_name_provided__9.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__10.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE();
     return this.invoke_1qgdm_k$(tmp, (p2 == null ? true : isObject(p2)) ? p2 : THROW_CCE());
   };
-  _no_name_provided__9.$metadata$ = {
+  _no_name_provided__10.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
   function _no_name_provided_$factory_3($selector) {
-    var i = new _no_name_provided__9($selector);
+    var i = new _no_name_provided__10($selector);
     return function (p1, p2) {
       return i.invoke_1qgdm_k$(p1, p2);
     };
@@ -3867,7 +3939,7 @@
     interfaces: []
   };
   function Continuation_0(context, resumeWith) {
-    return new _no_name_provided__10(context, resumeWith);
+    return new _no_name_provided__11(context, resumeWith);
   }
   function _get_coroutineContext_() {
     throw new NotImplementedError('Implemented as intrinsic');
@@ -3938,17 +4010,17 @@
       break $l$block_0;
     }
   }
-  function _no_name_provided__10($context, $resumeWith) {
+  function _no_name_provided__11($context, $resumeWith) {
     this._$context = $context;
     this._$resumeWith = $resumeWith;
   }
-  _no_name_provided__10.prototype._get_context__0_k$ = function () {
+  _no_name_provided__11.prototype._get_context__0_k$ = function () {
     return this._$context;
   };
-  _no_name_provided__10.prototype.resumeWith_bnunh2_k$ = function (result) {
+  _no_name_provided__11.prototype.resumeWith_bnunh2_k$ = function (result) {
     return this._$resumeWith(new Result(result));
   };
-  _no_name_provided__10.$metadata$ = {
+  _no_name_provided__11.$metadata$ = {
     kind: 'class',
     interfaces: [Continuation]
   };
@@ -4032,9 +4104,9 @@
     kind: 'interface',
     interfaces: [CoroutineContext]
   };
-  function _no_name_provided__11() {
+  function _no_name_provided__12() {
   }
-  _no_name_provided__11.prototype.invoke_2v6pkd_k$ = function (acc, element) {
+  _no_name_provided__12.prototype.invoke_2v6pkd_k$ = function (acc, element) {
     var removed = acc.minusKey_djuxjq_k$(element._get_key__0_k$());
     var tmp;
     if (removed === EmptyCoroutineContext_getInstance()) {
@@ -4052,11 +4124,11 @@
     }
     return tmp;
   };
-  _no_name_provided__11.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__12.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? isInterface(p1, CoroutineContext) : false) ? p1 : THROW_CCE();
     return this.invoke_2v6pkd_k$(tmp, (!(p2 == null) ? isInterface(p2, Element_0) : false) ? p2 : THROW_CCE());
   };
-  _no_name_provided__11.$metadata$ = {
+  _no_name_provided__12.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -4077,7 +4149,7 @@
     interfaces: []
   };
   function _no_name_provided_$factory_4() {
-    var i = new _no_name_provided__11();
+    var i = new _no_name_provided__12();
     return function (p1, p2) {
       return i.invoke_2v6pkd_k$(p1, p2);
     };
@@ -4241,9 +4313,9 @@
     kind: 'class',
     interfaces: [Serializable]
   };
-  function _no_name_provided__12() {
+  function _no_name_provided__13() {
   }
-  _no_name_provided__12.prototype.invoke_mz4o2y_k$ = function (acc, element) {
+  _no_name_provided__13.prototype.invoke_mz4o2y_k$ = function (acc, element) {
     var tmp;
     var tmp$ret$0;
     $l$block: {
@@ -4259,29 +4331,29 @@
     }
     return tmp;
   };
-  _no_name_provided__12.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__13.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? typeof p1 === 'string' : false) ? p1 : THROW_CCE();
     return this.invoke_mz4o2y_k$(tmp, (!(p2 == null) ? isInterface(p2, Element_0) : false) ? p2 : THROW_CCE());
   };
-  _no_name_provided__12.$metadata$ = {
+  _no_name_provided__13.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__13($elements, $index) {
+  function _no_name_provided__14($elements, $index) {
     this._$elements = $elements;
     this._$index = $index;
   }
-  _no_name_provided__13.prototype.invoke_yl4r9k_k$ = function (_anonymous_parameter_0_, element) {
+  _no_name_provided__14.prototype.invoke_yl4r9k_k$ = function (_anonymous_parameter_0_, element) {
     var tmp0 = this._$index._v;
     this._$index._v = tmp0 + 1 | 0;
     this._$elements[tmp0] = element;
   };
-  _no_name_provided__13.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__14.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = p1 instanceof Unit ? p1 : THROW_CCE();
     this.invoke_yl4r9k_k$(tmp, (!(p2 == null) ? isInterface(p2, Element_0) : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__13.$metadata$ = {
+  _no_name_provided__14.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -4411,13 +4483,13 @@
     interfaces: [Element_0]
   };
   function _no_name_provided_$factory_5() {
-    var i = new _no_name_provided__12();
+    var i = new _no_name_provided__13();
     return function (p1, p2) {
       return i.invoke_mz4o2y_k$(p1, p2);
     };
   }
   function _no_name_provided_$factory_6($elements, $index) {
-    var i = new _no_name_provided__13($elements, $index);
+    var i = new _no_name_provided__14($elements, $index);
     return function (p1, p2) {
       i.invoke_yl4r9k_k$(p1, p2);
       return Unit_getInstance();
@@ -5575,6 +5647,67 @@
   function isNotBlank(_this_) {
     return !isBlank(_this_);
   }
+  function contains_6(_this_, other, ignoreCase) {
+    var tmp;
+    if (typeof other === 'string') {
+      tmp = indexOf$default_0(_this_, other, 0, ignoreCase, 2, null) >= 0;
+    } else {
+      {
+        var tmp_0 = charSequenceLength(_this_);
+        tmp = indexOf$default_1(_this_, other, 0, tmp_0, ignoreCase, false, 16, null) >= 0;
+      }
+    }
+    return tmp;
+  }
+  function contains$default(_this_, other, ignoreCase, $mask0, $handler) {
+    if (!(($mask0 & 2) === 0))
+      ignoreCase = false;
+    return contains_6(_this_, other, ignoreCase);
+  }
+  function split(_this_, delimiters, ignoreCase, limit) {
+    if (delimiters.length === 1) {
+      var delimiter = delimiters[0];
+      var tmp$ret$0;
+      $l$block: {
+        tmp$ret$0 = charSequenceLength(delimiter) === 0;
+        break $l$block;
+      }
+      if (!tmp$ret$0) {
+        return split_0(_this_, delimiter, ignoreCase, limit);
+      } else {
+      }
+    }var tmp$ret$3;
+    $l$block_2: {
+      var tmp0_map_0 = asIterable(rangesDelimitedBy$default(_this_, delimiters, 0, ignoreCase, limit, 2, null));
+      var tmp$ret$2;
+      $l$block_1: {
+        var tmp0_mapTo_0_1 = ArrayList_init_$Create$_0(collectionSizeOrDefault(tmp0_map_0, 10));
+        var tmp0_iterator_1_2 = tmp0_map_0.iterator_0_k$();
+        while (tmp0_iterator_1_2.hasNext_0_k$()) {
+          var item_2_3 = tmp0_iterator_1_2.next_0_k$();
+          var tmp$ret$1;
+          $l$block_0: {
+            tmp$ret$1 = substring(_this_, item_2_3);
+            break $l$block_0;
+          }
+          tmp0_mapTo_0_1.add_2bq_k$(tmp$ret$1);
+          Unit_getInstance();
+        }
+        tmp$ret$2 = tmp0_mapTo_0_1;
+        break $l$block_1;
+      }
+      tmp$ret$3 = tmp$ret$2;
+      break $l$block_2;
+    }
+    return tmp$ret$3;
+  }
+  function split$default(_this_, delimiters, ignoreCase, limit, $mask0, $handler) {
+    if (!(($mask0 & 2) === 0))
+      ignoreCase = false;
+    if (!(($mask0 & 4) === 0))
+      limit = 0;
+    return split(_this_, delimiters, ignoreCase, limit);
+  }
   function padStart(_this_, length, padChar) {
     return toString_1(padStart_0(isCharSequence(_this_) ? _this_ : THROW_CCE(), length, padChar));
   }
@@ -5591,13 +5724,13 @@
       ignoreCase = false;
     return startsWith(_this_, char, ignoreCase);
   }
-  function contains_6(_this_, char, ignoreCase) {
+  function contains_7(_this_, char, ignoreCase) {
     return indexOf$default(_this_, char, 0, ignoreCase, 2, null) >= 0;
   }
-  function contains$default(_this_, char, ignoreCase, $mask0, $handler) {
+  function contains$default_0(_this_, char, ignoreCase, $mask0, $handler) {
     if (!(($mask0 & 2) === 0))
       ignoreCase = false;
-    return contains_6(_this_, char, ignoreCase);
+    return contains_7(_this_, char, ignoreCase);
   }
   function indexOf_5(_this_, char, startIndex, ignoreCase) {
     var tmp;
@@ -5647,6 +5780,138 @@
   }
   function _get_lastIndex__6(_this_) {
     return charSequenceLength(_this_) - 1 | 0;
+  }
+  function indexOf_6(_this_, string, startIndex, ignoreCase) {
+    var tmp;
+    var tmp_0;
+    if (ignoreCase) {
+      tmp_0 = true;
+    } else {
+      tmp_0 = !(typeof _this_ === 'string');
+    }
+    if (tmp_0) {
+      var tmp_1 = charSequenceLength(_this_);
+      tmp = indexOf$default_1(_this_, string, startIndex, tmp_1, ignoreCase, false, 16, null);
+    } else {
+      {
+        var tmp$ret$1;
+        $l$block_0: {
+          var tmp0_nativeIndexOf_0 = _this_;
+          var tmp$ret$0;
+          $l$block: {
+            tmp$ret$0 = tmp0_nativeIndexOf_0;
+            break $l$block;
+          }
+          tmp$ret$1 = tmp$ret$0.indexOf(string, startIndex);
+          break $l$block_0;
+        }
+        tmp = tmp$ret$1;
+      }
+    }
+    return tmp;
+  }
+  function indexOf$default_0(_this_, string, startIndex, ignoreCase, $mask0, $handler) {
+    if (!(($mask0 & 2) === 0))
+      startIndex = 0;
+    if (!(($mask0 & 4) === 0))
+      ignoreCase = false;
+    return indexOf_6(_this_, string, startIndex, ignoreCase);
+  }
+  function indexOf_7(_this_, other, startIndex, endIndex, ignoreCase, last_0) {
+    var indices = !last_0 ? numberRangeToNumber(coerceAtLeast(startIndex, 0), coerceAtMost(endIndex, charSequenceLength(_this_))) : downTo(coerceAtMost(startIndex, _get_lastIndex__6(_this_)), coerceAtLeast(endIndex, 0));
+    var tmp;
+    if (typeof _this_ === 'string') {
+      tmp = typeof other === 'string';
+    } else {
+      {
+        tmp = false;
+      }
+    }
+    if (tmp) {
+      var inductionVariable = indices._first_2;
+      var last_1 = indices._last_1;
+      var step_0 = indices._step_6;
+      if ((step_0 > 0 ? inductionVariable <= last_1 : false) ? true : step_0 < 0 ? last_1 <= inductionVariable : false)
+        do {
+          var index = inductionVariable;
+          inductionVariable = inductionVariable + step_0 | 0;
+          if (regionMatches(other, 0, _this_, index, charSequenceLength(other), ignoreCase))
+            return index;
+        }
+         while (!(index === last_1));
+    } else {
+      {
+        var inductionVariable_0 = indices._first_2;
+        var last_2 = indices._last_1;
+        var step_1 = indices._step_6;
+        if ((step_1 > 0 ? inductionVariable_0 <= last_2 : false) ? true : step_1 < 0 ? last_2 <= inductionVariable_0 : false)
+          do {
+            var index_0 = inductionVariable_0;
+            inductionVariable_0 = inductionVariable_0 + step_1 | 0;
+            if (regionMatchesImpl(other, 0, _this_, index_0, charSequenceLength(other), ignoreCase))
+              return index_0;
+          }
+           while (!(index_0 === last_2));
+      }
+    }
+    return -1;
+  }
+  function indexOf$default_1(_this_, other, startIndex, endIndex, ignoreCase, last_0, $mask0, $handler) {
+    if (!(($mask0 & 16) === 0))
+      last_0 = false;
+    return indexOf_7(_this_, other, startIndex, endIndex, ignoreCase, last_0);
+  }
+  function split_0(_this_, delimiter, ignoreCase, limit) {
+    requireNonNegativeLimit(limit);
+    var currentOffset = 0;
+    var nextIndex = indexOf_6(_this_, delimiter, currentOffset, ignoreCase);
+    if (nextIndex === -1 ? true : limit === 1) {
+      return listOf_0(toString_1(_this_));
+    }var isLimited = limit > 0;
+    var result = ArrayList_init_$Create$_0(isLimited ? coerceAtMost(limit, 10) : 10);
+    $l$break: do {
+      var tmp$ret$0;
+      $l$block: {
+        var tmp0_substring_0 = currentOffset;
+        var tmp1_substring_0 = nextIndex;
+        tmp$ret$0 = toString_1(charSequenceSubSequence(_this_, tmp0_substring_0, tmp1_substring_0));
+        break $l$block;
+      }
+      result.add_2bq_k$(tmp$ret$0);
+      Unit_getInstance();
+      currentOffset = nextIndex + delimiter.length | 0;
+      if (isLimited ? result._get_size__0_k$() === (limit - 1 | 0) : false)
+        break $l$break;
+      nextIndex = indexOf_6(_this_, delimiter, currentOffset, ignoreCase);
+    }
+     while (!(nextIndex === -1));
+    var tmp$ret$1;
+    $l$block_0: {
+      var tmp2_substring_0 = currentOffset;
+      var tmp3_substring_0 = charSequenceLength(_this_);
+      tmp$ret$1 = toString_1(charSequenceSubSequence(_this_, tmp2_substring_0, tmp3_substring_0));
+      break $l$block_0;
+    }
+    result.add_2bq_k$(tmp$ret$1);
+    Unit_getInstance();
+    return result;
+  }
+  function substring(_this_, range) {
+    return toString_1(charSequenceSubSequence(_this_, range._get_start__0_k$(), range._get_endInclusive__0_k$() + 1 | 0));
+  }
+  function rangesDelimitedBy(_this_, delimiters, startIndex, ignoreCase, limit) {
+    requireNonNegativeLimit(limit);
+    var delimitersList = asList(delimiters);
+    return new DelimitedRangesSequence(_this_, startIndex, limit, _no_name_provided_$factory_7(delimitersList, ignoreCase));
+  }
+  function rangesDelimitedBy$default(_this_, delimiters, startIndex, ignoreCase, limit, $mask0, $handler) {
+    if (!(($mask0 & 2) === 0))
+      startIndex = 0;
+    if (!(($mask0 & 4) === 0))
+      ignoreCase = false;
+    if (!(($mask0 & 8) === 0))
+      limit = 0;
+    return rangesDelimitedBy(_this_, delimiters, startIndex, ignoreCase, limit);
   }
   function padStart_0(_this_, length, padChar) {
     if (length < 0)
@@ -5746,9 +6011,6 @@
       ignoreCase = false;
     return indexOfAny(_this_, chars, startIndex, ignoreCase);
   }
-  function _get_indices__6(_this_) {
-    return numberRangeToNumber(0, charSequenceLength(_this_) - 1 | 0);
-  }
   function regionMatchesImpl(_this_, thisOffset, other, otherOffset, length, ignoreCase) {
     if (((otherOffset < 0 ? true : thisOffset < 0) ? true : thisOffset > (charSequenceLength(_this_) - length | 0)) ? true : otherOffset > (charSequenceLength(other) - length | 0)) {
       return false;
@@ -5762,6 +6024,310 @@
       }
        while (inductionVariable < length);
     return true;
+  }
+  function requireNonNegativeLimit(limit) {
+    var tmp0_require_0 = limit >= 0;
+    {
+    }
+    var tmp;
+    if (!tmp0_require_0) {
+      var tmp$ret$0;
+      $l$block: {
+        tmp$ret$0 = '' + 'Limit must be non-negative, but was ' + limit;
+        break $l$block;
+      }
+      var message_2 = tmp$ret$0;
+      throw IllegalArgumentException_init_$Create$_0(toString_1(message_2));
+    }return tmp;
+  }
+  function substring_0(_this_, startIndex, endIndex) {
+    return toString_1(charSequenceSubSequence(_this_, startIndex, endIndex));
+  }
+  function calcNext($this) {
+    if ($this._nextSearchIndex < 0) {
+      $this._nextState = 0;
+      $this._nextItem = null;
+    } else {
+      var tmp;
+      var tmp_0;
+      if ($this._this$0_3._limit > 0) {
+        var tmp0_this = $this;
+        tmp0_this._counter = tmp0_this._counter + 1 | 0;
+        tmp_0 = tmp0_this._counter >= $this._this$0_3._limit;
+      } else {
+        tmp_0 = false;
+      }
+      if (tmp_0) {
+        tmp = true;
+      } else {
+        {
+          tmp = $this._nextSearchIndex > charSequenceLength($this._this$0_3._input);
+        }
+      }
+      if (tmp) {
+        $this._nextItem = numberRangeToNumber($this._currentStartIndex, _get_lastIndex__6($this._this$0_3._input));
+        $this._nextSearchIndex = -1;
+      } else {
+        {
+          var match_0 = $this._this$0_3._getNextMatch($this._this$0_3._input, $this._nextSearchIndex);
+          if (match_0 == null) {
+            $this._nextItem = numberRangeToNumber($this._currentStartIndex, _get_lastIndex__6($this._this$0_3._input));
+            $this._nextSearchIndex = -1;
+          } else {
+            var tmp1_container = match_0;
+            var index = tmp1_container.component1_0_k$();
+            var length = tmp1_container.component2_0_k$();
+            $this._nextItem = until($this._currentStartIndex, index);
+            $this._currentStartIndex = index + length | 0;
+            $this._nextSearchIndex = $this._currentStartIndex + (length === 0 ? 1 : 0) | 0;
+          }
+        }
+      }
+      $this._nextState = 1;
+    }
+  }
+  function _get_input_($this) {
+    return $this._input;
+  }
+  function _get_startIndex_($this) {
+    return $this._startIndex;
+  }
+  function _get_limit_($this) {
+    return $this._limit;
+  }
+  function _get_getNextMatch_($this) {
+    return $this._getNextMatch;
+  }
+  function _no_name_provided__15(this$0) {
+    this._this$0_3 = this$0;
+    this._nextState = -1;
+    this._currentStartIndex = coerceIn_1(this._this$0_3._startIndex, 0, charSequenceLength(this._this$0_3._input));
+    this._nextSearchIndex = this._currentStartIndex;
+    this._nextItem = null;
+    this._counter = 0;
+  }
+  _no_name_provided__15.prototype._set_nextState__majfzk_k$ = function (_set___) {
+    this._nextState = _set___;
+  };
+  _no_name_provided__15.prototype._get_nextState__0_k$ = function () {
+    return this._nextState;
+  };
+  _no_name_provided__15.prototype._set_currentStartIndex__majfzk_k$ = function (_set___) {
+    this._currentStartIndex = _set___;
+  };
+  _no_name_provided__15.prototype._get_currentStartIndex__0_k$ = function () {
+    return this._currentStartIndex;
+  };
+  _no_name_provided__15.prototype._set_nextSearchIndex__majfzk_k$ = function (_set___) {
+    this._nextSearchIndex = _set___;
+  };
+  _no_name_provided__15.prototype._get_nextSearchIndex__0_k$ = function () {
+    return this._nextSearchIndex;
+  };
+  _no_name_provided__15.prototype._set_nextItem__af3pxm_k$ = function (_set___) {
+    this._nextItem = _set___;
+  };
+  _no_name_provided__15.prototype._get_nextItem__0_k$ = function () {
+    return this._nextItem;
+  };
+  _no_name_provided__15.prototype._set_counter__majfzk_k$ = function (_set___) {
+    this._counter = _set___;
+  };
+  _no_name_provided__15.prototype._get_counter__0_k$ = function () {
+    return this._counter;
+  };
+  _no_name_provided__15.prototype.next_0_k$ = function () {
+    if (this._nextState === -1)
+      calcNext(this);
+    if (this._nextState === 0)
+      throw NoSuchElementException_init_$Create$();
+    var tmp = this._nextItem;
+    var result = tmp instanceof IntRange ? tmp : THROW_CCE();
+    this._nextItem = null;
+    this._nextState = -1;
+    return result;
+  };
+  _no_name_provided__15.prototype.hasNext_0_k$ = function () {
+    if (this._nextState === -1)
+      calcNext(this);
+    return this._nextState === 1;
+  };
+  _no_name_provided__15.$metadata$ = {
+    kind: 'class',
+    interfaces: [Iterator_3]
+  };
+  function DelimitedRangesSequence(input, startIndex, limit, getNextMatch) {
+    this._input = input;
+    this._startIndex = startIndex;
+    this._limit = limit;
+    this._getNextMatch = getNextMatch;
+  }
+  DelimitedRangesSequence.prototype.iterator_0_k$ = function () {
+    return new _no_name_provided__15(this);
+  };
+  DelimitedRangesSequence.$metadata$ = {
+    simpleName: 'DelimitedRangesSequence',
+    kind: 'class',
+    interfaces: [Sequence]
+  };
+  function findAnyOf(_this_, strings, startIndex, ignoreCase, last_0) {
+    if (!ignoreCase ? strings._get_size__0_k$() === 1 : false) {
+      var string = single_0(strings);
+      var tmp;
+      if (!last_0) {
+        tmp = indexOf$default_0(_this_, string, startIndex, false, 4, null);
+      } else {
+        tmp = lastIndexOf$default(_this_, string, startIndex, false, 4, null);
+      }
+      var index = tmp;
+      return index < 0 ? null : to(index, string);
+    }var indices = !last_0 ? numberRangeToNumber(coerceAtLeast(startIndex, 0), charSequenceLength(_this_)) : downTo(coerceAtMost(startIndex, _get_lastIndex__6(_this_)), 0);
+    if (typeof _this_ === 'string') {
+      var inductionVariable = indices._first_2;
+      var last_1 = indices._last_1;
+      var step_0 = indices._step_6;
+      if ((step_0 > 0 ? inductionVariable <= last_1 : false) ? true : step_0 < 0 ? last_1 <= inductionVariable : false)
+        do {
+          var index_0 = inductionVariable;
+          inductionVariable = inductionVariable + step_0 | 0;
+          var tmp$ret$1;
+          $l$block_1: {
+            var tmp0_iterator_1 = strings.iterator_0_k$();
+            while (tmp0_iterator_1.hasNext_0_k$()) {
+              var element_2 = tmp0_iterator_1.next_0_k$();
+              var tmp$ret$0;
+              $l$block: {
+                tmp$ret$0 = regionMatches(element_2, 0, _this_, index_0, element_2.length, ignoreCase);
+                break $l$block;
+              }
+              if (tmp$ret$0) {
+                tmp$ret$1 = element_2;
+                break $l$block_1;
+              } else {
+              }
+            }
+            tmp$ret$1 = null;
+            break $l$block_1;
+          }
+          var matchingString = tmp$ret$1;
+          if (!(matchingString == null))
+            return to(index_0, matchingString);
+        }
+         while (!(index_0 === last_1));
+    } else {
+      {
+        var inductionVariable_0 = indices._first_2;
+        var last_2 = indices._last_1;
+        var step_1 = indices._step_6;
+        if ((step_1 > 0 ? inductionVariable_0 <= last_2 : false) ? true : step_1 < 0 ? last_2 <= inductionVariable_0 : false)
+          do {
+            var index_1 = inductionVariable_0;
+            inductionVariable_0 = inductionVariable_0 + step_1 | 0;
+            var tmp$ret$3;
+            $l$block_4: {
+              var tmp0_iterator_1_0 = strings.iterator_0_k$();
+              while (tmp0_iterator_1_0.hasNext_0_k$()) {
+                var element_2_0 = tmp0_iterator_1_0.next_0_k$();
+                var tmp$ret$2;
+                $l$block_2: {
+                  tmp$ret$2 = regionMatchesImpl(element_2_0, 0, _this_, index_1, element_2_0.length, ignoreCase);
+                  break $l$block_2;
+                }
+                if (tmp$ret$2) {
+                  tmp$ret$3 = element_2_0;
+                  break $l$block_4;
+                } else {
+                }
+              }
+              tmp$ret$3 = null;
+              break $l$block_4;
+            }
+            var matchingString_0 = tmp$ret$3;
+            if (!(matchingString_0 == null))
+              return to(index_1, matchingString_0);
+          }
+           while (!(index_1 === last_2));
+      }
+    }
+    return null;
+  }
+  function lastIndexOf_0(_this_, string, startIndex, ignoreCase) {
+    var tmp;
+    var tmp_0;
+    if (ignoreCase) {
+      tmp_0 = true;
+    } else {
+      tmp_0 = !(typeof _this_ === 'string');
+    }
+    if (tmp_0) {
+      tmp = indexOf_7(_this_, string, startIndex, 0, ignoreCase, true);
+    } else {
+      {
+        var tmp$ret$1;
+        $l$block_0: {
+          var tmp0_nativeLastIndexOf_0 = _this_;
+          var tmp$ret$0;
+          $l$block: {
+            tmp$ret$0 = tmp0_nativeLastIndexOf_0;
+            break $l$block;
+          }
+          tmp$ret$1 = tmp$ret$0.lastIndexOf(string, startIndex);
+          break $l$block_0;
+        }
+        tmp = tmp$ret$1;
+      }
+    }
+    return tmp;
+  }
+  function lastIndexOf$default(_this_, string, startIndex, ignoreCase, $mask0, $handler) {
+    if (!(($mask0 & 2) === 0))
+      startIndex = _get_lastIndex__6(_this_);
+    if (!(($mask0 & 4) === 0))
+      ignoreCase = false;
+    return lastIndexOf_0(_this_, string, startIndex, ignoreCase);
+  }
+  function _get_indices__6(_this_) {
+    return numberRangeToNumber(0, charSequenceLength(_this_) - 1 | 0);
+  }
+  function _no_name_provided__16($delimitersList, $ignoreCase) {
+    this._$delimitersList = $delimitersList;
+    this._$ignoreCase = $ignoreCase;
+  }
+  _no_name_provided__16.prototype.invoke_w2qdfo_k$ = function ($this$$receiver, currentIndex) {
+    var tmp0_safe_receiver = findAnyOf($this$$receiver, this._$delimitersList, currentIndex, this._$ignoreCase, false);
+    var tmp;
+    if (tmp0_safe_receiver == null) {
+      tmp = null;
+    } else {
+      var tmp$ret$1;
+      $l$block_0: {
+        {
+        }
+        var tmp$ret$0;
+        $l$block: {
+          tmp$ret$0 = to(tmp0_safe_receiver._first, tmp0_safe_receiver._second.length);
+          break $l$block;
+        }
+        tmp$ret$1 = tmp$ret$0;
+        break $l$block_0;
+      }
+      tmp = tmp$ret$1;
+    }
+    return tmp;
+  };
+  _no_name_provided__16.prototype.invoke_osx4an_k$ = function (p1, p2) {
+    var tmp = (!(p1 == null) ? isCharSequence(p1) : false) ? p1 : THROW_CCE();
+    return this.invoke_w2qdfo_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
+  };
+  _no_name_provided__16.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided_$factory_7($delimitersList, $ignoreCase) {
+    var i = new _no_name_provided__16($delimitersList, $ignoreCase);
+    return function (p1, p2) {
+      return i.invoke_w2qdfo_k$(p1, p2);
+    };
   }
   function _Duration___init__impl_(rawValue) {
     if (isInNanos(rawValue)) {
@@ -6864,7 +7430,7 @@
                       if (new Char_0(48) <= tmp2__anonymous__1 ? tmp2__anonymous__1 <= new Char_0(57) : false) {
                         tmp_3 = true;
                       } else {
-                        tmp_3 = contains$default(nonDigitSymbols, tmp2__anonymous__1, false, 2, null);
+                        tmp_3 = contains$default_0(nonDigitSymbols, tmp2__anonymous__1, false, 2, null);
                       }
                       tmp$ret$0 = tmp_3;
                       break $l$block;
@@ -7244,7 +7810,7 @@
     var tmp;
     if (length > 0) {
       var tmp_0 = charSequenceGet(value, 0);
-      tmp = contains$default('+-', tmp_0, false, 2, null);
+      tmp = contains$default_0('+-', tmp_0, false, 2, null);
     } else {
       tmp = false;
     }
@@ -14561,29 +15127,29 @@
     }
     return tmp;
   }
-  function _no_name_provided__14($elements) {
+  function _no_name_provided__17($elements) {
     this._$elements_0 = $elements;
   }
-  _no_name_provided__14.prototype.invoke_2bq_k$ = function (it) {
+  _no_name_provided__17.prototype.invoke_2bq_k$ = function (it) {
     return this._$elements_0.contains_2bq_k$(it);
   };
-  _no_name_provided__14.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__17.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_2bq_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
   };
-  _no_name_provided__14.$metadata$ = {
+  _no_name_provided__17.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__15($elements) {
+  function _no_name_provided__18($elements) {
     this._$elements_1 = $elements;
   }
-  _no_name_provided__15.prototype.invoke_2bq_k$ = function (it) {
+  _no_name_provided__18.prototype.invoke_2bq_k$ = function (it) {
     return !this._$elements_1.contains_2bq_k$(it);
   };
-  _no_name_provided__15.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__18.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_2bq_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
   };
-  _no_name_provided__15.$metadata$ = {
+  _no_name_provided__18.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -14614,12 +15180,12 @@
   AbstractMutableCollection.prototype.removeAll_dxd4eo_k$ = function (elements) {
     this.checkIsMutable_sv8swh_k$();
     var tmp = isInterface(this, MutableIterable) ? this : THROW_CCE();
-    return removeAll(tmp, _no_name_provided_$factory_7(elements));
+    return removeAll(tmp, _no_name_provided_$factory_8(elements));
   };
   AbstractMutableCollection.prototype.retainAll_dxd4eo_k$ = function (elements) {
     this.checkIsMutable_sv8swh_k$();
     var tmp = isInterface(this, MutableIterable) ? this : THROW_CCE();
-    return removeAll(tmp, _no_name_provided_$factory_8(elements));
+    return removeAll(tmp, _no_name_provided_$factory_9(elements));
   };
   AbstractMutableCollection.prototype.clear_sv8swh_k$ = function () {
     this.checkIsMutable_sv8swh_k$();
@@ -14640,14 +15206,14 @@
     kind: 'class',
     interfaces: [MutableCollection]
   };
-  function _no_name_provided_$factory_7($elements) {
-    var i = new _no_name_provided__14($elements);
+  function _no_name_provided_$factory_8($elements) {
+    var i = new _no_name_provided__17($elements);
     return function (p1) {
       return i.invoke_2bq_k$(p1);
     };
   }
-  function _no_name_provided_$factory_8($elements) {
-    var i = new _no_name_provided__15($elements);
+  function _no_name_provided_$factory_9($elements) {
+    var i = new _no_name_provided__18($elements);
     return function (p1) {
       return i.invoke_2bq_k$(p1);
     };
@@ -14821,29 +15387,29 @@
     kind: 'class',
     interfaces: [RandomAccess]
   };
-  function _no_name_provided__16($elements) {
+  function _no_name_provided__19($elements) {
     this._$elements_2 = $elements;
   }
-  _no_name_provided__16.prototype.invoke_2bq_k$ = function (it) {
+  _no_name_provided__19.prototype.invoke_2bq_k$ = function (it) {
     return this._$elements_2.contains_2bq_k$(it);
   };
-  _no_name_provided__16.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__19.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_2bq_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
   };
-  _no_name_provided__16.$metadata$ = {
+  _no_name_provided__19.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__17($elements) {
+  function _no_name_provided__20($elements) {
     this._$elements_3 = $elements;
   }
-  _no_name_provided__17.prototype.invoke_2bq_k$ = function (it) {
+  _no_name_provided__20.prototype.invoke_2bq_k$ = function (it) {
     return !this._$elements_3.contains_2bq_k$(it);
   };
-  _no_name_provided__17.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__20.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_2bq_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
   };
-  _no_name_provided__17.$metadata$ = {
+  _no_name_provided__20.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -14883,11 +15449,11 @@
   };
   AbstractMutableList.prototype.removeAll_dxd4eo_k$ = function (elements) {
     this.checkIsMutable_sv8swh_k$();
-    return removeAll_0(this, _no_name_provided_$factory_9(elements));
+    return removeAll_0(this, _no_name_provided_$factory_10(elements));
   };
   AbstractMutableList.prototype.retainAll_dxd4eo_k$ = function (elements) {
     this.checkIsMutable_sv8swh_k$();
-    return removeAll_0(this, _no_name_provided_$factory_10(elements));
+    return removeAll_0(this, _no_name_provided_$factory_11(elements));
   };
   AbstractMutableList.prototype.iterator_0_k$ = function () {
     return new IteratorImpl_0(this);
@@ -14966,14 +15532,14 @@
     kind: 'class',
     interfaces: [MutableList]
   };
-  function _no_name_provided_$factory_9($elements) {
-    var i = new _no_name_provided__16($elements);
+  function _no_name_provided_$factory_10($elements) {
+    var i = new _no_name_provided__19($elements);
     return function (p1) {
       return i.invoke_2bq_k$(p1);
     };
   }
-  function _no_name_provided_$factory_10($elements) {
-    var i = new _no_name_provided__17($elements);
+  function _no_name_provided_$factory_11($elements) {
+    var i = new _no_name_provided__20($elements);
     return function (p1) {
       return i.invoke_2bq_k$(p1);
     };
@@ -14991,35 +15557,35 @@
   function _get__value__0($this) {
     return $this.__value_0;
   }
-  function _no_name_provided__18($entryIterator) {
+  function _no_name_provided__21($entryIterator) {
     this._$entryIterator_1 = $entryIterator;
   }
-  _no_name_provided__18.prototype.hasNext_0_k$ = function () {
+  _no_name_provided__21.prototype.hasNext_0_k$ = function () {
     return this._$entryIterator_1.hasNext_0_k$();
   };
-  _no_name_provided__18.prototype.next_0_k$ = function () {
+  _no_name_provided__21.prototype.next_0_k$ = function () {
     return this._$entryIterator_1.next_0_k$()._get_key__0_k$();
   };
-  _no_name_provided__18.prototype.remove_sv8swh_k$ = function () {
+  _no_name_provided__21.prototype.remove_sv8swh_k$ = function () {
     return this._$entryIterator_1.remove_sv8swh_k$();
   };
-  _no_name_provided__18.$metadata$ = {
+  _no_name_provided__21.$metadata$ = {
     kind: 'class',
     interfaces: [MutableIterator]
   };
-  function _no_name_provided__19($entryIterator) {
+  function _no_name_provided__22($entryIterator) {
     this._$entryIterator_2 = $entryIterator;
   }
-  _no_name_provided__19.prototype.hasNext_0_k$ = function () {
+  _no_name_provided__22.prototype.hasNext_0_k$ = function () {
     return this._$entryIterator_2.hasNext_0_k$();
   };
-  _no_name_provided__19.prototype.next_0_k$ = function () {
+  _no_name_provided__22.prototype.next_0_k$ = function () {
     return this._$entryIterator_2.next_0_k$()._get_value__0_k$();
   };
-  _no_name_provided__19.prototype.remove_sv8swh_k$ = function () {
+  _no_name_provided__22.prototype.remove_sv8swh_k$ = function () {
     return this._$entryIterator_2.remove_sv8swh_k$();
   };
-  _no_name_provided__19.$metadata$ = {
+  _no_name_provided__22.$metadata$ = {
     kind: 'class',
     interfaces: [MutableIterator]
   };
@@ -15078,89 +15644,89 @@
   function _get__values_($this) {
     return $this.__values_0;
   }
-  function _no_name_provided__20(this$0) {
-    this._this$0_3 = this$0;
+  function _no_name_provided__23(this$0) {
+    this._this$0_4 = this$0;
     AbstractMutableSet.call(this);
   }
-  _no_name_provided__20.prototype.add_2bw_k$ = function (element) {
+  _no_name_provided__23.prototype.add_2bw_k$ = function (element) {
     throw UnsupportedOperationException_init_$Create$_0('Add is not supported on keys');
   };
-  _no_name_provided__20.prototype.add_2bq_k$ = function (element) {
+  _no_name_provided__23.prototype.add_2bq_k$ = function (element) {
     return this.add_2bw_k$((element == null ? true : isObject(element)) ? element : THROW_CCE());
   };
-  _no_name_provided__20.prototype.clear_sv8swh_k$ = function () {
-    this._this$0_3.clear_sv8swh_k$();
+  _no_name_provided__23.prototype.clear_sv8swh_k$ = function () {
+    this._this$0_4.clear_sv8swh_k$();
   };
-  _no_name_provided__20.prototype.contains_2bw_k$ = function (element) {
-    return this._this$0_3.containsKey_2bw_k$(element);
+  _no_name_provided__23.prototype.contains_2bw_k$ = function (element) {
+    return this._this$0_4.containsKey_2bw_k$(element);
   };
-  _no_name_provided__20.prototype.contains_2bq_k$ = function (element) {
+  _no_name_provided__23.prototype.contains_2bq_k$ = function (element) {
     if (!(element == null ? true : isObject(element)))
       return false;
     else {
     }
     return this.contains_2bw_k$((element == null ? true : isObject(element)) ? element : THROW_CCE());
   };
-  _no_name_provided__20.prototype.iterator_0_k$ = function () {
-    var entryIterator = this._this$0_3._get_entries__0_k$().iterator_0_k$();
-    return new _no_name_provided__18(entryIterator);
+  _no_name_provided__23.prototype.iterator_0_k$ = function () {
+    var entryIterator = this._this$0_4._get_entries__0_k$().iterator_0_k$();
+    return new _no_name_provided__21(entryIterator);
   };
-  _no_name_provided__20.prototype.remove_2bw_k$ = function (element) {
+  _no_name_provided__23.prototype.remove_2bw_k$ = function (element) {
     this.checkIsMutable_sv8swh_k$();
-    if (this._this$0_3.containsKey_2bw_k$(element)) {
-      this._this$0_3.remove_2bw_k$(element);
+    if (this._this$0_4.containsKey_2bw_k$(element)) {
+      this._this$0_4.remove_2bw_k$(element);
       Unit_getInstance();
       return true;
     }return false;
   };
-  _no_name_provided__20.prototype.remove_2bq_k$ = function (element) {
+  _no_name_provided__23.prototype.remove_2bq_k$ = function (element) {
     if (!(element == null ? true : isObject(element)))
       return false;
     else {
     }
     return this.remove_2bw_k$((element == null ? true : isObject(element)) ? element : THROW_CCE());
   };
-  _no_name_provided__20.prototype._get_size__0_k$ = function () {
-    return this._this$0_3._get_size__0_k$();
+  _no_name_provided__23.prototype._get_size__0_k$ = function () {
+    return this._this$0_4._get_size__0_k$();
   };
-  _no_name_provided__20.prototype.checkIsMutable_sv8swh_k$ = function () {
-    return this._this$0_3.checkIsMutable_sv8swh_k$();
+  _no_name_provided__23.prototype.checkIsMutable_sv8swh_k$ = function () {
+    return this._this$0_4.checkIsMutable_sv8swh_k$();
   };
-  _no_name_provided__20.$metadata$ = {
+  _no_name_provided__23.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__21(this$0) {
-    this._this$0_4 = this$0;
+  function _no_name_provided__24(this$0) {
+    this._this$0_5 = this$0;
     AbstractMutableCollection.call(this);
   }
-  _no_name_provided__21.prototype.add_2c7_k$ = function (element) {
+  _no_name_provided__24.prototype.add_2c7_k$ = function (element) {
     throw UnsupportedOperationException_init_$Create$_0('Add is not supported on values');
   };
-  _no_name_provided__21.prototype.add_2bq_k$ = function (element) {
+  _no_name_provided__24.prototype.add_2bq_k$ = function (element) {
     return this.add_2c7_k$((element == null ? true : isObject(element)) ? element : THROW_CCE());
   };
-  _no_name_provided__21.prototype.clear_sv8swh_k$ = function () {
-    return this._this$0_4.clear_sv8swh_k$();
+  _no_name_provided__24.prototype.clear_sv8swh_k$ = function () {
+    return this._this$0_5.clear_sv8swh_k$();
   };
-  _no_name_provided__21.prototype.contains_2c7_k$ = function (element) {
-    return this._this$0_4.containsValue_2c7_k$(element);
+  _no_name_provided__24.prototype.contains_2c7_k$ = function (element) {
+    return this._this$0_5.containsValue_2c7_k$(element);
   };
-  _no_name_provided__21.prototype.contains_2bq_k$ = function (element) {
+  _no_name_provided__24.prototype.contains_2bq_k$ = function (element) {
     if (!(element == null ? true : isObject(element)))
       return false;
     else {
     }
     return this.contains_2c7_k$((element == null ? true : isObject(element)) ? element : THROW_CCE());
   };
-  _no_name_provided__21.prototype.iterator_0_k$ = function () {
-    var entryIterator = this._this$0_4._get_entries__0_k$().iterator_0_k$();
-    return new _no_name_provided__19(entryIterator);
+  _no_name_provided__24.prototype.iterator_0_k$ = function () {
+    var entryIterator = this._this$0_5._get_entries__0_k$().iterator_0_k$();
+    return new _no_name_provided__22(entryIterator);
   };
-  _no_name_provided__21.prototype._get_size__0_k$ = function () {
-    return this._this$0_4._get_size__0_k$();
+  _no_name_provided__24.prototype._get_size__0_k$ = function () {
+    return this._this$0_5._get_size__0_k$();
   };
-  _no_name_provided__21.prototype.equals = function (other) {
+  _no_name_provided__24.prototype.equals = function (other) {
     if (this === other)
       return true;
     if (!(!(other == null) ? isInterface(other, Collection) : false))
@@ -15169,13 +15735,13 @@
     }
     return Companion_getInstance().orderedEquals_tuq55s_k$(this, other);
   };
-  _no_name_provided__21.prototype.hashCode = function () {
+  _no_name_provided__24.prototype.hashCode = function () {
     return Companion_getInstance().orderedHashCode_dxd51x_k$(this);
   };
-  _no_name_provided__21.prototype.checkIsMutable_sv8swh_k$ = function () {
-    return this._this$0_4.checkIsMutable_sv8swh_k$();
+  _no_name_provided__24.prototype.checkIsMutable_sv8swh_k$ = function () {
+    return this._this$0_5.checkIsMutable_sv8swh_k$();
   };
-  _no_name_provided__21.$metadata$ = {
+  _no_name_provided__24.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -15190,7 +15756,7 @@
   AbstractMutableMap.prototype._get_keys__0_k$ = function () {
     if (this.__keys_0 == null) {
       var tmp = this;
-      tmp.__keys_0 = new _no_name_provided__20(this);
+      tmp.__keys_0 = new _no_name_provided__23(this);
     }return ensureNotNull(this.__keys_0);
   };
   AbstractMutableMap.prototype.putAll_nn707j_k$ = function (from) {
@@ -15222,7 +15788,7 @@
   AbstractMutableMap.prototype._get_values__0_k$ = function () {
     if (this.__values_0 == null) {
       var tmp = this;
-      tmp.__values_0 = new _no_name_provided__21(this);
+      tmp.__values_0 = new _no_name_provided__24(this);
     }return ensureNotNull(this.__values_0);
   };
   AbstractMutableMap.prototype.remove_2bw_k$ = function (key_0) {
@@ -15631,7 +16197,7 @@
   var _stableSortingIsSupported;
   function sortArrayWith(array, comparator) {
     if (getStableSortingIsSupported()) {
-      var comparison = _no_name_provided_$factory_11(comparator);
+      var comparison = _no_name_provided_$factory_12(comparator);
       var tmp$ret$0;
       $l$block: {
         tmp$ret$0 = array;
@@ -15686,7 +16252,7 @@
         tmp$ret$2.push(index);
       }
        while (inductionVariable < 600);
-    var comparison = _no_name_provided_$factory_12();
+    var comparison = _no_name_provided_$factory_13();
     var tmp$ret$3;
     $l$block_1: {
       tmp$ret$3 = array;
@@ -15782,41 +16348,41 @@
        while (!(i === end_0));
     return target;
   }
-  function _no_name_provided__22($comparator) {
+  function _no_name_provided__25($comparator) {
     this._$comparator = $comparator;
   }
-  _no_name_provided__22.prototype.invoke_1qgdm_k$ = function (a, b) {
+  _no_name_provided__25.prototype.invoke_1qgdm_k$ = function (a, b) {
     return this._$comparator.compare(a, b);
   };
-  _no_name_provided__22.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__25.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE();
     return this.invoke_1qgdm_k$(tmp, (p2 == null ? true : isObject(p2)) ? p2 : THROW_CCE());
   };
-  _no_name_provided__22.$metadata$ = {
+  _no_name_provided__25.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__23() {
+  function _no_name_provided__26() {
   }
-  _no_name_provided__23.prototype.invoke_27zxwg_k$ = function (a, b) {
+  _no_name_provided__26.prototype.invoke_27zxwg_k$ = function (a, b) {
     return (a & 3) - (b & 3) | 0;
   };
-  _no_name_provided__23.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__26.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? typeof p1 === 'number' : false) ? p1 : THROW_CCE();
     return this.invoke_27zxwg_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
   };
-  _no_name_provided__23.$metadata$ = {
+  _no_name_provided__26.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided_$factory_11($comparator) {
-    var i = new _no_name_provided__22($comparator);
+  function _no_name_provided_$factory_12($comparator) {
+    var i = new _no_name_provided__25($comparator);
     return function (p1, p2) {
       return i.invoke_1qgdm_k$(p1, p2);
     };
   }
-  function _no_name_provided_$factory_12() {
-    var i = new _no_name_provided__23();
+  function _no_name_provided_$factory_13() {
+    var i = new _no_name_provided__26();
     return function (p1, p2) {
       return i.invoke_27zxwg_k$(p1, p2);
     };
@@ -16144,7 +16710,7 @@
     }var tmp1_this = $this;
     tmp1_this._keyIndex = tmp1_this._keyIndex + 1 | 0;
     if (tmp1_this._keyIndex < $this._keys.length) {
-      $this._chainOrEntry = $this._this$0_5._backingMap[$this._keys[$this._keyIndex]];
+      $this._chainOrEntry = $this._this$0_6._backingMap[$this._keys[$this._keyIndex]];
       var tmp = $this;
       var tmp_0 = $this._chainOrEntry;
       tmp._isChain = !(tmp_0 == null) ? isArray(tmp_0) : false;
@@ -16218,61 +16784,61 @@
     var chainOrEntry = $this._backingMap[hashCode_2];
     return chainOrEntry === undefined ? null : chainOrEntry;
   }
-  function _no_name_provided__24(this$0) {
-    this._this$0_5 = this$0;
+  function _no_name_provided__27(this$0) {
+    this._this$0_6 = this$0;
     this._state_0 = -1;
-    this._keys = Object.keys(this._this$0_5._backingMap);
+    this._keys = Object.keys(this._this$0_6._backingMap);
     this._keyIndex = -1;
     this._chainOrEntry = null;
     this._isChain = false;
     this._itemIndex = -1;
     this._lastEntry = null;
   }
-  _no_name_provided__24.prototype._set_state__majfzk_k$ = function (_set___) {
+  _no_name_provided__27.prototype._set_state__majfzk_k$ = function (_set___) {
     this._state_0 = _set___;
   };
-  _no_name_provided__24.prototype._get_state__0_k$ = function () {
+  _no_name_provided__27.prototype._get_state__0_k$ = function () {
     return this._state_0;
   };
-  _no_name_provided__24.prototype._get_keys__0_k$ = function () {
+  _no_name_provided__27.prototype._get_keys__0_k$ = function () {
     return this._keys;
   };
-  _no_name_provided__24.prototype._set_keyIndex__majfzk_k$ = function (_set___) {
+  _no_name_provided__27.prototype._set_keyIndex__majfzk_k$ = function (_set___) {
     this._keyIndex = _set___;
   };
-  _no_name_provided__24.prototype._get_keyIndex__0_k$ = function () {
+  _no_name_provided__27.prototype._get_keyIndex__0_k$ = function () {
     return this._keyIndex;
   };
-  _no_name_provided__24.prototype._set_chainOrEntry__h9nkbz_k$ = function (_set___) {
+  _no_name_provided__27.prototype._set_chainOrEntry__h9nkbz_k$ = function (_set___) {
     this._chainOrEntry = _set___;
   };
-  _no_name_provided__24.prototype._get_chainOrEntry__0_k$ = function () {
+  _no_name_provided__27.prototype._get_chainOrEntry__0_k$ = function () {
     return this._chainOrEntry;
   };
-  _no_name_provided__24.prototype._set_isChain__rpwsgn_k$ = function (_set___) {
+  _no_name_provided__27.prototype._set_isChain__rpwsgn_k$ = function (_set___) {
     this._isChain = _set___;
   };
-  _no_name_provided__24.prototype._get_isChain__0_k$ = function () {
+  _no_name_provided__27.prototype._get_isChain__0_k$ = function () {
     return this._isChain;
   };
-  _no_name_provided__24.prototype._set_itemIndex__majfzk_k$ = function (_set___) {
+  _no_name_provided__27.prototype._set_itemIndex__majfzk_k$ = function (_set___) {
     this._itemIndex = _set___;
   };
-  _no_name_provided__24.prototype._get_itemIndex__0_k$ = function () {
+  _no_name_provided__27.prototype._get_itemIndex__0_k$ = function () {
     return this._itemIndex;
   };
-  _no_name_provided__24.prototype._set_lastEntry__jtch1k_k$ = function (_set___) {
+  _no_name_provided__27.prototype._set_lastEntry__jtch1k_k$ = function (_set___) {
     this._lastEntry = _set___;
   };
-  _no_name_provided__24.prototype._get_lastEntry__0_k$ = function () {
+  _no_name_provided__27.prototype._get_lastEntry__0_k$ = function () {
     return this._lastEntry;
   };
-  _no_name_provided__24.prototype.hasNext_0_k$ = function () {
+  _no_name_provided__27.prototype.hasNext_0_k$ = function () {
     if (this._state_0 === -1)
       this._state_0 = computeNext(this);
     return this._state_0 === 0;
   };
-  _no_name_provided__24.prototype.next_0_k$ = function () {
+  _no_name_provided__27.prototype.next_0_k$ = function () {
     if (!this.hasNext_0_k$())
       throw NoSuchElementException_init_$Create$();
     var tmp;
@@ -16298,7 +16864,7 @@
     this._state_0 = -1;
     return lastEntry;
   };
-  _no_name_provided__24.prototype.remove_sv8swh_k$ = function () {
+  _no_name_provided__27.prototype.remove_sv8swh_k$ = function () {
     var tmp$ret$2;
     $l$block_1: {
       var tmp0_checkNotNull_0 = this._lastEntry;
@@ -16325,7 +16891,7 @@
       break $l$block_1;
     }
     Unit_getInstance();
-    this._this$0_5.remove_2bw_k$(ensureNotNull(this._lastEntry)._get_key__0_k$());
+    this._this$0_6.remove_2bw_k$(ensureNotNull(this._lastEntry)._get_key__0_k$());
     Unit_getInstance();
     this._lastEntry = null;
     var tmp0_this = this;
@@ -16333,7 +16899,7 @@
     tmp0_this._itemIndex = tmp1 - 1 | 0;
     Unit_getInstance();
   };
-  _no_name_provided__24.$metadata$ = {
+  _no_name_provided__27.$metadata$ = {
     kind: 'class',
     interfaces: [MutableIterator]
   };
@@ -16475,7 +17041,7 @@
     return tmp0_safe_receiver == null ? null : tmp0_safe_receiver._get_value__0_k$();
   };
   InternalHashCodeMap.prototype.iterator_0_k$ = function () {
-    return new _no_name_provided__24(this);
+    return new _no_name_provided__27(this);
   };
   InternalHashCodeMap.$metadata$ = {
     simpleName: 'InternalHashCodeMap',
@@ -17630,13 +18196,6 @@
     kind: 'interface',
     interfaces: [KCallable]
   };
-  function KMutableProperty0() {
-  }
-  KMutableProperty0.$metadata$ = {
-    simpleName: 'KMutableProperty0',
-    kind: 'interface',
-    interfaces: [KProperty0, KMutableProperty]
-  };
   function KMutableProperty() {
   }
   KMutableProperty.$metadata$ = {
@@ -17657,6 +18216,13 @@
     simpleName: 'KProperty2',
     kind: 'interface',
     interfaces: [KProperty]
+  };
+  function KMutableProperty0() {
+  }
+  KMutableProperty0.$metadata$ = {
+    simpleName: 'KMutableProperty0',
+    kind: 'interface',
+    interfaces: [KProperty0, KMutableProperty]
   };
   function KMutableProperty2() {
   }
@@ -17712,16 +18278,16 @@
       return '*';
     return prefixString(_this_._variance) + toString_0(_this_._type);
   }
-  function _no_name_provided__25(this$0) {
-    this._this$0_6 = this$0;
+  function _no_name_provided__28(this$0) {
+    this._this$0_7 = this$0;
   }
-  _no_name_provided__25.prototype.invoke_xpnw45_k$ = function (it) {
-    return asString(it, this._this$0_6);
+  _no_name_provided__28.prototype.invoke_xpnw45_k$ = function (it) {
+    return asString(it, this._this$0_7);
   };
-  _no_name_provided__25.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__28.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_xpnw45_k$(p1 instanceof KTypeProjection ? p1 : THROW_CCE());
   };
-  _no_name_provided__25.$metadata$ = {
+  _no_name_provided__28.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -17777,7 +18343,7 @@
     if (this._arguments.isEmpty_0_k$()) {
       tmp_0 = '';
     } else {
-      tmp_0 = joinToString$default_0(this._arguments, ', ', '<', '>', 0, null, _no_name_provided_$factory_13(this), 24, null);
+      tmp_0 = joinToString$default_0(this._arguments, ', ', '<', '>', 0, null, _no_name_provided_$factory_14(this), 24, null);
     }
     var args = tmp_0;
     var nullable = this._isMarkedNullable ? '?' : '';
@@ -17831,8 +18397,8 @@
       new DynamicKType();
     return DynamicKType_instance;
   }
-  function _no_name_provided_$factory_13(this$0) {
-    var i = new _no_name_provided__25(this$0);
+  function _no_name_provided_$factory_14(this$0) {
+    var i = new _no_name_provided__28(this$0);
     return function (p1) {
       return i.invoke_xpnw45_k$(p1);
     };
@@ -17918,46 +18484,10 @@
     return functionClasses;
   }
   var functionClasses;
-  function _no_name_provided__26() {
-  }
-  _no_name_provided__26.prototype.invoke_wi7j7l_k$ = function (it) {
-    return isObject(it);
-  };
-  _no_name_provided__26.prototype.invoke_20e8_k$ = function (p1) {
-    return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
-  };
-  _no_name_provided__26.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__27() {
-  }
-  _no_name_provided__27.prototype.invoke_wi7j7l_k$ = function (it) {
-    return isNumber(it);
-  };
-  _no_name_provided__27.prototype.invoke_20e8_k$ = function (p1) {
-    return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
-  };
-  _no_name_provided__27.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__28() {
-  }
-  _no_name_provided__28.prototype.invoke_wi7j7l_k$ = function (it) {
-    return !(it == null) ? typeof it === 'boolean' : false;
-  };
-  _no_name_provided__28.prototype.invoke_20e8_k$ = function (p1) {
-    return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
-  };
-  _no_name_provided__28.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
   function _no_name_provided__29() {
   }
   _no_name_provided__29.prototype.invoke_wi7j7l_k$ = function (it) {
-    return !(it == null) ? typeof it === 'number' : false;
+    return isObject(it);
   };
   _no_name_provided__29.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
@@ -17969,7 +18499,7 @@
   function _no_name_provided__30() {
   }
   _no_name_provided__30.prototype.invoke_wi7j7l_k$ = function (it) {
-    return !(it == null) ? typeof it === 'number' : false;
+    return isNumber(it);
   };
   _no_name_provided__30.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
@@ -17981,7 +18511,7 @@
   function _no_name_provided__31() {
   }
   _no_name_provided__31.prototype.invoke_wi7j7l_k$ = function (it) {
-    return !(it == null) ? typeof it === 'number' : false;
+    return !(it == null) ? typeof it === 'boolean' : false;
   };
   _no_name_provided__31.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
@@ -18017,7 +18547,7 @@
   function _no_name_provided__34() {
   }
   _no_name_provided__34.prototype.invoke_wi7j7l_k$ = function (it) {
-    return !(it == null) ? isArray(it) : false;
+    return !(it == null) ? typeof it === 'number' : false;
   };
   _no_name_provided__34.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
@@ -18029,7 +18559,7 @@
   function _no_name_provided__35() {
   }
   _no_name_provided__35.prototype.invoke_wi7j7l_k$ = function (it) {
-    return !(it == null) ? typeof it === 'string' : false;
+    return !(it == null) ? typeof it === 'number' : false;
   };
   _no_name_provided__35.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
@@ -18041,7 +18571,7 @@
   function _no_name_provided__36() {
   }
   _no_name_provided__36.prototype.invoke_wi7j7l_k$ = function (it) {
-    return it instanceof Error;
+    return !(it == null) ? typeof it === 'number' : false;
   };
   _no_name_provided__36.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
@@ -18053,7 +18583,7 @@
   function _no_name_provided__37() {
   }
   _no_name_provided__37.prototype.invoke_wi7j7l_k$ = function (it) {
-    return !(it == null) ? isBooleanArray(it) : false;
+    return !(it == null) ? isArray(it) : false;
   };
   _no_name_provided__37.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
@@ -18065,7 +18595,7 @@
   function _no_name_provided__38() {
   }
   _no_name_provided__38.prototype.invoke_wi7j7l_k$ = function (it) {
-    return !(it == null) ? isCharArray(it) : false;
+    return !(it == null) ? typeof it === 'string' : false;
   };
   _no_name_provided__38.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
@@ -18077,7 +18607,7 @@
   function _no_name_provided__39() {
   }
   _no_name_provided__39.prototype.invoke_wi7j7l_k$ = function (it) {
-    return !(it == null) ? isByteArray(it) : false;
+    return it instanceof Error;
   };
   _no_name_provided__39.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
@@ -18089,7 +18619,7 @@
   function _no_name_provided__40() {
   }
   _no_name_provided__40.prototype.invoke_wi7j7l_k$ = function (it) {
-    return !(it == null) ? isShortArray(it) : false;
+    return !(it == null) ? isBooleanArray(it) : false;
   };
   _no_name_provided__40.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
@@ -18101,7 +18631,7 @@
   function _no_name_provided__41() {
   }
   _no_name_provided__41.prototype.invoke_wi7j7l_k$ = function (it) {
-    return !(it == null) ? isIntArray(it) : false;
+    return !(it == null) ? isCharArray(it) : false;
   };
   _no_name_provided__41.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
@@ -18113,7 +18643,7 @@
   function _no_name_provided__42() {
   }
   _no_name_provided__42.prototype.invoke_wi7j7l_k$ = function (it) {
-    return !(it == null) ? isLongArray(it) : false;
+    return !(it == null) ? isByteArray(it) : false;
   };
   _no_name_provided__42.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
@@ -18125,7 +18655,7 @@
   function _no_name_provided__43() {
   }
   _no_name_provided__43.prototype.invoke_wi7j7l_k$ = function (it) {
-    return !(it == null) ? isFloatArray(it) : false;
+    return !(it == null) ? isShortArray(it) : false;
   };
   _no_name_provided__43.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
@@ -18137,7 +18667,7 @@
   function _no_name_provided__44() {
   }
   _no_name_provided__44.prototype.invoke_wi7j7l_k$ = function (it) {
-    return !(it == null) ? isDoubleArray(it) : false;
+    return !(it == null) ? isIntArray(it) : false;
   };
   _no_name_provided__44.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
@@ -18146,10 +18676,46 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__45($arity) {
-    this._$arity = $arity;
+  function _no_name_provided__45() {
   }
   _no_name_provided__45.prototype.invoke_wi7j7l_k$ = function (it) {
+    return !(it == null) ? isLongArray(it) : false;
+  };
+  _no_name_provided__45.prototype.invoke_20e8_k$ = function (p1) {
+    return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
+  };
+  _no_name_provided__45.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__46() {
+  }
+  _no_name_provided__46.prototype.invoke_wi7j7l_k$ = function (it) {
+    return !(it == null) ? isFloatArray(it) : false;
+  };
+  _no_name_provided__46.prototype.invoke_20e8_k$ = function (p1) {
+    return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
+  };
+  _no_name_provided__46.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__47() {
+  }
+  _no_name_provided__47.prototype.invoke_wi7j7l_k$ = function (it) {
+    return !(it == null) ? isDoubleArray(it) : false;
+  };
+  _no_name_provided__47.prototype.invoke_20e8_k$ = function (p1) {
+    return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
+  };
+  _no_name_provided__47.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__48($arity) {
+    this._$arity = $arity;
+  }
+  _no_name_provided__48.prototype.invoke_wi7j7l_k$ = function (it) {
     var tmp;
     if (typeof it === 'function') {
       var tmp$ret$0;
@@ -18163,10 +18729,10 @@
     }
     return tmp;
   };
-  _no_name_provided__45.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__48.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
   };
-  _no_name_provided__45.$metadata$ = {
+  _no_name_provided__48.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -18180,7 +18746,7 @@
       break $l$block;
     }
     var tmp_0 = tmp$ret$0;
-    tmp._anyClass = new PrimitiveKClassImpl(tmp_0, 'Any', _no_name_provided_$factory_14());
+    tmp._anyClass = new PrimitiveKClassImpl(tmp_0, 'Any', _no_name_provided_$factory_15());
     var tmp_1 = this;
     var tmp$ret$1;
     $l$block_0: {
@@ -18189,7 +18755,7 @@
       break $l$block_0;
     }
     var tmp_2 = tmp$ret$1;
-    tmp_1._numberClass = new PrimitiveKClassImpl(tmp_2, 'Number', _no_name_provided_$factory_15());
+    tmp_1._numberClass = new PrimitiveKClassImpl(tmp_2, 'Number', _no_name_provided_$factory_16());
     this._nothingClass = NothingKClassImpl_getInstance();
     var tmp_3 = this;
     var tmp$ret$2;
@@ -18199,7 +18765,7 @@
       break $l$block_1;
     }
     var tmp_4 = tmp$ret$2;
-    tmp_3._booleanClass = new PrimitiveKClassImpl(tmp_4, 'Boolean', _no_name_provided_$factory_16());
+    tmp_3._booleanClass = new PrimitiveKClassImpl(tmp_4, 'Boolean', _no_name_provided_$factory_17());
     var tmp_5 = this;
     var tmp$ret$3;
     $l$block_2: {
@@ -18208,7 +18774,7 @@
       break $l$block_2;
     }
     var tmp_6 = tmp$ret$3;
-    tmp_5._byteClass = new PrimitiveKClassImpl(tmp_6, 'Byte', _no_name_provided_$factory_17());
+    tmp_5._byteClass = new PrimitiveKClassImpl(tmp_6, 'Byte', _no_name_provided_$factory_18());
     var tmp_7 = this;
     var tmp$ret$4;
     $l$block_3: {
@@ -18217,7 +18783,7 @@
       break $l$block_3;
     }
     var tmp_8 = tmp$ret$4;
-    tmp_7._shortClass = new PrimitiveKClassImpl(tmp_8, 'Short', _no_name_provided_$factory_18());
+    tmp_7._shortClass = new PrimitiveKClassImpl(tmp_8, 'Short', _no_name_provided_$factory_19());
     var tmp_9 = this;
     var tmp$ret$5;
     $l$block_4: {
@@ -18226,7 +18792,7 @@
       break $l$block_4;
     }
     var tmp_10 = tmp$ret$5;
-    tmp_9._intClass = new PrimitiveKClassImpl(tmp_10, 'Int', _no_name_provided_$factory_19());
+    tmp_9._intClass = new PrimitiveKClassImpl(tmp_10, 'Int', _no_name_provided_$factory_20());
     var tmp_11 = this;
     var tmp$ret$6;
     $l$block_5: {
@@ -18235,7 +18801,7 @@
       break $l$block_5;
     }
     var tmp_12 = tmp$ret$6;
-    tmp_11._floatClass = new PrimitiveKClassImpl(tmp_12, 'Float', _no_name_provided_$factory_20());
+    tmp_11._floatClass = new PrimitiveKClassImpl(tmp_12, 'Float', _no_name_provided_$factory_21());
     var tmp_13 = this;
     var tmp$ret$7;
     $l$block_6: {
@@ -18244,7 +18810,7 @@
       break $l$block_6;
     }
     var tmp_14 = tmp$ret$7;
-    tmp_13._doubleClass = new PrimitiveKClassImpl(tmp_14, 'Double', _no_name_provided_$factory_21());
+    tmp_13._doubleClass = new PrimitiveKClassImpl(tmp_14, 'Double', _no_name_provided_$factory_22());
     var tmp_15 = this;
     var tmp$ret$8;
     $l$block_7: {
@@ -18253,7 +18819,7 @@
       break $l$block_7;
     }
     var tmp_16 = tmp$ret$8;
-    tmp_15._arrayClass = new PrimitiveKClassImpl(tmp_16, 'Array', _no_name_provided_$factory_22());
+    tmp_15._arrayClass = new PrimitiveKClassImpl(tmp_16, 'Array', _no_name_provided_$factory_23());
     var tmp_17 = this;
     var tmp$ret$9;
     $l$block_8: {
@@ -18262,7 +18828,7 @@
       break $l$block_8;
     }
     var tmp_18 = tmp$ret$9;
-    tmp_17._stringClass = new PrimitiveKClassImpl(tmp_18, 'String', _no_name_provided_$factory_23());
+    tmp_17._stringClass = new PrimitiveKClassImpl(tmp_18, 'String', _no_name_provided_$factory_24());
     var tmp_19 = this;
     var tmp$ret$10;
     $l$block_9: {
@@ -18271,7 +18837,7 @@
       break $l$block_9;
     }
     var tmp_20 = tmp$ret$10;
-    tmp_19._throwableClass = new PrimitiveKClassImpl(tmp_20, 'Throwable', _no_name_provided_$factory_24());
+    tmp_19._throwableClass = new PrimitiveKClassImpl(tmp_20, 'Throwable', _no_name_provided_$factory_25());
     var tmp_21 = this;
     var tmp$ret$11;
     $l$block_10: {
@@ -18280,7 +18846,7 @@
       break $l$block_10;
     }
     var tmp_22 = tmp$ret$11;
-    tmp_21._booleanArrayClass = new PrimitiveKClassImpl(tmp_22, 'BooleanArray', _no_name_provided_$factory_25());
+    tmp_21._booleanArrayClass = new PrimitiveKClassImpl(tmp_22, 'BooleanArray', _no_name_provided_$factory_26());
     var tmp_23 = this;
     var tmp$ret$12;
     $l$block_11: {
@@ -18289,7 +18855,7 @@
       break $l$block_11;
     }
     var tmp_24 = tmp$ret$12;
-    tmp_23._charArrayClass = new PrimitiveKClassImpl(tmp_24, 'CharArray', _no_name_provided_$factory_26());
+    tmp_23._charArrayClass = new PrimitiveKClassImpl(tmp_24, 'CharArray', _no_name_provided_$factory_27());
     var tmp_25 = this;
     var tmp$ret$13;
     $l$block_12: {
@@ -18298,7 +18864,7 @@
       break $l$block_12;
     }
     var tmp_26 = tmp$ret$13;
-    tmp_25._byteArrayClass = new PrimitiveKClassImpl(tmp_26, 'ByteArray', _no_name_provided_$factory_27());
+    tmp_25._byteArrayClass = new PrimitiveKClassImpl(tmp_26, 'ByteArray', _no_name_provided_$factory_28());
     var tmp_27 = this;
     var tmp$ret$14;
     $l$block_13: {
@@ -18307,7 +18873,7 @@
       break $l$block_13;
     }
     var tmp_28 = tmp$ret$14;
-    tmp_27._shortArrayClass = new PrimitiveKClassImpl(tmp_28, 'ShortArray', _no_name_provided_$factory_28());
+    tmp_27._shortArrayClass = new PrimitiveKClassImpl(tmp_28, 'ShortArray', _no_name_provided_$factory_29());
     var tmp_29 = this;
     var tmp$ret$15;
     $l$block_14: {
@@ -18316,7 +18882,7 @@
       break $l$block_14;
     }
     var tmp_30 = tmp$ret$15;
-    tmp_29._intArrayClass = new PrimitiveKClassImpl(tmp_30, 'IntArray', _no_name_provided_$factory_29());
+    tmp_29._intArrayClass = new PrimitiveKClassImpl(tmp_30, 'IntArray', _no_name_provided_$factory_30());
     var tmp_31 = this;
     var tmp$ret$16;
     $l$block_15: {
@@ -18325,7 +18891,7 @@
       break $l$block_15;
     }
     var tmp_32 = tmp$ret$16;
-    tmp_31._longArrayClass = new PrimitiveKClassImpl(tmp_32, 'LongArray', _no_name_provided_$factory_30());
+    tmp_31._longArrayClass = new PrimitiveKClassImpl(tmp_32, 'LongArray', _no_name_provided_$factory_31());
     var tmp_33 = this;
     var tmp$ret$17;
     $l$block_16: {
@@ -18334,7 +18900,7 @@
       break $l$block_16;
     }
     var tmp_34 = tmp$ret$17;
-    tmp_33._floatArrayClass = new PrimitiveKClassImpl(tmp_34, 'FloatArray', _no_name_provided_$factory_31());
+    tmp_33._floatArrayClass = new PrimitiveKClassImpl(tmp_34, 'FloatArray', _no_name_provided_$factory_32());
     var tmp_35 = this;
     var tmp$ret$18;
     $l$block_17: {
@@ -18343,7 +18909,7 @@
       break $l$block_17;
     }
     var tmp_36 = tmp$ret$18;
-    tmp_35._doubleArrayClass = new PrimitiveKClassImpl(tmp_36, 'DoubleArray', _no_name_provided_$factory_32());
+    tmp_35._doubleArrayClass = new PrimitiveKClassImpl(tmp_36, 'DoubleArray', _no_name_provided_$factory_33());
   }
   PrimitiveClasses_0.prototype._get_anyClass__0_k$ = function () {
     return this._anyClass;
@@ -18423,7 +18989,7 @@
           }
           var tmp_0 = tmp$ret$0;
           var tmp_1 = '' + 'Function' + arity;
-          var result_2 = new PrimitiveKClassImpl(tmp_0, tmp_1, _no_name_provided_$factory_33(arity));
+          var result_2 = new PrimitiveKClassImpl(tmp_0, tmp_1, _no_name_provided_$factory_34(arity));
           var tmp$ret$1;
           $l$block_0: {
             var tmp1_asDynamic_0_5 = functionClasses;
@@ -18534,122 +19100,122 @@
       new PrimitiveClasses_0();
     return PrimitiveClasses_instance;
   }
-  function _no_name_provided_$factory_14() {
-    var i = new _no_name_provided__26();
-    return function (p1) {
-      return i.invoke_wi7j7l_k$(p1);
-    };
-  }
   function _no_name_provided_$factory_15() {
-    var i = new _no_name_provided__27();
-    return function (p1) {
-      return i.invoke_wi7j7l_k$(p1);
-    };
-  }
-  function _no_name_provided_$factory_16() {
-    var i = new _no_name_provided__28();
-    return function (p1) {
-      return i.invoke_wi7j7l_k$(p1);
-    };
-  }
-  function _no_name_provided_$factory_17() {
     var i = new _no_name_provided__29();
     return function (p1) {
       return i.invoke_wi7j7l_k$(p1);
     };
   }
-  function _no_name_provided_$factory_18() {
+  function _no_name_provided_$factory_16() {
     var i = new _no_name_provided__30();
     return function (p1) {
       return i.invoke_wi7j7l_k$(p1);
     };
   }
-  function _no_name_provided_$factory_19() {
+  function _no_name_provided_$factory_17() {
     var i = new _no_name_provided__31();
     return function (p1) {
       return i.invoke_wi7j7l_k$(p1);
     };
   }
-  function _no_name_provided_$factory_20() {
+  function _no_name_provided_$factory_18() {
     var i = new _no_name_provided__32();
     return function (p1) {
       return i.invoke_wi7j7l_k$(p1);
     };
   }
-  function _no_name_provided_$factory_21() {
+  function _no_name_provided_$factory_19() {
     var i = new _no_name_provided__33();
     return function (p1) {
       return i.invoke_wi7j7l_k$(p1);
     };
   }
-  function _no_name_provided_$factory_22() {
+  function _no_name_provided_$factory_20() {
     var i = new _no_name_provided__34();
     return function (p1) {
       return i.invoke_wi7j7l_k$(p1);
     };
   }
-  function _no_name_provided_$factory_23() {
+  function _no_name_provided_$factory_21() {
     var i = new _no_name_provided__35();
     return function (p1) {
       return i.invoke_wi7j7l_k$(p1);
     };
   }
-  function _no_name_provided_$factory_24() {
+  function _no_name_provided_$factory_22() {
     var i = new _no_name_provided__36();
     return function (p1) {
       return i.invoke_wi7j7l_k$(p1);
     };
   }
-  function _no_name_provided_$factory_25() {
+  function _no_name_provided_$factory_23() {
     var i = new _no_name_provided__37();
     return function (p1) {
       return i.invoke_wi7j7l_k$(p1);
     };
   }
-  function _no_name_provided_$factory_26() {
+  function _no_name_provided_$factory_24() {
     var i = new _no_name_provided__38();
     return function (p1) {
       return i.invoke_wi7j7l_k$(p1);
     };
   }
-  function _no_name_provided_$factory_27() {
+  function _no_name_provided_$factory_25() {
     var i = new _no_name_provided__39();
     return function (p1) {
       return i.invoke_wi7j7l_k$(p1);
     };
   }
-  function _no_name_provided_$factory_28() {
+  function _no_name_provided_$factory_26() {
     var i = new _no_name_provided__40();
     return function (p1) {
       return i.invoke_wi7j7l_k$(p1);
     };
   }
-  function _no_name_provided_$factory_29() {
+  function _no_name_provided_$factory_27() {
     var i = new _no_name_provided__41();
     return function (p1) {
       return i.invoke_wi7j7l_k$(p1);
     };
   }
-  function _no_name_provided_$factory_30() {
+  function _no_name_provided_$factory_28() {
     var i = new _no_name_provided__42();
     return function (p1) {
       return i.invoke_wi7j7l_k$(p1);
     };
   }
-  function _no_name_provided_$factory_31() {
+  function _no_name_provided_$factory_29() {
     var i = new _no_name_provided__43();
     return function (p1) {
       return i.invoke_wi7j7l_k$(p1);
     };
   }
-  function _no_name_provided_$factory_32() {
+  function _no_name_provided_$factory_30() {
     var i = new _no_name_provided__44();
     return function (p1) {
       return i.invoke_wi7j7l_k$(p1);
     };
   }
-  function _no_name_provided_$factory_33($arity) {
-    var i = new _no_name_provided__45($arity);
+  function _no_name_provided_$factory_31() {
+    var i = new _no_name_provided__45();
+    return function (p1) {
+      return i.invoke_wi7j7l_k$(p1);
+    };
+  }
+  function _no_name_provided_$factory_32() {
+    var i = new _no_name_provided__46();
+    return function (p1) {
+      return i.invoke_wi7j7l_k$(p1);
+    };
+  }
+  function _no_name_provided_$factory_33() {
+    var i = new _no_name_provided__47();
+    return function (p1) {
+      return i.invoke_wi7j7l_k$(p1);
+    };
+  }
+  function _no_name_provided_$factory_34($arity) {
+    var i = new _no_name_provided__48($arity);
     return function (p1) {
       return i.invoke_wi7j7l_k$(p1);
     };
@@ -19756,7 +20322,7 @@
     }
     return tmp$ret$0.lastIndexOf(str, fromIndex);
   }
-  function substring(_this_, startIndex, endIndex) {
+  function substring_1(_this_, startIndex, endIndex) {
     var tmp$ret$0;
     $l$block: {
       tmp$ret$0 = _this_;
@@ -19764,7 +20330,7 @@
     }
     return tmp$ret$0.substring(startIndex, endIndex);
   }
-  function substring_0(_this_, startIndex) {
+  function substring_2(_this_, startIndex) {
     var tmp$ret$0;
     $l$block: {
       tmp$ret$0 = _this_;
@@ -19931,14 +20497,6 @@
       endIndex = _this_.length;
     return concatToString_0(_this_, startIndex, endIndex);
   }
-  function nativeStartsWith(_this_, s_0, position) {
-    var tmp$ret$0;
-    $l$block: {
-      tmp$ret$0 = _this_;
-      break $l$block;
-    }
-    return tmp$ret$0.startsWith(s_0, position);
-  }
   function nativeIndexOf(_this_, str, fromIndex) {
     var tmp$ret$0;
     $l$block: {
@@ -19946,6 +20504,14 @@
       break $l$block;
     }
     return tmp$ret$0.indexOf(str, fromIndex);
+  }
+  function nativeStartsWith(_this_, s_0, position) {
+    var tmp$ret$0;
+    $l$block: {
+      tmp$ret$0 = _this_;
+      break $l$block;
+    }
+    return tmp$ret$0.startsWith(s_0, position);
   }
   function match(_this_, regex) {
     var tmp$ret$0;
@@ -19969,27 +20535,27 @@
     kind: 'class',
     interfaces: [Comparator]
   };
-  function _no_name_provided__46() {
+  function _no_name_provided__49() {
   }
-  _no_name_provided__46.prototype.invoke_jg38oy_k$ = function (a, b) {
+  _no_name_provided__49.prototype.invoke_jg38oy_k$ = function (a, b) {
     return compareTo(a, b, true);
   };
-  _no_name_provided__46.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__49.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? typeof p1 === 'string' : false) ? p1 : THROW_CCE();
     return this.invoke_jg38oy_k$(tmp, (!(p2 == null) ? typeof p2 === 'string' : false) ? p2 : THROW_CCE());
   };
-  _no_name_provided__46.$metadata$ = {
+  _no_name_provided__49.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided_$factory_34() {
-    var i = new _no_name_provided__46();
+  function _no_name_provided_$factory_35() {
+    var i = new _no_name_provided__49();
     return function (p1, p2) {
       return i.invoke_jg38oy_k$(p1, p2);
     };
   }
   function STRING_CASE_INSENSITIVE_ORDER$init$() {
-    var tmp = _no_name_provided_$factory_34();
+    var tmp = _no_name_provided_$factory_35();
     return new sam$kotlin_Comparator$0_1(tmp);
   }
   function regionMatches(_this_, thisOffset, other, otherOffset, length, ignoreCase) {
@@ -20704,31 +21270,31 @@
     return result;
   }
   function arrayIterator(array) {
-    return new _no_name_provided__47(array);
-  }
-  function booleanArrayIterator(array) {
-    return new _no_name_provided__48(array);
-  }
-  function charArrayIterator(array) {
-    return new _no_name_provided__49(array);
-  }
-  function byteArrayIterator(array) {
     return new _no_name_provided__50(array);
   }
-  function shortArrayIterator(array) {
+  function booleanArrayIterator(array) {
     return new _no_name_provided__51(array);
   }
-  function intArrayIterator(array) {
+  function charArrayIterator(array) {
     return new _no_name_provided__52(array);
   }
-  function floatArrayIterator(array) {
+  function byteArrayIterator(array) {
     return new _no_name_provided__53(array);
   }
-  function longArrayIterator(array) {
+  function shortArrayIterator(array) {
     return new _no_name_provided__54(array);
   }
-  function doubleArrayIterator(array) {
+  function intArrayIterator(array) {
     return new _no_name_provided__55(array);
+  }
+  function floatArrayIterator(array) {
+    return new _no_name_provided__56(array);
+  }
+  function longArrayIterator(array) {
+    return new _no_name_provided__57(array);
+  }
+  function doubleArrayIterator(array) {
+    return new _no_name_provided__58(array);
   }
   function booleanArray(size_0) {
     var tmp$ret$1;
@@ -20873,20 +21439,20 @@
     }
     return tmp$ret$2;
   }
-  function _no_name_provided__47($array) {
+  function _no_name_provided__50($array) {
     this._$array = $array;
     this._index_7 = 0;
   }
-  _no_name_provided__47.prototype._set_index__majfzk_k$ = function (_set___) {
+  _no_name_provided__50.prototype._set_index__majfzk_k$ = function (_set___) {
     this._index_7 = _set___;
   };
-  _no_name_provided__47.prototype._get_index__0_k$ = function () {
+  _no_name_provided__50.prototype._get_index__0_k$ = function () {
     return this._index_7;
   };
-  _no_name_provided__47.prototype.hasNext_0_k$ = function () {
+  _no_name_provided__50.prototype.hasNext_0_k$ = function () {
     return !(this._index_7 === this._$array.length);
   };
-  _no_name_provided__47.prototype.next_0_k$ = function () {
+  _no_name_provided__50.prototype.next_0_k$ = function () {
     var tmp;
     if (!(this._index_7 === this._$array.length)) {
       var tmp0_this = this;
@@ -20898,25 +21464,25 @@
     }
     return tmp;
   };
-  _no_name_provided__47.$metadata$ = {
+  _no_name_provided__50.$metadata$ = {
     kind: 'class',
     interfaces: [Iterator_3]
   };
-  function _no_name_provided__48($array) {
+  function _no_name_provided__51($array) {
     this._$array_0 = $array;
     BooleanIterator.call(this);
     this._index_8 = 0;
   }
-  _no_name_provided__48.prototype._set_index__majfzk_k$ = function (_set___) {
+  _no_name_provided__51.prototype._set_index__majfzk_k$ = function (_set___) {
     this._index_8 = _set___;
   };
-  _no_name_provided__48.prototype._get_index__0_k$ = function () {
+  _no_name_provided__51.prototype._get_index__0_k$ = function () {
     return this._index_8;
   };
-  _no_name_provided__48.prototype.hasNext_0_k$ = function () {
+  _no_name_provided__51.prototype.hasNext_0_k$ = function () {
     return !(this._index_8 === this._$array_0.length);
   };
-  _no_name_provided__48.prototype.nextBoolean_0_k$ = function () {
+  _no_name_provided__51.prototype.nextBoolean_0_k$ = function () {
     var tmp;
     if (!(this._index_8 === this._$array_0.length)) {
       var tmp0_this = this;
@@ -20928,25 +21494,25 @@
     }
     return tmp;
   };
-  _no_name_provided__48.$metadata$ = {
+  _no_name_provided__51.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__49($array) {
+  function _no_name_provided__52($array) {
     this._$array_1 = $array;
     CharIterator.call(this);
     this._index_9 = 0;
   }
-  _no_name_provided__49.prototype._set_index__majfzk_k$ = function (_set___) {
+  _no_name_provided__52.prototype._set_index__majfzk_k$ = function (_set___) {
     this._index_9 = _set___;
   };
-  _no_name_provided__49.prototype._get_index__0_k$ = function () {
+  _no_name_provided__52.prototype._get_index__0_k$ = function () {
     return this._index_9;
   };
-  _no_name_provided__49.prototype.hasNext_0_k$ = function () {
+  _no_name_provided__52.prototype.hasNext_0_k$ = function () {
     return !(this._index_9 === this._$array_1.length);
   };
-  _no_name_provided__49.prototype.nextChar_0_k$ = function () {
+  _no_name_provided__52.prototype.nextChar_0_k$ = function () {
     var tmp;
     if (!(this._index_9 === this._$array_1.length)) {
       var tmp0_this = this;
@@ -20958,25 +21524,25 @@
     }
     return tmp;
   };
-  _no_name_provided__49.$metadata$ = {
+  _no_name_provided__52.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__50($array) {
+  function _no_name_provided__53($array) {
     this._$array_2 = $array;
     ByteIterator.call(this);
     this._index_10 = 0;
   }
-  _no_name_provided__50.prototype._set_index__majfzk_k$ = function (_set___) {
+  _no_name_provided__53.prototype._set_index__majfzk_k$ = function (_set___) {
     this._index_10 = _set___;
   };
-  _no_name_provided__50.prototype._get_index__0_k$ = function () {
+  _no_name_provided__53.prototype._get_index__0_k$ = function () {
     return this._index_10;
   };
-  _no_name_provided__50.prototype.hasNext_0_k$ = function () {
+  _no_name_provided__53.prototype.hasNext_0_k$ = function () {
     return !(this._index_10 === this._$array_2.length);
   };
-  _no_name_provided__50.prototype.nextByte_0_k$ = function () {
+  _no_name_provided__53.prototype.nextByte_0_k$ = function () {
     var tmp;
     if (!(this._index_10 === this._$array_2.length)) {
       var tmp0_this = this;
@@ -20988,25 +21554,25 @@
     }
     return tmp;
   };
-  _no_name_provided__50.$metadata$ = {
+  _no_name_provided__53.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__51($array) {
+  function _no_name_provided__54($array) {
     this._$array_3 = $array;
     ShortIterator.call(this);
     this._index_11 = 0;
   }
-  _no_name_provided__51.prototype._set_index__majfzk_k$ = function (_set___) {
+  _no_name_provided__54.prototype._set_index__majfzk_k$ = function (_set___) {
     this._index_11 = _set___;
   };
-  _no_name_provided__51.prototype._get_index__0_k$ = function () {
+  _no_name_provided__54.prototype._get_index__0_k$ = function () {
     return this._index_11;
   };
-  _no_name_provided__51.prototype.hasNext_0_k$ = function () {
+  _no_name_provided__54.prototype.hasNext_0_k$ = function () {
     return !(this._index_11 === this._$array_3.length);
   };
-  _no_name_provided__51.prototype.nextShort_0_k$ = function () {
+  _no_name_provided__54.prototype.nextShort_0_k$ = function () {
     var tmp;
     if (!(this._index_11 === this._$array_3.length)) {
       var tmp0_this = this;
@@ -21018,25 +21584,25 @@
     }
     return tmp;
   };
-  _no_name_provided__51.$metadata$ = {
+  _no_name_provided__54.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__52($array) {
+  function _no_name_provided__55($array) {
     this._$array_4 = $array;
     IntIterator.call(this);
     this._index_12 = 0;
   }
-  _no_name_provided__52.prototype._set_index__majfzk_k$ = function (_set___) {
+  _no_name_provided__55.prototype._set_index__majfzk_k$ = function (_set___) {
     this._index_12 = _set___;
   };
-  _no_name_provided__52.prototype._get_index__0_k$ = function () {
+  _no_name_provided__55.prototype._get_index__0_k$ = function () {
     return this._index_12;
   };
-  _no_name_provided__52.prototype.hasNext_0_k$ = function () {
+  _no_name_provided__55.prototype.hasNext_0_k$ = function () {
     return !(this._index_12 === this._$array_4.length);
   };
-  _no_name_provided__52.prototype.nextInt_0_k$ = function () {
+  _no_name_provided__55.prototype.nextInt_0_k$ = function () {
     var tmp;
     if (!(this._index_12 === this._$array_4.length)) {
       var tmp0_this = this;
@@ -21048,25 +21614,25 @@
     }
     return tmp;
   };
-  _no_name_provided__52.$metadata$ = {
+  _no_name_provided__55.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__53($array) {
+  function _no_name_provided__56($array) {
     this._$array_5 = $array;
     FloatIterator.call(this);
     this._index_13 = 0;
   }
-  _no_name_provided__53.prototype._set_index__majfzk_k$ = function (_set___) {
+  _no_name_provided__56.prototype._set_index__majfzk_k$ = function (_set___) {
     this._index_13 = _set___;
   };
-  _no_name_provided__53.prototype._get_index__0_k$ = function () {
+  _no_name_provided__56.prototype._get_index__0_k$ = function () {
     return this._index_13;
   };
-  _no_name_provided__53.prototype.hasNext_0_k$ = function () {
+  _no_name_provided__56.prototype.hasNext_0_k$ = function () {
     return !(this._index_13 === this._$array_5.length);
   };
-  _no_name_provided__53.prototype.nextFloat_0_k$ = function () {
+  _no_name_provided__56.prototype.nextFloat_0_k$ = function () {
     var tmp;
     if (!(this._index_13 === this._$array_5.length)) {
       var tmp0_this = this;
@@ -21078,25 +21644,25 @@
     }
     return tmp;
   };
-  _no_name_provided__53.$metadata$ = {
+  _no_name_provided__56.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__54($array) {
+  function _no_name_provided__57($array) {
     this._$array_6 = $array;
     LongIterator.call(this);
     this._index_14 = 0;
   }
-  _no_name_provided__54.prototype._set_index__majfzk_k$ = function (_set___) {
+  _no_name_provided__57.prototype._set_index__majfzk_k$ = function (_set___) {
     this._index_14 = _set___;
   };
-  _no_name_provided__54.prototype._get_index__0_k$ = function () {
+  _no_name_provided__57.prototype._get_index__0_k$ = function () {
     return this._index_14;
   };
-  _no_name_provided__54.prototype.hasNext_0_k$ = function () {
+  _no_name_provided__57.prototype.hasNext_0_k$ = function () {
     return !(this._index_14 === this._$array_6.length);
   };
-  _no_name_provided__54.prototype.nextLong_0_k$ = function () {
+  _no_name_provided__57.prototype.nextLong_0_k$ = function () {
     var tmp;
     if (!(this._index_14 === this._$array_6.length)) {
       var tmp0_this = this;
@@ -21108,25 +21674,25 @@
     }
     return tmp;
   };
-  _no_name_provided__54.$metadata$ = {
+  _no_name_provided__57.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__55($array) {
+  function _no_name_provided__58($array) {
     this._$array_7 = $array;
     DoubleIterator.call(this);
     this._index_15 = 0;
   }
-  _no_name_provided__55.prototype._set_index__majfzk_k$ = function (_set___) {
+  _no_name_provided__58.prototype._set_index__majfzk_k$ = function (_set___) {
     this._index_15 = _set___;
   };
-  _no_name_provided__55.prototype._get_index__0_k$ = function () {
+  _no_name_provided__58.prototype._get_index__0_k$ = function () {
     return this._index_15;
   };
-  _no_name_provided__55.prototype.hasNext_0_k$ = function () {
+  _no_name_provided__58.prototype.hasNext_0_k$ = function () {
     return !(this._index_15 === this._$array_7.length);
   };
-  _no_name_provided__55.prototype.nextDouble_0_k$ = function () {
+  _no_name_provided__58.prototype.nextDouble_0_k$ = function () {
     var tmp;
     if (!(this._index_15 === this._$array_7.length)) {
       var tmp0_this = this;
@@ -21138,7 +21704,7 @@
     }
     return tmp;
   };
-  _no_name_provided__55.$metadata$ = {
+  _no_name_provided__58.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -21369,7 +21935,7 @@
     return tmp;
   }
   function arrayToString(array) {
-    return joinToString$default(array, ', ', '[', ']', 0, null, _no_name_provided_$factory_35(), 24, null);
+    return joinToString$default(array, ', ', '[', ']', 0, null, _no_name_provided_$factory_36(), 24, null);
   }
   function contentEqualsInternal(_this_, other) {
     var tmp$ret$0;
@@ -21421,20 +21987,20 @@
        while (inductionVariable < last_0);
     return result;
   }
-  function _no_name_provided__56() {
+  function _no_name_provided__59() {
   }
-  _no_name_provided__56.prototype.invoke_wi7j7l_k$ = function (it) {
+  _no_name_provided__59.prototype.invoke_wi7j7l_k$ = function (it) {
     return toString_1(it);
   };
-  _no_name_provided__56.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__59.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
   };
-  _no_name_provided__56.$metadata$ = {
+  _no_name_provided__59.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided_$factory_35() {
-    var i = new _no_name_provided__56();
+  function _no_name_provided_$factory_36() {
+    var i = new _no_name_provided__59();
     return function (p1) {
       return i.invoke_wi7j7l_k$(p1);
     };
@@ -23605,7 +24171,7 @@
     return tmp$ret$0(receiver, completion);
   }
   function createCoroutineFromSuspendFunction(completion, block) {
-    return new _no_name_provided__57(block, completion);
+    return new _no_name_provided__60(block, completion);
   }
   function _no_name_provided__1_2($this_createCoroutineUnintercepted, $receiver, $completion) {
     this._$this_createCoroutineUnintercepted = $this_createCoroutineUnintercepted;
@@ -23664,17 +24230,17 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__57($block, $completion) {
+  function _no_name_provided__60($block, $completion) {
     this._$block_0 = $block;
     this._$completion_1 = $completion;
     CoroutineImpl_0.call(this, isInterface($completion, Continuation) ? $completion : THROW_CCE());
   }
-  _no_name_provided__57.prototype.doResume_0_k$ = function () {
+  _no_name_provided__60.prototype.doResume_0_k$ = function () {
     if (this._get_exception__0_k$() != null)
       throw this._get_exception__0_k$();
     return this._$block_0();
   };
-  _no_name_provided__57.$metadata$ = {
+  _no_name_provided__60.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -26299,22 +26865,22 @@
     }
     return tmp;
   }
-  function _no_name_provided__58() {
+  function _no_name_provided__61() {
   }
-  _no_name_provided__58.prototype.invoke_k332zt_k$ = function (it) {
+  _no_name_provided__61.prototype.invoke_k332zt_k$ = function (it) {
     return it instanceof CoroutineDispatcher ? it : null;
   };
-  _no_name_provided__58.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__61.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_k332zt_k$((!(p1 == null) ? isInterface(p1, Element_0) : false) ? p1 : THROW_CCE());
   };
-  _no_name_provided__58.$metadata$ = {
+  _no_name_provided__61.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
   function Key_1() {
     Key_instance_0 = this;
     var tmp = Key_getInstance();
-    AbstractCoroutineContextKey.call(this, tmp, _no_name_provided_$factory_36());
+    AbstractCoroutineContextKey.call(this, tmp, _no_name_provided_$factory_37());
   }
   Key_1.$metadata$ = {
     simpleName: 'Key',
@@ -26355,8 +26921,8 @@
     kind: 'class',
     interfaces: [ContinuationInterceptor]
   };
-  function _no_name_provided_$factory_36() {
-    var i = new _no_name_provided__58();
+  function _no_name_provided_$factory_37() {
+    var i = new _no_name_provided__61();
     return function (p1) {
       return i.invoke_k332zt_k$(p1);
     };
@@ -28309,21 +28875,21 @@
     }
     return tmp$ret$2;
   }
-  function _no_name_provided__59(this$0, resultContinuation) {
-    this._this$0_7 = this$0;
+  function _no_name_provided__62(this$0, resultContinuation) {
+    this._this$0_8 = this$0;
     CoroutineImpl_0.call(this, resultContinuation);
   }
-  _no_name_provided__59.prototype.invoke_8hb6eb_k$ = function ($this$sequence, $cont) {
+  _no_name_provided__62.prototype.invoke_8hb6eb_k$ = function ($this$sequence, $cont) {
     var tmp = this.create_nli7bc_k$($this$sequence, $cont);
     tmp._result_0 = Unit_getInstance();
     tmp._exception_0 = null;
     return tmp.doResume_0_k$();
   };
-  _no_name_provided__59.prototype.invoke_20e8_k$ = function (p1, $cont) {
+  _no_name_provided__62.prototype.invoke_20e8_k$ = function (p1, $cont) {
     this.invoke_8hb6eb_k$(p1 instanceof SequenceScope ? p1 : THROW_CCE(), $cont);
     return Unit_getInstance();
   };
-  _no_name_provided__59.prototype.doResume_0_k$ = function () {
+  _no_name_provided__62.prototype.doResume_0_k$ = function () {
     var suspendResult = this._result_0;
     $sm: do
       try {
@@ -28331,7 +28897,7 @@
         switch (tmp) {
           case 0:
             this._exceptionState = 8;
-            this._state0 = this._this$0_7._get_state__0_k$();
+            this._state0 = this._this$0_8._get_state__0_k$();
             var tmp_0 = this._state0;
             if (tmp_0 instanceof ChildHandleNode) {
               this._state_1 = 6;
@@ -28418,15 +28984,15 @@
       }
      while (true);
   };
-  _no_name_provided__59.prototype.create_nli7bc_k$ = function ($this$sequence, completion) {
-    var i = new _no_name_provided__59(this._this$0_7, completion);
+  _no_name_provided__62.prototype.create_nli7bc_k$ = function ($this$sequence, completion) {
+    var i = new _no_name_provided__62(this._this$0_8, completion);
     i._$this$sequence = $this$sequence;
     return i;
   };
-  _no_name_provided__59.prototype.create_wbutx_k$ = function (value, completion) {
+  _no_name_provided__62.prototype.create_wbutx_k$ = function (value, completion) {
     return this.create_nli7bc_k$(value instanceof SequenceScope ? value : THROW_CCE(), completion);
   };
-  _no_name_provided__59.$metadata$ = {
+  _no_name_provided__62.$metadata$ = {
     kind: 'class',
     interfaces: [],
     suspendArity: 1
@@ -28953,7 +29519,7 @@
     }
   };
   JobSupport.prototype._get_children__0_k$ = function () {
-    return sequence(_no_name_provided_$factory_37(this, null));
+    return sequence(_no_name_provided_$factory_38(this, null));
   };
   JobSupport.prototype.attachChild_o588si_k$ = function (child) {
     var tmp$ret$1;
@@ -29440,8 +30006,8 @@
     kind: 'class',
     interfaces: [CompletableJob]
   };
-  function _no_name_provided_$factory_37(this$0, resultContinuation) {
-    var i = new _no_name_provided__59(this$0, resultContinuation);
+  function _no_name_provided_$factory_38(this$0, resultContinuation) {
+    var i = new _no_name_provided__62(this$0, resultContinuation);
     var l = function (p1, $cont) {
       return i.invoke_8hb6eb_k$(p1, $cont);
     };
@@ -30138,29 +30704,29 @@
     kind: 'class',
     interfaces: [DisposableHandle]
   };
-  function _no_name_provided__60(this$0) {
-    this._this$0_8 = this$0;
+  function _no_name_provided__63(this$0) {
+    this._this$0_9 = this$0;
   }
-  _no_name_provided__60.prototype.registerSelectClause1_blq8rn_k$ = function (select, block) {
-    registerSelectReceiveMode(this._this$0_8, select, 0, isSuspendFunction(block, 1) ? block : THROW_CCE());
+  _no_name_provided__63.prototype.registerSelectClause1_blq8rn_k$ = function (select, block) {
+    registerSelectReceiveMode(this._this$0_9, select, 0, isSuspendFunction(block, 1) ? block : THROW_CCE());
   };
-  _no_name_provided__60.prototype.registerSelectClause1_lpgga7_k$ = function (select, block) {
+  _no_name_provided__63.prototype.registerSelectClause1_lpgga7_k$ = function (select, block) {
     return this.registerSelectClause1_blq8rn_k$(select, block);
   };
-  _no_name_provided__60.$metadata$ = {
+  _no_name_provided__63.$metadata$ = {
     kind: 'class',
     interfaces: [SelectClause1]
   };
-  function _no_name_provided__61(this$0) {
-    this._this$0_9 = this$0;
+  function _no_name_provided__64(this$0) {
+    this._this$0_10 = this$0;
   }
-  _no_name_provided__61.prototype.registerSelectClause1_i9x9bf_k$ = function (select, block) {
-    registerSelectReceiveMode(this._this$0_9, select, 1, isSuspendFunction(block, 1) ? block : THROW_CCE());
+  _no_name_provided__64.prototype.registerSelectClause1_i9x9bf_k$ = function (select, block) {
+    registerSelectReceiveMode(this._this$0_10, select, 1, isSuspendFunction(block, 1) ? block : THROW_CCE());
   };
-  _no_name_provided__61.prototype.registerSelectClause1_lpgga7_k$ = function (select, block) {
+  _no_name_provided__64.prototype.registerSelectClause1_lpgga7_k$ = function (select, block) {
     return this.registerSelectClause1_i9x9bf_k$(select, block);
   };
-  _no_name_provided__61.$metadata$ = {
+  _no_name_provided__64.$metadata$ = {
     kind: 'class',
     interfaces: [SelectClause1]
   };
@@ -30426,10 +30992,10 @@
     return new TryPollDesc(this._get_queue__0_k$());
   };
   AbstractChannel.prototype._get_onReceive__0_k$ = function () {
-    return new _no_name_provided__60(this);
+    return new _no_name_provided__63(this);
   };
   AbstractChannel.prototype._get_onReceiveCatching__0_k$ = function () {
-    return new _no_name_provided__61(this);
+    return new _no_name_provided__64(this);
   };
   AbstractChannel.prototype.takeFirstReceiveOrPeekClosed_0_k$ = function () {
     var tmp$ret$0;
@@ -30970,16 +31536,16 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__62(this$0) {
-    this._this$0_10 = this$0;
+  function _no_name_provided__65(this$0) {
+    this._this$0_11 = this$0;
   }
-  _no_name_provided__62.prototype.registerSelectClause2_606frq_k$ = function (select, param, block) {
-    registerSelectSend(this._this$0_10, select, param, block);
+  _no_name_provided__65.prototype.registerSelectClause2_606frq_k$ = function (select, param, block) {
+    registerSelectSend(this._this$0_11, select, param, block);
   };
-  _no_name_provided__62.prototype.registerSelectClause2_t2o84i_k$ = function (select, param, block) {
+  _no_name_provided__65.prototype.registerSelectClause2_t2o84i_k$ = function (select, param, block) {
     return this.registerSelectClause2_606frq_k$(select, (param == null ? true : isObject(param)) ? param : THROW_CCE(), block);
   };
-  _no_name_provided__62.$metadata$ = {
+  _no_name_provided__65.$metadata$ = {
     kind: 'class',
     interfaces: [SelectClause2]
   };
@@ -31382,7 +31948,7 @@
     return new TryOfferDesc(element, this._queue);
   };
   AbstractSendChannel.prototype._get_onSend__0_k$ = function () {
-    return new _no_name_provided__62(this);
+    return new _no_name_provided__65(this);
   };
   AbstractSendChannel.prototype.toString = function () {
     return '' + _get_classSimpleName_(this) + '@' + _get_hexAddress_(this) + '{' + _get_queueDebugStateString_(this) + '}' + this._get_bufferDebugString__0_k$();
@@ -32223,20 +32789,20 @@
     kind: 'interface',
     interfaces: [SendChannel, ReceiveChannel]
   };
-  function _no_name_provided__63($block, resultContinuation) {
+  function _no_name_provided__66($block, resultContinuation) {
     this._$block_1 = $block;
     CoroutineImpl_0.call(this, resultContinuation);
   }
-  _no_name_provided__63.prototype.invoke_838yne_k$ = function (it, $cont) {
+  _no_name_provided__66.prototype.invoke_838yne_k$ = function (it, $cont) {
     var tmp = this.create_mqtpgq_k$(it, $cont);
     tmp._result_0 = Unit_getInstance();
     tmp._exception_0 = null;
     return tmp.doResume_0_k$();
   };
-  _no_name_provided__63.prototype.invoke_20e8_k$ = function (p1, $cont) {
+  _no_name_provided__66.prototype.invoke_20e8_k$ = function (p1, $cont) {
     return this.invoke_838yne_k$(p1 instanceof ChannelResult ? p1._holder : THROW_CCE(), $cont);
   };
-  _no_name_provided__63.prototype.doResume_0_k$ = function () {
+  _no_name_provided__66.prototype.doResume_0_k$ = function () {
     var suspendResult = this._result_0;
     $sm: do
       try {
@@ -32273,30 +32839,30 @@
       }
      while (true);
   };
-  _no_name_provided__63.prototype.create_mqtpgq_k$ = function (it, completion) {
-    var i = new _no_name_provided__63(this._$block_1, completion);
+  _no_name_provided__66.prototype.create_mqtpgq_k$ = function (it, completion) {
+    var i = new _no_name_provided__66(this._$block_1, completion);
     i._it = it;
     return i;
   };
-  _no_name_provided__63.prototype.create_wbutx_k$ = function (value, completion) {
+  _no_name_provided__66.prototype.create_wbutx_k$ = function (value, completion) {
     return this.create_mqtpgq_k$(value instanceof ChannelResult ? value._holder : THROW_CCE(), completion);
   };
-  _no_name_provided__63.$metadata$ = {
+  _no_name_provided__66.$metadata$ = {
     kind: 'class',
     interfaces: [],
     suspendArity: 1
   };
-  function _no_name_provided__64(this$0) {
-    this._this$0_11 = this$0;
+  function _no_name_provided__67(this$0) {
+    this._this$0_12 = this$0;
   }
-  _no_name_provided__64.prototype.registerSelectClause1_mg7372_k$ = function (select, block) {
-    var tmp = this._this$0_11._get_onReceiveCatching__0_k$();
-    tmp.registerSelectClause1_lpgga7_k$(select, _no_name_provided_$factory_38(block, null));
+  _no_name_provided__67.prototype.registerSelectClause1_mg7372_k$ = function (select, block) {
+    var tmp = this._this$0_12._get_onReceiveCatching__0_k$();
+    tmp.registerSelectClause1_lpgga7_k$(select, _no_name_provided_$factory_39(block, null));
   };
-  _no_name_provided__64.prototype.registerSelectClause1_lpgga7_k$ = function (select, block) {
+  _no_name_provided__67.prototype.registerSelectClause1_lpgga7_k$ = function (select, block) {
     return this.registerSelectClause1_mg7372_k$(select, block);
   };
-  _no_name_provided__64.$metadata$ = {
+  _no_name_provided__67.$metadata$ = {
     kind: 'class',
     interfaces: [SelectClause1]
   };
@@ -32378,7 +32944,7 @@
     return tmp.doResume_0_k$();
   };
   ReceiveChannel.prototype._get_onReceiveOrNull__0_k$ = function () {
-    return new _no_name_provided__64(this);
+    return new _no_name_provided__67(this);
   };
   function ReceiveChannel() {
   }
@@ -32720,8 +33286,8 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided_$factory_38($block, resultContinuation) {
-    var i = new _no_name_provided__63($block, resultContinuation);
+  function _no_name_provided_$factory_39($block, resultContinuation) {
+    var i = new _no_name_provided__66($block, resultContinuation);
     var l = function (p1, $cont) {
       return i.invoke_838yne_k$(p1._holder, $cont);
     };
@@ -34293,23 +34859,23 @@
       break $l$block;
     }
     var originalContextCollector = withUndispatchedContextCollector(collector, tmp$ret$0);
-    return withContextUndispatched$default(newContext, originalContextCollector, null, _no_name_provided_$factory_39($this, null), 4, null, $cont);
+    return withContextUndispatched$default(newContext, originalContextCollector, null, _no_name_provided_$factory_40($this, null), 4, null, $cont);
   }
-  function _no_name_provided__65(this$0, resultContinuation) {
-    this._this$0_12 = this$0;
+  function _no_name_provided__68(this$0, resultContinuation) {
+    this._this$0_13 = this$0;
     CoroutineImpl_0.call(this, resultContinuation);
   }
-  _no_name_provided__65.prototype.invoke_l0hod5_k$ = function (it, $cont) {
+  _no_name_provided__68.prototype.invoke_l0hod5_k$ = function (it, $cont) {
     var tmp = this.create_4vn1xa_k$(it, $cont);
     tmp._result_0 = Unit_getInstance();
     tmp._exception_0 = null;
     return tmp.doResume_0_k$();
   };
-  _no_name_provided__65.prototype.invoke_20e8_k$ = function (p1, $cont) {
+  _no_name_provided__68.prototype.invoke_20e8_k$ = function (p1, $cont) {
     this.invoke_l0hod5_k$((!(p1 == null) ? isInterface(p1, FlowCollector) : false) ? p1 : THROW_CCE(), $cont);
     return Unit_getInstance();
   };
-  _no_name_provided__65.prototype.doResume_0_k$ = function () {
+  _no_name_provided__68.prototype.doResume_0_k$ = function () {
     var suspendResult = this._result_0;
     $sm: do
       try {
@@ -34318,7 +34884,7 @@
           case 0:
             this._exceptionState = 2;
             this._state_1 = 1;
-            suspendResult = this._this$0_12.flowCollect_l0hod5_k$(this._it_0, this);
+            suspendResult = this._this$0_13.flowCollect_l0hod5_k$(this._it_0, this);
             if (suspendResult === _get_COROUTINE_SUSPENDED_()) {
               return suspendResult;
             }
@@ -34338,15 +34904,15 @@
       }
      while (true);
   };
-  _no_name_provided__65.prototype.create_4vn1xa_k$ = function (it, completion) {
-    var i = new _no_name_provided__65(this._this$0_12, completion);
+  _no_name_provided__68.prototype.create_4vn1xa_k$ = function (it, completion) {
+    var i = new _no_name_provided__68(this._this$0_13, completion);
     i._it_0 = it;
     return i;
   };
-  _no_name_provided__65.prototype.create_wbutx_k$ = function (value, completion) {
+  _no_name_provided__68.prototype.create_wbutx_k$ = function (value, completion) {
     return this.create_4vn1xa_k$((!(value == null) ? isInterface(value, FlowCollector) : false) ? value : THROW_CCE(), completion);
   };
-  _no_name_provided__65.$metadata$ = {
+  _no_name_provided__68.$metadata$ = {
     kind: 'class',
     interfaces: [],
     suspendArity: 1
@@ -34459,21 +35025,21 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__66(this$0, resultContinuation) {
-    this._this$0_13 = this$0;
+  function _no_name_provided__69(this$0, resultContinuation) {
+    this._this$0_14 = this$0;
     CoroutineImpl_0.call(this, resultContinuation);
   }
-  _no_name_provided__66.prototype.invoke_v1qnec_k$ = function (it, $cont) {
+  _no_name_provided__69.prototype.invoke_v1qnec_k$ = function (it, $cont) {
     var tmp = this.create_gnusrd_k$(it, $cont);
     tmp._result_0 = Unit_getInstance();
     tmp._exception_0 = null;
     return tmp.doResume_0_k$();
   };
-  _no_name_provided__66.prototype.invoke_20e8_k$ = function (p1, $cont) {
+  _no_name_provided__69.prototype.invoke_20e8_k$ = function (p1, $cont) {
     this.invoke_v1qnec_k$((!(p1 == null) ? isInterface(p1, ProducerScope) : false) ? p1 : THROW_CCE(), $cont);
     return Unit_getInstance();
   };
-  _no_name_provided__66.prototype.doResume_0_k$ = function () {
+  _no_name_provided__69.prototype.doResume_0_k$ = function () {
     var suspendResult = this._result_0;
     $sm: do
       try {
@@ -34482,7 +35048,7 @@
           case 0:
             this._exceptionState = 2;
             this._state_1 = 1;
-            suspendResult = this._this$0_13.collectTo_v1qnec_k$(this._it_1, this);
+            suspendResult = this._this$0_14.collectTo_v1qnec_k$(this._it_1, this);
             if (suspendResult === _get_COROUTINE_SUSPENDED_()) {
               return suspendResult;
             }
@@ -34502,35 +35068,35 @@
       }
      while (true);
   };
-  _no_name_provided__66.prototype.create_gnusrd_k$ = function (it, completion) {
-    var i = new _no_name_provided__66(this._this$0_13, completion);
+  _no_name_provided__69.prototype.create_gnusrd_k$ = function (it, completion) {
+    var i = new _no_name_provided__69(this._this$0_14, completion);
     i._it_1 = it;
     return i;
   };
-  _no_name_provided__66.prototype.create_wbutx_k$ = function (value, completion) {
+  _no_name_provided__69.prototype.create_wbutx_k$ = function (value, completion) {
     return this.create_gnusrd_k$((!(value == null) ? isInterface(value, ProducerScope) : false) ? value : THROW_CCE(), completion);
   };
-  _no_name_provided__66.$metadata$ = {
+  _no_name_provided__69.$metadata$ = {
     kind: 'class',
     interfaces: [],
     suspendArity: 1
   };
-  function _no_name_provided__67($collector, this$0, resultContinuation) {
+  function _no_name_provided__70($collector, this$0, resultContinuation) {
     this._$collector = $collector;
-    this._this$0_14 = this$0;
+    this._this$0_15 = this$0;
     CoroutineImpl_0.call(this, resultContinuation);
   }
-  _no_name_provided__67.prototype.invoke_2i3g7c_k$ = function ($this$coroutineScope, $cont) {
+  _no_name_provided__70.prototype.invoke_2i3g7c_k$ = function ($this$coroutineScope, $cont) {
     var tmp = this.create_y6imfn_k$($this$coroutineScope, $cont);
     tmp._result_0 = Unit_getInstance();
     tmp._exception_0 = null;
     return tmp.doResume_0_k$();
   };
-  _no_name_provided__67.prototype.invoke_20e8_k$ = function (p1, $cont) {
+  _no_name_provided__70.prototype.invoke_20e8_k$ = function (p1, $cont) {
     this.invoke_2i3g7c_k$((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $cont);
     return Unit_getInstance();
   };
-  _no_name_provided__67.prototype.doResume_0_k$ = function () {
+  _no_name_provided__70.prototype.doResume_0_k$ = function () {
     var suspendResult = this._result_0;
     $sm: do
       try {
@@ -34539,7 +35105,7 @@
           case 0:
             this._exceptionState = 2;
             this._state_1 = 1;
-            suspendResult = emitAll(this._$collector, this._this$0_14.produceImpl_mzru1z_k$(this._$this$coroutineScope), this);
+            suspendResult = emitAll(this._$collector, this._this$0_15.produceImpl_mzru1z_k$(this._$this$coroutineScope), this);
             if (suspendResult === _get_COROUTINE_SUSPENDED_()) {
               return suspendResult;
             }
@@ -34559,15 +35125,15 @@
       }
      while (true);
   };
-  _no_name_provided__67.prototype.create_y6imfn_k$ = function ($this$coroutineScope, completion) {
-    var i = new _no_name_provided__67(this._$collector, this._this$0_14, completion);
+  _no_name_provided__70.prototype.create_y6imfn_k$ = function ($this$coroutineScope, completion) {
+    var i = new _no_name_provided__70(this._$collector, this._this$0_15, completion);
     i._$this$coroutineScope = $this$coroutineScope;
     return i;
   };
-  _no_name_provided__67.prototype.create_wbutx_k$ = function (value, completion) {
+  _no_name_provided__70.prototype.create_wbutx_k$ = function (value, completion) {
     return this.create_y6imfn_k$((!(value == null) ? isInterface(value, CoroutineScope) : false) ? value : THROW_CCE(), completion);
   };
-  _no_name_provided__67.$metadata$ = {
+  _no_name_provided__70.$metadata$ = {
     kind: 'class',
     interfaces: [],
     suspendArity: 1
@@ -34589,7 +35155,7 @@
     return this._onBufferOverflow_0;
   };
   ChannelFlow.prototype._get_collectToFun__0_k$ = function () {
-    return _no_name_provided_$factory_40(this, null);
+    return _no_name_provided_$factory_41(this, null);
   };
   ChannelFlow.prototype._get_produceCapacity__0_k$ = function () {
     var tmp;
@@ -34666,7 +35232,7 @@
     return produce$default(scope, this._context_1, tmp, this._onBufferOverflow_0, tmp_0, null, this._get_collectToFun__0_k$(), 16, null);
   };
   ChannelFlow.prototype.collect_l0hod5_k$ = function (collector, $cont) {
-    return coroutineScope(_no_name_provided_$factory_41(collector, this, null), $cont);
+    return coroutineScope(_no_name_provided_$factory_42(collector, this, null), $cont);
   };
   ChannelFlow.prototype.additionalToStringProps_0_k$ = function () {
     return null;
@@ -34775,21 +35341,21 @@
   function _get_emitRef_($this) {
     return $this._emitRef;
   }
-  function _no_name_provided__68($downstream, resultContinuation) {
+  function _no_name_provided__71($downstream, resultContinuation) {
     this._$downstream = $downstream;
     CoroutineImpl_0.call(this, resultContinuation);
   }
-  _no_name_provided__68.prototype.invoke_iav7o_k$ = function (it, $cont) {
+  _no_name_provided__71.prototype.invoke_iav7o_k$ = function (it, $cont) {
     var tmp = this.create_k2tpk9_k$(it, $cont);
     tmp._result_0 = Unit_getInstance();
     tmp._exception_0 = null;
     return tmp.doResume_0_k$();
   };
-  _no_name_provided__68.prototype.invoke_20e8_k$ = function (p1, $cont) {
+  _no_name_provided__71.prototype.invoke_20e8_k$ = function (p1, $cont) {
     this.invoke_iav7o_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE(), $cont);
     return Unit_getInstance();
   };
-  _no_name_provided__68.prototype.doResume_0_k$ = function () {
+  _no_name_provided__71.prototype.doResume_0_k$ = function () {
     var suspendResult = this._result_0;
     $sm: do
       try {
@@ -34818,15 +35384,15 @@
       }
      while (true);
   };
-  _no_name_provided__68.prototype.create_k2tpk9_k$ = function (it, completion) {
-    var i = new _no_name_provided__68(this._$downstream, completion);
+  _no_name_provided__71.prototype.create_k2tpk9_k$ = function (it, completion) {
+    var i = new _no_name_provided__71(this._$downstream, completion);
     i._it_2 = it;
     return i;
   };
-  _no_name_provided__68.prototype.create_wbutx_k$ = function (value, completion) {
+  _no_name_provided__71.prototype.create_wbutx_k$ = function (value, completion) {
     return this.create_k2tpk9_k$((value == null ? true : isObject(value)) ? value : THROW_CCE(), completion);
   };
-  _no_name_provided__68.$metadata$ = {
+  _no_name_provided__71.$metadata$ = {
     kind: 'class',
     interfaces: [],
     suspendArity: 1
@@ -34835,7 +35401,7 @@
     this._emitContext = emitContext;
     this._countOrElement = threadContextElements(this._emitContext);
     var tmp = this;
-    tmp._emitRef = _no_name_provided_$factory_42(downstream, null);
+    tmp._emitRef = _no_name_provided_$factory_43(downstream, null);
   }
   UndispatchedContextCollector.prototype.emit_iav7o_k$ = function (value, $cont) {
     return withContextUndispatched(this._emitContext, value, this._countOrElement, this._emitRef, $cont);
@@ -34870,32 +35436,32 @@
     kind: 'class',
     interfaces: [Continuation, CoroutineStackFrame]
   };
-  function _no_name_provided_$factory_39(this$0, resultContinuation) {
-    var i = new _no_name_provided__65(this$0, resultContinuation);
+  function _no_name_provided_$factory_40(this$0, resultContinuation) {
+    var i = new _no_name_provided__68(this$0, resultContinuation);
     var l = function (p1, $cont) {
       return i.invoke_l0hod5_k$(p1, $cont);
     };
     l.$arity = 1;
     return l;
   }
-  function _no_name_provided_$factory_40(this$0, resultContinuation) {
-    var i = new _no_name_provided__66(this$0, resultContinuation);
+  function _no_name_provided_$factory_41(this$0, resultContinuation) {
+    var i = new _no_name_provided__69(this$0, resultContinuation);
     var l = function (p1, $cont) {
       return i.invoke_v1qnec_k$(p1, $cont);
     };
     l.$arity = 1;
     return l;
   }
-  function _no_name_provided_$factory_41($collector, this$0, resultContinuation) {
-    var i = new _no_name_provided__67($collector, this$0, resultContinuation);
+  function _no_name_provided_$factory_42($collector, this$0, resultContinuation) {
+    var i = new _no_name_provided__70($collector, this$0, resultContinuation);
     var l = function (p1, $cont) {
       return i.invoke_2i3g7c_k$(p1, $cont);
     };
     l.$arity = 1;
     return l;
   }
-  function _no_name_provided_$factory_42($downstream, resultContinuation) {
-    var i = new _no_name_provided__68($downstream, resultContinuation);
+  function _no_name_provided_$factory_43($downstream, resultContinuation) {
+    var i = new _no_name_provided__71($downstream, resultContinuation);
     var l = function (p1, $cont) {
       return i.invoke_iav7o_k$(p1, $cont);
     };
@@ -34938,10 +35504,10 @@
   }
   var DONE;
   function unsafeFlow(block) {
-    return new _no_name_provided__69(block);
+    return new _no_name_provided__72(block);
   }
   function checkContext(_this_, currentContext) {
-    var result = currentContext.fold_cq605b_k$(0, _no_name_provided_$factory_43(_this_));
+    var result = currentContext.fold_cq605b_k$(0, _no_name_provided_$factory_44(_this_));
     if (!(result === _this_._collectContextSize)) {
       {
         var tmp0_error_0 = 'Flow invariant is violated:\n' + ('' + '\t\tFlow was collected in ' + _this_._collectContext + ',\n') + ('' + '\t\tbut emission happened in ' + currentContext + '.\n') + "\t\tPlease refer to 'flow' documentation or use 'flowOn' instead";
@@ -34967,20 +35533,20 @@
       continue;
     }
   }
-  function _no_name_provided__69($block) {
+  function _no_name_provided__72($block) {
     this._$block_2 = $block;
   }
-  _no_name_provided__69.prototype.collect_l0hod5_k$ = function (collector, $cont) {
+  _no_name_provided__72.prototype.collect_l0hod5_k$ = function (collector, $cont) {
     return this._$block_2(collector, $cont);
   };
-  _no_name_provided__69.$metadata$ = {
+  _no_name_provided__72.$metadata$ = {
     kind: 'class',
     interfaces: [Flow]
   };
-  function _no_name_provided__70($this_checkContext) {
+  function _no_name_provided__73($this_checkContext) {
     this._$this_checkContext = $this_checkContext;
   }
-  _no_name_provided__70.prototype.invoke_c68gd4_k$ = function (count, element) {
+  _no_name_provided__73.prototype.invoke_c68gd4_k$ = function (count, element) {
     var key_0 = element._get_key__0_k$();
     var collectElement = this._$this_checkContext._collectContext.get_9uvjra_k$(key_0);
     if (!(key_0 === Key_getInstance_2())) {
@@ -34994,16 +35560,16 @@
       }
     }return collectJob == null ? count : count + 1 | 0;
   };
-  _no_name_provided__70.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__73.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? typeof p1 === 'number' : false) ? p1 : THROW_CCE();
     return this.invoke_c68gd4_k$(tmp, (!(p2 == null) ? isInterface(p2, Element_0) : false) ? p2 : THROW_CCE());
   };
-  _no_name_provided__70.$metadata$ = {
+  _no_name_provided__73.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided_$factory_43($this_checkContext) {
-    var i = new _no_name_provided__70($this_checkContext);
+  function _no_name_provided_$factory_44($this_checkContext) {
+    var i = new _no_name_provided__73($this_checkContext);
     return function (p1, p2) {
       return i.invoke_c68gd4_k$(p1, p2);
     };
@@ -35037,48 +35603,48 @@
     return defaultAreEquivalent;
   }
   var defaultAreEquivalent;
-  function _no_name_provided__71() {
+  function _no_name_provided__74() {
   }
-  _no_name_provided__71.prototype.invoke_wi7j7l_k$ = function (it) {
+  _no_name_provided__74.prototype.invoke_wi7j7l_k$ = function (it) {
     return it;
   };
-  _no_name_provided__71.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__74.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_wi7j7l_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
   };
-  _no_name_provided__71.$metadata$ = {
+  _no_name_provided__74.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__72() {
+  function _no_name_provided__75() {
   }
-  _no_name_provided__72.prototype.invoke_rvz98i_k$ = function (old, new_0) {
+  _no_name_provided__75.prototype.invoke_rvz98i_k$ = function (old, new_0) {
     return equals_0(old, new_0);
   };
-  _no_name_provided__72.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__75.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE();
     return this.invoke_rvz98i_k$(tmp, (p2 == null ? true : isObject(p2)) ? p2 : THROW_CCE());
   };
-  _no_name_provided__72.$metadata$ = {
+  _no_name_provided__75.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided_$factory_44() {
-    var i = new _no_name_provided__71();
+  function _no_name_provided_$factory_45() {
+    var i = new _no_name_provided__74();
     return function (p1) {
       return i.invoke_wi7j7l_k$(p1);
     };
   }
-  function _no_name_provided_$factory_45() {
-    var i = new _no_name_provided__72();
+  function _no_name_provided_$factory_46() {
+    var i = new _no_name_provided__75();
     return function (p1, p2) {
       return i.invoke_rvz98i_k$(p1, p2);
     };
   }
   function defaultKeySelector$init$() {
-    return _no_name_provided_$factory_44();
+    return _no_name_provided_$factory_45();
   }
   function defaultAreEquivalent$init$() {
-    return _no_name_provided_$factory_45();
+    return _no_name_provided_$factory_46();
   }
   function ensureActive_1(_this_) {
     if (_this_ instanceof ThrowingCollector)
@@ -35333,16 +35899,16 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__73($predicate) {
+  function _no_name_provided__76($predicate) {
     this._$predicate_1 = $predicate;
   }
-  _no_name_provided__73.prototype.emit_iav7o_k$ = function (value, $cont) {
+  _no_name_provided__76.prototype.emit_iav7o_k$ = function (value, $cont) {
     var tmp = new $emitCOROUTINE$8(this, value, $cont);
     tmp._result_0 = Unit_getInstance();
     tmp._exception_0 = null;
     return tmp.doResume_0_k$();
   };
-  _no_name_provided__73.$metadata$ = {
+  _no_name_provided__76.$metadata$ = {
     kind: 'class',
     interfaces: [FlowCollector]
   };
@@ -35360,7 +35926,7 @@
           case 0:
             this._exceptionState = 3;
             var tmp_0 = this;
-            tmp_0._collector0 = new _no_name_provided__73(this._predicate);
+            tmp_0._collector0 = new _no_name_provided__76(this._predicate);
             this._exceptionState = 2;
             this._state_1 = 1;
             suspendResult = this.__this__7.collect_l0hod5_k$(this._collector0, this);
@@ -36799,7 +37365,7 @@
   }
   var REMOVE_PREPARED;
   function bindCancellationFun(_this_, element, context) {
-    return _no_name_provided_$factory_46(_this_, element, context);
+    return _no_name_provided_$factory_47(_this_, element, context);
   }
   function UndeliveredElementException(message, cause) {
     RuntimeException_init_$Init$_1(message, cause, this);
@@ -36850,24 +37416,24 @@
     }
     Unit_getInstance();
   }
-  function _no_name_provided__74($this_bindCancellationFun, $element, $context) {
+  function _no_name_provided__77($this_bindCancellationFun, $element, $context) {
     this._$this_bindCancellationFun = $this_bindCancellationFun;
     this._$element = $element;
     this._$context_0 = $context;
   }
-  _no_name_provided__74.prototype.invoke_1ti8hr_k$ = function (_anonymous_parameter_0_) {
+  _no_name_provided__77.prototype.invoke_1ti8hr_k$ = function (_anonymous_parameter_0_) {
     callUndeliveredElement(this._$this_bindCancellationFun, this._$element, this._$context_0);
   };
-  _no_name_provided__74.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__77.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_1ti8hr_k$(p1 instanceof Error ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__74.$metadata$ = {
+  _no_name_provided__77.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided_$factory_46($this_bindCancellationFun, $element, $context) {
-    var i = new _no_name_provided__74($this_bindCancellationFun, $element, $context);
+  function _no_name_provided_$factory_47($this_bindCancellationFun, $element, $context) {
+    var i = new _no_name_provided__77($this_bindCancellationFun, $element, $context);
     return function (p1) {
       i.invoke_1ti8hr_k$(p1);
       return Unit_getInstance();
@@ -38021,17 +38587,17 @@
       new SetTimeoutDispatcher();
     return SetTimeoutDispatcher_instance;
   }
-  function _no_name_provided__75(this$0) {
-    this._this$0_15 = this$0;
+  function _no_name_provided__78(this$0) {
+    this._this$0_16 = this$0;
   }
-  _no_name_provided__75.prototype.invoke_sv8swh_k$ = function () {
-    this._this$0_15.process_sv8swh_k$();
+  _no_name_provided__78.prototype.invoke_sv8swh_k$ = function () {
+    this._this$0_16.process_sv8swh_k$();
   };
-  _no_name_provided__75.prototype.invoke_0_k$ = function () {
+  _no_name_provided__78.prototype.invoke_0_k$ = function () {
     this.invoke_sv8swh_k$();
     return Unit_getInstance();
   };
-  _no_name_provided__75.$metadata$ = {
+  _no_name_provided__78.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -38039,7 +38605,7 @@
     this._$this_8 = $outer;
     MessageQueue.call(this);
     var tmp = this;
-    tmp._processQueue = _no_name_provided_$factory_47(this);
+    tmp._processQueue = _no_name_provided_$factory_48(this);
   }
   ScheduledMessageQueue.prototype._get_processQueue__0_k$ = function () {
     return this._processQueue;
@@ -38056,38 +38622,38 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__76($block) {
+  function _no_name_provided__79($block) {
     this._$block_3 = $block;
   }
-  _no_name_provided__76.prototype.invoke_sv8swh_k$ = function () {
+  _no_name_provided__79.prototype.invoke_sv8swh_k$ = function () {
     this._$block_3.run_sv8swh_k$();
   };
-  _no_name_provided__76.prototype.invoke_0_k$ = function () {
+  _no_name_provided__79.prototype.invoke_0_k$ = function () {
     this.invoke_sv8swh_k$();
     return Unit_getInstance();
   };
-  _no_name_provided__76.$metadata$ = {
+  _no_name_provided__79.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__77($continuation, this$0) {
+  function _no_name_provided__80($continuation, this$0) {
     this._$continuation = $continuation;
-    this._this$0_16 = this$0;
+    this._this$0_17 = this$0;
   }
-  _no_name_provided__77.prototype.invoke_sv8swh_k$ = function () {
+  _no_name_provided__80.prototype.invoke_sv8swh_k$ = function () {
     var tmp$ret$0;
     $l$block: {
       {
       }
-      tmp$ret$0 = this._$continuation.resumeUndispatched_eocpx4_k$(this._this$0_16, Unit_getInstance());
+      tmp$ret$0 = this._$continuation.resumeUndispatched_eocpx4_k$(this._this$0_17, Unit_getInstance());
       break $l$block;
     }
   };
-  _no_name_provided__77.prototype.invoke_0_k$ = function () {
+  _no_name_provided__80.prototype.invoke_0_k$ = function () {
     this.invoke_sv8swh_k$();
     return Unit_getInstance();
   };
-  _no_name_provided__77.$metadata$ = {
+  _no_name_provided__80.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -38102,11 +38668,11 @@
     this._messageQueue.enqueue_iz8ddj_k$(block);
   };
   SetTimeoutBasedDispatcher.prototype.invokeOnTimeout_x8mf2g_k$ = function (timeMillis, block, context) {
-    var handle = setTimeout(_no_name_provided_$factory_48(block), delayToInt(timeMillis));
+    var handle = setTimeout(_no_name_provided_$factory_49(block), delayToInt(timeMillis));
     return new ClearTimeout(handle);
   };
   SetTimeoutBasedDispatcher.prototype.scheduleResumeAfterDelay_tkxym4_k$ = function (timeMillis, continuation) {
-    var handle = setTimeout(_no_name_provided_$factory_49(continuation, this), delayToInt(timeMillis));
+    var handle = setTimeout(_no_name_provided_$factory_50(continuation, this), delayToInt(timeMillis));
     var tmp$ret$1;
     $l$block_0: {
       var tmp0__get_asHandler__0 = new ClearTimeout(handle);
@@ -38220,49 +38786,49 @@
   function _get_queue_($this) {
     return $this._queue_0;
   }
-  function _no_name_provided__78($continuation, this$0) {
+  function _no_name_provided__81($continuation, this$0) {
     this._$continuation_0 = $continuation;
-    this._this$0_17 = this$0;
+    this._this$0_18 = this$0;
   }
-  _no_name_provided__78.prototype.invoke_sv8swh_k$ = function () {
+  _no_name_provided__81.prototype.invoke_sv8swh_k$ = function () {
     var tmp$ret$0;
     $l$block: {
       {
       }
-      tmp$ret$0 = this._$continuation_0.resumeUndispatched_eocpx4_k$(this._this$0_17, Unit_getInstance());
+      tmp$ret$0 = this._$continuation_0.resumeUndispatched_eocpx4_k$(this._this$0_18, Unit_getInstance());
       break $l$block;
     }
   };
-  _no_name_provided__78.prototype.invoke_0_k$ = function () {
+  _no_name_provided__81.prototype.invoke_0_k$ = function () {
     this.invoke_sv8swh_k$();
     return Unit_getInstance();
   };
-  _no_name_provided__78.$metadata$ = {
+  _no_name_provided__81.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__79($block) {
+  function _no_name_provided__82($block) {
     this._$block_4 = $block;
   }
-  _no_name_provided__79.prototype.invoke_sv8swh_k$ = function () {
+  _no_name_provided__82.prototype.invoke_sv8swh_k$ = function () {
     this._$block_4.run_sv8swh_k$();
   };
-  _no_name_provided__79.prototype.invoke_0_k$ = function () {
+  _no_name_provided__82.prototype.invoke_0_k$ = function () {
     this.invoke_sv8swh_k$();
     return Unit_getInstance();
   };
-  _no_name_provided__79.$metadata$ = {
+  _no_name_provided__82.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__80(this$0, $handle) {
-    this._this$0_18 = this$0;
+  function _no_name_provided__83(this$0, $handle) {
+    this._this$0_19 = this$0;
     this._$handle = $handle;
   }
-  _no_name_provided__80.prototype.dispose_sv8swh_k$ = function () {
-    this._this$0_18._window.clearTimeout(this._$handle);
+  _no_name_provided__83.prototype.dispose_sv8swh_k$ = function () {
+    this._this$0_19._window.clearTimeout(this._$handle);
   };
-  _no_name_provided__80.$metadata$ = {
+  _no_name_provided__83.$metadata$ = {
     kind: 'class',
     interfaces: [DisposableHandle]
   };
@@ -38275,12 +38841,12 @@
     return this._queue_0.enqueue_iz8ddj_k$(block);
   };
   WindowDispatcher.prototype.scheduleResumeAfterDelay_tkxym4_k$ = function (timeMillis, continuation) {
-    this._window.setTimeout(_no_name_provided_$factory_50(continuation, this), delayToInt(timeMillis));
+    this._window.setTimeout(_no_name_provided_$factory_51(continuation, this), delayToInt(timeMillis));
     Unit_getInstance();
   };
   WindowDispatcher.prototype.invokeOnTimeout_x8mf2g_k$ = function (timeMillis, block, context) {
-    var handle = this._window.setTimeout(_no_name_provided_$factory_51(block), delayToInt(timeMillis));
-    return new _no_name_provided__80(this, handle);
+    var handle = this._window.setTimeout(_no_name_provided_$factory_52(block), delayToInt(timeMillis));
+    return new _no_name_provided__83(this, handle);
   };
   WindowDispatcher.$metadata$ = {
     simpleName: 'WindowDispatcher',
@@ -38293,33 +38859,33 @@
   function _get_messageName_($this) {
     return $this._messageName;
   }
-  function _no_name_provided__81(this$0) {
-    this._this$0_19 = this$0;
+  function _no_name_provided__84(this$0) {
+    this._this$0_20 = this$0;
   }
-  _no_name_provided__81.prototype.invoke_h9nkbz_k$ = function (event) {
-    if (event.source == this._this$0_19._window_0 ? event.data == this._this$0_19._messageName : false) {
+  _no_name_provided__84.prototype.invoke_h9nkbz_k$ = function (event) {
+    if (event.source == this._this$0_20._window_0 ? event.data == this._this$0_20._messageName : false) {
       event.stopPropagation();
-      this._this$0_19.process_sv8swh_k$();
+      this._this$0_20.process_sv8swh_k$();
     }};
-  _no_name_provided__81.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__84.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_h9nkbz_k$((p1 == null ? true : p1) ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__81.$metadata$ = {
+  _no_name_provided__84.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__82(this$0) {
-    this._this$0_20 = this$0;
+  function _no_name_provided__85(this$0) {
+    this._this$0_21 = this$0;
   }
-  _no_name_provided__82.prototype.invoke_89eg7z_k$ = function (it) {
-    this._this$0_20.process_sv8swh_k$();
+  _no_name_provided__85.prototype.invoke_89eg7z_k$ = function (it) {
+    this._this$0_21.process_sv8swh_k$();
   };
-  _no_name_provided__82.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__85.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_89eg7z_k$(p1 instanceof Unit ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__82.$metadata$ = {
+  _no_name_provided__85.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -38327,11 +38893,11 @@
     MessageQueue.call(this);
     this._window_0 = window_0;
     this._messageName = 'dispatchCoroutine';
-    this._window_0.addEventListener('message', _no_name_provided_$factory_52(this), true);
+    this._window_0.addEventListener('message', _no_name_provided_$factory_53(this), true);
   }
   WindowMessageQueue.prototype.schedule_sv8swh_k$ = function () {
     var tmp = Promise.resolve(Unit_getInstance());
-    tmp.then(_no_name_provided_$factory_53(this));
+    tmp.then(_no_name_provided_$factory_54(this));
     Unit_getInstance();
   };
   WindowMessageQueue.prototype.reschedule_sv8swh_k$ = function () {
@@ -38342,50 +38908,50 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided_$factory_47(this$0) {
-    var i = new _no_name_provided__75(this$0);
+  function _no_name_provided_$factory_48(this$0) {
+    var i = new _no_name_provided__78(this$0);
     return function () {
       i.invoke_sv8swh_k$();
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_48($block) {
-    var i = new _no_name_provided__76($block);
-    return function () {
-      i.invoke_sv8swh_k$();
-      return Unit_getInstance();
-    };
-  }
-  function _no_name_provided_$factory_49($continuation, this$0) {
-    var i = new _no_name_provided__77($continuation, this$0);
-    return function () {
-      i.invoke_sv8swh_k$();
-      return Unit_getInstance();
-    };
-  }
-  function _no_name_provided_$factory_50($continuation, this$0) {
-    var i = new _no_name_provided__78($continuation, this$0);
-    return function () {
-      i.invoke_sv8swh_k$();
-      return Unit_getInstance();
-    };
-  }
-  function _no_name_provided_$factory_51($block) {
+  function _no_name_provided_$factory_49($block) {
     var i = new _no_name_provided__79($block);
     return function () {
       i.invoke_sv8swh_k$();
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_52(this$0) {
-    var i = new _no_name_provided__81(this$0);
+  function _no_name_provided_$factory_50($continuation, this$0) {
+    var i = new _no_name_provided__80($continuation, this$0);
+    return function () {
+      i.invoke_sv8swh_k$();
+      return Unit_getInstance();
+    };
+  }
+  function _no_name_provided_$factory_51($continuation, this$0) {
+    var i = new _no_name_provided__81($continuation, this$0);
+    return function () {
+      i.invoke_sv8swh_k$();
+      return Unit_getInstance();
+    };
+  }
+  function _no_name_provided_$factory_52($block) {
+    var i = new _no_name_provided__82($block);
+    return function () {
+      i.invoke_sv8swh_k$();
+      return Unit_getInstance();
+    };
+  }
+  function _no_name_provided_$factory_53(this$0) {
+    var i = new _no_name_provided__84(this$0);
     return function (p1) {
       i.invoke_h9nkbz_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_53(this$0) {
-    var i = new _no_name_provided__82(this$0);
+  function _no_name_provided_$factory_54(this$0) {
+    var i = new _no_name_provided__85(this$0);
     return function (p1) {
       i.invoke_89eg7z_k$(p1);
       return Unit_getInstance();
@@ -38460,16 +39026,16 @@
   function _get_lastEmissionContext_($this) {
     return $this._lastEmissionContext;
   }
-  function _no_name_provided__83() {
+  function _no_name_provided__86() {
   }
-  _no_name_provided__83.prototype.invoke_c68gd4_k$ = function (count, _anonymous_parameter_1_) {
+  _no_name_provided__86.prototype.invoke_c68gd4_k$ = function (count, _anonymous_parameter_1_) {
     return count + 1 | 0;
   };
-  _no_name_provided__83.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__86.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? typeof p1 === 'number' : false) ? p1 : THROW_CCE();
     return this.invoke_c68gd4_k$(tmp, (!(p2 == null) ? isInterface(p2, Element_0) : false) ? p2 : THROW_CCE());
   };
-  _no_name_provided__83.$metadata$ = {
+  _no_name_provided__86.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -38477,7 +39043,7 @@
     this._collector_3 = collector;
     this._collectContext = collectContext;
     var tmp = this;
-    tmp._collectContextSize = this._collectContext.fold_cq605b_k$(0, _no_name_provided_$factory_54());
+    tmp._collectContextSize = this._collectContext.fold_cq605b_k$(0, _no_name_provided_$factory_55());
     this._lastEmissionContext = null;
   }
   SafeCollector.prototype._get_collector__0_k$ = function () {
@@ -38514,8 +39080,8 @@
     kind: 'class',
     interfaces: [FlowCollector]
   };
-  function _no_name_provided_$factory_54() {
-    var i = new _no_name_provided__83();
+  function _no_name_provided_$factory_55() {
+    var i = new _no_name_provided__86();
     return function (p1, p2) {
       return i.invoke_c68gd4_k$(p1, p2);
     };
@@ -39065,15 +39631,15 @@
       break $l$block_1;
     }
   }
-  function _no_name_provided__84(this$0, $awaiter_4) {
-    this._this$0_21 = this$0;
+  function _no_name_provided__87(this$0, $awaiter_4) {
+    this._this$0_22 = this$0;
     this._$awaiter_4 = $awaiter_4;
   }
-  _no_name_provided__84.prototype.invoke_houul8_k$ = function (it) {
+  _no_name_provided__87.prototype.invoke_houul8_k$ = function (it) {
     var tmp$ret$0;
     $l$block: {
-      var tmp0_synchronized_0_12 = this._this$0_21._lock_1;
-      var tmp = this._this$0_21._awaiters;
+      var tmp0_synchronized_0_12 = this._this$0_22._lock_1;
+      var tmp = this._this$0_22._awaiters;
       var tmp_0;
       if (this._$awaiter_4._v == null) {
         throwUninitializedPropertyAccessException('awaiter');
@@ -39085,11 +39651,11 @@
       break $l$block;
     }
   };
-  _no_name_provided__84.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__87.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_houul8_k$((p1 == null ? true : p1 instanceof Error) ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__84.$metadata$ = {
+  _no_name_provided__87.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -39206,7 +39772,7 @@
           break $l$block_4;
         }
         var hasNewAwaiters_5 = tmp$ret$5;
-        cancellable_2_2.invokeOnCancellation_aip8gd_k$(_no_name_provided_$factory_55(this, awaiter_4));
+        cancellable_2_2.invokeOnCancellation_aip8gd_k$(_no_name_provided_$factory_56(this, awaiter_4));
         if (hasNewAwaiters_5 ? !(this._onNewAwaiters == null) : false) {
           try {
             this._onNewAwaiters();
@@ -39238,8 +39804,8 @@
     kind: 'class',
     interfaces: [MonotonicFrameClock]
   };
-  function _no_name_provided_$factory_55(this$0, $awaiter_4) {
-    var i = new _no_name_provided__84(this$0, $awaiter_4);
+  function _no_name_provided_$factory_56(this$0, $awaiter_4) {
+    var i = new _no_name_provided__87(this$0, $awaiter_4);
     return function (p1) {
       i.invoke_houul8_k$(p1);
       return Unit_getInstance();
@@ -39767,7 +40333,7 @@
   }
   function resolveCompositionLocal($this, key_0, scope) {
     var tmp;
-    if (contains_7(scope, key_0)) {
+    if (contains_8(scope, key_0)) {
       tmp = getValueOf(scope, key_0);
     } else {
       tmp = key_0._defaultValueHolder._get_value__0_k$();
@@ -39785,7 +40351,7 @@
       $this._reader.startNode_sv8swh_k$();
     } else {
       if (!(data == null) ? !($this._reader._get_groupAux__0_k$() === data) : false) {
-        recordSlotTableOperation$default($this, false, _no_name_provided_$factory_66(data), 2, null);
+        recordSlotTableOperation$default($this, false, _no_name_provided_$factory_67(data), 2, null);
       }$this._reader.startGroup_sv8swh_k$();
     }
   }
@@ -39817,7 +40383,7 @@
           var tmp$ret$0;
           $l$block: {
             var insertKeyInfo_2 = new KeyInfo(key_0, -1, insertedGroupVirtualIndex($this, startIndex), -1, 0);
-            tmp2_safe_receiver.registerInsert_4zht0b_k$(insertKeyInfo_2, $this._nodeIndex - tmp2_safe_receiver._startIndex | 0);
+            tmp2_safe_receiver.registerInsert_4zht0b_k$(insertKeyInfo_2, $this._nodeIndex - tmp2_safe_receiver._startIndex_0 | 0);
             tmp$ret$0 = tmp2_safe_receiver.recordUsed_3u0s51_k$(insertKeyInfo_2);
             break $l$block;
           }
@@ -39843,14 +40409,14 @@
         pending.recordUsed_3u0s51_k$(keyInfo);
         Unit_getInstance();
         var location = keyInfo._location_1;
-        $this._nodeIndex = pending.nodePositionOf_3u0s51_k$(keyInfo) + pending._startIndex | 0;
+        $this._nodeIndex = pending.nodePositionOf_3u0s51_k$(keyInfo) + pending._startIndex_0 | 0;
         var relativePosition = pending.slotPositionOf_3u0s51_k$(keyInfo);
         var currentRelativePosition = relativePosition - pending._groupIndex | 0;
         pending.registerMoveSlot_rvwcgf_k$(relativePosition, pending._groupIndex);
         recordReaderMoving($this, location);
         $this._reader.reposition_majfzk_k$(location);
         if (currentRelativePosition > 0) {
-          recordSlotEditingOperation($this, _no_name_provided_$factory_67(currentRelativePosition));
+          recordSlotEditingOperation($this, _no_name_provided_$factory_68(currentRelativePosition));
         }startReaderGroup($this, isNode_0, data);
       } else {
         $this._reader.beginEmpty_sv8swh_k$();
@@ -39871,7 +40437,7 @@
         }
         $this._insertAnchor = $this._writer.anchor_ha5a7z_k$(startIndex_0);
         var insertKeyInfo = new KeyInfo(key_0, -1, insertedGroupVirtualIndex($this, startIndex_0), -1, 0);
-        pending.registerInsert_4zht0b_k$(insertKeyInfo, $this._nodeIndex - pending._startIndex | 0);
+        pending.registerInsert_4zht0b_k$(insertKeyInfo, $this._nodeIndex - pending._startIndex_0 | 0);
         pending.recordUsed_3u0s51_k$(insertKeyInfo);
         Unit_getInstance();
         var tmp$ret$2;
@@ -39933,7 +40499,7 @@
         var previousInfo = previous.get_ha5a7z_k$(previousIndex);
         if (!usedKeys.contains_2bq_k$(previousInfo)) {
           var deleteOffset = pending.nodePositionOf_3u0s51_k$(previousInfo);
-          recordRemoveNode($this, deleteOffset + pending._startIndex | 0, previousInfo._nodes);
+          recordRemoveNode($this, deleteOffset + pending._startIndex_0 | 0, previousInfo._nodes);
           pending.updateNodeCount_27zxwg_k$(previousInfo._location_1, 0);
           Unit_getInstance();
           recordReaderMoving($this, previousInfo._location_1);
@@ -39959,7 +40525,7 @@
             Unit_getInstance();
             if (!(nodePosition === nodeOffset)) {
               var updatedCount = pending.updatedNodeCountOf_3u0s51_k$(currentInfo);
-              recordMoveNode($this, nodePosition + pending._startIndex | 0, nodeOffset + pending._startIndex | 0, updatedCount);
+              recordMoveNode($this, nodePosition + pending._startIndex_0 | 0, nodeOffset + pending._startIndex_0 | 0, updatedCount);
               pending.registerMoveNode_zd700_k$(nodePosition, nodeOffset, updatedCount);
             }} else {
             var tmp2 = previousIndex;
@@ -40418,10 +40984,10 @@
     var count = $this._pendingUps;
     if (count > 0) {
       $this._pendingUps = 0;
-      record($this, _no_name_provided_$factory_69(count));
+      record($this, _no_name_provided_$factory_70(count));
     }}
   function realizeDowns($this, nodes_0) {
-    record($this, _no_name_provided_$factory_70(nodes_0));
+    record($this, _no_name_provided_$factory_71(nodes_0));
   }
   function realizeDowns_0($this) {
     if ($this._downNodes.isNotEmpty_0_k$()) {
@@ -40475,7 +41041,7 @@
         throw IllegalArgumentException_init_$Create$_0(toString_1(message_1));
       }}
     if (distance > 0) {
-      record($this, _no_name_provided_$factory_71(distance));
+      record($this, _no_name_provided_$factory_72(distance));
       $this._writersReaderDelta = location;
     }}
   function realizeOperationLocation$default($this, forParent, $mask0, $handler) {
@@ -40486,14 +41052,14 @@
   function recordInsert($this, anchor) {
     if ($this._insertFixups.isEmpty_0_k$()) {
       var insertTable = $this._insertTable;
-      recordSlotEditingOperation($this, _no_name_provided_$factory_72(insertTable, anchor));
+      recordSlotEditingOperation($this, _no_name_provided_$factory_73(insertTable, anchor));
     } else {
       var fixups = toMutableList_0($this._insertFixups);
       $this._insertFixups.clear_sv8swh_k$();
       realizeUps($this);
       realizeDowns_0($this);
       var insertTable_0 = $this._insertTable;
-      recordSlotEditingOperation($this, _no_name_provided_$factory_73(insertTable_0, fixups, anchor));
+      recordSlotEditingOperation($this, _no_name_provided_$factory_74(insertTable_0, fixups, anchor));
     }
   }
   function recordFixup($this, change) {
@@ -40530,7 +41096,7 @@
           $this._startedGroup = true;
         }var anchor = reader.anchor_ha5a7z_k$(location);
         $this._startedGroups.push_majfzk_k$(location);
-        recordSlotTableOperation$default($this, false, _no_name_provided_$factory_74(anchor), 2, null);
+        recordSlotTableOperation$default($this, false, _no_name_provided_$factory_75(anchor), 2, null);
       }}}
   function recordEndGroup($this) {
     var location = $this._reader._parent_2;
@@ -40659,13 +41225,13 @@
       if ($this._previousRemove >= 0) {
         var removeIndex = $this._previousRemove;
         $this._previousRemove = -1;
-        recordApplierOperation($this, _no_name_provided_$factory_75(removeIndex, count));
+        recordApplierOperation($this, _no_name_provided_$factory_76(removeIndex, count));
       } else {
         var from = $this._previousMoveFrom;
         $this._previousMoveFrom = -1;
         var to_0 = $this._previousMoveTo;
         $this._previousMoveTo = -1;
-        recordApplierOperation($this, _no_name_provided_$factory_76(from, to_0, count));
+        recordApplierOperation($this, _no_name_provided_$factory_77(from, to_0, count));
       }
     }}
   function CompositionContextHolder(ref) {
@@ -40953,7 +41519,7 @@
           if (tmp2_sortBy_0_10._get_size__0_k$() > 1) {
             var tmp$ret$1;
             $l$block_0: {
-              var tmp_2 = _no_name_provided_$factory_77();
+              var tmp_2 = _no_name_provided_$factory_78();
               tmp$ret$1 = new sam$kotlin_Comparator$0_2(tmp_2);
               break $l$block_0;
             }
@@ -40965,9 +41531,9 @@
         var tmp_3;
         try {
           startRoot($this);
-          var tmp_4 = _no_name_provided_$factory_78($this);
-          var tmp_5 = _no_name_provided_$factory_79($this);
-          observeDerivedStateRecalculations(tmp_4, tmp_5, _no_name_provided_$factory_80(content, $this));
+          var tmp_4 = _no_name_provided_$factory_79($this);
+          var tmp_5 = _no_name_provided_$factory_80($this);
+          observeDerivedStateRecalculations(tmp_4, tmp_5, _no_name_provided_$factory_81(content, $this));
           endRoot($this);
           complete_12 = true;
           tmp_3 = Unit_getInstance();
@@ -40999,71 +41565,17 @@
     kind: 'class',
     interfaces: [Comparator]
   };
-  function _no_name_provided__85($factory, $groupAnchor, $insertIndex) {
+  function _no_name_provided__88($factory, $groupAnchor, $insertIndex) {
     this._$factory = $factory;
     this._$groupAnchor = $groupAnchor;
     this._$insertIndex = $insertIndex;
   }
-  _no_name_provided__85.prototype.invoke_472icx_k$ = function (applier, slots, _anonymous_parameter_2_) {
+  _no_name_provided__88.prototype.invoke_472icx_k$ = function (applier, slots, _anonymous_parameter_2_) {
     var node_0 = this._$factory();
     slots.updateNode_ybba3n_k$(this._$groupAnchor, node_0);
     var nodeApplier = isInterface(applier, Applier) ? applier : THROW_CCE();
     nodeApplier.insertTopDown_kb9kjj_k$(this._$insertIndex, node_0);
     applier.down_8a68hq_k$(node_0);
-  };
-  _no_name_provided__85.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
-    var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
-    this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__85.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__86($groupAnchor, $insertIndex) {
-    this._$groupAnchor_0 = $groupAnchor;
-    this._$insertIndex_0 = $insertIndex;
-  }
-  _no_name_provided__86.prototype.invoke_472icx_k$ = function (applier, slots, _anonymous_parameter_2_) {
-    var nodeToInsert = slots.node_bjznjh_k$(this._$groupAnchor_0);
-    applier.up_sv8swh_k$();
-    var nodeApplier = isInterface(applier, Applier) ? applier : THROW_CCE();
-    nodeApplier.insertBottomUp_kb9kjj_k$(this._$insertIndex_0, nodeToInsert);
-  };
-  _no_name_provided__86.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
-    var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
-    this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__86.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__87($block, $value) {
-    this._$block_5 = $block;
-    this._$value = $value;
-  }
-  _no_name_provided__87.prototype.invoke_472icx_k$ = function (applier, _anonymous_parameter_1_, _anonymous_parameter_2_) {
-    var tmp = applier._get_current__0_k$();
-    this._$block_5((tmp == null ? true : isObject(tmp)) ? tmp : THROW_CCE(), this._$value);
-  };
-  _no_name_provided__87.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
-    var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
-    this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__87.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__88($value) {
-    this._$value_0 = $value;
-  }
-  _no_name_provided__88.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, _anonymous_parameter_1_, rememberManager) {
-    rememberManager.remembering_inooeu_k$(this._$value_0);
   };
   _no_name_provided__88.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
     var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
@@ -41075,11 +41587,65 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__89($value, $groupSlotIndex) {
+  function _no_name_provided__89($groupAnchor, $insertIndex) {
+    this._$groupAnchor_0 = $groupAnchor;
+    this._$insertIndex_0 = $insertIndex;
+  }
+  _no_name_provided__89.prototype.invoke_472icx_k$ = function (applier, slots, _anonymous_parameter_2_) {
+    var nodeToInsert = slots.node_bjznjh_k$(this._$groupAnchor_0);
+    applier.up_sv8swh_k$();
+    var nodeApplier = isInterface(applier, Applier) ? applier : THROW_CCE();
+    nodeApplier.insertBottomUp_kb9kjj_k$(this._$insertIndex_0, nodeToInsert);
+  };
+  _no_name_provided__89.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
+    var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
+    this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__89.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__90($block, $value) {
+    this._$block_5 = $block;
+    this._$value = $value;
+  }
+  _no_name_provided__90.prototype.invoke_472icx_k$ = function (applier, _anonymous_parameter_1_, _anonymous_parameter_2_) {
+    var tmp = applier._get_current__0_k$();
+    this._$block_5((tmp == null ? true : isObject(tmp)) ? tmp : THROW_CCE(), this._$value);
+  };
+  _no_name_provided__90.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
+    var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
+    this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__90.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__91($value) {
+    this._$value_0 = $value;
+  }
+  _no_name_provided__91.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, _anonymous_parameter_1_, rememberManager) {
+    rememberManager.remembering_inooeu_k$(this._$value_0);
+  };
+  _no_name_provided__91.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
+    var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
+    this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__91.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__92($value, $groupSlotIndex) {
     this._$value_1 = $value;
     this._$groupSlotIndex = $groupSlotIndex;
   }
-  _no_name_provided__89.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, slots, rememberManager) {
+  _no_name_provided__92.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, slots, rememberManager) {
     var tmp = this._$value_1;
     if (!(tmp == null) ? isInterface(tmp, RememberObserver) : false) {
       rememberManager.remembering_inooeu_k$(this._$value_1);
@@ -41098,58 +41664,6 @@
       }
     }
   };
-  _no_name_provided__89.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
-    var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
-    this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__89.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__90($effect) {
-    this._$effect = $effect;
-  }
-  _no_name_provided__90.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, _anonymous_parameter_1_, rememberManager) {
-    rememberManager.sideEffect_xbouni_k$(this._$effect);
-  };
-  _no_name_provided__90.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
-    var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
-    this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__90.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__91($values, $parentScope) {
-    this._$values = $values;
-    this._$parentScope = $parentScope;
-  }
-  _no_name_provided__91.prototype.invoke_zi0m9m_k$ = function ($composer, $changed) {
-    var $composer_0 = $composer;
-    $composer_0.startReplaceableGroup_majfzk_k$(2083457076);
-    sourceInformation($composer_0, 'C1697@62808L42:Composer.kt#9igjgp');
-    var tmp0 = compositionLocalMapOf$composable(this._$values, this._$parentScope, $composer_0, 0);
-    $composer_0.endReplaceableGroup_sv8swh_k$();
-    return tmp0;
-  };
-  _no_name_provided__91.prototype.invoke_osx4an_k$ = function (p1, p2) {
-    var tmp = (p1 == null ? true : isInterface(p1, Composer)) ? p1 : THROW_CCE();
-    return this.invoke_zi0m9m_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
-  };
-  _no_name_provided__91.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__92($data) {
-    this._$data = $data;
-  }
-  _no_name_provided__92.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, slots, _anonymous_parameter_2_) {
-    slots.updateAux_qi8yb4_k$(this._$data);
-  };
   _no_name_provided__92.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
     var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
     var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
@@ -41160,11 +41674,11 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__93($currentRelativePosition) {
-    this._$currentRelativePosition = $currentRelativePosition;
+  function _no_name_provided__93($effect) {
+    this._$effect = $effect;
   }
-  _no_name_provided__93.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, slots, _anonymous_parameter_2_) {
-    slots.moveGroup_majfzk_k$(this._$currentRelativePosition);
+  _no_name_provided__93.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, _anonymous_parameter_1_, rememberManager) {
+    rememberManager.sideEffect_xbouni_k$(this._$effect);
   };
   _no_name_provided__93.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
     var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
@@ -41176,27 +41690,79 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__94($tmp2_safe_receiver, this$0) {
-    this._$tmp2_safe_receiver = $tmp2_safe_receiver;
-    this._this$0_22 = this$0;
+  function _no_name_provided__94($values, $parentScope) {
+    this._$values = $values;
+    this._$parentScope = $parentScope;
   }
-  _no_name_provided__94.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, _anonymous_parameter_1_, _anonymous_parameter_2_) {
-    this._$tmp2_safe_receiver(this._this$0_22._composition);
+  _no_name_provided__94.prototype.invoke_zi0m9m_k$ = function ($composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0.startReplaceableGroup_majfzk_k$(2083457076);
+    sourceInformation($composer_0, 'C1697@62808L42:Composer.kt#9igjgp');
+    var tmp0 = compositionLocalMapOf$composable(this._$values, this._$parentScope, $composer_0, 0);
+    $composer_0.endReplaceableGroup_sv8swh_k$();
+    return tmp0;
   };
-  _no_name_provided__94.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
-    var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
-    this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
-    return Unit_getInstance();
+  _no_name_provided__94.prototype.invoke_osx4an_k$ = function (p1, p2) {
+    var tmp = (p1 == null ? true : isInterface(p1, Composer)) ? p1 : THROW_CCE();
+    return this.invoke_zi0m9m_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
   };
   _no_name_provided__94.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__95($count) {
+  function _no_name_provided__95($data) {
+    this._$data = $data;
+  }
+  _no_name_provided__95.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, slots, _anonymous_parameter_2_) {
+    slots.updateAux_qi8yb4_k$(this._$data);
+  };
+  _no_name_provided__95.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
+    var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
+    this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__95.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__96($currentRelativePosition) {
+    this._$currentRelativePosition = $currentRelativePosition;
+  }
+  _no_name_provided__96.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, slots, _anonymous_parameter_2_) {
+    slots.moveGroup_majfzk_k$(this._$currentRelativePosition);
+  };
+  _no_name_provided__96.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
+    var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
+    this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__96.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__97($tmp2_safe_receiver, this$0) {
+    this._$tmp2_safe_receiver = $tmp2_safe_receiver;
+    this._this$0_23 = this$0;
+  }
+  _no_name_provided__97.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, _anonymous_parameter_1_, _anonymous_parameter_2_) {
+    this._$tmp2_safe_receiver(this._this$0_23._composition);
+  };
+  _no_name_provided__97.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
+    var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
+    this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__97.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__98($count) {
     this._$count = $count;
   }
-  _no_name_provided__95.prototype.invoke_472icx_k$ = function (applier, _anonymous_parameter_1_, _anonymous_parameter_2_) {
+  _no_name_provided__98.prototype.invoke_472icx_k$ = function (applier, _anonymous_parameter_1_, _anonymous_parameter_2_) {
     {
       {
       }
@@ -41213,20 +41779,20 @@
          while (inductionVariable < last_0);
     }
   };
-  _no_name_provided__95.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+  _no_name_provided__98.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
     var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
     var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
     this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__95.$metadata$ = {
+  _no_name_provided__98.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__96($nodes) {
+  function _no_name_provided__99($nodes) {
     this._$nodes = $nodes;
   }
-  _no_name_provided__96.prototype.invoke_472icx_k$ = function (applier, _anonymous_parameter_1_, _anonymous_parameter_2_) {
+  _no_name_provided__99.prototype.invoke_472icx_k$ = function (applier, _anonymous_parameter_1_, _anonymous_parameter_2_) {
     var inductionVariable = 0;
     var last_0 = this._$nodes.length - 1 | 0;
     if (inductionVariable <= last_0)
@@ -41238,58 +41804,58 @@
       }
        while (inductionVariable <= last_0);
   };
-  _no_name_provided__96.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+  _no_name_provided__99.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
     var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
     var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
     this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__96.$metadata$ = {
+  _no_name_provided__99.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__97($distance) {
+  function _no_name_provided__100($distance) {
     this._$distance = $distance;
   }
-  _no_name_provided__97.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, slots, _anonymous_parameter_2_) {
+  _no_name_provided__100.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, slots, _anonymous_parameter_2_) {
     slots.advanceBy_majfzk_k$(this._$distance);
   };
-  _no_name_provided__97.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+  _no_name_provided__100.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
     var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
     var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
     this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__97.$metadata$ = {
+  _no_name_provided__100.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__98($insertTable, $anchor) {
+  function _no_name_provided__101($insertTable, $anchor) {
     this._$insertTable = $insertTable;
     this._$anchor = $anchor;
   }
-  _no_name_provided__98.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, slots, _anonymous_parameter_2_) {
+  _no_name_provided__101.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, slots, _anonymous_parameter_2_) {
     slots.beginInsert_sv8swh_k$();
     slots.moveFrom_bazt8p_k$(this._$insertTable, this._$anchor.toIndexFor_vbpk20_k$(this._$insertTable));
     Unit_getInstance();
     slots.endInsert_sv8swh_k$();
   };
-  _no_name_provided__98.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+  _no_name_provided__101.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
     var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
     var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
     this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__98.$metadata$ = {
+  _no_name_provided__101.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__99($insertTable, $fixups, $anchor) {
+  function _no_name_provided__102($insertTable, $fixups, $anchor) {
     this._$insertTable_0 = $insertTable;
     this._$fixups = $fixups;
     this._$anchor_0 = $anchor;
   }
-  _no_name_provided__99.prototype.invoke_472icx_k$ = function (applier, slots, rememberManager) {
+  _no_name_provided__102.prototype.invoke_472icx_k$ = function (applier, slots, rememberManager) {
     var tmp$ret$2;
     $l$block_1: {
       var tmp$ret$1;
@@ -41335,57 +41901,6 @@
     Unit_getInstance();
     slots.endInsert_sv8swh_k$();
   };
-  _no_name_provided__99.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
-    var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
-    this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__99.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__100($anchor) {
-    this._$anchor_1 = $anchor;
-  }
-  _no_name_provided__100.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, slots, _anonymous_parameter_2_) {
-    slots.ensureStarted_fkia3g_k$(this._$anchor_1);
-  };
-  _no_name_provided__100.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
-    var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
-    this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__100.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__101($removeIndex, $count) {
-    this._$removeIndex = $removeIndex;
-    this._$count_0 = $count;
-  }
-  _no_name_provided__101.prototype.invoke_472icx_k$ = function (applier, _anonymous_parameter_1_, _anonymous_parameter_2_) {
-    applier.remove_rvwcgf_k$(this._$removeIndex, this._$count_0);
-  };
-  _no_name_provided__101.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
-    var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
-    this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__101.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__102($from, $to, $count) {
-    this._$from = $from;
-    this._$to = $to;
-    this._$count_1 = $count;
-  }
-  _no_name_provided__102.prototype.invoke_472icx_k$ = function (applier, _anonymous_parameter_1_, _anonymous_parameter_2_) {
-    applier.move_zd700_k$(this._$from, this._$to, this._$count_1);
-  };
   _no_name_provided__102.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
     var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
     var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
@@ -41396,9 +41911,60 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__103() {
+  function _no_name_provided__103($anchor) {
+    this._$anchor_1 = $anchor;
   }
-  _no_name_provided__103.prototype.invoke_zgl9d8_k$ = function (a, b) {
+  _no_name_provided__103.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, slots, _anonymous_parameter_2_) {
+    slots.ensureStarted_fkia3g_k$(this._$anchor_1);
+  };
+  _no_name_provided__103.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
+    var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
+    this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__103.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__104($removeIndex, $count) {
+    this._$removeIndex = $removeIndex;
+    this._$count_0 = $count;
+  }
+  _no_name_provided__104.prototype.invoke_472icx_k$ = function (applier, _anonymous_parameter_1_, _anonymous_parameter_2_) {
+    applier.remove_rvwcgf_k$(this._$removeIndex, this._$count_0);
+  };
+  _no_name_provided__104.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
+    var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
+    this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__104.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__105($from, $to, $count) {
+    this._$from = $from;
+    this._$to = $to;
+    this._$count_1 = $count;
+  }
+  _no_name_provided__105.prototype.invoke_472icx_k$ = function (applier, _anonymous_parameter_1_, _anonymous_parameter_2_) {
+    applier.move_zd700_k$(this._$from, this._$to, this._$count_1);
+  };
+  _no_name_provided__105.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
+    var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
+    this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__105.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__106() {
+  }
+  _no_name_provided__106.prototype.invoke_zgl9d8_k$ = function (a, b) {
     var tmp$ret$2;
     $l$block_1: {
       var tmp$ret$0;
@@ -41417,66 +41983,66 @@
     }
     return tmp$ret$2;
   };
-  _no_name_provided__103.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__106.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = p1 instanceof Invalidation ? p1 : THROW_CCE();
     return this.invoke_zgl9d8_k$(tmp, p2 instanceof Invalidation ? p2 : THROW_CCE());
   };
-  _no_name_provided__103.$metadata$ = {
+  _no_name_provided__106.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__104(this$0) {
-    this._this$0_23 = this$0;
+  function _no_name_provided__107(this$0) {
+    this._this$0_24 = this$0;
   }
-  _no_name_provided__104.prototype.invoke_b33xhi_k$ = function (it) {
-    var tmp0_this_14 = this._this$0_23;
+  _no_name_provided__107.prototype.invoke_b33xhi_k$ = function (it) {
+    var tmp0_this_14 = this._this$0_24;
     var tmp1_15 = tmp0_this_14._childrenComposing;
     tmp0_this_14._childrenComposing = tmp1_15 + 1 | 0;
     Unit_getInstance();
   };
-  _no_name_provided__104.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__107.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_b33xhi_k$((!(p1 == null) ? isInterface(p1, State_0) : false) ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__104.$metadata$ = {
+  _no_name_provided__107.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__105(this$0) {
-    this._this$0_24 = this$0;
+  function _no_name_provided__108(this$0) {
+    this._this$0_25 = this$0;
   }
-  _no_name_provided__105.prototype.invoke_b33xhi_k$ = function (it) {
-    var tmp0_this_17 = this._this$0_24;
+  _no_name_provided__108.prototype.invoke_b33xhi_k$ = function (it) {
+    var tmp0_this_17 = this._this$0_25;
     var tmp1_18 = tmp0_this_17._childrenComposing;
     tmp0_this_17._childrenComposing = tmp1_18 - 1 | 0;
     Unit_getInstance();
   };
-  _no_name_provided__105.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__108.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_b33xhi_k$((!(p1 == null) ? isInterface(p1, State_0) : false) ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__105.$metadata$ = {
+  _no_name_provided__108.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__106($content, this$0) {
+  function _no_name_provided__109($content, this$0) {
     this._$content = $content;
-    this._this$0_25 = this$0;
+    this._this$0_26 = this$0;
   }
-  _no_name_provided__106.prototype.invoke_sv8swh_k$ = function () {
+  _no_name_provided__109.prototype.invoke_sv8swh_k$ = function () {
     if (!(this._$content == null)) {
-      startGroup_0(this._this$0_25, 200, invocation);
-      invokeComposable$composable(this._this$0_25, this._$content);
-      endGroup(this._this$0_25);
+      startGroup_0(this._this$0_26, 200, invocation);
+      invokeComposable$composable(this._this$0_26, this._$content);
+      endGroup(this._this$0_26);
     } else {
-      this._this$0_25.skipCurrentGroup_sv8swh_k$();
+      this._this$0_26.skipCurrentGroup_sv8swh_k$();
     }
   };
-  _no_name_provided__106.prototype.invoke_0_k$ = function () {
+  _no_name_provided__109.prototype.invoke_0_k$ = function () {
     this.invoke_sv8swh_k$();
     return Unit_getInstance();
   };
-  _no_name_provided__106.$metadata$ = {
+  _no_name_provided__109.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -41722,8 +42288,8 @@
     var tmp1 = tmp0_this._groupNodeCount;
     tmp0_this._groupNodeCount = tmp1 + 1 | 0;
     Unit_getInstance();
-    recordFixup(this, _no_name_provided_$factory_59(factory, groupAnchor, insertIndex));
-    recordInsertUpFixup(this, _no_name_provided_$factory_60(groupAnchor, insertIndex));
+    recordFixup(this, _no_name_provided_$factory_60(factory, groupAnchor, insertIndex));
+    recordInsertUpFixup(this, _no_name_provided_$factory_61(groupAnchor, insertIndex));
   };
   ComposerImpl.prototype.useNode_sv8swh_k$ = function () {
     validateNodeExpected(this);
@@ -41762,7 +42328,7 @@
     this._reusing = this._reusingGroup >= 0;
   };
   ComposerImpl.prototype.apply_vsxgl0_k$ = function (value, block) {
-    var operation = _no_name_provided_$factory_61(block, value);
+    var operation = _no_name_provided_$factory_62(block, value);
     if (this._inserting)
       recordFixup(this, operation);
     else
@@ -41906,7 +42472,7 @@
       this._writer.update_wi7j7l_k$(value);
       Unit_getInstance();
       if (!(value == null) ? isInterface(value, RememberObserver) : false) {
-        record(this, _no_name_provided_$factory_62(value));
+        record(this, _no_name_provided_$factory_63(value));
         this._abandonSet.add_2bq_k$(value);
         Unit_getInstance();
       } else {
@@ -41918,7 +42484,7 @@
         Unit_getInstance();
       } else {
       }
-      recordSlotTableOperation(this, true, _no_name_provided_$factory_63(value, groupSlotIndex));
+      recordSlotTableOperation(this, true, _no_name_provided_$factory_64(value, groupSlotIndex));
     }
   };
   ComposerImpl.prototype.updateCachedValue_qi8yb4_k$ = function (value) {
@@ -41928,13 +42494,13 @@
     return this._slotTable;
   };
   ComposerImpl.prototype.recordSideEffect_xbouni_k$ = function (effect) {
-    record(this, _no_name_provided_$factory_64(effect));
+    record(this, _no_name_provided_$factory_65(effect));
   };
   ComposerImpl.prototype.startProviders_si7j6f_k$ = function (values_16) {
     var parentScope = currentCompositionLocalScope(this);
     startGroup_0(this, 201, provider);
     startGroup_0(this, 203, providerValues);
-    var currentProviders = invokeComposableForResult$composable(this, _no_name_provided_$factory_65(values_16, parentScope));
+    var currentProviders = invokeComposableForResult$composable(this, _no_name_provided_$factory_66(values_16, parentScope));
     endGroup(this);
     var providers;
     var invalid;
@@ -42082,7 +42648,7 @@
       $l$block: {
         {
         }
-        tmp$ret$0 = record(this, _no_name_provided_$factory_68(tmp2_safe_receiver, this));
+        tmp$ret$0 = record(this, _no_name_provided_$factory_69(tmp2_safe_receiver, this));
         break $l$block;
       }
       Unit_getInstance();
@@ -42221,19 +42787,19 @@
     kind: 'class',
     interfaces: [Composer]
   };
-  function _no_name_provided__107() {
+  function _no_name_provided__110() {
   }
-  _no_name_provided__107.prototype.toString = function () {
+  _no_name_provided__110.prototype.toString = function () {
     return 'Empty';
   };
-  _no_name_provided__107.$metadata$ = {
+  _no_name_provided__110.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
   function Companion_26() {
     Companion_instance_25 = this;
     var tmp = this;
-    tmp._Empty = new _no_name_provided__107();
+    tmp._Empty = new _no_name_provided__110();
   }
   Companion_26.prototype._get_Empty__0_k$ = function () {
     return this._Empty;
@@ -42360,10 +42926,10 @@
   function _get_groupInfos_($this) {
     return $this._groupInfos;
   }
-  function _no_name_provided__108(this$0) {
-    this._this$0_26 = this$0;
+  function _no_name_provided__111(this$0) {
+    this._this$0_27 = this$0;
   }
-  _no_name_provided__108.prototype.invoke_0_k$ = function () {
+  _no_name_provided__111.prototype.invoke_0_k$ = function () {
     var tmp$ret$0;
     $l$block: {
       var tmp0_also_0 = multiMap();
@@ -42371,12 +42937,12 @@
       }
       {
         var inductionVariable = 0;
-        var last_0 = this._this$0_26._keyInfos._get_size__0_k$();
+        var last_0 = this._this$0_27._keyInfos._get_size__0_k$();
         if (inductionVariable < last_0)
           do {
             var index_3 = inductionVariable;
             inductionVariable = inductionVariable + 1 | 0;
-            var keyInfo_4 = this._this$0_26._keyInfos.get_ha5a7z_k$(index_3);
+            var keyInfo_4 = this._this$0_27._keyInfos.get_ha5a7z_k$(index_3);
             put(tmp0_also_0, _get_joinedKey_(keyInfo_4), keyInfo_4);
             Unit_getInstance();
           }
@@ -42387,16 +42953,16 @@
     }
     return tmp$ret$0;
   };
-  _no_name_provided__108.$metadata$ = {
+  _no_name_provided__111.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
   function Pending(keyInfos, startIndex) {
     this._keyInfos = keyInfos;
-    this._startIndex = startIndex;
+    this._startIndex_0 = startIndex;
     this._groupIndex = 0;
     {
-      var tmp0_require_0 = this._startIndex >= 0;
+      var tmp0_require_0 = this._startIndex_0 >= 0;
       {
       }
       if (!tmp0_require_0) {
@@ -42453,13 +43019,13 @@
     }
     tmp_0._groupInfos = tmp$ret$4;
     var tmp_1 = this;
-    tmp_1._keyMap$delegate = lazy(_no_name_provided_$factory_81(this));
+    tmp_1._keyMap$delegate = lazy(_no_name_provided_$factory_82(this));
   }
   Pending.prototype._get_keyInfos__0_k$ = function () {
     return this._keyInfos;
   };
   Pending.prototype._get_startIndex__0_k$ = function () {
-    return this._startIndex;
+    return this._startIndex_0;
   };
   Pending.prototype._set_groupIndex__majfzk_k$ = function (_set___) {
     this._groupIndex = _set___;
@@ -42737,7 +43303,7 @@
           while (inductionVariable < last_0) {
             var provided_4 = indexedObject[inductionVariable];
             inductionVariable = inductionVariable + 1 | 0;
-            if (provided_4._canOverride ? true : !contains_7(parentScope, provided_4._compositionLocal)) {
+            if (provided_4._canOverride ? true : !contains_8(parentScope, provided_4._compositionLocal)) {
               {
                 var tmp = provided_4._compositionLocal;
                 var tmp0_set_0_5 = tmp instanceof CompositionLocal ? tmp : THROW_CCE();
@@ -42765,7 +43331,7 @@
     return referenceKey;
   }
   var referenceKey;
-  function contains_7(_this_, key_0) {
+  function contains_8(_this_, key_0) {
     return _this_.containsKey_2bw_k$(key_0 instanceof CompositionLocal ? key_0 : THROW_CCE());
   }
   function getValueOf(_this_, key_0) {
@@ -43161,11 +43727,11 @@
   function Updater__init_impl(this_0, block) {
     if (_Updater___get_composer__impl_(this_0)._get_inserting__0_k$()) {
       var tmp = _Updater___get_composer__impl_(this_0);
-      tmp.apply_vsxgl0_k$(Unit_getInstance(), _no_name_provided_$factory_82(block));
+      tmp.apply_vsxgl0_k$(Unit_getInstance(), _no_name_provided_$factory_83(block));
     }}
   function Updater__reconcile_impl(this_0, block) {
     var tmp = _Updater___get_composer__impl_(this_0);
-    tmp.apply_vsxgl0_k$(Unit_getInstance(), _no_name_provided_$factory_83(block));
+    tmp.apply_vsxgl0_k$(Unit_getInstance(), _no_name_provided_$factory_84(block));
   }
   function Updater__toString_impl(this_0) {
     return '' + 'Updater(composer=' + this_0 + ')';
@@ -43183,33 +43749,33 @@
       return false;
     return true;
   }
-  function _no_name_provided__109($block) {
+  function _no_name_provided__112($block) {
     this._$block_6 = $block;
   }
-  _no_name_provided__109.prototype.invoke_m1x9oq_k$ = function ($this$apply, it) {
+  _no_name_provided__112.prototype.invoke_m1x9oq_k$ = function ($this$apply, it) {
     this._$block_6($this$apply);
   };
-  _no_name_provided__109.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__112.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE();
     this.invoke_m1x9oq_k$(tmp, p2 instanceof Unit ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__109.$metadata$ = {
+  _no_name_provided__112.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__110($block) {
+  function _no_name_provided__113($block) {
     this._$block_7 = $block;
   }
-  _no_name_provided__110.prototype.invoke_m1x9oq_k$ = function ($this$apply, it) {
+  _no_name_provided__113.prototype.invoke_m1x9oq_k$ = function ($this$apply, it) {
     this._$block_7($this$apply);
   };
-  _no_name_provided__110.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__113.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE();
     this.invoke_m1x9oq_k$(tmp, p2 instanceof Unit ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__110.$metadata$ = {
+  _no_name_provided__113.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -43274,49 +43840,49 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__111() {
+  function _no_name_provided__114() {
   }
-  _no_name_provided__111.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, slots, rememberManager) {
+  _no_name_provided__114.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, slots, rememberManager) {
     removeCurrentGroup(slots, rememberManager);
   };
-  _no_name_provided__111.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+  _no_name_provided__114.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
     var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
     var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
     this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__111.$metadata$ = {
+  _no_name_provided__114.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__112() {
+  function _no_name_provided__115() {
   }
-  _no_name_provided__112.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, slots, _anonymous_parameter_2_) {
+  _no_name_provided__115.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, slots, _anonymous_parameter_2_) {
     slots.endGroup_0_k$();
     Unit_getInstance();
   };
-  _no_name_provided__112.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+  _no_name_provided__115.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
     var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
     var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
     this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__112.$metadata$ = {
+  _no_name_provided__115.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__113() {
+  function _no_name_provided__116() {
   }
-  _no_name_provided__113.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, slots, _anonymous_parameter_2_) {
+  _no_name_provided__116.prototype.invoke_472icx_k$ = function (_anonymous_parameter_0_, slots, _anonymous_parameter_2_) {
     slots.ensureStarted_majfzk_k$(0);
   };
-  _no_name_provided__113.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+  _no_name_provided__116.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
     var tmp = (!(p1 == null) ? isInterface(p1, Applier) : false) ? p1 : THROW_CCE();
     var tmp_0 = p2 instanceof SlotWriter ? p2 : THROW_CCE();
     this.invoke_472icx_k$(tmp, tmp_0, (!(p3 == null) ? isInterface(p3, RememberManager) : false) ? p3 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__113.$metadata$ = {
+  _no_name_provided__116.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -43355,207 +43921,207 @@
       return receiver._get_keyMap__0_k$();
     }, null);
   }
-  function _no_name_provided_$factory_56() {
-    var i = new _no_name_provided__111();
-    return function (p1, p2, p3) {
-      i.invoke_472icx_k$(p1, p2, p3);
-      return Unit_getInstance();
-    };
-  }
   function _no_name_provided_$factory_57() {
-    var i = new _no_name_provided__112();
+    var i = new _no_name_provided__114();
     return function (p1, p2, p3) {
       i.invoke_472icx_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
   function _no_name_provided_$factory_58() {
-    var i = new _no_name_provided__113();
+    var i = new _no_name_provided__115();
     return function (p1, p2, p3) {
       i.invoke_472icx_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_59($factory, $groupAnchor, $insertIndex) {
-    var i = new _no_name_provided__85($factory, $groupAnchor, $insertIndex);
+  function _no_name_provided_$factory_59() {
+    var i = new _no_name_provided__116();
     return function (p1, p2, p3) {
       i.invoke_472icx_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_60($groupAnchor, $insertIndex) {
-    var i = new _no_name_provided__86($groupAnchor, $insertIndex);
+  function _no_name_provided_$factory_60($factory, $groupAnchor, $insertIndex) {
+    var i = new _no_name_provided__88($factory, $groupAnchor, $insertIndex);
     return function (p1, p2, p3) {
       i.invoke_472icx_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_61($block, $value) {
-    var i = new _no_name_provided__87($block, $value);
+  function _no_name_provided_$factory_61($groupAnchor, $insertIndex) {
+    var i = new _no_name_provided__89($groupAnchor, $insertIndex);
     return function (p1, p2, p3) {
       i.invoke_472icx_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_62($value) {
-    var i = new _no_name_provided__88($value);
+  function _no_name_provided_$factory_62($block, $value) {
+    var i = new _no_name_provided__90($block, $value);
     return function (p1, p2, p3) {
       i.invoke_472icx_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_63($value, $groupSlotIndex) {
-    var i = new _no_name_provided__89($value, $groupSlotIndex);
+  function _no_name_provided_$factory_63($value) {
+    var i = new _no_name_provided__91($value);
     return function (p1, p2, p3) {
       i.invoke_472icx_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_64($effect) {
-    var i = new _no_name_provided__90($effect);
+  function _no_name_provided_$factory_64($value, $groupSlotIndex) {
+    var i = new _no_name_provided__92($value, $groupSlotIndex);
     return function (p1, p2, p3) {
       i.invoke_472icx_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_65($values, $parentScope) {
-    var i = new _no_name_provided__91($values, $parentScope);
+  function _no_name_provided_$factory_65($effect) {
+    var i = new _no_name_provided__93($effect);
+    return function (p1, p2, p3) {
+      i.invoke_472icx_k$(p1, p2, p3);
+      return Unit_getInstance();
+    };
+  }
+  function _no_name_provided_$factory_66($values, $parentScope) {
+    var i = new _no_name_provided__94($values, $parentScope);
     return function (p1, p2) {
       return i.invoke_zi0m9m_k$(p1, p2);
     };
   }
-  function _no_name_provided_$factory_66($data) {
-    var i = new _no_name_provided__92($data);
+  function _no_name_provided_$factory_67($data) {
+    var i = new _no_name_provided__95($data);
     return function (p1, p2, p3) {
       i.invoke_472icx_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_67($currentRelativePosition) {
-    var i = new _no_name_provided__93($currentRelativePosition);
+  function _no_name_provided_$factory_68($currentRelativePosition) {
+    var i = new _no_name_provided__96($currentRelativePosition);
     return function (p1, p2, p3) {
       i.invoke_472icx_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_68($tmp2_safe_receiver, this$0) {
-    var i = new _no_name_provided__94($tmp2_safe_receiver, this$0);
+  function _no_name_provided_$factory_69($tmp2_safe_receiver, this$0) {
+    var i = new _no_name_provided__97($tmp2_safe_receiver, this$0);
     return function (p1, p2, p3) {
       i.invoke_472icx_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_69($count) {
-    var i = new _no_name_provided__95($count);
+  function _no_name_provided_$factory_70($count) {
+    var i = new _no_name_provided__98($count);
     return function (p1, p2, p3) {
       i.invoke_472icx_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_70($nodes) {
-    var i = new _no_name_provided__96($nodes);
+  function _no_name_provided_$factory_71($nodes) {
+    var i = new _no_name_provided__99($nodes);
     return function (p1, p2, p3) {
       i.invoke_472icx_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_71($distance) {
-    var i = new _no_name_provided__97($distance);
+  function _no_name_provided_$factory_72($distance) {
+    var i = new _no_name_provided__100($distance);
     return function (p1, p2, p3) {
       i.invoke_472icx_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_72($insertTable, $anchor) {
-    var i = new _no_name_provided__98($insertTable, $anchor);
+  function _no_name_provided_$factory_73($insertTable, $anchor) {
+    var i = new _no_name_provided__101($insertTable, $anchor);
     return function (p1, p2, p3) {
       i.invoke_472icx_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_73($insertTable, $fixups, $anchor) {
-    var i = new _no_name_provided__99($insertTable, $fixups, $anchor);
+  function _no_name_provided_$factory_74($insertTable, $fixups, $anchor) {
+    var i = new _no_name_provided__102($insertTable, $fixups, $anchor);
     return function (p1, p2, p3) {
       i.invoke_472icx_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_74($anchor) {
-    var i = new _no_name_provided__100($anchor);
+  function _no_name_provided_$factory_75($anchor) {
+    var i = new _no_name_provided__103($anchor);
     return function (p1, p2, p3) {
       i.invoke_472icx_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_75($removeIndex, $count) {
-    var i = new _no_name_provided__101($removeIndex, $count);
+  function _no_name_provided_$factory_76($removeIndex, $count) {
+    var i = new _no_name_provided__104($removeIndex, $count);
     return function (p1, p2, p3) {
       i.invoke_472icx_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_76($from, $to, $count) {
-    var i = new _no_name_provided__102($from, $to, $count);
+  function _no_name_provided_$factory_77($from, $to, $count) {
+    var i = new _no_name_provided__105($from, $to, $count);
     return function (p1, p2, p3) {
       i.invoke_472icx_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_77() {
-    var i = new _no_name_provided__103();
+  function _no_name_provided_$factory_78() {
+    var i = new _no_name_provided__106();
     return function (p1, p2) {
       return i.invoke_zgl9d8_k$(p1, p2);
     };
   }
-  function _no_name_provided_$factory_78(this$0) {
-    var i = new _no_name_provided__104(this$0);
-    return function (p1) {
-      i.invoke_b33xhi_k$(p1);
-      return Unit_getInstance();
-    };
-  }
   function _no_name_provided_$factory_79(this$0) {
-    var i = new _no_name_provided__105(this$0);
+    var i = new _no_name_provided__107(this$0);
     return function (p1) {
       i.invoke_b33xhi_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_80($content, this$0) {
-    var i = new _no_name_provided__106($content, this$0);
+  function _no_name_provided_$factory_80(this$0) {
+    var i = new _no_name_provided__108(this$0);
+    return function (p1) {
+      i.invoke_b33xhi_k$(p1);
+      return Unit_getInstance();
+    };
+  }
+  function _no_name_provided_$factory_81($content, this$0) {
+    var i = new _no_name_provided__109($content, this$0);
     return function () {
       i.invoke_sv8swh_k$();
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_81(this$0) {
-    var i = new _no_name_provided__108(this$0);
+  function _no_name_provided_$factory_82(this$0) {
+    var i = new _no_name_provided__111(this$0);
     return function () {
       return i.invoke_0_k$();
     };
   }
-  function _no_name_provided_$factory_82($block) {
-    var i = new _no_name_provided__109($block);
+  function _no_name_provided_$factory_83($block) {
+    var i = new _no_name_provided__112($block);
     return function (p1, p2) {
       i.invoke_m1x9oq_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_83($block) {
-    var i = new _no_name_provided__110($block);
+  function _no_name_provided_$factory_84($block) {
+    var i = new _no_name_provided__113($block);
     return function (p1, p2) {
       i.invoke_m1x9oq_k$(p1, p2);
       return Unit_getInstance();
     };
   }
   function removeCurrentGroupInstance$init$() {
-    return _no_name_provided_$factory_56();
-  }
-  function endGroupInstance$init$() {
     return _no_name_provided_$factory_57();
   }
-  function startRootGroup$init$() {
+  function endGroupInstance$init$() {
     return _no_name_provided_$factory_58();
+  }
+  function startRootGroup$init$() {
+    return _no_name_provided_$factory_59();
   }
   function _get_PendingApplyNoModifications_() {
     return PendingApplyNoModifications;
@@ -44853,9 +45419,9 @@
     kind: 'interface',
     interfaces: [Composition]
   };
-  function _no_name_provided__114() {
+  function _no_name_provided__117() {
   }
-  _no_name_provided__114.prototype.invoke_5vwf3d_k$ = function ($composer, $changed) {
+  _no_name_provided__117.prototype.invoke_5vwf3d_k$ = function ($composer, $changed) {
     var $composer_0 = $composer;
     sourceInformation($composer_0, 'C:Composition.kt#9igjgp');
     if (!(($changed & 11 ^ 2) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
@@ -44863,18 +45429,18 @@
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
   };
-  _no_name_provided__114.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__117.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (p1 == null ? true : isInterface(p1, Composer)) ? p1 : THROW_CCE();
     this.invoke_5vwf3d_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__114.$metadata$ = {
+  _no_name_provided__117.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__115() {
+  function _no_name_provided__118() {
   }
-  _no_name_provided__115.prototype.invoke_5vwf3d_k$ = function ($composer, $changed) {
+  _no_name_provided__118.prototype.invoke_5vwf3d_k$ = function ($composer, $changed) {
     var $composer_0 = $composer;
     sourceInformation($composer_0, 'C:Composition.kt#9igjgp');
     if (!(($changed & 11 ^ 2) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
@@ -44882,21 +45448,21 @@
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
   };
-  _no_name_provided__115.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__118.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (p1 == null ? true : isInterface(p1, Composer)) ? p1 : THROW_CCE();
     this.invoke_5vwf3d_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__115.$metadata$ = {
+  _no_name_provided__118.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
   function ComposableSingletons$CompositionKt() {
     ComposableSingletons$CompositionKt_instance = this;
     var tmp = this;
-    tmp._lambda_1 = composableLambdaInstance(-985543095, false, _no_name_provided_$factory_84());
+    tmp._lambda_1 = composableLambdaInstance(-985543095, false, _no_name_provided_$factory_85());
     var tmp_0 = this;
-    tmp_0._lambda_2 = composableLambdaInstance(-985548681, false, _no_name_provided_$factory_85());
+    tmp_0._lambda_2 = composableLambdaInstance(-985548681, false, _no_name_provided_$factory_86());
   }
   ComposableSingletons$CompositionKt.prototype._get_lambda_1__0_k$ = function () {
     return this._lambda_1;
@@ -44954,15 +45520,15 @@
   function ControlledComposition_0(applier, parent_0) {
     return CompositionImpl_init_$Create$(parent_0, applier, null, 4, null);
   }
-  function _no_name_provided_$factory_84() {
-    var i = new _no_name_provided__114();
+  function _no_name_provided_$factory_85() {
+    var i = new _no_name_provided__117();
     return function (p1, p2) {
       i.invoke_5vwf3d_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_85() {
-    var i = new _no_name_provided__115();
+  function _no_name_provided_$factory_86() {
+    var i = new _no_name_provided__118();
     return function (p1, p2) {
       i.invoke_5vwf3d_k$(p1, p2);
       return Unit_getInstance();
@@ -45148,13 +45714,13 @@
     return InternalDisposableEffectScope;
   }
   var InternalDisposableEffectScope;
-  function _no_name_provided__116($onDisposeEffect) {
+  function _no_name_provided__119($onDisposeEffect) {
     this._$onDisposeEffect = $onDisposeEffect;
   }
-  _no_name_provided__116.prototype.dispose_sv8swh_k$ = function () {
+  _no_name_provided__119.prototype.dispose_sv8swh_k$ = function () {
     this._$onDisposeEffect();
   };
-  _no_name_provided__116.$metadata$ = {
+  _no_name_provided__119.$metadata$ = {
     kind: 'class',
     interfaces: [DisposableEffectResult]
   };
@@ -45162,7 +45728,7 @@
     this._$stable_3 = 0;
   }
   DisposableEffectScope.prototype.onDispose_qgl0n5_k$ = function (onDisposeEffect) {
-    return new _no_name_provided__116(onDisposeEffect);
+    return new _no_name_provided__119(onDisposeEffect);
   };
   DisposableEffectScope.$metadata$ = {
     simpleName: 'DisposableEffectScope',
@@ -45507,14 +46073,14 @@
       $this._flags = $this._flags & -17;
     }
   }
-  function _no_name_provided__117(this$0, $token, $tmp0_safe_receiver) {
-    this._this$0_27 = this$0;
+  function _no_name_provided__120(this$0, $token, $tmp0_safe_receiver) {
+    this._this$0_28 = this$0;
     this._$token = $token;
     this._$tmp0_safe_receiver = $tmp0_safe_receiver;
   }
-  _no_name_provided__117.prototype.invoke_tsesdd_k$ = function (composition) {
+  _no_name_provided__120.prototype.invoke_tsesdd_k$ = function (composition) {
     var tmp;
-    if (this._this$0_27._currentToken === this._$token ? equals_0(this._$tmp0_safe_receiver, this._this$0_27._trackedInstances) : false) {
+    if (this._this$0_28._currentToken === this._$token ? equals_0(this._$tmp0_safe_receiver, this._this$0_28._trackedInstances) : false) {
       tmp = composition instanceof CompositionImpl;
     } else {
       tmp = false;
@@ -45540,7 +46106,7 @@
                 }
                 {
                   if (tmp0_also_0_10_12) {
-                    composition.removeObservation_7j9hyy_k$(key_4_10, this._this$0_27);
+                    composition.removeObservation_7j9hyy_k$(key_4_10, this._this$0_28);
                     var tmp0_safe_receiver_2_11_13 = isInterface(key_4_10, DerivedState) ? key_4_10 : null;
                     if (tmp0_safe_receiver_2_11_13 == null)
                       null;
@@ -45551,7 +46117,7 @@
                         }
                         var tmp$ret$1;
                         $l$block_0: {
-                          var tmp0_safe_receiver_2_3_12_14 = this._this$0_27._trackedDependencies;
+                          var tmp0_safe_receiver_2_3_12_14 = this._this$0_28._trackedDependencies;
                           var tmp_1;
                           if (tmp0_safe_receiver_2_3_12_14 == null) {
                             tmp_1 = null;
@@ -45564,7 +46130,7 @@
                               Unit_getInstance();
                               var tmp_2;
                               if (tmp0_safe_receiver_2_3_12_14._size_2 === 0) {
-                                this._this$0_27._trackedDependencies = null;
+                                this._this$0_28._trackedDependencies = null;
                                 tmp_2 = Unit_getInstance();
                               }tmp$ret$0 = tmp_2;
                               break $l$block;
@@ -45609,15 +46175,15 @@
         this._$tmp0_safe_receiver._size_1 = destinationIndex_1_7;
       }
       if (this._$tmp0_safe_receiver._size_1 === 0)
-        this._this$0_27._trackedInstances = null;
+        this._this$0_28._trackedInstances = null;
     } else {
     }
   };
-  _no_name_provided__117.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__120.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_tsesdd_k$((!(p1 == null) ? isInterface(p1, Composition) : false) ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__117.$metadata$ = {
+  _no_name_provided__120.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -45952,7 +46518,7 @@
             tmp_1 = false;
           }
           if (tmp_1) {
-            tmp_0 = _no_name_provided_$factory_86(this, token, tmp0_safe_receiver);
+            tmp_0 = _no_name_provided_$factory_87(this, token, tmp0_safe_receiver);
           } else {
             {
               tmp_0 = null;
@@ -46004,8 +46570,8 @@
     return SkippedFlag;
   }
   var SkippedFlag;
-  function _no_name_provided_$factory_86(this$0, $token, $tmp0_safe_receiver) {
-    var i = new _no_name_provided__117(this$0, $token, $tmp0_safe_receiver);
+  function _no_name_provided_$factory_87(this$0, $token, $tmp0_safe_receiver) {
+    var i = new _no_name_provided__120(this$0, $token, $tmp0_safe_receiver);
     return function (p1) {
       i.invoke_tsesdd_k$(p1);
       return Unit_getInstance();
@@ -46090,15 +46656,15 @@
         break $l$break;
     }
   }
-  function _no_name_provided__118(this$0, $throwable) {
-    this._this$0_28 = this$0;
+  function _no_name_provided__121(this$0, $throwable) {
+    this._this$0_29 = this$0;
     this._$throwable = $throwable;
   }
-  _no_name_provided__118.prototype.invoke_houul8_k$ = function (runnerJobCause) {
+  _no_name_provided__121.prototype.invoke_houul8_k$ = function (runnerJobCause) {
     var tmp$ret$4;
     $l$block_3: {
-      var tmp0_synchronized_0_4_8 = this._this$0_28._stateLock;
-      var tmp = this._this$0_28;
+      var tmp0_synchronized_0_4_8 = this._this$0_29._stateLock;
+      var tmp = this._this$0_29;
       var tmp0_safe_receiver_2_5_9 = this._$throwable;
       var tmp_0;
       if (tmp0_safe_receiver_2_5_9 == null) {
@@ -46157,30 +46723,30 @@
         tmp_0 = tmp$ret$3;
       }
       tmp._closeCause_0 = tmp_0;
-      tmp$ret$4 = this._this$0_28.__state_4._set_value__iav7o_k$(State_ShutDown_getInstance());
+      tmp$ret$4 = this._this$0_29.__state_4._set_value__iav7o_k$(State_ShutDown_getInstance());
       break $l$block_3;
     }
   };
-  _no_name_provided__118.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__121.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_houul8_k$((p1 == null ? true : p1 instanceof Error) ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__118.$metadata$ = {
+  _no_name_provided__121.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__119(this$0, $toRecompose, $toApply) {
-    this._this$0_29 = this$0;
+  function _no_name_provided__122(this$0, $toRecompose, $toApply) {
+    this._this$0_30 = this$0;
     this._$toRecompose = $toRecompose;
     this._$toApply = $toApply;
   }
-  _no_name_provided__119.prototype.invoke_wiekkq_k$ = function (frameTime) {
-    if (this._this$0_29._broadcastFrameClock._get_hasAwaiters__0_k$()) {
+  _no_name_provided__122.prototype.invoke_wiekkq_k$ = function (frameTime) {
+    if (this._this$0_30._broadcastFrameClock._get_hasAwaiters__0_k$()) {
       var tmp$ret$0;
       $l$block: {
         var token_1 = Trace_getInstance().beginSection_6wfw3l_k$('Recomposer:animation');
         try {
-          this._this$0_29._broadcastFrameClock.sendFrame_kdfck9_k$(frameTime);
+          this._this$0_30._broadcastFrameClock.sendFrame_kdfck9_k$(frameTime);
           tmp$ret$0 = Companion_getInstance_31().sendApplyNotifications_sv8swh_k$();
           break $l$block;
         }finally {
@@ -46195,10 +46761,10 @@
         $l$block_7: {
           var tmp$ret$1;
           $l$block_0: {
-            var tmp0_synchronized_0_3 = this._this$0_29._stateLock;
-            recordComposerModificationsLocked(this._this$0_29);
+            var tmp0_synchronized_0_3 = this._this$0_30._stateLock;
+            recordComposerModificationsLocked(this._this$0_30);
             {
-              var tmp0_fastForEach_0_2_4 = this._this$0_29._compositionInvalidations;
+              var tmp0_fastForEach_0_2_4 = this._this$0_30._compositionInvalidations;
               {
               }
               var inductionVariable = 0;
@@ -46217,7 +46783,7 @@
                 }
                  while (inductionVariable <= last_0);
             }
-            tmp$ret$1 = this._this$0_29._compositionInvalidations.clear_sv8swh_k$();
+            tmp$ret$1 = this._this$0_30._compositionInvalidations.clear_sv8swh_k$();
             break $l$block_0;
           }
           var modifiedValues_8 = new IdentityArraySet();
@@ -46244,7 +46810,7 @@
                     {
                       alreadyComposed_9.add_2c5_k$(item_4_12);
                       Unit_getInstance();
-                      var tmp0_safe_receiver_6_13 = performRecompose(this._this$0_29, item_4_12, modifiedValues_8);
+                      var tmp0_safe_receiver_6_13 = performRecompose(this._this$0_30, item_4_12, modifiedValues_8);
                       if (tmp0_safe_receiver_6_13 == null)
                         null;
                       else {
@@ -46269,8 +46835,8 @@
             if (modifiedValues_8.isNotEmpty_0_k$()) {
               var tmp$ret$4;
               $l$block_3: {
-                var tmp1_synchronized_0_14 = this._this$0_29._stateLock;
-                var tmp0_fastForEach_0_2_15 = this._this$0_29._knownCompositions;
+                var tmp1_synchronized_0_14 = this._this$0_30._stateLock;
+                var tmp0_fastForEach_0_2_15 = this._this$0_30._knownCompositions;
                 {
                 }
                 var inductionVariable_1 = 0;
@@ -46301,7 +46867,7 @@
             break $l$block_4;
           }
           if (tmp$ret$5) {
-            var tmp0_this_19 = this._this$0_29;
+            var tmp0_this_19 = this._this$0_30;
             var tmp1_20 = tmp0_this_19._changeCount;
             tmp0_this_19._changeCount = tmp1_20.inc_0_k$();
             Unit_getInstance();
@@ -46329,10 +46895,10 @@
           }
           var tmp$ret$7;
           $l$block_6: {
-            var tmp2_synchronized_0_24 = this._this$0_29._stateLock;
+            var tmp2_synchronized_0_24 = this._this$0_30._stateLock;
             var tmp$ret$6;
             $l$block_5: {
-              tmp$ret$6 = deriveStateLocked(this._this$0_29);
+              tmp$ret$6 = deriveStateLocked(this._this$0_30);
               break $l$block_5;
             }
             tmp$ret$7 = tmp$ret$6;
@@ -46349,30 +46915,30 @@
     }
     return tmp$ret$9;
   };
-  _no_name_provided__119.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__122.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_wiekkq_k$(p1 instanceof Long ? p1 : THROW_CCE());
   };
-  _no_name_provided__119.$metadata$ = {
+  _no_name_provided__122.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__120(this$0, $parentFrameClock, $frameSignal, resultContinuation) {
-    this._this$0_30 = this$0;
+  function _no_name_provided__123(this$0, $parentFrameClock, $frameSignal, resultContinuation) {
+    this._this$0_31 = this$0;
     this._$parentFrameClock = $parentFrameClock;
     this._$frameSignal = $frameSignal;
     CoroutineImpl_0.call(this, resultContinuation);
   }
-  _no_name_provided__120.prototype.invoke_2i3g7c_k$ = function ($this$launch, $cont) {
+  _no_name_provided__123.prototype.invoke_2i3g7c_k$ = function ($this$launch, $cont) {
     var tmp = this.create_y6imfn_k$($this$launch, $cont);
     tmp._result_0 = Unit_getInstance();
     tmp._exception_0 = null;
     return tmp.doResume_0_k$();
   };
-  _no_name_provided__120.prototype.invoke_20e8_k$ = function (p1, $cont) {
+  _no_name_provided__123.prototype.invoke_20e8_k$ = function (p1, $cont) {
     this.invoke_2i3g7c_k$((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $cont);
     return Unit_getInstance();
   };
-  _no_name_provided__120.prototype.doResume_0_k$ = function () {
+  _no_name_provided__123.prototype.doResume_0_k$ = function () {
     var suspendResult = this._result_0;
     $sm: do
       try {
@@ -46381,7 +46947,7 @@
           case 0:
             this._exceptionState = 2;
             this._state_1 = 1;
-            suspendResult = runFrameLoop(this._this$0_30, this._$parentFrameClock, this._$frameSignal, this);
+            suspendResult = runFrameLoop(this._this$0_31, this._$parentFrameClock, this._$frameSignal, this);
             if (suspendResult === _get_COROUTINE_SUSPENDED_()) {
               return suspendResult;
             }
@@ -46401,58 +46967,58 @@
       }
      while (true);
   };
-  _no_name_provided__120.prototype.create_y6imfn_k$ = function ($this$launch, completion) {
-    var i = new _no_name_provided__120(this._this$0_30, this._$parentFrameClock, this._$frameSignal, completion);
+  _no_name_provided__123.prototype.create_y6imfn_k$ = function ($this$launch, completion) {
+    var i = new _no_name_provided__123(this._this$0_31, this._$parentFrameClock, this._$frameSignal, completion);
     i._$this$launch = $this$launch;
     return i;
   };
-  _no_name_provided__120.prototype.create_wbutx_k$ = function (value, completion) {
+  _no_name_provided__123.prototype.create_wbutx_k$ = function (value, completion) {
     return this.create_y6imfn_k$((!(value == null) ? isInterface(value, CoroutineScope) : false) ? value : THROW_CCE(), completion);
   };
-  _no_name_provided__120.$metadata$ = {
+  _no_name_provided__123.$metadata$ = {
     kind: 'class',
     interfaces: [],
     suspendArity: 1
   };
-  function _no_name_provided__121(this$0, $item_4_13_14, resultContinuation) {
-    this._this$0_31 = this$0;
+  function _no_name_provided__124(this$0, $item_4_13_14, resultContinuation) {
+    this._this$0_32 = this$0;
     this._$item_4_13_14 = $item_4_13_14;
     CoroutineImpl_0.call(this, resultContinuation);
   }
-  _no_name_provided__121.prototype.invoke_2i3g7c_k$ = function ($this$launch, $cont) {
+  _no_name_provided__124.prototype.invoke_2i3g7c_k$ = function ($this$launch, $cont) {
     var tmp = this.create_y6imfn_k$($this$launch, $cont);
     tmp._result_0 = Unit_getInstance();
     tmp._exception_0 = null;
     return tmp.doResume_0_k$();
   };
-  _no_name_provided__121.prototype.invoke_20e8_k$ = function (p1, $cont) {
+  _no_name_provided__124.prototype.invoke_20e8_k$ = function (p1, $cont) {
     this.invoke_2i3g7c_k$((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $cont);
     return Unit_getInstance();
   };
-  _no_name_provided__121.prototype.doResume_0_k$ = function () {
+  _no_name_provided__124.prototype.doResume_0_k$ = function () {
     var suspendResult = this._result_0;
     $sm: do
       try {
         var tmp = this._state_1;
         if (tmp === 0) {
           this._exceptionState = 1;
-          var changedComposition_18_18 = performRecompose(this._this$0_31, this._$item_4_13_14, null);
-          var tmp0_synchronized_0_20_20 = this._this$0_31._stateLock;
+          var changedComposition_18_18 = performRecompose(this._this$0_32, this._$item_4_13_14, null);
+          var tmp0_synchronized_0_20_20 = this._this$0_32._stateLock;
           var tmp0_safe_receiver_2_21_21 = changedComposition_18_18;
           if (tmp0_safe_receiver_2_21_21 == null)
             null;
           else {
-            var tmp0_this_2_3_22_22 = this._this$0_31;
+            var tmp0_this_2_3_22_22 = this._this$0_32;
             var tmp0_plusAssign_0_3_4_23_23 = tmp0_this_2_3_22_22._compositionsAwaitingApply;
             tmp0_plusAssign_0_3_4_23_23.add_2bq_k$(tmp0_safe_receiver_2_21_21);
             Unit_getInstance();
           }
           Unit_getInstance();
-          var tmp1_this_5_24_24 = this._this$0_31;
+          var tmp1_this_5_24_24 = this._this$0_32;
           var tmp2_6_25_25 = tmp1_this_5_24_24._concurrentCompositionsOutstanding;
           tmp1_this_5_24_24._concurrentCompositionsOutstanding = tmp2_6_25_25 - 1 | 0;
           Unit_getInstance();
-          var tmp0_safe_receiver_19_19 = deriveStateLocked(this._this$0_31);
+          var tmp0_safe_receiver_19_19 = deriveStateLocked(this._this$0_32);
           if (tmp0_safe_receiver_19_19 == null)
             null;
           else {
@@ -46469,37 +47035,37 @@
       }
      while (true);
   };
-  _no_name_provided__121.prototype.create_y6imfn_k$ = function ($this$launch, completion) {
-    var i = new _no_name_provided__121(this._this$0_31, this._$item_4_13_14, completion);
+  _no_name_provided__124.prototype.create_y6imfn_k$ = function ($this$launch, completion) {
+    var i = new _no_name_provided__124(this._this$0_32, this._$item_4_13_14, completion);
     i._$this$launch_0 = $this$launch;
     return i;
   };
-  _no_name_provided__121.prototype.create_wbutx_k$ = function (value, completion) {
+  _no_name_provided__124.prototype.create_wbutx_k$ = function (value, completion) {
     return this.create_y6imfn_k$((!(value == null) ? isInterface(value, CoroutineScope) : false) ? value : THROW_CCE(), completion);
   };
-  _no_name_provided__121.$metadata$ = {
+  _no_name_provided__124.$metadata$ = {
     kind: 'class',
     interfaces: [],
     suspendArity: 1
   };
-  function _no_name_provided__122(this$0) {
-    this._this$0_32 = this$0;
+  function _no_name_provided__125(this$0) {
+    this._this$0_33 = this$0;
   }
-  _no_name_provided__122.prototype.invoke_a24q54_k$ = function (changed, _anonymous_parameter_1_) {
+  _no_name_provided__125.prototype.invoke_a24q54_k$ = function (changed, _anonymous_parameter_1_) {
     var tmp$ret$1;
     $l$block_0: {
-      var tmp0_synchronized_0 = this._this$0_32._stateLock;
+      var tmp0_synchronized_0 = this._this$0_33._stateLock;
       var tmp$ret$0;
       $l$block: {
         var tmp;
-        if (this._this$0_32.__state_4._get_value__0_k$().compareTo_2bq_k$(State_Idle_getInstance()) >= 0) {
-          var tmp0_this_2 = this._this$0_32;
+        if (this._this$0_33.__state_4._get_value__0_k$().compareTo_2bq_k$(State_Idle_getInstance()) >= 0) {
+          var tmp0_this_2 = this._this$0_33;
           {
             var tmp0_plusAssign_0_3 = tmp0_this_2._snapshotInvalidations;
             tmp0_plusAssign_0_3.add_2bq_k$(changed);
             Unit_getInstance();
           }
-          tmp = deriveStateLocked(this._this$0_32);
+          tmp = deriveStateLocked(this._this$0_33);
         } else {
           tmp = null;
         }
@@ -46528,31 +47094,31 @@
     }
     Unit_getInstance();
   };
-  _no_name_provided__122.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__125.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? isInterface(p1, Set) : false) ? p1 : THROW_CCE();
     this.invoke_a24q54_k$(tmp, p2 instanceof Snapshot ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__122.$metadata$ = {
+  _no_name_provided__125.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__123($block, $parentFrameClock, resultContinuation) {
+  function _no_name_provided__126($block, $parentFrameClock, resultContinuation) {
     this._$block_8 = $block;
     this._$parentFrameClock_0 = $parentFrameClock;
     CoroutineImpl_0.call(this, resultContinuation);
   }
-  _no_name_provided__123.prototype.invoke_2i3g7c_k$ = function ($this$coroutineScope, $cont) {
+  _no_name_provided__126.prototype.invoke_2i3g7c_k$ = function ($this$coroutineScope, $cont) {
     var tmp = this.create_y6imfn_k$($this$coroutineScope, $cont);
     tmp._result_0 = Unit_getInstance();
     tmp._exception_0 = null;
     return tmp.doResume_0_k$();
   };
-  _no_name_provided__123.prototype.invoke_20e8_k$ = function (p1, $cont) {
+  _no_name_provided__126.prototype.invoke_20e8_k$ = function (p1, $cont) {
     this.invoke_2i3g7c_k$((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $cont);
     return Unit_getInstance();
   };
-  _no_name_provided__123.prototype.doResume_0_k$ = function () {
+  _no_name_provided__126.prototype.doResume_0_k$ = function () {
     var suspendResult = this._result_0;
     $sm: do
       try {
@@ -46581,15 +47147,15 @@
       }
      while (true);
   };
-  _no_name_provided__123.prototype.create_y6imfn_k$ = function ($this$coroutineScope, completion) {
-    var i = new _no_name_provided__123(this._$block_8, this._$parentFrameClock_0, completion);
+  _no_name_provided__126.prototype.create_y6imfn_k$ = function ($this$coroutineScope, completion) {
+    var i = new _no_name_provided__126(this._$block_8, this._$parentFrameClock_0, completion);
     i._$this$coroutineScope_0 = $this$coroutineScope;
     return i;
   };
-  _no_name_provided__123.prototype.create_wbutx_k$ = function (value, completion) {
+  _no_name_provided__126.prototype.create_wbutx_k$ = function (value, completion) {
     return this.create_y6imfn_k$((!(value == null) ? isInterface(value, CoroutineScope) : false) ? value : THROW_CCE(), completion);
   };
-  _no_name_provided__123.$metadata$ = {
+  _no_name_provided__126.$metadata$ = {
     kind: 'class',
     interfaces: [],
     suspendArity: 1
@@ -47150,7 +47716,7 @@
       break $l$block;
     }
     var parentFrameClock = _get_monotonicFrameClock_(tmp$ret$0);
-    return withContext($this._broadcastFrameClock, _no_name_provided_$factory_91($this, block, parentFrameClock, null), $cont);
+    return withContext($this._broadcastFrameClock, _no_name_provided_$factory_92($this, block, parentFrameClock, null), $cont);
   }
   function performRecompose($this, composition, modifiedValues) {
     if (composition._get_isComposing__0_k$() ? true : composition._get_isDisposed__0_k$())
@@ -47168,7 +47734,7 @@
             $l$block: {
               var tmp0_safe_receiver_3 = modifiedValues;
               if ((tmp0_safe_receiver_3 == null ? null : tmp0_safe_receiver_3.isNotEmpty_0_k$()) === true) {
-                composition.prepareCompose_xbouni_k$(_no_name_provided_$factory_92(modifiedValues, composition));
+                composition.prepareCompose_xbouni_k$(_no_name_provided_$factory_93(modifiedValues, composition));
               } else {
               }
               tmp$ret$0 = composition.recompose_0_k$();
@@ -47196,10 +47762,10 @@
     return tmp;
   }
   function readObserverOf($this, composition) {
-    return _no_name_provided_$factory_93(composition);
+    return _no_name_provided_$factory_94(composition);
   }
   function writeObserverOf($this, composition, modifiedValues) {
-    return _no_name_provided_$factory_94(composition, modifiedValues);
+    return _no_name_provided_$factory_95(composition, modifiedValues);
   }
   function composing($this, composition, modifiedValues, block) {
     var snapshot = Companion_getInstance_31().takeMutableSnapshot_sefk9o_k$(readObserverOf($this, composition), writeObserverOf($this, composition, modifiedValues));
@@ -47343,23 +47909,23 @@
       new Companion_27();
     return Companion_instance_26;
   }
-  function _no_name_provided__124(this$0) {
-    this._this$0_33 = this$0;
+  function _no_name_provided__127(this$0) {
+    this._this$0_34 = this$0;
   }
-  _no_name_provided__124.prototype.invoke_sv8swh_k$ = function () {
+  _no_name_provided__127.prototype.invoke_sv8swh_k$ = function () {
     var tmp$ret$2;
     $l$block_1: {
-      var tmp0_synchronized_0 = this._this$0_33._stateLock;
+      var tmp0_synchronized_0 = this._this$0_34._stateLock;
       var tmp$ret$1;
       $l$block_0: {
         var tmp$ret$0;
         $l$block: {
-          var tmp0_also_0_2 = deriveStateLocked(this._this$0_33);
+          var tmp0_also_0_2 = deriveStateLocked(this._this$0_34);
           {
           }
           {
-            if (this._this$0_33.__state_4._get_value__0_k$().compareTo_2bq_k$(State_ShuttingDown_getInstance()) <= 0)
-              throw CancellationException_init_$Create$_1('Recomposer shutdown; frame clock awaiter will never resume', this._this$0_33._closeCause_0);
+            if (this._this$0_34.__state_4._get_value__0_k$().compareTo_2bq_k$(State_ShuttingDown_getInstance()) <= 0)
+              throw CancellationException_init_$Create$_1('Recomposer shutdown; frame clock awaiter will never resume', this._this$0_34._closeCause_0);
           }
           tmp$ret$0 = tmp0_also_0_2;
           break $l$block;
@@ -47389,38 +47955,38 @@
     }
     Unit_getInstance();
   };
-  _no_name_provided__124.prototype.invoke_0_k$ = function () {
+  _no_name_provided__127.prototype.invoke_0_k$ = function () {
     this.invoke_sv8swh_k$();
     return Unit_getInstance();
   };
-  _no_name_provided__124.$metadata$ = {
+  _no_name_provided__127.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__125(this$0) {
-    this._this$0_34 = this$0;
+  function _no_name_provided__128(this$0) {
+    this._this$0_35 = this$0;
   }
-  _no_name_provided__125.prototype.invoke_houul8_k$ = function (throwable) {
+  _no_name_provided__128.prototype.invoke_houul8_k$ = function (throwable) {
     var cancellation_3 = CancellationException_init_$Create$_1('Recomposer effect job completed', throwable);
     var continuationToResume_4 = null;
     var tmp$ret$1;
     $l$block_0: {
-      var tmp0_synchronized_0_5 = this._this$0_34._stateLock;
+      var tmp0_synchronized_0_5 = this._this$0_35._stateLock;
       var tmp$ret$0;
       $l$block: {
-        var runnerJob_2_6 = this._this$0_34._runnerJob;
+        var runnerJob_2_6 = this._this$0_35._runnerJob;
         var tmp;
         if (!(runnerJob_2_6 == null)) {
-          this._this$0_34.__state_4._set_value__iav7o_k$(State_ShuttingDown_getInstance());
-          if (!this._this$0_34._isClosed) {
+          this._this$0_35.__state_4._set_value__iav7o_k$(State_ShuttingDown_getInstance());
+          if (!this._this$0_35._isClosed) {
             runnerJob_2_6.cancel_fnv408_k$(cancellation_3);
-          } else if (!(this._this$0_34._workContinuation == null)) {
-            continuationToResume_4 = this._this$0_34._workContinuation;
-          }this._this$0_34._workContinuation = null;
-          tmp = runnerJob_2_6.invokeOnCompletion_wjzpsu_k$(_no_name_provided_$factory_96(this._this$0_34, throwable));
+          } else if (!(this._this$0_35._workContinuation == null)) {
+            continuationToResume_4 = this._this$0_35._workContinuation;
+          }this._this$0_35._workContinuation = null;
+          tmp = runnerJob_2_6.invokeOnCompletion_wjzpsu_k$(_no_name_provided_$factory_97(this._this$0_35, throwable));
         } else {
-          this._this$0_34._closeCause_0 = cancellation_3;
-          this._this$0_34.__state_4._set_value__iav7o_k$(State_ShutDown_getInstance());
+          this._this$0_35._closeCause_0 = cancellation_3;
+          this._this$0_35.__state_4._set_value__iav7o_k$(State_ShutDown_getInstance());
           tmp = Unit_getInstance();
         }
         tmp$ret$0 = tmp;
@@ -47449,30 +48015,30 @@
     }
     Unit_getInstance();
   };
-  _no_name_provided__125.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__128.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_houul8_k$((p1 == null ? true : p1 instanceof Error) ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__125.$metadata$ = {
+  _no_name_provided__128.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__126(this$0, resultContinuation) {
-    this._this$0_35 = this$0;
+  function _no_name_provided__129(this$0, resultContinuation) {
+    this._this$0_36 = this$0;
     CoroutineImpl_0.call(this, resultContinuation);
   }
-  _no_name_provided__126.prototype.invoke_2a5bfb_k$ = function ($this$recompositionRunner, parentFrameClock, $cont) {
+  _no_name_provided__129.prototype.invoke_2a5bfb_k$ = function ($this$recompositionRunner, parentFrameClock, $cont) {
     var tmp = this.create_ofhv6_k$($this$recompositionRunner, parentFrameClock, $cont);
     tmp._result_0 = Unit_getInstance();
     tmp._exception_0 = null;
     return tmp.doResume_0_k$();
   };
-  _no_name_provided__126.prototype.invoke_osx4an_k$ = function (p1, p2, $cont) {
+  _no_name_provided__129.prototype.invoke_osx4an_k$ = function (p1, p2, $cont) {
     var tmp = (!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE();
     this.invoke_2a5bfb_k$(tmp, (!(p2 == null) ? isInterface(p2, MonotonicFrameClock) : false) ? p2 : THROW_CCE(), $cont);
     return Unit_getInstance();
   };
-  _no_name_provided__126.prototype.doResume_0_k$ = function () {
+  _no_name_provided__129.prototype.doResume_0_k$ = function () {
     var suspendResult = this._result_0;
     $sm: do
       try {
@@ -47487,23 +48053,23 @@
             this._state_1 = 1;
             continue $sm;
           case 1:
-            if (!_get_shouldKeepRecomposing_(this._this$0_35)) {
+            if (!_get_shouldKeepRecomposing_(this._this$0_36)) {
               this._state_1 = 5;
               continue $sm;
             }
             this._state_1 = 2;
-            suspendResult = awaitWorkAvailable(this._this$0_35, this);
+            suspendResult = awaitWorkAvailable(this._this$0_36, this);
             if (suspendResult === _get_COROUTINE_SUSPENDED_()) {
               return suspendResult;
             }
             continue $sm;
           case 2:
             var tmp_2 = this;
-            tmp_2._tmp0_synchronized_02 = this._this$0_35._stateLock;
+            tmp_2._tmp0_synchronized_02 = this._this$0_36._stateLock;
             var tmp_3;
-            if (!_get_hasFrameWorkLocked_(this._this$0_35)) {
-              recordComposerModificationsLocked(this._this$0_35);
-              tmp_3 = !_get_hasFrameWorkLocked_(this._this$0_35);
+            if (!_get_hasFrameWorkLocked_(this._this$0_36)) {
+              recordComposerModificationsLocked(this._this$0_36);
+              tmp_3 = !_get_hasFrameWorkLocked_(this._this$0_36);
             } else {
               tmp_3 = false;
             }
@@ -47521,7 +48087,7 @@
             break;
           case 3:
             this._state_1 = 4;
-            suspendResult = this._parentFrameClock.withFrameNanos_j5kvya_k$(_no_name_provided_$factory_97(this._this$0_35, this._toRecompose0, this._toApply1), this);
+            suspendResult = this._parentFrameClock.withFrameNanos_j5kvya_k$(_no_name_provided_$factory_98(this._this$0_36, this._toRecompose0, this._toApply1), this);
             if (suspendResult === _get_COROUTINE_SUSPENDED_()) {
               return suspendResult;
             }
@@ -47545,34 +48111,34 @@
       }
      while (true);
   };
-  _no_name_provided__126.prototype.create_ofhv6_k$ = function ($this$recompositionRunner, parentFrameClock, completion) {
-    var i = new _no_name_provided__126(this._this$0_35, completion);
+  _no_name_provided__129.prototype.create_ofhv6_k$ = function ($this$recompositionRunner, parentFrameClock, completion) {
+    var i = new _no_name_provided__129(this._this$0_36, completion);
     i._$this$recompositionRunner = $this$recompositionRunner;
     i._parentFrameClock = parentFrameClock;
     return i;
   };
-  _no_name_provided__126.$metadata$ = {
+  _no_name_provided__129.$metadata$ = {
     kind: 'class',
     interfaces: [],
     suspendArity: 2
   };
-  function _no_name_provided__127($recomposeCoroutineContext, this$0, resultContinuation) {
+  function _no_name_provided__130($recomposeCoroutineContext, this$0, resultContinuation) {
     this._$recomposeCoroutineContext = $recomposeCoroutineContext;
-    this._this$0_36 = this$0;
+    this._this$0_37 = this$0;
     CoroutineImpl_0.call(this, resultContinuation);
   }
-  _no_name_provided__127.prototype.invoke_2a5bfb_k$ = function ($this$recompositionRunner, parentFrameClock, $cont) {
+  _no_name_provided__130.prototype.invoke_2a5bfb_k$ = function ($this$recompositionRunner, parentFrameClock, $cont) {
     var tmp = this.create_ofhv6_k$($this$recompositionRunner, parentFrameClock, $cont);
     tmp._result_0 = Unit_getInstance();
     tmp._exception_0 = null;
     return tmp.doResume_0_k$();
   };
-  _no_name_provided__127.prototype.invoke_osx4an_k$ = function (p1, p2, $cont) {
+  _no_name_provided__130.prototype.invoke_osx4an_k$ = function (p1, p2, $cont) {
     var tmp = (!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE();
     this.invoke_2a5bfb_k$(tmp, (!(p2 == null) ? isInterface(p2, MonotonicFrameClock) : false) ? p2 : THROW_CCE(), $cont);
     return Unit_getInstance();
   };
-  _no_name_provided__127.prototype.doResume_0_k$ = function () {
+  _no_name_provided__130.prototype.doResume_0_k$ = function () {
     var suspendResult = this._result_0;
     $sm: do
       try {
@@ -47589,25 +48155,25 @@
             this._recomposeCoroutineScope1 = CoroutineScope_0(this._$this$recompositionRunner_0._get_coroutineContext__0_k$().plus_d7pszg_k$(this._$recomposeCoroutineContext).plus_d7pszg_k$(Job_0(_get_job_(this._$this$recompositionRunner_0._get_coroutineContext__0_k$()))));
             this._frameSignal2 = new ProduceFrameSignal();
             var tmp_1 = this;
-            tmp_1._frameLoop3 = launch$default(this._$this$recompositionRunner_0, null, null, _no_name_provided_$factory_98(this._this$0_36, this._parentFrameClock_0, this._frameSignal2, null), 3, null);
+            tmp_1._frameLoop3 = launch$default(this._$this$recompositionRunner_0, null, null, _no_name_provided_$factory_99(this._this$0_37, this._parentFrameClock_0, this._frameSignal2, null), 3, null);
             this._state_1 = 1;
             continue $sm;
           case 1:
-            if (!_get_shouldKeepRecomposing_(this._this$0_36)) {
+            if (!_get_shouldKeepRecomposing_(this._this$0_37)) {
               this._state_1 = 3;
               continue $sm;
             }
             this._state_1 = 2;
-            suspendResult = awaitWorkAvailable(this._this$0_36, this);
+            suspendResult = awaitWorkAvailable(this._this$0_37, this);
             if (suspendResult === _get_COROUTINE_SUSPENDED_()) {
               return suspendResult;
             }
             continue $sm;
           case 2:
-            var tmp1_synchronized_0 = this._this$0_36._stateLock;
-            var tmp0_isNotEmpty_0_1_2 = this._this$0_36._snapshotInvalidations;
+            var tmp1_synchronized_0 = this._this$0_37._stateLock;
+            var tmp0_isNotEmpty_0_1_2 = this._this$0_37._snapshotInvalidations;
             if (!tmp0_isNotEmpty_0_1_2.isEmpty_0_k$()) {
-              var tmp1_fastForEach_0_2_3 = this._this$0_36._snapshotInvalidations;
+              var tmp1_fastForEach_0_2_3 = this._this$0_37._snapshotInvalidations;
               var inductionVariable = 0;
               var last_0 = tmp1_fastForEach_0_2_3._get_size__0_k$() - 1 | 0;
               if (inductionVariable <= last_0)
@@ -47615,7 +48181,7 @@
                   var index_3_4_5 = inductionVariable;
                   inductionVariable = inductionVariable + 1 | 0;
                   var item_4_5_6 = tmp1_fastForEach_0_2_3.get_ha5a7z_k$(index_3_4_5);
-                  var tmp0_fastForEach_0_6_6_7 = this._this$0_36._knownCompositions;
+                  var tmp0_fastForEach_0_6_6_7 = this._this$0_37._knownCompositions;
                   var inductionVariable_0 = 0;
                   var last_1 = tmp0_fastForEach_0_6_6_7._get_size__0_k$() - 1 | 0;
                   if (inductionVariable_0 <= last_1)
@@ -47628,11 +48194,11 @@
                      while (inductionVariable_0 <= last_1);
                 }
                  while (inductionVariable <= last_0);
-              this._this$0_36._snapshotInvalidations.clear_sv8swh_k$();
+              this._this$0_37._snapshotInvalidations.clear_sv8swh_k$();
             } else {
             }
 
-            var tmp2_fastForEach_0_10_11 = this._this$0_36._compositionInvalidations;
+            var tmp2_fastForEach_0_10_11 = this._this$0_37._compositionInvalidations;
             var inductionVariable_1 = 0;
             var last_2 = tmp2_fastForEach_0_10_11._get_size__0_k$() - 1 | 0;
             if (inductionVariable_1 <= last_2)
@@ -47640,21 +48206,21 @@
                 var index_3_12_13 = inductionVariable_1;
                 inductionVariable_1 = inductionVariable_1 + 1 | 0;
                 var item_4_13_14 = tmp2_fastForEach_0_10_11.get_ha5a7z_k$(index_3_12_13);
-                var tmp0_this_15_15 = this._this$0_36;
+                var tmp0_this_15_15 = this._this$0_37;
                 var tmp1_16_16 = tmp0_this_15_15._concurrentCompositionsOutstanding;
                 tmp0_this_15_15._concurrentCompositionsOutstanding = tmp1_16_16 + 1 | 0;
                 Unit_getInstance();
                 var tmp_2 = _get_recomposeCoroutineContext_(item_4_13_14);
-                launch$default(this._recomposeCoroutineScope1, tmp_2, null, _no_name_provided_$factory_99(this._this$0_36, item_4_13_14, null), 2, null);
+                launch$default(this._recomposeCoroutineScope1, tmp_2, null, _no_name_provided_$factory_100(this._this$0_37, item_4_13_14, null), 2, null);
                 Unit_getInstance();
               }
                while (inductionVariable_1 <= last_2);
-            this._this$0_36._compositionInvalidations.clear_sv8swh_k$();
-            if (!(deriveStateLocked(this._this$0_36) == null)) {
+            this._this$0_37._compositionInvalidations.clear_sv8swh_k$();
+            if (!(deriveStateLocked(this._this$0_37) == null)) {
               throw IllegalStateException_init_$Create$_0('called outside of runRecomposeAndApplyChanges');
             }
             var tmp_3;
-            if (_get_hasConcurrentFrameWorkLocked_(this._this$0_36)) {
+            if (_get_hasConcurrentFrameWorkLocked_(this._this$0_37)) {
               tmp_3 = this._frameSignal2.requestFrameLocked_0_k$();
             } else {
               tmp_3 = null;
@@ -47701,30 +48267,30 @@
       }
      while (true);
   };
-  _no_name_provided__127.prototype.create_ofhv6_k$ = function ($this$recompositionRunner, parentFrameClock, completion) {
-    var i = new _no_name_provided__127(this._$recomposeCoroutineContext, this._this$0_36, completion);
+  _no_name_provided__130.prototype.create_ofhv6_k$ = function ($this$recompositionRunner, parentFrameClock, completion) {
+    var i = new _no_name_provided__130(this._$recomposeCoroutineContext, this._this$0_37, completion);
     i._$this$recompositionRunner_0 = $this$recompositionRunner;
     i._parentFrameClock_0 = parentFrameClock;
     return i;
   };
-  _no_name_provided__127.$metadata$ = {
+  _no_name_provided__130.$metadata$ = {
     kind: 'class',
     interfaces: [],
     suspendArity: 2
   };
-  function _no_name_provided__128(this$0, $toApply, $toRecompose, $frameSignal) {
-    this._this$0_37 = this$0;
+  function _no_name_provided__131(this$0, $toApply, $toRecompose, $frameSignal) {
+    this._this$0_38 = this$0;
     this._$toApply_0 = $toApply;
     this._$toRecompose_0 = $toRecompose;
     this._$frameSignal_0 = $frameSignal;
   }
-  _no_name_provided__128.prototype.invoke_wiekkq_k$ = function (frameTime) {
-    if (this._this$0_37._broadcastFrameClock._get_hasAwaiters__0_k$()) {
+  _no_name_provided__131.prototype.invoke_wiekkq_k$ = function (frameTime) {
+    if (this._this$0_38._broadcastFrameClock._get_hasAwaiters__0_k$()) {
       var tmp$ret$0;
       $l$block: {
         var token_1 = Trace_getInstance().beginSection_6wfw3l_k$('Recomposer:animation');
         try {
-          this._this$0_37._broadcastFrameClock.sendFrame_kdfck9_k$(frameTime);
+          this._this$0_38._broadcastFrameClock.sendFrame_kdfck9_k$(frameTime);
           tmp$ret$0 = Companion_getInstance_31().sendApplyNotifications_sv8swh_k$();
           break $l$block;
         }finally {
@@ -47739,10 +48305,10 @@
         $l$block_5: {
           var tmp$ret$1;
           $l$block_0: {
-            var tmp0_synchronized_0_3 = this._this$0_37._stateLock;
-            recordComposerModificationsLocked(this._this$0_37);
+            var tmp0_synchronized_0_3 = this._this$0_38._stateLock;
+            recordComposerModificationsLocked(this._this$0_38);
             {
-              var tmp0_fastForEach_0_2_4 = this._this$0_37._compositionsAwaitingApply;
+              var tmp0_fastForEach_0_2_4 = this._this$0_38._compositionsAwaitingApply;
               {
               }
               var inductionVariable = 0;
@@ -47761,9 +48327,9 @@
                 }
                  while (inductionVariable <= last_0);
             }
-            this._this$0_37._compositionsAwaitingApply.clear_sv8swh_k$();
+            this._this$0_38._compositionsAwaitingApply.clear_sv8swh_k$();
             {
-              var tmp1_fastForEach_0_6_8 = this._this$0_37._compositionInvalidations;
+              var tmp1_fastForEach_0_6_8 = this._this$0_38._compositionInvalidations;
               {
               }
               var inductionVariable_0 = 0;
@@ -47782,7 +48348,7 @@
                 }
                  while (inductionVariable_0 <= last_1);
             }
-            this._this$0_37._compositionInvalidations.clear_sv8swh_k$();
+            this._this$0_38._compositionInvalidations.clear_sv8swh_k$();
             tmp$ret$1 = this._$frameSignal_0.takeFrameRequestLocked_sv8swh_k$();
             break $l$block_0;
           }
@@ -47799,7 +48365,7 @@
                   inductionVariable_1 = inductionVariable_1 + 1 | 0;
                   var item_4_15 = this._$toRecompose_0.get_ha5a7z_k$(index_3_14);
                   {
-                    var tmp0_safe_receiver_6_16 = performRecompose(this._this$0_37, item_4_15, modifiedValues_12);
+                    var tmp0_safe_receiver_6_16 = performRecompose(this._this$0_38, item_4_15, modifiedValues_12);
                     if (tmp0_safe_receiver_6_16 == null)
                       null;
                     else {
@@ -47827,7 +48393,7 @@
             break $l$block_2;
           }
           if (tmp$ret$3) {
-            var tmp0_this_17 = this._this$0_37;
+            var tmp0_this_17 = this._this$0_38;
             var tmp1_18 = tmp0_this_17._changeCount;
             tmp0_this_17._changeCount = tmp1_18.inc_0_k$();
             Unit_getInstance();
@@ -47855,10 +48421,10 @@
           }
           var tmp$ret$5;
           $l$block_4: {
-            var tmp1_synchronized_0_22 = this._this$0_37._stateLock;
+            var tmp1_synchronized_0_22 = this._this$0_38._stateLock;
             var tmp$ret$4;
             $l$block_3: {
-              tmp$ret$4 = deriveStateLocked(this._this$0_37);
+              tmp$ret$4 = deriveStateLocked(this._this$0_38);
               break $l$block_3;
             }
             tmp$ret$5 = tmp$ret$4;
@@ -47875,30 +48441,30 @@
     }
     return tmp$ret$7;
   };
-  _no_name_provided__128.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__131.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_wiekkq_k$(p1 instanceof Long ? p1 : THROW_CCE());
   };
-  _no_name_provided__128.$metadata$ = {
+  _no_name_provided__131.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__129(this$0, $block, $parentFrameClock, resultContinuation) {
-    this._this$0_38 = this$0;
+  function _no_name_provided__132(this$0, $block, $parentFrameClock, resultContinuation) {
+    this._this$0_39 = this$0;
     this._$block_9 = $block;
     this._$parentFrameClock_1 = $parentFrameClock;
     CoroutineImpl_0.call(this, resultContinuation);
   }
-  _no_name_provided__129.prototype.invoke_2i3g7c_k$ = function ($this$withContext, $cont) {
+  _no_name_provided__132.prototype.invoke_2i3g7c_k$ = function ($this$withContext, $cont) {
     var tmp = this.create_y6imfn_k$($this$withContext, $cont);
     tmp._result_0 = Unit_getInstance();
     tmp._exception_0 = null;
     return tmp.doResume_0_k$();
   };
-  _no_name_provided__129.prototype.invoke_20e8_k$ = function (p1, $cont) {
+  _no_name_provided__132.prototype.invoke_20e8_k$ = function (p1, $cont) {
     this.invoke_2i3g7c_k$((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $cont);
     return Unit_getInstance();
   };
-  _no_name_provided__129.prototype.doResume_0_k$ = function () {
+  _no_name_provided__132.prototype.doResume_0_k$ = function () {
     var suspendResult = this._result_0;
     $sm: do
       try {
@@ -47907,19 +48473,19 @@
           case 0:
             this._exceptionState = 5;
             this._callingJob0 = _get_job_(this._$this$withContext._get_coroutineContext__0_k$());
-            registerRunnerJob(this._this$0_38, this._callingJob0);
+            registerRunnerJob(this._this$0_39, this._callingJob0);
             var tmp_0 = this;
             var tmp_1 = Companion_getInstance_31();
-            tmp_0._unregisterApplyObserver1 = tmp_1.registerApplyObserver_ja8wvw_k$(_no_name_provided_$factory_100(this._this$0_38));
-            addRunning(Companion_getInstance_26(), this._this$0_38._recomposerInfo);
+            tmp_0._unregisterApplyObserver1 = tmp_1.registerApplyObserver_ja8wvw_k$(_no_name_provided_$factory_101(this._this$0_39));
+            addRunning(Companion_getInstance_26(), this._this$0_39._recomposerInfo);
             this._state_1 = 1;
             continue $sm;
           case 1:
             this._exceptionState = 4;
             var tmp_2 = this;
-            tmp_2._tmp0_synchronized_03 = this._this$0_38._stateLock;
+            tmp_2._tmp0_synchronized_03 = this._this$0_39._stateLock;
             var tmp_3 = this;
-            tmp_3._tmp0_fastForEach_0_24 = this._this$0_38._knownCompositions;
+            tmp_3._tmp0_fastForEach_0_24 = this._this$0_39._knownCompositions;
             var inductionVariable = 0;
             var last_0 = this._tmp0_fastForEach_0_24._get_size__0_k$() - 1 | 0;
             if (inductionVariable <= last_0)
@@ -47931,7 +48497,7 @@
               }
                while (inductionVariable <= last_0);
             this._state_1 = 2;
-            suspendResult = coroutineScope(_no_name_provided_$factory_101(this._$block_9, this._$parentFrameClock_1, null), this);
+            suspendResult = coroutineScope(_no_name_provided_$factory_102(this._$block_9, this._$parentFrameClock_1, null), this);
             if (suspendResult === _get_COROUTINE_SUSPENDED_()) {
               return suspendResult;
             }
@@ -47943,25 +48509,25 @@
             continue $sm;
           case 3:
             this._unregisterApplyObserver1.dispose_sv8swh_k$();
-            var tmp1_synchronized_0 = this._this$0_38._stateLock;
-            if (this._this$0_38._runnerJob === this._callingJob0) {
-              this._this$0_38._runnerJob = null;
+            var tmp1_synchronized_0 = this._this$0_39._stateLock;
+            if (this._this$0_39._runnerJob === this._callingJob0) {
+              this._this$0_39._runnerJob = null;
             }
-            deriveStateLocked(this._this$0_38);
+            deriveStateLocked(this._this$0_39);
             Unit_getInstance();
-            removeRunning(Companion_getInstance_26(), this._this$0_38._recomposerInfo);
+            removeRunning(Companion_getInstance_26(), this._this$0_39._recomposerInfo);
             return Unit_getInstance();
           case 4:
             this._exceptionState = 5;
             var t = this._exception_0;
             this._unregisterApplyObserver1.dispose_sv8swh_k$();
-            var tmp1_synchronized_0_0 = this._this$0_38._stateLock;
-            if (this._this$0_38._runnerJob === this._callingJob0) {
-              this._this$0_38._runnerJob = null;
+            var tmp1_synchronized_0_0 = this._this$0_39._stateLock;
+            if (this._this$0_39._runnerJob === this._callingJob0) {
+              this._this$0_39._runnerJob = null;
             }
-            deriveStateLocked(this._this$0_38);
+            deriveStateLocked(this._this$0_39);
             Unit_getInstance();
-            removeRunning(Companion_getInstance_26(), this._this$0_38._recomposerInfo);
+            removeRunning(Companion_getInstance_26(), this._this$0_39._recomposerInfo);
             throw t;
           case 5:
             throw this._exception_0;
@@ -47976,32 +48542,32 @@
       }
      while (true);
   };
-  _no_name_provided__129.prototype.create_y6imfn_k$ = function ($this$withContext, completion) {
-    var i = new _no_name_provided__129(this._this$0_38, this._$block_9, this._$parentFrameClock_1, completion);
+  _no_name_provided__132.prototype.create_y6imfn_k$ = function ($this$withContext, completion) {
+    var i = new _no_name_provided__132(this._this$0_39, this._$block_9, this._$parentFrameClock_1, completion);
     i._$this$withContext = $this$withContext;
     return i;
   };
-  _no_name_provided__129.prototype.create_wbutx_k$ = function (value, completion) {
+  _no_name_provided__132.prototype.create_wbutx_k$ = function (value, completion) {
     return this.create_y6imfn_k$((!(value == null) ? isInterface(value, CoroutineScope) : false) ? value : THROW_CCE(), completion);
   };
-  _no_name_provided__129.$metadata$ = {
+  _no_name_provided__132.$metadata$ = {
     kind: 'class',
     interfaces: [],
     suspendArity: 1
   };
-  function _no_name_provided__130(resultContinuation) {
+  function _no_name_provided__133(resultContinuation) {
     CoroutineImpl_0.call(this, resultContinuation);
   }
-  _no_name_provided__130.prototype.invoke_quff6v_k$ = function (it, $cont) {
+  _no_name_provided__133.prototype.invoke_quff6v_k$ = function (it, $cont) {
     var tmp = this.create_idn6c3_k$(it, $cont);
     tmp._result_0 = Unit_getInstance();
     tmp._exception_0 = null;
     return tmp.doResume_0_k$();
   };
-  _no_name_provided__130.prototype.invoke_20e8_k$ = function (p1, $cont) {
+  _no_name_provided__133.prototype.invoke_20e8_k$ = function (p1, $cont) {
     return this.invoke_quff6v_k$(p1 instanceof State ? p1 : THROW_CCE(), $cont);
   };
-  _no_name_provided__130.prototype.doResume_0_k$ = function () {
+  _no_name_provided__133.prototype.doResume_0_k$ = function () {
     var suspendResult = this._result_0;
     $sm: do
       try {
@@ -48016,24 +48582,24 @@
       }
      while (true);
   };
-  _no_name_provided__130.prototype.create_idn6c3_k$ = function (it, completion) {
-    var i = new _no_name_provided__130(completion);
+  _no_name_provided__133.prototype.create_idn6c3_k$ = function (it, completion) {
+    var i = new _no_name_provided__133(completion);
     i._it_3 = it;
     return i;
   };
-  _no_name_provided__130.prototype.create_wbutx_k$ = function (value, completion) {
+  _no_name_provided__133.prototype.create_wbutx_k$ = function (value, completion) {
     return this.create_idn6c3_k$(value instanceof State ? value : THROW_CCE(), completion);
   };
-  _no_name_provided__130.$metadata$ = {
+  _no_name_provided__133.$metadata$ = {
     kind: 'class',
     interfaces: [],
     suspendArity: 1
   };
-  function _no_name_provided__131($modifiedValues, $composition) {
+  function _no_name_provided__134($modifiedValues, $composition) {
     this._$modifiedValues = $modifiedValues;
     this._$composition = $composition;
   }
-  _no_name_provided__131.prototype.invoke_sv8swh_k$ = function () {
+  _no_name_provided__134.prototype.invoke_sv8swh_k$ = function () {
     {
       var tmp0_iterator_1_5 = this._$modifiedValues.iterator_0_k$();
       while (tmp0_iterator_1_5.hasNext_0_k$()) {
@@ -48044,33 +48610,33 @@
       }
     }
   };
-  _no_name_provided__131.prototype.invoke_0_k$ = function () {
+  _no_name_provided__134.prototype.invoke_0_k$ = function () {
     this.invoke_sv8swh_k$();
     return Unit_getInstance();
   };
-  _no_name_provided__131.$metadata$ = {
+  _no_name_provided__134.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__132($composition) {
+  function _no_name_provided__135($composition) {
     this._$composition_0 = $composition;
   }
-  _no_name_provided__132.prototype.invoke_wu1lm5_k$ = function (value) {
+  _no_name_provided__135.prototype.invoke_wu1lm5_k$ = function (value) {
     this._$composition_0.recordReadOf_wu1lm5_k$(value);
   };
-  _no_name_provided__132.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__135.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_wu1lm5_k$(isObject(p1) ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__132.$metadata$ = {
+  _no_name_provided__135.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__133($composition, $modifiedValues) {
+  function _no_name_provided__136($composition, $modifiedValues) {
     this._$composition_1 = $composition;
     this._$modifiedValues_0 = $modifiedValues;
   }
-  _no_name_provided__133.prototype.invoke_wu1lm5_k$ = function (value) {
+  _no_name_provided__136.prototype.invoke_wu1lm5_k$ = function (value) {
     this._$composition_1.recordWriteOf_wu1lm5_k$(value);
     var tmp0_safe_receiver = this._$modifiedValues_0;
     if (tmp0_safe_receiver == null)
@@ -48079,27 +48645,27 @@
       tmp0_safe_receiver.add_2c5_k$(value);
     Unit_getInstance();
   };
-  _no_name_provided__133.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__136.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_wu1lm5_k$(isObject(p1) ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__133.$metadata$ = {
+  _no_name_provided__136.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__134(resultContinuation) {
+  function _no_name_provided__137(resultContinuation) {
     CoroutineImpl_0.call(this, resultContinuation);
   }
-  _no_name_provided__134.prototype.invoke_quff6v_k$ = function (it, $cont) {
+  _no_name_provided__137.prototype.invoke_quff6v_k$ = function (it, $cont) {
     var tmp = this.create_idn6c3_k$(it, $cont);
     tmp._result_0 = Unit_getInstance();
     tmp._exception_0 = null;
     return tmp.doResume_0_k$();
   };
-  _no_name_provided__134.prototype.invoke_20e8_k$ = function (p1, $cont) {
+  _no_name_provided__137.prototype.invoke_20e8_k$ = function (p1, $cont) {
     return this.invoke_quff6v_k$(p1 instanceof State ? p1 : THROW_CCE(), $cont);
   };
-  _no_name_provided__134.prototype.doResume_0_k$ = function () {
+  _no_name_provided__137.prototype.doResume_0_k$ = function () {
     var suspendResult = this._result_0;
     $sm: do
       try {
@@ -48114,15 +48680,15 @@
       }
      while (true);
   };
-  _no_name_provided__134.prototype.create_idn6c3_k$ = function (it, completion) {
-    var i = new _no_name_provided__134(completion);
+  _no_name_provided__137.prototype.create_idn6c3_k$ = function (it, completion) {
+    var i = new _no_name_provided__137(completion);
     i._it_4 = it;
     return i;
   };
-  _no_name_provided__134.prototype.create_wbutx_k$ = function (value, completion) {
+  _no_name_provided__137.prototype.create_wbutx_k$ = function (value, completion) {
     return this.create_idn6c3_k$(value instanceof State ? value : THROW_CCE(), completion);
   };
-  _no_name_provided__134.$metadata$ = {
+  _no_name_provided__137.$metadata$ = {
     kind: 'class',
     interfaces: [],
     suspendArity: 1
@@ -48184,7 +48750,7 @@
             continue $sm;
           case 2:
             this._state_1 = 3;
-            suspendResult = this._parentFrameClock_1.withFrameNanos_j5kvya_k$(_no_name_provided_$factory_102(this.__this__11, this._toApply1_0, this._toRecompose0_0, this._frameSignal), this);
+            suspendResult = this._parentFrameClock_1.withFrameNanos_j5kvya_k$(_no_name_provided_$factory_103(this.__this__11, this._toApply1_0, this._toRecompose0_0, this._frameSignal), this);
             if (suspendResult === _get_COROUTINE_SUSPENDED_()) {
               return suspendResult;
             }
@@ -48286,7 +48852,7 @@
             this._exceptionState = 2;
             this._state_1 = 1;
             var tmp_0 = this.__this__13._get_state__0_k$();
-            suspendResult = first_0(tmp_0, _no_name_provided_$factory_103(null), this);
+            suspendResult = first_0(tmp_0, _no_name_provided_$factory_104(null), this);
             if (suspendResult === _get_COROUTINE_SUSPENDED_()) {
               return suspendResult;
             }
@@ -48317,7 +48883,7 @@
     CompositionContext.call(this);
     this._changeCount = new Long(0, 0);
     var tmp = this;
-    tmp._broadcastFrameClock = new BroadcastFrameClock(_no_name_provided_$factory_87(this));
+    tmp._broadcastFrameClock = new BroadcastFrameClock(_no_name_provided_$factory_88(this));
     var tmp_0 = this;
     var tmp$ret$0;
     $l$block: {
@@ -48325,7 +48891,7 @@
       {
       }
       {
-        tmp0_apply_0.invokeOnCompletion_wjzpsu_k$(_no_name_provided_$factory_88(this));
+        tmp0_apply_0.invokeOnCompletion_wjzpsu_k$(_no_name_provided_$factory_89(this));
         Unit_getInstance();
       }
       tmp$ret$0 = tmp0_apply_0;
@@ -48387,10 +48953,10 @@
     return this._recomposerInfo;
   };
   Recomposer.prototype.runRecomposeAndApplyChanges_sv8swh_k$ = function ($cont) {
-    return recompositionRunner(this, _no_name_provided_$factory_89(this, null), $cont);
+    return recompositionRunner(this, _no_name_provided_$factory_90(this, null), $cont);
   };
   Recomposer.prototype.runRecomposeConcurrentlyAndApplyChanges_xzus7p_k$ = function (recomposeCoroutineContext, $cont) {
-    return recompositionRunner(this, _no_name_provided_$factory_90(recomposeCoroutineContext, this, null), $cont);
+    return recompositionRunner(this, _no_name_provided_$factory_91(recomposeCoroutineContext, this, null), $cont);
   };
   Recomposer.prototype.cancel_sv8swh_k$ = function () {
     this._effectJob.cancel$default_44too_k$(null, 1, null);
@@ -48480,7 +49046,7 @@
   };
   Recomposer.prototype.awaitIdle_sv8swh_k$ = function ($cont) {
     var tmp = this._get_state__0_k$();
-    return collect(takeWhile(tmp, _no_name_provided_$factory_95(null)), $cont);
+    return collect(takeWhile(tmp, _no_name_provided_$factory_96(null)), $cont);
   };
   Recomposer.prototype._get_compoundHashKey__0_k$ = function () {
     return 1000;
@@ -48639,9 +49205,9 @@
     kind: 'interface',
     interfaces: []
   };
-  function _no_name_provided__135() {
+  function _no_name_provided__138() {
   }
-  _no_name_provided__135.prototype.invoke_5vwf3d_k$ = function ($composer, $changed) {
+  _no_name_provided__138.prototype.invoke_5vwf3d_k$ = function ($composer, $changed) {
     var $composer_0 = $composer;
     sourceInformation($composer_0, 'C:Recomposer.kt#9igjgp');
     if (!(($changed & 11 ^ 2) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
@@ -48649,19 +49215,19 @@
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
   };
-  _no_name_provided__135.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__138.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (p1 == null ? true : isInterface(p1, Composer)) ? p1 : THROW_CCE();
     this.invoke_5vwf3d_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__135.$metadata$ = {
+  _no_name_provided__138.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
   function ComposableSingletons$RecomposerKt() {
     ComposableSingletons$RecomposerKt_instance = this;
     var tmp = this;
-    tmp._lambda_1_0 = composableLambdaInstance(-985546190, false, _no_name_provided_$factory_104());
+    tmp._lambda_1_0 = composableLambdaInstance(-985546190, false, _no_name_provided_$factory_105());
   }
   ComposableSingletons$RecomposerKt.prototype._get_lambda_1__0_k$ = function () {
     return this._lambda_1_0;
@@ -48806,133 +49372,133 @@
     return RecomposerCompoundHashKey;
   }
   var RecomposerCompoundHashKey;
-  function _no_name_provided_$factory_87(this$0) {
-    var i = new _no_name_provided__124(this$0);
+  function _no_name_provided_$factory_88(this$0) {
+    var i = new _no_name_provided__127(this$0);
     return function () {
       i.invoke_sv8swh_k$();
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_88(this$0) {
-    var i = new _no_name_provided__125(this$0);
+  function _no_name_provided_$factory_89(this$0) {
+    var i = new _no_name_provided__128(this$0);
     return function (p1) {
       i.invoke_houul8_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_89(this$0, resultContinuation) {
-    var i = new _no_name_provided__126(this$0, resultContinuation);
+  function _no_name_provided_$factory_90(this$0, resultContinuation) {
+    var i = new _no_name_provided__129(this$0, resultContinuation);
     var l = function (p1, p2, $cont) {
       return i.invoke_2a5bfb_k$(p1, p2, $cont);
     };
     l.$arity = 2;
     return l;
   }
-  function _no_name_provided_$factory_90($recomposeCoroutineContext, this$0, resultContinuation) {
-    var i = new _no_name_provided__127($recomposeCoroutineContext, this$0, resultContinuation);
+  function _no_name_provided_$factory_91($recomposeCoroutineContext, this$0, resultContinuation) {
+    var i = new _no_name_provided__130($recomposeCoroutineContext, this$0, resultContinuation);
     var l = function (p1, p2, $cont) {
       return i.invoke_2a5bfb_k$(p1, p2, $cont);
     };
     l.$arity = 2;
     return l;
   }
-  function _no_name_provided_$factory_91(this$0, $block, $parentFrameClock, resultContinuation) {
-    var i = new _no_name_provided__129(this$0, $block, $parentFrameClock, resultContinuation);
+  function _no_name_provided_$factory_92(this$0, $block, $parentFrameClock, resultContinuation) {
+    var i = new _no_name_provided__132(this$0, $block, $parentFrameClock, resultContinuation);
     var l = function (p1, $cont) {
       return i.invoke_2i3g7c_k$(p1, $cont);
     };
     l.$arity = 1;
     return l;
   }
-  function _no_name_provided_$factory_92($modifiedValues, $composition) {
-    var i = new _no_name_provided__131($modifiedValues, $composition);
+  function _no_name_provided_$factory_93($modifiedValues, $composition) {
+    var i = new _no_name_provided__134($modifiedValues, $composition);
     return function () {
       i.invoke_sv8swh_k$();
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_93($composition) {
-    var i = new _no_name_provided__132($composition);
+  function _no_name_provided_$factory_94($composition) {
+    var i = new _no_name_provided__135($composition);
     return function (p1) {
       i.invoke_wu1lm5_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_94($composition, $modifiedValues) {
-    var i = new _no_name_provided__133($composition, $modifiedValues);
+  function _no_name_provided_$factory_95($composition, $modifiedValues) {
+    var i = new _no_name_provided__136($composition, $modifiedValues);
     return function (p1) {
       i.invoke_wu1lm5_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_95(resultContinuation) {
-    var i = new _no_name_provided__134(resultContinuation);
+  function _no_name_provided_$factory_96(resultContinuation) {
+    var i = new _no_name_provided__137(resultContinuation);
     var l = function (p1, $cont) {
       return i.invoke_quff6v_k$(p1, $cont);
     };
     l.$arity = 1;
     return l;
   }
-  function _no_name_provided_$factory_96(this$0, $throwable) {
-    var i = new _no_name_provided__118(this$0, $throwable);
+  function _no_name_provided_$factory_97(this$0, $throwable) {
+    var i = new _no_name_provided__121(this$0, $throwable);
     return function (p1) {
       i.invoke_houul8_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_97(this$0, $toRecompose, $toApply) {
-    var i = new _no_name_provided__119(this$0, $toRecompose, $toApply);
+  function _no_name_provided_$factory_98(this$0, $toRecompose, $toApply) {
+    var i = new _no_name_provided__122(this$0, $toRecompose, $toApply);
     return function (p1) {
       return i.invoke_wiekkq_k$(p1);
     };
   }
-  function _no_name_provided_$factory_98(this$0, $parentFrameClock, $frameSignal, resultContinuation) {
-    var i = new _no_name_provided__120(this$0, $parentFrameClock, $frameSignal, resultContinuation);
+  function _no_name_provided_$factory_99(this$0, $parentFrameClock, $frameSignal, resultContinuation) {
+    var i = new _no_name_provided__123(this$0, $parentFrameClock, $frameSignal, resultContinuation);
     var l = function (p1, $cont) {
       return i.invoke_2i3g7c_k$(p1, $cont);
     };
     l.$arity = 1;
     return l;
   }
-  function _no_name_provided_$factory_99(this$0, $item_4_13_14, resultContinuation) {
-    var i = new _no_name_provided__121(this$0, $item_4_13_14, resultContinuation);
+  function _no_name_provided_$factory_100(this$0, $item_4_13_14, resultContinuation) {
+    var i = new _no_name_provided__124(this$0, $item_4_13_14, resultContinuation);
     var l = function (p1, $cont) {
       return i.invoke_2i3g7c_k$(p1, $cont);
     };
     l.$arity = 1;
     return l;
   }
-  function _no_name_provided_$factory_100(this$0) {
-    var i = new _no_name_provided__122(this$0);
+  function _no_name_provided_$factory_101(this$0) {
+    var i = new _no_name_provided__125(this$0);
     return function (p1, p2) {
       i.invoke_a24q54_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_101($block, $parentFrameClock, resultContinuation) {
-    var i = new _no_name_provided__123($block, $parentFrameClock, resultContinuation);
+  function _no_name_provided_$factory_102($block, $parentFrameClock, resultContinuation) {
+    var i = new _no_name_provided__126($block, $parentFrameClock, resultContinuation);
     var l = function (p1, $cont) {
       return i.invoke_2i3g7c_k$(p1, $cont);
     };
     l.$arity = 1;
     return l;
   }
-  function _no_name_provided_$factory_102(this$0, $toApply, $toRecompose, $frameSignal) {
-    var i = new _no_name_provided__128(this$0, $toApply, $toRecompose, $frameSignal);
+  function _no_name_provided_$factory_103(this$0, $toApply, $toRecompose, $frameSignal) {
+    var i = new _no_name_provided__131(this$0, $toApply, $toRecompose, $frameSignal);
     return function (p1) {
       return i.invoke_wiekkq_k$(p1);
     };
   }
-  function _no_name_provided_$factory_103(resultContinuation) {
-    var i = new _no_name_provided__130(resultContinuation);
+  function _no_name_provided_$factory_104(resultContinuation) {
+    var i = new _no_name_provided__133(resultContinuation);
     var l = function (p1, $cont) {
       return i.invoke_quff6v_k$(p1, $cont);
     };
     l.$arity = 1;
     return l;
   }
-  function _no_name_provided_$factory_104() {
-    var i = new _no_name_provided__135();
+  function _no_name_provided_$factory_105() {
+    var i = new _no_name_provided__138();
     return function (p1, p2) {
       i.invoke_5vwf3d_k$(p1, p2);
       return Unit_getInstance();
@@ -49843,35 +50409,35 @@
   function parentAnchorToIndex($this, index) {
     return index > -2 ? index : ($this._get_size__0_k$() + index | 0) - -2 | 0;
   }
-  function _no_name_provided__136($start, $end, this$0) {
+  function _no_name_provided__139($start, $end, this$0) {
     this._$start = $start;
     this._$end = $end;
-    this._this$0_39 = this$0;
+    this._this$0_40 = this$0;
     this._current_0 = this._$start;
   }
-  _no_name_provided__136.prototype._set_current__majfzk_k$ = function (_set___) {
+  _no_name_provided__139.prototype._set_current__majfzk_k$ = function (_set___) {
     this._current_0 = _set___;
   };
-  _no_name_provided__136.prototype._get_current__0_k$ = function () {
+  _no_name_provided__139.prototype._get_current__0_k$ = function () {
     return this._current_0;
   };
-  _no_name_provided__136.prototype.hasNext_0_k$ = function () {
+  _no_name_provided__139.prototype.hasNext_0_k$ = function () {
     return this._current_0 < this._$end;
   };
-  _no_name_provided__136.prototype.next_0_k$ = function () {
+  _no_name_provided__139.prototype.next_0_k$ = function () {
     var tmp;
     if (this.hasNext_0_k$()) {
-      var tmp_0 = this._this$0_39._slots_0;
+      var tmp_0 = this._this$0_40._slots_0;
       var tmp0_this = this;
       var tmp1 = tmp0_this._current_0;
       tmp0_this._current_0 = tmp1 + 1 | 0;
-      tmp = tmp_0[dataIndexToDataAddress(this._this$0_39, tmp1)];
+      tmp = tmp_0[dataIndexToDataAddress(this._this$0_40, tmp1)];
     } else {
       tmp = null;
     }
     return tmp;
   };
-  _no_name_provided__136.$metadata$ = {
+  _no_name_provided__139.$metadata$ = {
     kind: 'class',
     interfaces: [Iterator_3]
   };
@@ -50341,7 +50907,7 @@
   SlotWriter.prototype.groupSlots_0_k$ = function () {
     var start_0 = dataIndex_0(this._groups, this, groupIndexToAddress(this, this._currentGroup));
     var end_0 = dataIndex_0(this._groups, this, groupIndexToAddress(this, this._currentGroup + this.groupSize_ha5a7z_k$(this._currentGroup) | 0));
-    return new _no_name_provided__136(start_0, end_0, this);
+    return new _no_name_provided__139(start_0, end_0, this);
   };
   SlotWriter.prototype.moveGroup_majfzk_k$ = function (offset) {
     {
@@ -52320,28 +52886,28 @@
       len = _this_.length;
     return groupSizes_0(_this_, len);
   }
-  function _no_name_provided__137($start, $end, this$0) {
+  function _no_name_provided__140($start, $end, this$0) {
     this._$start_0 = $start;
     this._$end_0 = $end;
-    this._this$0_40 = this$0;
+    this._this$0_41 = this$0;
     this._index_16 = this._$start_0;
   }
-  _no_name_provided__137.prototype._set_index__majfzk_k$ = function (_set___) {
+  _no_name_provided__140.prototype._set_index__majfzk_k$ = function (_set___) {
     this._index_16 = _set___;
   };
-  _no_name_provided__137.prototype._get_index__0_k$ = function () {
+  _no_name_provided__140.prototype._get_index__0_k$ = function () {
     return this._index_16;
   };
-  _no_name_provided__137.prototype.iterator_0_k$ = function () {
+  _no_name_provided__140.prototype.iterator_0_k$ = function () {
     return this;
   };
-  _no_name_provided__137.prototype.hasNext_0_k$ = function () {
+  _no_name_provided__140.prototype.hasNext_0_k$ = function () {
     return this._index_16 < this._$end_0;
   };
-  _no_name_provided__137.prototype.next_0_k$ = function () {
+  _no_name_provided__140.prototype.next_0_k$ = function () {
     var tmp$ret$0;
     $l$block: {
-      var tmp0_also_0 = (this._index_16 >= 0 ? this._index_16 < this._this$0_40._table_1._slots_1.length : false) ? this._this$0_40._table_1._slots_1[this._index_16] : null;
+      var tmp0_also_0 = (this._index_16 >= 0 ? this._index_16 < this._this$0_41._table_1._slots_1.length : false) ? this._this$0_41._table_1._slots_1[this._index_16] : null;
       {
       }
       {
@@ -52355,7 +52921,7 @@
     }
     return tmp$ret$0;
   };
-  _no_name_provided__137.$metadata$ = {
+  _no_name_provided__140.$metadata$ = {
     kind: 'class',
     interfaces: [Iterable_0, Iterator_3]
   };
@@ -52372,42 +52938,42 @@
     if (!($this._table_1._version_1 === $this._version_2)) {
       throw ConcurrentModificationException_init_$Create$();
     }}
-  function _no_name_provided__138(this$0, $group) {
-    this._this$0_41 = this$0;
+  function _no_name_provided__141(this$0, $group) {
+    this._this$0_42 = this$0;
     this._$group = $group;
   }
-  _no_name_provided__138.prototype._get_isEmpty__0_k$ = function () {
-    return groupSize(this._this$0_41._table_1._groups_0, this._$group) === 0;
+  _no_name_provided__141.prototype._get_isEmpty__0_k$ = function () {
+    return groupSize(this._this$0_42._table_1._groups_0, this._$group) === 0;
   };
-  _no_name_provided__138.prototype._get_key__0_k$ = function () {
-    return hasObjectKey(this._this$0_41._table_1._groups_0, this._$group) ? ensureNotNull(this._this$0_41._table_1._slots_1[objectKeyIndex(this._this$0_41._table_1._groups_0, this._$group)]) : key(this._this$0_41._table_1._groups_0, this._$group);
+  _no_name_provided__141.prototype._get_key__0_k$ = function () {
+    return hasObjectKey(this._this$0_42._table_1._groups_0, this._$group) ? ensureNotNull(this._this$0_42._table_1._slots_1[objectKeyIndex(this._this$0_42._table_1._groups_0, this._$group)]) : key(this._this$0_42._table_1._groups_0, this._$group);
   };
-  _no_name_provided__138.prototype._get_sourceInfo__0_k$ = function () {
+  _no_name_provided__141.prototype._get_sourceInfo__0_k$ = function () {
     var tmp;
-    if (hasAux(this._this$0_41._table_1._groups_0, this._$group)) {
-      var tmp_0 = this._this$0_41._table_1._slots_1[auxIndex_0(this._this$0_41._table_1._groups_0, this._$group)];
+    if (hasAux(this._this$0_42._table_1._groups_0, this._$group)) {
+      var tmp_0 = this._this$0_42._table_1._slots_1[auxIndex_0(this._this$0_42._table_1._groups_0, this._$group)];
       tmp = (!(tmp_0 == null) ? typeof tmp_0 === 'string' : false) ? tmp_0 : null;
     } else {
       tmp = null;
     }
     return tmp;
   };
-  _no_name_provided__138.prototype._get_node__0_k$ = function () {
-    return isNode(this._this$0_41._table_1._groups_0, this._$group) ? this._this$0_41._table_1._slots_1[nodeIndex_0(this._this$0_41._table_1._groups_0, this._$group)] : null;
+  _no_name_provided__141.prototype._get_node__0_k$ = function () {
+    return isNode(this._this$0_42._table_1._groups_0, this._$group) ? this._this$0_42._table_1._slots_1[nodeIndex_0(this._this$0_42._table_1._groups_0, this._$group)] : null;
   };
-  _no_name_provided__138.prototype._get_data__0_k$ = function () {
-    var start_0 = dataAnchor(this._this$0_41._table_1._groups_0, this._$group);
-    var end_0 = (this._$group + 1 | 0) < this._this$0_41._table_1._groupsSize ? dataAnchor(this._this$0_41._table_1._groups_0, this._$group + 1 | 0) : this._this$0_41._table_1._slotsSize;
-    return new _no_name_provided__137(start_0, end_0, this._this$0_41);
+  _no_name_provided__141.prototype._get_data__0_k$ = function () {
+    var start_0 = dataAnchor(this._this$0_42._table_1._groups_0, this._$group);
+    var end_0 = (this._$group + 1 | 0) < this._this$0_42._table_1._groupsSize ? dataAnchor(this._this$0_42._table_1._groups_0, this._$group + 1 | 0) : this._this$0_42._table_1._slotsSize;
+    return new _no_name_provided__140(start_0, end_0, this._this$0_42);
   };
-  _no_name_provided__138.prototype._get_compositionGroups__0_k$ = function () {
+  _no_name_provided__141.prototype._get_compositionGroups__0_k$ = function () {
     return this;
   };
-  _no_name_provided__138.prototype.iterator_0_k$ = function () {
-    validateRead(this._this$0_41);
-    return new GroupIterator(this._this$0_41._table_1, this._$group + 1 | 0, this._$group + groupSize(this._this$0_41._table_1._groups_0, this._$group) | 0);
+  _no_name_provided__141.prototype.iterator_0_k$ = function () {
+    validateRead(this._this$0_42);
+    return new GroupIterator(this._this$0_42._table_1, this._$group + 1 | 0, this._$group + groupSize(this._this$0_42._table_1._groups_0, this._$group) | 0);
   };
-  _no_name_provided__138.$metadata$ = {
+  _no_name_provided__141.$metadata$ = {
     kind: 'class',
     interfaces: [CompositionGroup, Iterable_0]
   };
@@ -52433,7 +52999,7 @@
     var group = this._index_17;
     var tmp0_this = this;
     tmp0_this._index_17 = tmp0_this._index_17 + groupSize(this._table_1._groups_0, group) | 0;
-    return new _no_name_provided__138(this, group);
+    return new _no_name_provided__141(this, group);
   };
   GroupIterator.$metadata$ = {
     simpleName: 'GroupIterator',
@@ -52642,17 +53208,17 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__139(this$0) {
-    this._this$0_42 = this$0;
+  function _no_name_provided__142(this$0) {
+    this._this$0_43 = this$0;
   }
-  _no_name_provided__139.prototype.invoke_iav7o_k$ = function (it) {
-    this._this$0_42._set_value__iav7o_k$(it);
+  _no_name_provided__142.prototype.invoke_iav7o_k$ = function (it) {
+    this._this$0_43._set_value__iav7o_k$(it);
   };
-  _no_name_provided__139.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__142.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_iav7o_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__139.$metadata$ = {
+  _no_name_provided__142.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -52772,7 +53338,7 @@
     return this._get_value__0_k$();
   };
   SnapshotMutableStateImpl.prototype.component2_0_k$ = function () {
-    return _no_name_provided_$factory_105(this);
+    return _no_name_provided_$factory_106(this);
   };
   SnapshotMutableStateImpl.prototype._get_debuggerDisplayValue__0_k$ = function () {
     var tmp$ret$1;
@@ -52794,8 +53360,8 @@
     kind: 'class',
     interfaces: [StateObject, SnapshotMutableState]
   };
-  function _no_name_provided_$factory_105(this$0) {
-    var i = new _no_name_provided__139(this$0);
+  function _no_name_provided_$factory_106(this$0) {
+    var i = new _no_name_provided__142(this$0);
     return function (p1) {
       i.invoke_iav7o_k$(p1);
       return Unit_getInstance();
@@ -53679,28 +54245,28 @@
        while (inductionVariable_0 < last_0);
     return -($this._size_3 + 1 | 0) | 0;
   }
-  function _no_name_provided__140(this$0) {
-    this._this$0_43 = this$0;
+  function _no_name_provided__143(this$0) {
+    this._this$0_44 = this$0;
     this._index_19 = 0;
   }
-  _no_name_provided__140.prototype._set_index__majfzk_k$ = function (_set___) {
+  _no_name_provided__143.prototype._set_index__majfzk_k$ = function (_set___) {
     this._index_19 = _set___;
   };
-  _no_name_provided__140.prototype._get_index__0_k$ = function () {
+  _no_name_provided__143.prototype._get_index__0_k$ = function () {
     return this._index_19;
   };
-  _no_name_provided__140.prototype.hasNext_0_k$ = function () {
-    return this._index_19 < this._this$0_43._size_3;
+  _no_name_provided__143.prototype.hasNext_0_k$ = function () {
+    return this._index_19 < this._this$0_44._size_3;
   };
-  _no_name_provided__140.prototype.next_0_k$ = function () {
-    var tmp = this._this$0_43._values_3;
+  _no_name_provided__143.prototype.next_0_k$ = function () {
+    var tmp = this._this$0_44._values_3;
     var tmp0_this = this;
     var tmp1 = tmp0_this._index_19;
     tmp0_this._index_19 = tmp1 + 1 | 0;
     var tmp_0 = tmp[tmp1];
     return isObject(tmp_0) ? tmp_0 : THROW_CCE();
   };
-  _no_name_provided__140.$metadata$ = {
+  _no_name_provided__143.$metadata$ = {
     kind: 'class',
     interfaces: [Iterator_3]
   };
@@ -53919,7 +54485,7 @@
     return this.containsAll_dxd41r_k$(elements);
   };
   IdentityArraySet.prototype.iterator_0_k$ = function () {
-    return new _no_name_provided__140(this);
+    return new _no_name_provided__143(this);
   };
   IdentityArraySet.$metadata$ = {
     simpleName: 'IdentityArraySet',
@@ -54610,29 +55176,29 @@
     kind: 'class',
     interfaces: [ListIterator]
   };
-  function _no_name_provided__141($elements) {
+  function _no_name_provided__144($elements) {
     this._$elements_4 = $elements;
   }
-  _no_name_provided__141.prototype.invoke_2bq_k$ = function (it) {
+  _no_name_provided__144.prototype.invoke_2bq_k$ = function (it) {
     return this._$elements_4.contains_2bq_k$(it);
   };
-  _no_name_provided__141.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__144.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_2bq_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
   };
-  _no_name_provided__141.$metadata$ = {
+  _no_name_provided__144.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__142($elements) {
+  function _no_name_provided__145($elements) {
     this._$elements_5 = $elements;
   }
-  _no_name_provided__142.prototype.invoke_2bq_k$ = function (it) {
+  _no_name_provided__145.prototype.invoke_2bq_k$ = function (it) {
     return !this._$elements_5.contains_2bq_k$(it);
   };
-  _no_name_provided__142.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__145.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_2bq_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
   };
-  _no_name_provided__142.$metadata$ = {
+  _no_name_provided__145.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -54689,10 +55255,10 @@
     }return this;
   };
   AbstractPersistentList.prototype.removeAll_dxd4eo_k$ = function (elements) {
-    return this.removeAll_t4w5md_k$(_no_name_provided_$factory_106(elements));
+    return this.removeAll_t4w5md_k$(_no_name_provided_$factory_107(elements));
   };
   AbstractPersistentList.prototype.retainAll_dxd4eo_k$ = function (elements) {
-    return this.removeAll_t4w5md_k$(_no_name_provided_$factory_107(elements));
+    return this.removeAll_t4w5md_k$(_no_name_provided_$factory_108(elements));
   };
   AbstractPersistentList.prototype.clear_0_k$ = function () {
     return persistentVectorOf();
@@ -54746,14 +55312,14 @@
     kind: 'class',
     interfaces: [PersistentList]
   };
-  function _no_name_provided_$factory_106($elements) {
-    var i = new _no_name_provided__141($elements);
+  function _no_name_provided_$factory_107($elements) {
+    var i = new _no_name_provided__144($elements);
     return function (p1) {
       return i.invoke_2bq_k$(p1);
     };
   }
-  function _no_name_provided_$factory_107($elements) {
-    var i = new _no_name_provided__142($elements);
+  function _no_name_provided_$factory_108($elements) {
+    var i = new _no_name_provided__145($elements);
     return function (p1) {
       return i.invoke_2bq_k$(p1);
     };
@@ -55951,16 +56517,16 @@
     }var trieHeight = $this._rootShift_0 / 5 | 0;
     return new TrieIterator(ensureNotNull($this._root_1), index, leafCount, trieHeight);
   }
-  function _no_name_provided__143($elements) {
+  function _no_name_provided__146($elements) {
     this._$elements_6 = $elements;
   }
-  _no_name_provided__143.prototype.invoke_2bq_k$ = function (it) {
+  _no_name_provided__146.prototype.invoke_2bq_k$ = function (it) {
     return this._$elements_6.contains_2bq_k$(it);
   };
-  _no_name_provided__143.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__146.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_2bq_k$((p1 == null ? true : isObject(p1)) ? p1 : THROW_CCE());
   };
-  _no_name_provided__143.$metadata$ = {
+  _no_name_provided__146.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -56195,7 +56761,7 @@
     return (tmp_0 == null ? true : isObject(tmp_0)) ? tmp_0 : THROW_CCE();
   };
   PersistentVectorBuilder.prototype.removeAll_dxd4eo_k$ = function (elements) {
-    return this.removeAllWithPredicate_t4w5md_k$(_no_name_provided_$factory_108(elements));
+    return this.removeAllWithPredicate_t4w5md_k$(_no_name_provided_$factory_109(elements));
   };
   PersistentVectorBuilder.prototype.removeAllWithPredicate_t4w5md_k$ = function (predicate) {
     var anyRemoved = removeAll_1(this, predicate);
@@ -56240,8 +56806,8 @@
     kind: 'class',
     interfaces: [Builder_0]
   };
-  function _no_name_provided_$factory_108($elements) {
-    var i = new _no_name_provided__143($elements);
+  function _no_name_provided_$factory_109($elements) {
+    var i = new _no_name_provided__146($elements);
     return function (p1) {
       return i.invoke_2bq_k$(p1);
     };
@@ -60341,10 +60907,10 @@
     kind: 'interface',
     interfaces: []
   };
-  function _no_name_provided__144($observer) {
+  function _no_name_provided__147($observer) {
     this._$observer = $observer;
   }
-  _no_name_provided__144.prototype.dispose_sv8swh_k$ = function () {
+  _no_name_provided__147.prototype.dispose_sv8swh_k$ = function () {
     var tmp$ret$1;
     $l$block_0: {
       var tmp$ret$0;
@@ -60358,14 +60924,14 @@
       break $l$block_0;
     }
   };
-  _no_name_provided__144.$metadata$ = {
+  _no_name_provided__147.$metadata$ = {
     kind: 'class',
     interfaces: [ObserverHandle]
   };
-  function _no_name_provided__145($observer) {
+  function _no_name_provided__148($observer) {
     this._$observer_0 = $observer;
   }
-  _no_name_provided__145.prototype.dispose_sv8swh_k$ = function () {
+  _no_name_provided__148.prototype.dispose_sv8swh_k$ = function () {
     var tmp$ret$2;
     $l$block_1: {
       var tmp$ret$1;
@@ -60385,7 +60951,7 @@
     Unit_getInstance();
     advanceGlobalSnapshot_0();
   };
-  _no_name_provided__145.$metadata$ = {
+  _no_name_provided__148.$metadata$ = {
     kind: 'class',
     interfaces: [ObserverHandle]
   };
@@ -60555,7 +61121,7 @@
       break $l$block_1;
     }
     Unit_getInstance();
-    return new _no_name_provided__144(observer);
+    return new _no_name_provided__147(observer);
   };
   Companion_32.prototype.registerGlobalWriteObserver_ejofcn_k$ = function (observer) {
     var tmp$ret$2;
@@ -60576,7 +61142,7 @@
     }
     Unit_getInstance();
     advanceGlobalSnapshot_0();
-    return new _no_name_provided__145(observer);
+    return new _no_name_provided__148(observer);
   };
   Companion_32.prototype.notifyObjectsInitialized_sv8swh_k$ = function () {
     return currentSnapshot().notifyObjectsInitialized_sv8swh_k$();
@@ -61571,10 +62137,10 @@
     return INVALID_SNAPSHOT;
   }
   var INVALID_SNAPSHOT;
-  function _no_name_provided__146($tmp0_safe_receiver_2) {
+  function _no_name_provided__149($tmp0_safe_receiver_2) {
     this._$tmp0_safe_receiver_2 = $tmp0_safe_receiver_2;
   }
-  _no_name_provided__146.prototype.invoke_wu1lm5_k$ = function (state) {
+  _no_name_provided__149.prototype.invoke_wu1lm5_k$ = function (state) {
     {
       {
       }
@@ -61592,18 +62158,18 @@
          while (inductionVariable <= last_0);
     }
   };
-  _no_name_provided__146.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__149.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_wu1lm5_k$(isObject(p1) ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__146.$metadata$ = {
+  _no_name_provided__149.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__147($readObserver) {
+  function _no_name_provided__150($readObserver) {
     this._$readObserver = $readObserver;
   }
-  _no_name_provided__147.prototype.invoke_b6l5po_k$ = function (invalid) {
+  _no_name_provided__150.prototype.invoke_b6l5po_k$ = function (invalid) {
     var tmp$ret$2;
     $l$block_1: {
       var tmp$ret$1;
@@ -61624,18 +62190,18 @@
     }
     return new ReadonlySnapshot(tmp$ret$2, invalid, this._$readObserver);
   };
-  _no_name_provided__147.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__150.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_b6l5po_k$(p1 instanceof SnapshotIdSet ? p1 : THROW_CCE());
   };
-  _no_name_provided__147.$metadata$ = {
+  _no_name_provided__150.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__148($readObserver, $writeObserver) {
+  function _no_name_provided__151($readObserver, $writeObserver) {
     this._$readObserver_0 = $readObserver;
     this._$writeObserver = $writeObserver;
   }
-  _no_name_provided__148.prototype.invoke_b6l5po_k$ = function (invalid) {
+  _no_name_provided__151.prototype.invoke_b6l5po_k$ = function (invalid) {
     var tmp$ret$2;
     $l$block_1: {
       var tmp$ret$1;
@@ -61656,10 +62222,10 @@
     }
     return new MutableSnapshot(tmp$ret$2, invalid, this._$readObserver_0, this._$writeObserver);
   };
-  _no_name_provided__148.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__151.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_b6l5po_k$(p1 instanceof SnapshotIdSet ? p1 : THROW_CCE());
   };
-  _no_name_provided__148.$metadata$ = {
+  _no_name_provided__151.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -61699,7 +62265,7 @@
                 var tmp0_elvis_lhs_2_4 = singleOrNull(tmp0_safe_receiver_2);
                 var tmp_1;
                 if (tmp0_elvis_lhs_2_4 == null) {
-                  tmp_1 = _no_name_provided_$factory_110(tmp0_safe_receiver_2);
+                  tmp_1 = _no_name_provided_$factory_111(tmp0_safe_receiver_2);
                 } else {
                   tmp_1 = tmp0_elvis_lhs_2_4;
                 }
@@ -61723,10 +62289,10 @@
     MutableSnapshot.call(this, id, invalid, null, tmp$ret$5);
   }
   GlobalSnapshot.prototype.takeNestedSnapshot_s4gufm_k$ = function (readObserver) {
-    return takeNewSnapshot(_no_name_provided_$factory_111(readObserver));
+    return takeNewSnapshot(_no_name_provided_$factory_112(readObserver));
   };
   GlobalSnapshot.prototype.takeNestedMutableSnapshot_sefk9o_k$ = function (readObserver, writeObserver) {
-    return takeNewSnapshot(_no_name_provided_$factory_112(readObserver, writeObserver));
+    return takeNewSnapshot(_no_name_provided_$factory_113(readObserver, writeObserver));
   };
   GlobalSnapshot.prototype.notifyObjectsInitialized_sv8swh_k$ = function () {
     advanceGlobalSnapshot_0();
@@ -61931,7 +62497,7 @@
     }return result;
   }
   function advanceGlobalSnapshot_0() {
-    return advanceGlobalSnapshot(_no_name_provided_$factory_113());
+    return advanceGlobalSnapshot(_no_name_provided_$factory_114());
   }
   function NestedMutableSnapshot(id, invalid, readObserver, writeObserver, parent_0) {
     MutableSnapshot.call(this, id, invalid, readObserver, writeObserver);
@@ -62009,7 +62575,7 @@
   function mergedReadObserver(readObserver, parentObserver) {
     var tmp;
     if ((!(readObserver == null) ? !(parentObserver == null) : false) ? !equals_0(readObserver, parentObserver) : false) {
-      tmp = _no_name_provided_$factory_114(readObserver, parentObserver);
+      tmp = _no_name_provided_$factory_115(readObserver, parentObserver);
     } else {
       var tmp0_elvis_lhs = readObserver;
       tmp = tmp0_elvis_lhs == null ? parentObserver : tmp0_elvis_lhs;
@@ -62019,7 +62585,7 @@
   function mergedWriteObserver(writeObserver, parentObserver) {
     var tmp;
     if ((!(writeObserver == null) ? !(parentObserver == null) : false) ? !equals_0(writeObserver, parentObserver) : false) {
-      tmp = _no_name_provided_$factory_115(writeObserver, parentObserver);
+      tmp = _no_name_provided_$factory_116(writeObserver, parentObserver);
     } else {
       var tmp0_elvis_lhs = writeObserver;
       tmp = tmp0_elvis_lhs == null ? parentObserver : tmp0_elvis_lhs;
@@ -62123,19 +62689,19 @@
     }
     return result;
   }
-  function _no_name_provided__149($readObserver, $tmp0_safe_receiver_3) {
+  function _no_name_provided__152($readObserver, $tmp0_safe_receiver_3) {
     this._$readObserver_1 = $readObserver;
     this._$tmp0_safe_receiver_3 = $tmp0_safe_receiver_3;
   }
-  _no_name_provided__149.prototype.invoke_wu1lm5_k$ = function (state) {
+  _no_name_provided__152.prototype.invoke_wu1lm5_k$ = function (state) {
     this._$readObserver_1(state);
     this._$tmp0_safe_receiver_3(state);
   };
-  _no_name_provided__149.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__152.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_wu1lm5_k$(isObject(p1) ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__149.$metadata$ = {
+  _no_name_provided__152.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -62166,7 +62732,7 @@
               }
               var tmp$ret$0;
               $l$block: {
-                tmp$ret$0 = _no_name_provided_$factory_116(readObserver, tmp0_safe_receiver_3);
+                tmp$ret$0 = _no_name_provided_$factory_117(readObserver, tmp0_safe_receiver_3);
                 break $l$block;
               }
               tmp$ret$1 = tmp$ret$0;
@@ -62339,7 +62905,7 @@
     interfaces: []
   };
   function takeNewSnapshot(block) {
-    return advanceGlobalSnapshot(_no_name_provided_$factory_117(block));
+    return advanceGlobalSnapshot(_no_name_provided_$factory_118(block));
   }
   function valid(data, snapshot, invalid) {
     return valid_0(snapshot, data._snapshotId, invalid);
@@ -62490,68 +63056,68 @@
     }
     return null;
   }
-  function _no_name_provided__150() {
+  function _no_name_provided__153() {
   }
-  _no_name_provided__150.prototype.invoke_otf2e3_k$ = function (it) {
+  _no_name_provided__153.prototype.invoke_otf2e3_k$ = function (it) {
     return Unit_getInstance();
-  };
-  _no_name_provided__150.prototype.invoke_20e8_k$ = function (p1) {
-    this.invoke_otf2e3_k$(p1 instanceof SnapshotIdSet ? p1 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__150.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__151() {
-  }
-  _no_name_provided__151.prototype.invoke_otf2e3_k$ = function (it) {
-    return Unit_getInstance();
-  };
-  _no_name_provided__151.prototype.invoke_20e8_k$ = function (p1) {
-    this.invoke_otf2e3_k$(p1 instanceof SnapshotIdSet ? p1 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__151.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__152($readObserver, $parentObserver) {
-    this._$readObserver_2 = $readObserver;
-    this._$parentObserver = $parentObserver;
-  }
-  _no_name_provided__152.prototype.invoke_wu1lm5_k$ = function (state) {
-    this._$readObserver_2(state);
-    this._$parentObserver(state);
-  };
-  _no_name_provided__152.prototype.invoke_20e8_k$ = function (p1) {
-    this.invoke_wu1lm5_k$(isObject(p1) ? p1 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__152.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__153($writeObserver, $parentObserver) {
-    this._$writeObserver_0 = $writeObserver;
-    this._$parentObserver_0 = $parentObserver;
-  }
-  _no_name_provided__153.prototype.invoke_wu1lm5_k$ = function (state) {
-    this._$writeObserver_0(state);
-    this._$parentObserver_0(state);
   };
   _no_name_provided__153.prototype.invoke_20e8_k$ = function (p1) {
-    this.invoke_wu1lm5_k$(isObject(p1) ? p1 : THROW_CCE());
+    this.invoke_otf2e3_k$(p1 instanceof SnapshotIdSet ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
   _no_name_provided__153.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__154($block) {
+  function _no_name_provided__154() {
+  }
+  _no_name_provided__154.prototype.invoke_otf2e3_k$ = function (it) {
+    return Unit_getInstance();
+  };
+  _no_name_provided__154.prototype.invoke_20e8_k$ = function (p1) {
+    this.invoke_otf2e3_k$(p1 instanceof SnapshotIdSet ? p1 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__154.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__155($readObserver, $parentObserver) {
+    this._$readObserver_2 = $readObserver;
+    this._$parentObserver = $parentObserver;
+  }
+  _no_name_provided__155.prototype.invoke_wu1lm5_k$ = function (state) {
+    this._$readObserver_2(state);
+    this._$parentObserver(state);
+  };
+  _no_name_provided__155.prototype.invoke_20e8_k$ = function (p1) {
+    this.invoke_wu1lm5_k$(isObject(p1) ? p1 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__155.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__156($writeObserver, $parentObserver) {
+    this._$writeObserver_0 = $writeObserver;
+    this._$parentObserver_0 = $parentObserver;
+  }
+  _no_name_provided__156.prototype.invoke_wu1lm5_k$ = function (state) {
+    this._$writeObserver_0(state);
+    this._$parentObserver_0(state);
+  };
+  _no_name_provided__156.prototype.invoke_20e8_k$ = function (p1) {
+    this.invoke_wu1lm5_k$(isObject(p1) ? p1 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__156.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__157($block) {
     this._$block_10 = $block;
   }
-  _no_name_provided__154.prototype.invoke_b6l5po_k$ = function (invalid) {
+  _no_name_provided__157.prototype.invoke_b6l5po_k$ = function (invalid) {
     var result = this._$block_10(invalid);
     var tmp$ret$1;
     $l$block_0: {
@@ -62567,75 +63133,75 @@
     }
     return result;
   };
-  _no_name_provided__154.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__157.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_b6l5po_k$(p1 instanceof SnapshotIdSet ? p1 : THROW_CCE());
   };
-  _no_name_provided__154.$metadata$ = {
+  _no_name_provided__157.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided_$factory_109() {
-    var i = new _no_name_provided__150();
+  function _no_name_provided_$factory_110() {
+    var i = new _no_name_provided__153();
     return function (p1) {
       i.invoke_otf2e3_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_110($tmp0_safe_receiver_2) {
-    var i = new _no_name_provided__146($tmp0_safe_receiver_2);
+  function _no_name_provided_$factory_111($tmp0_safe_receiver_2) {
+    var i = new _no_name_provided__149($tmp0_safe_receiver_2);
     return function (p1) {
       i.invoke_wu1lm5_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_111($readObserver) {
-    var i = new _no_name_provided__147($readObserver);
+  function _no_name_provided_$factory_112($readObserver) {
+    var i = new _no_name_provided__150($readObserver);
     return function (p1) {
       return i.invoke_b6l5po_k$(p1);
     };
   }
-  function _no_name_provided_$factory_112($readObserver, $writeObserver) {
-    var i = new _no_name_provided__148($readObserver, $writeObserver);
+  function _no_name_provided_$factory_113($readObserver, $writeObserver) {
+    var i = new _no_name_provided__151($readObserver, $writeObserver);
     return function (p1) {
       return i.invoke_b6l5po_k$(p1);
     };
   }
-  function _no_name_provided_$factory_113() {
-    var i = new _no_name_provided__151();
+  function _no_name_provided_$factory_114() {
+    var i = new _no_name_provided__154();
     return function (p1) {
       i.invoke_otf2e3_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_114($readObserver, $parentObserver) {
-    var i = new _no_name_provided__152($readObserver, $parentObserver);
+  function _no_name_provided_$factory_115($readObserver, $parentObserver) {
+    var i = new _no_name_provided__155($readObserver, $parentObserver);
     return function (p1) {
       i.invoke_wu1lm5_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_115($writeObserver, $parentObserver) {
-    var i = new _no_name_provided__153($writeObserver, $parentObserver);
+  function _no_name_provided_$factory_116($writeObserver, $parentObserver) {
+    var i = new _no_name_provided__156($writeObserver, $parentObserver);
     return function (p1) {
       i.invoke_wu1lm5_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_116($readObserver, $tmp0_safe_receiver_3) {
-    var i = new _no_name_provided__149($readObserver, $tmp0_safe_receiver_3);
+  function _no_name_provided_$factory_117($readObserver, $tmp0_safe_receiver_3) {
+    var i = new _no_name_provided__152($readObserver, $tmp0_safe_receiver_3);
     return function (p1) {
       i.invoke_wu1lm5_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_117($block) {
-    var i = new _no_name_provided__154($block);
+  function _no_name_provided_$factory_118($block) {
+    var i = new _no_name_provided__157($block);
     return function (p1) {
       return i.invoke_b6l5po_k$(p1);
     };
   }
   function emptyLambda$init$() {
-    return _no_name_provided_$factory_109();
+    return _no_name_provided_$factory_110();
   }
   function applyObservers$init$() {
     var tmp$ret$0;
@@ -62699,21 +63265,21 @@
       new Companion_33();
     return Companion_instance_32;
   }
-  function _no_name_provided__155(this$0, resultContinuation) {
-    this._this$0_44 = this$0;
+  function _no_name_provided__158(this$0, resultContinuation) {
+    this._this$0_45 = this$0;
     CoroutineImpl_0.call(this, resultContinuation);
   }
-  _no_name_provided__155.prototype.invoke_rbl5so_k$ = function ($this$sequence, $cont) {
+  _no_name_provided__158.prototype.invoke_rbl5so_k$ = function ($this$sequence, $cont) {
     var tmp = this.create_6ug3er_k$($this$sequence, $cont);
     tmp._result_0 = Unit_getInstance();
     tmp._exception_0 = null;
     return tmp.doResume_0_k$();
   };
-  _no_name_provided__155.prototype.invoke_20e8_k$ = function (p1, $cont) {
+  _no_name_provided__158.prototype.invoke_20e8_k$ = function (p1, $cont) {
     this.invoke_rbl5so_k$(p1 instanceof SequenceScope ? p1 : THROW_CCE(), $cont);
     return Unit_getInstance();
   };
-  _no_name_provided__155.prototype.doResume_0_k$ = function () {
+  _no_name_provided__158.prototype.doResume_0_k$ = function () {
     var suspendResult = this._result_0;
     $sm: do
       try {
@@ -62721,7 +63287,7 @@
         switch (tmp) {
           case 0:
             this._exceptionState = 15;
-            this._belowBound0 = this._this$0_44._belowBound;
+            this._belowBound0 = this._this$0_45._belowBound;
             if (!(this._belowBound0 == null)) {
               this._tmp0_iterator1 = intArrayIterator(this._belowBound0);
               this._state_1 = 1;
@@ -62751,7 +63317,7 @@
             this._state_1 = 4;
             continue $sm;
           case 4:
-            if (!this._this$0_44._lowerSet.equals(new Long(0, 0))) {
+            if (!this._this$0_45._lowerSet.equals(new Long(0, 0))) {
               var tmp_0 = this;
               Companion_getInstance_23();
               tmp_0._tmp1_iterator3 = until(0, 64).iterator_0_k$();
@@ -62769,9 +63335,9 @@
               continue $sm;
             }
             this._index4 = this._tmp1_iterator3.next_0_k$();
-            if (!this._this$0_44._lowerSet.and_wiekkq_k$((new Long(1, 0)).shl_ha5a7z_k$(this._index4)).equals(new Long(0, 0))) {
+            if (!this._this$0_45._lowerSet.and_wiekkq_k$((new Long(1, 0)).shl_ha5a7z_k$(this._index4)).equals(new Long(0, 0))) {
               this._state_1 = 6;
-              suspendResult = this._$this$sequence_0.yield_iav7o_k$(this._index4 + this._this$0_44._lowerBound | 0, this);
+              suspendResult = this._$this$sequence_0.yield_iav7o_k$(this._index4 + this._this$0_45._lowerBound | 0, this);
               if (suspendResult === _get_COROUTINE_SUSPENDED_()) {
                 return suspendResult;
               }continue $sm;
@@ -62791,7 +63357,7 @@
             this._state_1 = 9;
             continue $sm;
           case 9:
-            if (!this._this$0_44._upperSet.equals(new Long(0, 0))) {
+            if (!this._this$0_45._upperSet.equals(new Long(0, 0))) {
               var tmp_1 = this;
               Companion_getInstance_23();
               tmp_1._tmp2_iterator5 = until(0, 64).iterator_0_k$();
@@ -62809,10 +63375,10 @@
               continue $sm;
             }
             this._index6 = this._tmp2_iterator5.next_0_k$();
-            if (!this._this$0_44._upperSet.and_wiekkq_k$((new Long(1, 0)).shl_ha5a7z_k$(this._index6)).equals(new Long(0, 0))) {
+            if (!this._this$0_45._upperSet.and_wiekkq_k$((new Long(1, 0)).shl_ha5a7z_k$(this._index6)).equals(new Long(0, 0))) {
               this._state_1 = 11;
               Companion_getInstance_23();
-              suspendResult = this._$this$sequence_0.yield_iav7o_k$((this._index6 + 64 | 0) + this._this$0_44._lowerBound | 0, this);
+              suspendResult = this._$this$sequence_0.yield_iav7o_k$((this._index6 + 64 | 0) + this._this$0_45._lowerBound | 0, this);
               if (suspendResult === _get_COROUTINE_SUSPENDED_()) {
                 return suspendResult;
               }continue $sm;
@@ -62846,15 +63412,15 @@
       }
      while (true);
   };
-  _no_name_provided__155.prototype.create_6ug3er_k$ = function ($this$sequence, completion) {
-    var i = new _no_name_provided__155(this._this$0_44, completion);
+  _no_name_provided__158.prototype.create_6ug3er_k$ = function ($this$sequence, completion) {
+    var i = new _no_name_provided__158(this._this$0_45, completion);
     i._$this$sequence_0 = $this$sequence;
     return i;
   };
-  _no_name_provided__155.prototype.create_wbutx_k$ = function (value, completion) {
+  _no_name_provided__158.prototype.create_wbutx_k$ = function (value, completion) {
     return this.create_6ug3er_k$(value instanceof SequenceScope ? value : THROW_CCE(), completion);
   };
-  _no_name_provided__155.$metadata$ = {
+  _no_name_provided__158.$metadata$ = {
     kind: 'class',
     interfaces: [],
     suspendArity: 1
@@ -63321,7 +63887,7 @@
     return tmp;
   };
   SnapshotIdSet.prototype.iterator_0_k$ = function () {
-    return sequence(_no_name_provided_$factory_118(this, null)).iterator_0_k$();
+    return sequence(_no_name_provided_$factory_119(this, null)).iterator_0_k$();
   };
   SnapshotIdSet.prototype.lowest_ha5a7z_k$ = function (default_0) {
     var belowBound = this._belowBound;
@@ -63406,8 +63972,8 @@
       return base + 3 | 0;
     return -1;
   }
-  function _no_name_provided_$factory_118(this$0, resultContinuation) {
-    var i = new _no_name_provided__155(this$0, resultContinuation);
+  function _no_name_provided_$factory_119(this$0, resultContinuation) {
+    var i = new _no_name_provided__158(this$0, resultContinuation);
     var l = function (p1, $cont) {
       return i.invoke_rbl5so_k$(p1, $cont);
     };
@@ -63450,17 +64016,17 @@
     return LocalInspectionTables;
   }
   var LocalInspectionTables;
-  function _no_name_provided__156() {
+  function _no_name_provided__159() {
   }
-  _no_name_provided__156.prototype.invoke_0_k$ = function () {
+  _no_name_provided__159.prototype.invoke_0_k$ = function () {
     return null;
   };
-  _no_name_provided__156.$metadata$ = {
+  _no_name_provided__159.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided_$factory_119() {
-    var i = new _no_name_provided__156();
+  function _no_name_provided_$factory_120() {
+    var i = new _no_name_provided__159();
     return function () {
       return i.invoke_0_k$();
     };
@@ -63557,11 +64123,11 @@
     }
     return tmp;
   }
-  function _no_name_provided__157($onFrame, $safe_2_2) {
+  function _no_name_provided__160($onFrame, $safe_2_2) {
     this._$onFrame = $onFrame;
     this._$safe_2_2 = $safe_2_2;
   }
-  _no_name_provided__157.prototype.invoke_okcceq_k$ = function (it) {
+  _no_name_provided__160.prototype.invoke_okcceq_k$ = function (it) {
     var duration_5 = toDuration(it, DurationUnit_MILLISECONDS_getInstance());
     var result_6 = this._$onFrame(Duration__toLongNanoseconds_impl(duration_5));
     var tmp$ret$1;
@@ -63576,11 +64142,11 @@
       break $l$block_0;
     }
   };
-  _no_name_provided__157.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__160.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_okcceq_k$((!(p1 == null) ? typeof p1 === 'number' : false) ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__157.$metadata$ = {
+  _no_name_provided__160.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -63602,7 +64168,7 @@
             tmp_0._tmp0__anonymous__1_10_1 = this;
             this._safe_2_21 = SafeContinuation_init_$Create$(intercepted(this._tmp0__anonymous__1_10_1));
             var tmp_1 = window;
-            tmp_1.requestAnimationFrame(_no_name_provided_$factory_120(this._onFrame_0, this._safe_2_21));
+            tmp_1.requestAnimationFrame(_no_name_provided_$factory_121(this._onFrame_0, this._safe_2_21));
             Unit_getInstance();
             suspendResult = this._safe_2_21.getOrThrow_0_k$();
             if (suspendResult === _get_COROUTINE_SUSPENDED_()) {
@@ -63668,8 +64234,8 @@
   function createSnapshotMutableState(value, policy) {
     return new SnapshotMutableStateImpl(value, policy);
   }
-  function _no_name_provided_$factory_120($onFrame, $safe_2_2) {
-    var i = new _no_name_provided__157($onFrame, $safe_2_2);
+  function _no_name_provided_$factory_121($onFrame, $safe_2_2) {
+    var i = new _no_name_provided__160($onFrame, $safe_2_2);
     return function (p1) {
       i.invoke_okcceq_k$(p1);
       return Unit_getInstance();
@@ -63823,68 +64389,11 @@
     receiver.invoke_uhotyh_k$(p0, p1);
     Unit_getInstance();
   }
-  function _no_name_provided__158($boundThis) {
+  function _no_name_provided__161($boundThis) {
     this._$boundThis = $boundThis;
   }
-  _no_name_provided__158.prototype.invoke_xtxync_k$ = function (p0, p1) {
+  _no_name_provided__161.prototype.invoke_xtxync_k$ = function (p0, p1) {
     return invoke$invoke(this._$boundThis, p0, p1);
-  };
-  _no_name_provided__158.prototype.invoke_osx4an_k$ = function (p1, p2) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
-    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__158.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__159(this$0, $p1, $changed) {
-    this._this$0_45 = this$0;
-    this._$p1 = $p1;
-    this._$changed = $changed;
-  }
-  _no_name_provided__159.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
-    this._this$0_45.invoke_oku154_k$(this._$p1, nc, this._$changed | 1);
-    Unit_getInstance();
-  };
-  _no_name_provided__159.prototype.invoke_osx4an_k$ = function (p1, p2) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
-    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__159.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__160(this$0, $p1, $p2, $changed) {
-    this._this$0_46 = this$0;
-    this._$p1_0 = $p1;
-    this._$p2 = $p2;
-    this._$changed_0 = $changed;
-  }
-  _no_name_provided__160.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
-    this._this$0_46.invoke_86fr6v_k$(this._$p1_0, this._$p2, nc, this._$changed_0 | 1);
-    Unit_getInstance();
-  };
-  _no_name_provided__160.prototype.invoke_osx4an_k$ = function (p1, p2) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
-    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__160.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__161(this$0, $p1, $p2, $p3, $changed) {
-    this._this$0_47 = this$0;
-    this._$p1_1 = $p1;
-    this._$p2_0 = $p2;
-    this._$p3 = $p3;
-    this._$changed_1 = $changed;
-  }
-  _no_name_provided__161.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
-    this._this$0_47.invoke_5qm516_k$(this._$p1_1, this._$p2_0, this._$p3, nc, this._$changed_1 | 1);
-    Unit_getInstance();
   };
   _no_name_provided__161.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
@@ -63895,16 +64404,13 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__162(this$0, $p1, $p2, $p3, $p4, $changed) {
-    this._this$0_48 = this$0;
-    this._$p1_2 = $p1;
-    this._$p2_1 = $p2;
-    this._$p3_0 = $p3;
-    this._$p4 = $p4;
-    this._$changed_2 = $changed;
+  function _no_name_provided__162(this$0, $p1, $changed) {
+    this._this$0_46 = this$0;
+    this._$p1 = $p1;
+    this._$changed = $changed;
   }
   _no_name_provided__162.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
-    this._this$0_48.invoke_m45d1_k$(this._$p1_2, this._$p2_1, this._$p3_0, this._$p4, nc, this._$changed_2 | 1);
+    this._this$0_46.invoke_oku154_k$(this._$p1, nc, this._$changed | 1);
     Unit_getInstance();
   };
   _no_name_provided__162.prototype.invoke_osx4an_k$ = function (p1, p2) {
@@ -63916,17 +64422,14 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__163(this$0, $p1, $p2, $p3, $p4, $p5, $changed) {
-    this._this$0_49 = this$0;
-    this._$p1_3 = $p1;
-    this._$p2_2 = $p2;
-    this._$p3_1 = $p3;
-    this._$p4_0 = $p4;
-    this._$p5 = $p5;
-    this._$changed_3 = $changed;
+  function _no_name_provided__163(this$0, $p1, $p2, $changed) {
+    this._this$0_47 = this$0;
+    this._$p1_0 = $p1;
+    this._$p2 = $p2;
+    this._$changed_0 = $changed;
   }
   _no_name_provided__163.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
-    this._this$0_49.invoke_pmb6t8_k$(this._$p1_3, this._$p2_2, this._$p3_1, this._$p4_0, this._$p5, nc, this._$changed_3 | 1);
+    this._this$0_47.invoke_86fr6v_k$(this._$p1_0, this._$p2, nc, this._$changed_0 | 1);
     Unit_getInstance();
   };
   _no_name_provided__163.prototype.invoke_osx4an_k$ = function (p1, p2) {
@@ -63938,18 +64441,15 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__164(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $changed) {
-    this._this$0_50 = this$0;
-    this._$p1_4 = $p1;
-    this._$p2_3 = $p2;
-    this._$p3_2 = $p3;
-    this._$p4_1 = $p4;
-    this._$p5_0 = $p5;
-    this._$p6 = $p6;
-    this._$changed_4 = $changed;
+  function _no_name_provided__164(this$0, $p1, $p2, $p3, $changed) {
+    this._this$0_48 = this$0;
+    this._$p1_1 = $p1;
+    this._$p2_0 = $p2;
+    this._$p3 = $p3;
+    this._$changed_1 = $changed;
   }
   _no_name_provided__164.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
-    this._this$0_50.invoke_pb2zn_k$(this._$p1_4, this._$p2_3, this._$p3_2, this._$p4_1, this._$p5_0, this._$p6, nc, this._$changed_4 | 1);
+    this._this$0_48.invoke_5qm516_k$(this._$p1_1, this._$p2_0, this._$p3, nc, this._$changed_1 | 1);
     Unit_getInstance();
   };
   _no_name_provided__164.prototype.invoke_osx4an_k$ = function (p1, p2) {
@@ -63961,19 +64461,16 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__165(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $changed) {
-    this._this$0_51 = this$0;
-    this._$p1_5 = $p1;
-    this._$p2_4 = $p2;
-    this._$p3_3 = $p3;
-    this._$p4_2 = $p4;
-    this._$p5_1 = $p5;
-    this._$p6_0 = $p6;
-    this._$p7 = $p7;
-    this._$changed_5 = $changed;
+  function _no_name_provided__165(this$0, $p1, $p2, $p3, $p4, $changed) {
+    this._this$0_49 = this$0;
+    this._$p1_2 = $p1;
+    this._$p2_1 = $p2;
+    this._$p3_0 = $p3;
+    this._$p4 = $p4;
+    this._$changed_2 = $changed;
   }
   _no_name_provided__165.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
-    this._this$0_51.invoke_e61j0i_k$(this._$p1_5, this._$p2_4, this._$p3_3, this._$p4_2, this._$p5_1, this._$p6_0, this._$p7, nc, this._$changed_5 | 1);
+    this._this$0_49.invoke_m45d1_k$(this._$p1_2, this._$p2_1, this._$p3_0, this._$p4, nc, this._$changed_2 | 1);
     Unit_getInstance();
   };
   _no_name_provided__165.prototype.invoke_osx4an_k$ = function (p1, p2) {
@@ -63985,20 +64482,17 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__166(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $changed) {
-    this._this$0_52 = this$0;
-    this._$p1_6 = $p1;
-    this._$p2_5 = $p2;
-    this._$p3_4 = $p3;
-    this._$p4_3 = $p4;
-    this._$p5_2 = $p5;
-    this._$p6_1 = $p6;
-    this._$p7_0 = $p7;
-    this._$p8 = $p8;
-    this._$changed_6 = $changed;
+  function _no_name_provided__166(this$0, $p1, $p2, $p3, $p4, $p5, $changed) {
+    this._this$0_50 = this$0;
+    this._$p1_3 = $p1;
+    this._$p2_2 = $p2;
+    this._$p3_1 = $p3;
+    this._$p4_0 = $p4;
+    this._$p5 = $p5;
+    this._$changed_3 = $changed;
   }
   _no_name_provided__166.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
-    this._this$0_52.invoke_7gcp0h_k$(this._$p1_6, this._$p2_5, this._$p3_4, this._$p4_3, this._$p5_2, this._$p6_1, this._$p7_0, this._$p8, nc, this._$changed_6 | 1);
+    this._this$0_50.invoke_pmb6t8_k$(this._$p1_3, this._$p2_2, this._$p3_1, this._$p4_0, this._$p5, nc, this._$changed_3 | 1);
     Unit_getInstance();
   };
   _no_name_provided__166.prototype.invoke_osx4an_k$ = function (p1, p2) {
@@ -64010,21 +64504,18 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__167(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $changed) {
-    this._this$0_53 = this$0;
-    this._$p1_7 = $p1;
-    this._$p2_6 = $p2;
-    this._$p3_5 = $p3;
-    this._$p4_4 = $p4;
-    this._$p5_3 = $p5;
-    this._$p6_2 = $p6;
-    this._$p7_1 = $p7;
-    this._$p8_0 = $p8;
-    this._$p9 = $p9;
-    this._$changed_7 = $changed;
+  function _no_name_provided__167(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $changed) {
+    this._this$0_51 = this$0;
+    this._$p1_4 = $p1;
+    this._$p2_3 = $p2;
+    this._$p3_2 = $p3;
+    this._$p4_1 = $p4;
+    this._$p5_0 = $p5;
+    this._$p6 = $p6;
+    this._$changed_4 = $changed;
   }
   _no_name_provided__167.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
-    this._this$0_53.invoke_qw9m4g_k$(this._$p1_7, this._$p2_6, this._$p3_5, this._$p4_4, this._$p5_3, this._$p6_2, this._$p7_1, this._$p8_0, this._$p9, nc, this._$changed_7 | 1);
+    this._this$0_51.invoke_pb2zn_k$(this._$p1_4, this._$p2_3, this._$p3_2, this._$p4_1, this._$p5_0, this._$p6, nc, this._$changed_4 | 1);
     Unit_getInstance();
   };
   _no_name_provided__167.prototype.invoke_osx4an_k$ = function (p1, p2) {
@@ -64036,8 +64527,83 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__168(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $changed) {
+  function _no_name_provided__168(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $changed) {
+    this._this$0_52 = this$0;
+    this._$p1_5 = $p1;
+    this._$p2_4 = $p2;
+    this._$p3_3 = $p3;
+    this._$p4_2 = $p4;
+    this._$p5_1 = $p5;
+    this._$p6_0 = $p6;
+    this._$p7 = $p7;
+    this._$changed_5 = $changed;
+  }
+  _no_name_provided__168.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
+    this._this$0_52.invoke_e61j0i_k$(this._$p1_5, this._$p2_4, this._$p3_3, this._$p4_2, this._$p5_1, this._$p6_0, this._$p7, nc, this._$changed_5 | 1);
+    Unit_getInstance();
+  };
+  _no_name_provided__168.prototype.invoke_osx4an_k$ = function (p1, p2) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
+    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__168.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__169(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $changed) {
+    this._this$0_53 = this$0;
+    this._$p1_6 = $p1;
+    this._$p2_5 = $p2;
+    this._$p3_4 = $p3;
+    this._$p4_3 = $p4;
+    this._$p5_2 = $p5;
+    this._$p6_1 = $p6;
+    this._$p7_0 = $p7;
+    this._$p8 = $p8;
+    this._$changed_6 = $changed;
+  }
+  _no_name_provided__169.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
+    this._this$0_53.invoke_7gcp0h_k$(this._$p1_6, this._$p2_5, this._$p3_4, this._$p4_3, this._$p5_2, this._$p6_1, this._$p7_0, this._$p8, nc, this._$changed_6 | 1);
+    Unit_getInstance();
+  };
+  _no_name_provided__169.prototype.invoke_osx4an_k$ = function (p1, p2) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
+    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__169.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__170(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $changed) {
     this._this$0_54 = this$0;
+    this._$p1_7 = $p1;
+    this._$p2_6 = $p2;
+    this._$p3_5 = $p3;
+    this._$p4_4 = $p4;
+    this._$p5_3 = $p5;
+    this._$p6_2 = $p6;
+    this._$p7_1 = $p7;
+    this._$p8_0 = $p8;
+    this._$p9 = $p9;
+    this._$changed_7 = $changed;
+  }
+  _no_name_provided__170.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
+    this._this$0_54.invoke_qw9m4g_k$(this._$p1_7, this._$p2_6, this._$p3_5, this._$p4_4, this._$p5_3, this._$p6_2, this._$p7_1, this._$p8_0, this._$p9, nc, this._$changed_7 | 1);
+    Unit_getInstance();
+  };
+  _no_name_provided__170.prototype.invoke_osx4an_k$ = function (p1, p2) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
+    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__170.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__171(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $changed) {
+    this._this$0_55 = this$0;
     this._$p1_8 = $p1;
     this._$p2_7 = $p2;
     this._$p3_6 = $p3;
@@ -64050,21 +64616,21 @@
     this._$p10 = $p10;
     this._$changed_8 = $changed;
   }
-  _no_name_provided__168.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
-    this._this$0_54.invoke_n53aki_k$(this._$p1_8, this._$p2_7, this._$p3_6, this._$p4_5, this._$p5_4, this._$p6_3, this._$p7_2, this._$p8_1, this._$p9_0, this._$p10, nc, this._$changed_8 | 1, this._$changed_8);
+  _no_name_provided__171.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
+    this._this$0_55.invoke_n53aki_k$(this._$p1_8, this._$p2_7, this._$p3_6, this._$p4_5, this._$p5_4, this._$p6_3, this._$p7_2, this._$p8_1, this._$p9_0, this._$p10, nc, this._$changed_8 | 1, this._$changed_8);
     Unit_getInstance();
   };
-  _no_name_provided__168.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__171.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
     this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__168.$metadata$ = {
+  _no_name_provided__171.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__169(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $changed, $changed1) {
-    this._this$0_55 = this$0;
+  function _no_name_provided__172(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $changed, $changed1) {
+    this._this$0_56 = this$0;
     this._$p1_9 = $p1;
     this._$p2_8 = $p2;
     this._$p3_7 = $p3;
@@ -64079,21 +64645,21 @@
     this._$changed_9 = $changed;
     this._$changed1 = $changed1;
   }
-  _no_name_provided__169.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
-    this._this$0_55.invoke_4kb459_k$(this._$p1_9, this._$p2_8, this._$p3_7, this._$p4_6, this._$p5_5, this._$p6_4, this._$p7_3, this._$p8_2, this._$p9_1, this._$p10_0, this._$p11, nc, this._$changed_9 | 1, this._$changed1);
+  _no_name_provided__172.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
+    this._this$0_56.invoke_4kb459_k$(this._$p1_9, this._$p2_8, this._$p3_7, this._$p4_6, this._$p5_5, this._$p6_4, this._$p7_3, this._$p8_2, this._$p9_1, this._$p10_0, this._$p11, nc, this._$changed_9 | 1, this._$changed1);
     Unit_getInstance();
   };
-  _no_name_provided__169.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__172.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
     this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__169.$metadata$ = {
+  _no_name_provided__172.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__170(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $changed, $changed1) {
-    this._this$0_56 = this$0;
+  function _no_name_provided__173(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $changed, $changed1) {
+    this._this$0_57 = this$0;
     this._$p1_10 = $p1;
     this._$p2_9 = $p2;
     this._$p3_8 = $p3;
@@ -64109,21 +64675,21 @@
     this._$changed_10 = $changed;
     this._$changed1_0 = $changed1;
   }
-  _no_name_provided__170.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
-    this._this$0_56.invoke_7brsuc_k$(this._$p1_10, this._$p2_9, this._$p3_8, this._$p4_7, this._$p5_6, this._$p6_5, this._$p7_4, this._$p8_3, this._$p9_2, this._$p10_1, this._$p11_0, this._$p12, nc, this._$changed_10 | 1, this._$changed1_0);
+  _no_name_provided__173.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
+    this._this$0_57.invoke_7brsuc_k$(this._$p1_10, this._$p2_9, this._$p3_8, this._$p4_7, this._$p5_6, this._$p6_5, this._$p7_4, this._$p8_3, this._$p9_2, this._$p10_1, this._$p11_0, this._$p12, nc, this._$changed_10 | 1, this._$changed1_0);
     Unit_getInstance();
   };
-  _no_name_provided__170.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__173.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
     this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__170.$metadata$ = {
+  _no_name_provided__173.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__171(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $changed, $changed1) {
-    this._this$0_57 = this$0;
+  function _no_name_provided__174(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $changed, $changed1) {
+    this._this$0_58 = this$0;
     this._$p1_11 = $p1;
     this._$p2_10 = $p2;
     this._$p3_9 = $p3;
@@ -64140,21 +64706,21 @@
     this._$changed_11 = $changed;
     this._$changed1_1 = $changed1;
   }
-  _no_name_provided__171.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
-    this._this$0_57.invoke_ip45vp_k$(this._$p1_11, this._$p2_10, this._$p3_9, this._$p4_8, this._$p5_7, this._$p6_6, this._$p7_5, this._$p8_4, this._$p9_3, this._$p10_2, this._$p11_1, this._$p12_0, this._$p13, nc, this._$changed_11 | 1, this._$changed1_1);
+  _no_name_provided__174.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
+    this._this$0_58.invoke_ip45vp_k$(this._$p1_11, this._$p2_10, this._$p3_9, this._$p4_8, this._$p5_7, this._$p6_6, this._$p7_5, this._$p8_4, this._$p9_3, this._$p10_2, this._$p11_1, this._$p12_0, this._$p13, nc, this._$changed_11 | 1, this._$changed1_1);
     Unit_getInstance();
   };
-  _no_name_provided__171.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__174.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
     this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__171.$metadata$ = {
+  _no_name_provided__174.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__172(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $changed, $changed1) {
-    this._this$0_58 = this$0;
+  function _no_name_provided__175(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $changed, $changed1) {
+    this._this$0_59 = this$0;
     this._$p1_12 = $p1;
     this._$p2_11 = $p2;
     this._$p3_10 = $p3;
@@ -64172,21 +64738,21 @@
     this._$changed_12 = $changed;
     this._$changed1_2 = $changed1;
   }
-  _no_name_provided__172.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
-    this._this$0_58.invoke_ea3h6i_k$(this._$p1_12, this._$p2_11, this._$p3_10, this._$p4_9, this._$p5_8, this._$p6_7, this._$p7_6, this._$p8_5, this._$p9_4, this._$p10_3, this._$p11_2, this._$p12_1, this._$p13_0, this._$p14, nc, this._$changed_12 | 1, this._$changed1_2);
+  _no_name_provided__175.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
+    this._this$0_59.invoke_ea3h6i_k$(this._$p1_12, this._$p2_11, this._$p3_10, this._$p4_9, this._$p5_8, this._$p6_7, this._$p7_6, this._$p8_5, this._$p9_4, this._$p10_3, this._$p11_2, this._$p12_1, this._$p13_0, this._$p14, nc, this._$changed_12 | 1, this._$changed1_2);
     Unit_getInstance();
   };
-  _no_name_provided__172.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__175.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
     this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__172.$metadata$ = {
+  _no_name_provided__175.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__173(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $changed, $changed1) {
-    this._this$0_59 = this$0;
+  function _no_name_provided__176(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $changed, $changed1) {
+    this._this$0_60 = this$0;
     this._$p1_13 = $p1;
     this._$p2_12 = $p2;
     this._$p3_11 = $p3;
@@ -64205,21 +64771,21 @@
     this._$changed_13 = $changed;
     this._$changed1_3 = $changed1;
   }
-  _no_name_provided__173.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
-    this._this$0_59.invoke_7crh3b_k$(this._$p1_13, this._$p2_12, this._$p3_11, this._$p4_10, this._$p5_9, this._$p6_8, this._$p7_7, this._$p8_6, this._$p9_5, this._$p10_4, this._$p11_3, this._$p12_2, this._$p13_1, this._$p14_0, this._$p15, nc, this._$changed_13 | 1, this._$changed1_3);
+  _no_name_provided__176.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
+    this._this$0_60.invoke_7crh3b_k$(this._$p1_13, this._$p2_12, this._$p3_11, this._$p4_10, this._$p5_9, this._$p6_8, this._$p7_7, this._$p8_6, this._$p9_5, this._$p10_4, this._$p11_3, this._$p12_2, this._$p13_1, this._$p14_0, this._$p15, nc, this._$changed_13 | 1, this._$changed1_3);
     Unit_getInstance();
   };
-  _no_name_provided__173.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__176.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
     this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__173.$metadata$ = {
+  _no_name_provided__176.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__174(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $p16, $changed, $changed1) {
-    this._this$0_60 = this$0;
+  function _no_name_provided__177(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $p16, $changed, $changed1) {
+    this._this$0_61 = this$0;
     this._$p1_14 = $p1;
     this._$p2_13 = $p2;
     this._$p3_12 = $p3;
@@ -64239,21 +64805,21 @@
     this._$changed_14 = $changed;
     this._$changed1_4 = $changed1;
   }
-  _no_name_provided__174.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
-    this._this$0_60.invoke_pcz41k_k$(this._$p1_14, this._$p2_13, this._$p3_12, this._$p4_11, this._$p5_10, this._$p6_9, this._$p7_8, this._$p8_7, this._$p9_6, this._$p10_5, this._$p11_4, this._$p12_3, this._$p13_2, this._$p14_1, this._$p15_0, this._$p16, nc, this._$changed_14 | 1, this._$changed1_4);
+  _no_name_provided__177.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
+    this._this$0_61.invoke_pcz41k_k$(this._$p1_14, this._$p2_13, this._$p3_12, this._$p4_11, this._$p5_10, this._$p6_9, this._$p7_8, this._$p8_7, this._$p9_6, this._$p10_5, this._$p11_4, this._$p12_3, this._$p13_2, this._$p14_1, this._$p15_0, this._$p16, nc, this._$changed_14 | 1, this._$changed1_4);
     Unit_getInstance();
   };
-  _no_name_provided__174.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__177.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
     this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__174.$metadata$ = {
+  _no_name_provided__177.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__175(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $p16, $p17, $changed, $changed1) {
-    this._this$0_61 = this$0;
+  function _no_name_provided__178(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $p16, $p17, $changed, $changed1) {
+    this._this$0_62 = this$0;
     this._$p1_15 = $p1;
     this._$p2_14 = $p2;
     this._$p3_13 = $p3;
@@ -64274,21 +64840,21 @@
     this._$changed_15 = $changed;
     this._$changed1_5 = $changed1;
   }
-  _no_name_provided__175.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
-    this._this$0_61.invoke_1b7qh5_k$(this._$p1_15, this._$p2_14, this._$p3_13, this._$p4_12, this._$p5_11, this._$p6_10, this._$p7_9, this._$p8_8, this._$p9_7, this._$p10_6, this._$p11_5, this._$p12_4, this._$p13_3, this._$p14_2, this._$p15_1, this._$p16_0, this._$p17, nc, this._$changed_15 | 1, this._$changed1_5);
+  _no_name_provided__178.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
+    this._this$0_62.invoke_1b7qh5_k$(this._$p1_15, this._$p2_14, this._$p3_13, this._$p4_12, this._$p5_11, this._$p6_10, this._$p7_9, this._$p8_8, this._$p9_7, this._$p10_6, this._$p11_5, this._$p12_4, this._$p13_3, this._$p14_2, this._$p15_1, this._$p16_0, this._$p17, nc, this._$changed_15 | 1, this._$changed1_5);
     Unit_getInstance();
   };
-  _no_name_provided__175.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__178.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
     this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__175.$metadata$ = {
+  _no_name_provided__178.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__176(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $p16, $p17, $p18, $changed, $changed1) {
-    this._this$0_62 = this$0;
+  function _no_name_provided__179(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $p16, $p17, $p18, $changed, $changed1) {
+    this._this$0_63 = this$0;
     this._$p1_16 = $p1;
     this._$p2_15 = $p2;
     this._$p3_14 = $p3;
@@ -64310,16 +64876,16 @@
     this._$changed_16 = $changed;
     this._$changed1_6 = $changed1;
   }
-  _no_name_provided__176.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
-    this._this$0_62.invoke_2279sa_k$(this._$p1_16, this._$p2_15, this._$p3_14, this._$p4_13, this._$p5_12, this._$p6_11, this._$p7_10, this._$p8_9, this._$p9_8, this._$p10_7, this._$p11_6, this._$p12_5, this._$p13_4, this._$p14_3, this._$p15_2, this._$p16_1, this._$p17_0, this._$p18, nc, this._$changed_16 | 1, this._$changed1_6);
+  _no_name_provided__179.prototype.invoke_xtxync_k$ = function (nc, _anonymous_parameter_1_) {
+    this._this$0_63.invoke_2279sa_k$(this._$p1_16, this._$p2_15, this._$p3_14, this._$p4_13, this._$p5_12, this._$p6_11, this._$p7_10, this._$p8_9, this._$p9_8, this._$p10_7, this._$p11_6, this._$p12_5, this._$p13_4, this._$p14_3, this._$p15_2, this._$p16_1, this._$p17_0, this._$p18, nc, this._$changed_16 | 1, this._$changed1_6);
     Unit_getInstance();
   };
-  _no_name_provided__176.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__179.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
     this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__176.$metadata$ = {
+  _no_name_provided__179.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -64350,7 +64916,7 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_121(this));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_122(this));
       Unit_getInstance();
     }
     Unit_getInstance();
@@ -64366,7 +64932,7 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_122(this, p1, changed));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_123(this, p1, changed));
       Unit_getInstance();
     }
     Unit_getInstance();
@@ -64382,7 +64948,7 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_123(this, p1, p2, changed));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_124(this, p1, p2, changed));
       Unit_getInstance();
     }
     Unit_getInstance();
@@ -64398,7 +64964,7 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_124(this, p1, p2, p3, changed));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_125(this, p1, p2, p3, changed));
       Unit_getInstance();
     }
     Unit_getInstance();
@@ -64414,7 +64980,7 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_125(this, p1, p2, p3, p4, changed));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_126(this, p1, p2, p3, p4, changed));
       Unit_getInstance();
     }
     Unit_getInstance();
@@ -64430,7 +64996,7 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_126(this, p1, p2, p3, p4, p5, changed));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_127(this, p1, p2, p3, p4, p5, changed));
       Unit_getInstance();
     }
     Unit_getInstance();
@@ -64446,7 +65012,7 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_127(this, p1, p2, p3, p4, p5, p6, changed));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_128(this, p1, p2, p3, p4, p5, p6, changed));
       Unit_getInstance();
     }
     Unit_getInstance();
@@ -64462,7 +65028,7 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_128(this, p1, p2, p3, p4, p5, p6, p7, changed));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_129(this, p1, p2, p3, p4, p5, p6, p7, changed));
       Unit_getInstance();
     }
     Unit_getInstance();
@@ -64478,7 +65044,7 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_129(this, p1, p2, p3, p4, p5, p6, p7, p8, changed));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_130(this, p1, p2, p3, p4, p5, p6, p7, p8, changed));
       Unit_getInstance();
     }
     Unit_getInstance();
@@ -64494,7 +65060,7 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_130(this, p1, p2, p3, p4, p5, p6, p7, p8, p9, changed));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_131(this, p1, p2, p3, p4, p5, p6, p7, p8, p9, changed));
       Unit_getInstance();
     }
     Unit_getInstance();
@@ -64510,7 +65076,7 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_131(this, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, changed));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_132(this, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, changed));
       Unit_getInstance();
     }
     Unit_getInstance();
@@ -64526,7 +65092,7 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_132(this, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, changed, changed1));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_133(this, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, changed, changed1));
       Unit_getInstance();
     }
     Unit_getInstance();
@@ -64542,7 +65108,7 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_133(this, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, changed, changed1));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_134(this, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, changed, changed1));
       Unit_getInstance();
     }
     Unit_getInstance();
@@ -64558,7 +65124,7 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_134(this, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, changed, changed1));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_135(this, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, changed, changed1));
       Unit_getInstance();
     }
     Unit_getInstance();
@@ -64574,7 +65140,7 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_135(this, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, changed, changed1));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_136(this, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, changed, changed1));
       Unit_getInstance();
     }
     Unit_getInstance();
@@ -64590,7 +65156,7 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_136(this, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, changed, changed1));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_137(this, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, changed, changed1));
       Unit_getInstance();
     }
     Unit_getInstance();
@@ -64606,7 +65172,7 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_137(this, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, changed, changed1));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_138(this, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, changed, changed1));
       Unit_getInstance();
     }
     Unit_getInstance();
@@ -64622,7 +65188,7 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_138(this, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, changed, changed1));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_139(this, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, changed, changed1));
       Unit_getInstance();
     }
     Unit_getInstance();
@@ -64638,7 +65204,7 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_139(this, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, changed, changed1));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_140(this, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, changed, changed1));
       Unit_getInstance();
     }
     Unit_getInstance();
@@ -64649,134 +65215,134 @@
     kind: 'class',
     interfaces: [ComposableLambda]
   };
-  function _no_name_provided_$factory_121($boundThis) {
-    var i = new _no_name_provided__158($boundThis);
+  function _no_name_provided_$factory_122($boundThis) {
+    var i = new _no_name_provided__161($boundThis);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_122(this$0, $p1, $changed) {
-    var i = new _no_name_provided__159(this$0, $p1, $changed);
+  function _no_name_provided_$factory_123(this$0, $p1, $changed) {
+    var i = new _no_name_provided__162(this$0, $p1, $changed);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_123(this$0, $p1, $p2, $changed) {
-    var i = new _no_name_provided__160(this$0, $p1, $p2, $changed);
+  function _no_name_provided_$factory_124(this$0, $p1, $p2, $changed) {
+    var i = new _no_name_provided__163(this$0, $p1, $p2, $changed);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_124(this$0, $p1, $p2, $p3, $changed) {
-    var i = new _no_name_provided__161(this$0, $p1, $p2, $p3, $changed);
+  function _no_name_provided_$factory_125(this$0, $p1, $p2, $p3, $changed) {
+    var i = new _no_name_provided__164(this$0, $p1, $p2, $p3, $changed);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_125(this$0, $p1, $p2, $p3, $p4, $changed) {
-    var i = new _no_name_provided__162(this$0, $p1, $p2, $p3, $p4, $changed);
+  function _no_name_provided_$factory_126(this$0, $p1, $p2, $p3, $p4, $changed) {
+    var i = new _no_name_provided__165(this$0, $p1, $p2, $p3, $p4, $changed);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_126(this$0, $p1, $p2, $p3, $p4, $p5, $changed) {
-    var i = new _no_name_provided__163(this$0, $p1, $p2, $p3, $p4, $p5, $changed);
+  function _no_name_provided_$factory_127(this$0, $p1, $p2, $p3, $p4, $p5, $changed) {
+    var i = new _no_name_provided__166(this$0, $p1, $p2, $p3, $p4, $p5, $changed);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_127(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $changed) {
-    var i = new _no_name_provided__164(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $changed);
+  function _no_name_provided_$factory_128(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $changed) {
+    var i = new _no_name_provided__167(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $changed);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_128(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $changed) {
-    var i = new _no_name_provided__165(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $changed);
+  function _no_name_provided_$factory_129(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $changed) {
+    var i = new _no_name_provided__168(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $changed);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_129(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $changed) {
-    var i = new _no_name_provided__166(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $changed);
+  function _no_name_provided_$factory_130(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $changed) {
+    var i = new _no_name_provided__169(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $changed);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_130(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $changed) {
-    var i = new _no_name_provided__167(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $changed);
+  function _no_name_provided_$factory_131(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $changed) {
+    var i = new _no_name_provided__170(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $changed);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_131(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $changed) {
-    var i = new _no_name_provided__168(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $changed);
+  function _no_name_provided_$factory_132(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $changed) {
+    var i = new _no_name_provided__171(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $changed);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_132(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $changed, $changed1) {
-    var i = new _no_name_provided__169(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $changed, $changed1);
+  function _no_name_provided_$factory_133(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $changed, $changed1) {
+    var i = new _no_name_provided__172(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $changed, $changed1);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_133(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $changed, $changed1) {
-    var i = new _no_name_provided__170(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $changed, $changed1);
+  function _no_name_provided_$factory_134(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $changed, $changed1) {
+    var i = new _no_name_provided__173(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $changed, $changed1);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_134(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $changed, $changed1) {
-    var i = new _no_name_provided__171(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $changed, $changed1);
+  function _no_name_provided_$factory_135(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $changed, $changed1) {
+    var i = new _no_name_provided__174(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $changed, $changed1);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_135(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $changed, $changed1) {
-    var i = new _no_name_provided__172(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $changed, $changed1);
+  function _no_name_provided_$factory_136(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $changed, $changed1) {
+    var i = new _no_name_provided__175(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $changed, $changed1);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_136(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $changed, $changed1) {
-    var i = new _no_name_provided__173(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $changed, $changed1);
+  function _no_name_provided_$factory_137(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $changed, $changed1) {
+    var i = new _no_name_provided__176(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $changed, $changed1);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_137(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $p16, $changed, $changed1) {
-    var i = new _no_name_provided__174(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $p16, $changed, $changed1);
+  function _no_name_provided_$factory_138(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $p16, $changed, $changed1) {
+    var i = new _no_name_provided__177(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $p16, $changed, $changed1);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_138(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $p16, $p17, $changed, $changed1) {
-    var i = new _no_name_provided__175(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $p16, $p17, $changed, $changed1);
+  function _no_name_provided_$factory_139(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $p16, $p17, $changed, $changed1) {
+    var i = new _no_name_provided__178(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $p16, $p17, $changed, $changed1);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_139(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $p16, $p17, $p18, $changed, $changed1) {
-    var i = new _no_name_provided__176(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $p16, $p17, $p18, $changed, $changed1);
+  function _no_name_provided_$factory_140(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $p16, $p17, $p18, $changed, $changed1) {
+    var i = new _no_name_provided__179(this$0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8, $p9, $p10, $p11, $p12, $p13, $p14, $p15, $p16, $p17, $p18, $changed, $changed1);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
@@ -64972,17 +65538,17 @@
     kind: 'interface',
     interfaces: []
   };
-  function _no_name_provided__177() {
+  function _no_name_provided__180() {
   }
-  _no_name_provided__177.prototype.invoke_sv8swh_k$ = function () {
+  _no_name_provided__180.prototype.invoke_sv8swh_k$ = function () {
     GlobalSnapshotManager_getInstance()._commitPending = false;
     Companion_getInstance_31().sendApplyNotifications_sv8swh_k$();
   };
-  _no_name_provided__177.prototype.invoke_0_k$ = function () {
+  _no_name_provided__180.prototype.invoke_0_k$ = function () {
     this.invoke_sv8swh_k$();
     return Unit_getInstance();
   };
-  _no_name_provided__177.$metadata$ = {
+  _no_name_provided__180.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -65038,39 +65604,39 @@
     Unit_getInstance();
     if (!$this._isSynchronizeScheduled) {
       $this._isSynchronizeScheduled = true;
-      launch$default($this._scheduleScope, null, null, _no_name_provided_$factory_141(null), 3, null);
+      launch$default($this._scheduleScope, null, null, _no_name_provided_$factory_142(null), 3, null);
       Unit_getInstance();
     }}
-  function _no_name_provided__178() {
+  function _no_name_provided__181() {
   }
-  _no_name_provided__178.prototype.invoke_wu1lm5_k$ = function (it) {
+  _no_name_provided__181.prototype.invoke_wu1lm5_k$ = function (it) {
     if (!GlobalSnapshotManager_getInstance()._commitPending) {
       GlobalSnapshotManager_getInstance()._commitPending = true;
       var tmp = GlobalSnapshotManager_getInstance();
-      schedule(tmp, _no_name_provided_$factory_142());
+      schedule(tmp, _no_name_provided_$factory_143());
     }};
-  _no_name_provided__178.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__181.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_wu1lm5_k$(isObject(p1) ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__178.$metadata$ = {
+  _no_name_provided__181.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__179(resultContinuation) {
+  function _no_name_provided__182(resultContinuation) {
     CoroutineImpl_0.call(this, resultContinuation);
   }
-  _no_name_provided__179.prototype.invoke_2i3g7c_k$ = function ($this$launch, $cont) {
+  _no_name_provided__182.prototype.invoke_2i3g7c_k$ = function ($this$launch, $cont) {
     var tmp = this.create_y6imfn_k$($this$launch, $cont);
     tmp._result_0 = Unit_getInstance();
     tmp._exception_0 = null;
     return tmp.doResume_0_k$();
   };
-  _no_name_provided__179.prototype.invoke_20e8_k$ = function (p1, $cont) {
+  _no_name_provided__182.prototype.invoke_20e8_k$ = function (p1, $cont) {
     this.invoke_2i3g7c_k$((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $cont);
     return Unit_getInstance();
   };
-  _no_name_provided__179.prototype.doResume_0_k$ = function () {
+  _no_name_provided__182.prototype.doResume_0_k$ = function () {
     var suspendResult = this._result_0;
     $sm: do
       try {
@@ -65086,15 +65652,15 @@
       }
      while (true);
   };
-  _no_name_provided__179.prototype.create_y6imfn_k$ = function ($this$launch, completion) {
-    var i = new _no_name_provided__179(completion);
+  _no_name_provided__182.prototype.create_y6imfn_k$ = function ($this$launch, completion) {
+    var i = new _no_name_provided__182(completion);
     i._$this$launch_1 = $this$launch;
     return i;
   };
-  _no_name_provided__179.prototype.create_wbutx_k$ = function (value, completion) {
+  _no_name_provided__182.prototype.create_wbutx_k$ = function (value, completion) {
     return this.create_y6imfn_k$((!(value == null) ? isInterface(value, CoroutineScope) : false) ? value : THROW_CCE(), completion);
   };
-  _no_name_provided__179.$metadata$ = {
+  _no_name_provided__182.$metadata$ = {
     kind: 'class',
     interfaces: [],
     suspendArity: 1
@@ -65108,7 +65674,7 @@
     var tmp_0 = new JsMicrotasksDispatcher();
     tmp._scheduleScope = CoroutineScope_0(tmp_0.plus_d7pszg_k$(SupervisorJob$default(null, 1, null)));
     var tmp_1 = this;
-    tmp_1._globalWriteObserver = _no_name_provided_$factory_140();
+    tmp_1._globalWriteObserver = _no_name_provided_$factory_141();
     var tmp_2 = this;
     var tmp$ret$0;
     $l$block: {
@@ -65135,39 +65701,39 @@
       new GlobalSnapshotManager();
     return GlobalSnapshotManager_instance;
   }
-  function _no_name_provided_$factory_140() {
-    var i = new _no_name_provided__178();
+  function _no_name_provided_$factory_141() {
+    var i = new _no_name_provided__181();
     return function (p1) {
       i.invoke_wu1lm5_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_141(resultContinuation) {
-    var i = new _no_name_provided__179(resultContinuation);
+  function _no_name_provided_$factory_142(resultContinuation) {
+    var i = new _no_name_provided__182(resultContinuation);
     var l = function (p1, $cont) {
       return i.invoke_2i3g7c_k$(p1, $cont);
     };
     l.$arity = 1;
     return l;
   }
-  function _no_name_provided_$factory_142() {
-    var i = new _no_name_provided__177();
+  function _no_name_provided_$factory_143() {
+    var i = new _no_name_provided__180();
     return function () {
       i.invoke_sv8swh_k$();
       return Unit_getInstance();
     };
   }
-  function _no_name_provided__180($block) {
+  function _no_name_provided__183($block) {
     this._$block_11 = $block;
   }
-  _no_name_provided__180.prototype.invoke_89eg7z_k$ = function (it) {
+  _no_name_provided__183.prototype.invoke_89eg7z_k$ = function (it) {
     this._$block_11.run_sv8swh_k$();
   };
-  _no_name_provided__180.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__183.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_89eg7z_k$(p1 instanceof Unit ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__180.$metadata$ = {
+  _no_name_provided__183.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -65177,7 +65743,7 @@
   }
   JsMicrotasksDispatcher.prototype.dispatch_7n0ou3_k$ = function (context, block) {
     var tmp = Promise.resolve(Unit_getInstance());
-    tmp.then(_no_name_provided_$factory_143(block));
+    tmp.then(_no_name_provided_$factory_144(block));
     Unit_getInstance();
   };
   JsMicrotasksDispatcher.$metadata$ = {
@@ -65185,8 +65751,8 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided_$factory_143($block) {
-    var i = new _no_name_provided__180($block);
+  function _no_name_provided_$factory_144($block) {
+    var i = new _no_name_provided__183($block);
     return function (p1) {
       i.invoke_89eg7z_k$(p1);
       return Unit_getInstance();
@@ -65208,11 +65774,11 @@
     var context = monotonicFrameClock.plus_d7pszg_k$(new JsMicrotasksDispatcher());
     var recomposer = new Recomposer(context);
     var composition = ControlledComposition_0(new DomApplier(new DomNodeWrapper(root)), recomposer);
-    var scope = new _no_name_provided__181();
-    composition.setContent$composable_wte2v3_k$(composableLambdaInstance(-985532578, true, _no_name_provided_$factory_144(content, scope)));
+    var scope = new _no_name_provided__184();
+    composition.setContent$composable_wte2v3_k$(composableLambdaInstance(-985532578, true, _no_name_provided_$factory_145(content, scope)));
     var tmp = CoroutineScope_0(context);
     var tmp_0 = CoroutineStart_UNDISPATCHED_getInstance();
-    launch$default(tmp, null, tmp_0, _no_name_provided_$factory_145(recomposer, null), 1, null);
+    launch$default(tmp, null, tmp_0, _no_name_provided_$factory_146(recomposer, null), 1, null);
     Unit_getInstance();
     return composition;
   }
@@ -65221,17 +65787,17 @@
       monotonicFrameClock = DefaultMonotonicFrameClock;
     return renderComposable$composable_0(root, monotonicFrameClock, content);
   }
-  function _no_name_provided__181() {
+  function _no_name_provided__184() {
   }
-  _no_name_provided__181.$metadata$ = {
+  _no_name_provided__184.$metadata$ = {
     kind: 'class',
     interfaces: [DOMScope]
   };
-  function _no_name_provided__182($content, $scope) {
+  function _no_name_provided__185($content, $scope) {
     this._$content_0 = $content;
     this._$scope = $scope;
   }
-  _no_name_provided__182.prototype.invoke_5vwf3d_k$ = function ($composer, $changed) {
+  _no_name_provided__185.prototype.invoke_5vwf3d_k$ = function ($composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 11 ^ 2) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
       var $invokeComposable_dispatchReceiver = this._$content_0;
@@ -65243,30 +65809,30 @@
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
   };
-  _no_name_provided__182.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__185.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (p1 == null ? true : isInterface(p1, Composer)) ? p1 : THROW_CCE();
     this.invoke_5vwf3d_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__182.$metadata$ = {
+  _no_name_provided__185.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__183($recomposer, resultContinuation) {
+  function _no_name_provided__186($recomposer, resultContinuation) {
     this._$recomposer = $recomposer;
     CoroutineImpl_0.call(this, resultContinuation);
   }
-  _no_name_provided__183.prototype.invoke_2i3g7c_k$ = function ($this$launch, $cont) {
+  _no_name_provided__186.prototype.invoke_2i3g7c_k$ = function ($this$launch, $cont) {
     var tmp = this.create_y6imfn_k$($this$launch, $cont);
     tmp._result_0 = Unit_getInstance();
     tmp._exception_0 = null;
     return tmp.doResume_0_k$();
   };
-  _no_name_provided__183.prototype.invoke_20e8_k$ = function (p1, $cont) {
+  _no_name_provided__186.prototype.invoke_20e8_k$ = function (p1, $cont) {
     this.invoke_2i3g7c_k$((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $cont);
     return Unit_getInstance();
   };
-  _no_name_provided__183.prototype.doResume_0_k$ = function () {
+  _no_name_provided__186.prototype.doResume_0_k$ = function () {
     var suspendResult = this._result_0;
     $sm: do
       try {
@@ -65295,28 +65861,28 @@
       }
      while (true);
   };
-  _no_name_provided__183.prototype.create_y6imfn_k$ = function ($this$launch, completion) {
-    var i = new _no_name_provided__183(this._$recomposer, completion);
+  _no_name_provided__186.prototype.create_y6imfn_k$ = function ($this$launch, completion) {
+    var i = new _no_name_provided__186(this._$recomposer, completion);
     i._$this$launch_2 = $this$launch;
     return i;
   };
-  _no_name_provided__183.prototype.create_wbutx_k$ = function (value, completion) {
+  _no_name_provided__186.prototype.create_wbutx_k$ = function (value, completion) {
     return this.create_y6imfn_k$((!(value == null) ? isInterface(value, CoroutineScope) : false) ? value : THROW_CCE(), completion);
   };
-  _no_name_provided__183.$metadata$ = {
+  _no_name_provided__186.$metadata$ = {
     kind: 'class',
     interfaces: [],
     suspendArity: 1
   };
-  function _no_name_provided_$factory_144($content, $scope) {
-    var i = new _no_name_provided__182($content, $scope);
+  function _no_name_provided_$factory_145($content, $scope) {
+    var i = new _no_name_provided__185($content, $scope);
     return function (p1, p2) {
       i.invoke_5vwf3d_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_145($recomposer, resultContinuation) {
-    var i = new _no_name_provided__183($recomposer, resultContinuation);
+  function _no_name_provided_$factory_146($recomposer, resultContinuation) {
+    var i = new _no_name_provided__186($recomposer, resultContinuation);
     var l = function (p1, $cont) {
       return i.invoke_2i3g7c_k$(p1, $cont);
     };
@@ -65341,79 +65907,79 @@
   function src(_this_, value) {
     return _this_.attr_jg38oy_k$('src', value);
   }
-  function _no_name_provided__184() {
+  function _no_name_provided__187() {
   }
-  _no_name_provided__184.prototype.invoke_ozjqc9_k$ = function (e, v) {
+  _no_name_provided__187.prototype.invoke_ozjqc9_k$ = function (e, v) {
     e.value = v;
     saveControlledInputState(e, v);
   };
-  _no_name_provided__184.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__187.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = p1 instanceof HTMLInputElement ? p1 : THROW_CCE();
     this.invoke_ozjqc9_k$(tmp, (!(p2 == null) ? typeof p2 === 'string' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__184.$metadata$ = {
+  _no_name_provided__187.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__185() {
+  function _no_name_provided__188() {
   }
-  _no_name_provided__185.prototype.invoke_1x8if_k$ = function (e, v) {
+  _no_name_provided__188.prototype.invoke_1x8if_k$ = function (e, v) {
     e.innerText = v;
   };
-  _no_name_provided__185.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__188.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = p1 instanceof HTMLTextAreaElement ? p1 : THROW_CCE();
     this.invoke_1x8if_k$(tmp, (!(p2 == null) ? typeof p2 === 'string' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__185.$metadata$ = {
+  _no_name_provided__188.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__186() {
+  function _no_name_provided__189() {
   }
-  _no_name_provided__186.prototype.invoke_8ohztc_k$ = function (e, v) {
+  _no_name_provided__189.prototype.invoke_8ohztc_k$ = function (e, v) {
     e.checked = v;
     saveControlledInputState(e, v);
   };
-  _no_name_provided__186.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__189.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = p1 instanceof HTMLInputElement ? p1 : THROW_CCE();
     this.invoke_8ohztc_k$(tmp, (!(p2 == null) ? typeof p2 === 'boolean' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__186.$metadata$ = {
+  _no_name_provided__189.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided_$factory_146() {
-    var i = new _no_name_provided__184();
+  function _no_name_provided_$factory_147() {
+    var i = new _no_name_provided__187();
     return function (p1, p2) {
       i.invoke_ozjqc9_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_147() {
-    var i = new _no_name_provided__185();
+  function _no_name_provided_$factory_148() {
+    var i = new _no_name_provided__188();
     return function (p1, p2) {
       i.invoke_1x8if_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_148() {
-    var i = new _no_name_provided__186();
+  function _no_name_provided_$factory_149() {
+    var i = new _no_name_provided__189();
     return function (p1, p2) {
       i.invoke_8ohztc_k$(p1, p2);
       return Unit_getInstance();
     };
   }
   function setInputValue$init$() {
-    return _no_name_provided_$factory_146();
-  }
-  function setTextAreaDefaultValue$init$() {
     return _no_name_provided_$factory_147();
   }
-  function setCheckedValue$init$() {
+  function setTextAreaDefaultValue$init$() {
     return _no_name_provided_$factory_148();
+  }
+  function setCheckedValue$init$() {
+    return _no_name_provided_$factory_149();
   }
   function _get_setClassList_() {
     return setClassList;
@@ -65620,32 +66186,32 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__187() {
+  function _no_name_provided__190() {
   }
-  _no_name_provided__187.prototype.invoke_jiqont_k$ = function (e, classList) {
+  _no_name_provided__190.prototype.invoke_jiqont_k$ = function (e, classList) {
     (function () {
       var $externalVarargReceiverTmp = e.classList;
       return $externalVarargReceiverTmp.add.apply($externalVarargReceiverTmp, [].slice.call(classList));
     }());
   };
-  _no_name_provided__187.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__190.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = p1 instanceof HTMLElement ? p1 : THROW_CCE();
     this.invoke_jiqont_k$(tmp, (!(p2 == null) ? isArray(p2) : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__187.$metadata$ = {
+  _no_name_provided__190.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided_$factory_149() {
-    var i = new _no_name_provided__187();
+  function _no_name_provided_$factory_150() {
+    var i = new _no_name_provided__190();
     return function (p1, p2) {
       i.invoke_jiqont_k$(p1, p2);
       return Unit_getInstance();
     };
   }
   function setClassList$init$() {
-    return _no_name_provided_$factory_149();
+    return _no_name_provided_$factory_150();
   }
   function Companion_35() {
     Companion_instance_34 = this;
@@ -68963,9 +69529,6 @@
   function width(_this_, value) {
     _this_.property_t4iuxv_k$('width', value);
   }
-  function color(_this_, value) {
-    _this_.property_t4iuxv_k$('color', value);
-  }
   function flexDirection(_this_, flexDirection_0) {
     var tmp$ret$2;
     $l$block_1: {
@@ -69107,9 +69670,9 @@
       var scope = tmp$ret$4;
       var refEffect = {_v: null};
       {
-        var tmp1_ComposeDomNode$composable_0 = _no_name_provided_$factory_150(elementBuilder, scope);
+        var tmp1_ComposeDomNode$composable_0 = _no_name_provided_$factory_151(elementBuilder, scope);
         var tmp_1 = $composer_0;
-        var tmp2_ComposeDomNode$composable_0 = composableLambda(tmp_1, -819892900, true, _no_name_provided_$factory_151(applyAttrs, refEffect));
+        var tmp2_ComposeDomNode$composable_0 = composableLambda(tmp_1, -819892900, true, _no_name_provided_$factory_152(applyAttrs, refEffect));
         var tmp3_ComposeDomNode$composable_0 = $composer_0;
         var tmp4_ComposeDomNode$composable_0 = 448 | 7168 & $dirty << 3;
         var $composer_1_0 = tmp3_ComposeDomNode$composable_0;
@@ -69151,7 +69714,7 @@
         $l$block_4: {
           {
           }
-          tmp$ret$5 = DisposableEffect$composable(null, _no_name_provided_$factory_152(tmp0_safe_receiver, scope), $composer_0, 6);
+          tmp$ret$5 = DisposableEffect$composable(null, _no_name_provided_$factory_153(tmp0_safe_receiver, scope), $composer_0, 6);
           break $l$block_4;
         }
         Unit_getInstance();
@@ -69164,7 +69727,7 @@
     if (tmp0_safe_receiver_0 === null)
       null;
     else {
-      tmp0_safe_receiver_0.updateScope_wte2v3_k$(_no_name_provided_$factory_153(elementBuilder, applyAttrs, content, $changed));
+      tmp0_safe_receiver_0.updateScope_wte2v3_k$(_no_name_provided_$factory_154(elementBuilder, applyAttrs, content, $changed));
     }
   }
   function ComposeDomNode$composable(factory, elementScope, attrsSkippableUpdate, content, $composer, $changed) {
@@ -69300,65 +69863,14 @@
   function TagElement$composable$lambda($elementBuilder, $applyAttrs, $content, $$changed, $composer, $force) {
     return TagElement$composable($elementBuilder, $applyAttrs, $content, $composer, $$changed | 1);
   }
-  function _no_name_provided__188($elementBuilder, $scope) {
+  function _no_name_provided__191($elementBuilder, $scope) {
     this._$elementBuilder = $elementBuilder;
     this._$scope_0 = $scope;
   }
-  _no_name_provided__188.prototype.invoke_0_k$ = function () {
+  _no_name_provided__191.prototype.invoke_0_k$ = function () {
     var node_0 = this._$elementBuilder.create_0_k$();
     this._$scope_0._set_element__bkfmju_k$(node_0);
     return new DomElementWrapper(node_0);
-  };
-  _no_name_provided__188.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__189() {
-  }
-  _no_name_provided__189.prototype.invoke_tl9r9p_k$ = function (p0, p1) {
-    return updateAttrs(p0, p1);
-  };
-  _no_name_provided__189.prototype.invoke_osx4an_k$ = function (p1, p2) {
-    var tmp = p1 instanceof DomElementWrapper ? p1 : THROW_CCE();
-    this.invoke_tl9r9p_k$(tmp, (!(p2 == null) ? isInterface(p2, Map_0) : false) ? p2 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__189.prototype._get_name__0_k$ = function () {
-    return 'updateAttrs';
-  };
-  _no_name_provided__189.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__190() {
-  }
-  _no_name_provided__190.prototype.invoke_fy59l_k$ = function (p0, p1) {
-    return p0.updateEventListeners_5mgnmo_k$(p1);
-  };
-  _no_name_provided__190.prototype.invoke_osx4an_k$ = function (p1, p2) {
-    var tmp = p1 instanceof DomElementWrapper ? p1 : THROW_CCE();
-    this.invoke_fy59l_k$(tmp, (!(p2 == null) ? isInterface(p2, List) : false) ? p2 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__190.prototype._get_name__0_k$ = function () {
-    return 'updateEventListeners';
-  };
-  _no_name_provided__190.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__191() {
-  }
-  _no_name_provided__191.prototype.invoke_7q0vyf_k$ = function (p0, p1) {
-    return updateProperties(p0, p1);
-  };
-  _no_name_provided__191.prototype.invoke_osx4an_k$ = function (p1, p2) {
-    var tmp = p1 instanceof DomElementWrapper ? p1 : THROW_CCE();
-    this.invoke_7q0vyf_k$(tmp, (!(p2 == null) ? isInterface(p2, List) : false) ? p2 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__191.prototype._get_name__0_k$ = function () {
-    return 'updateProperties';
   };
   _no_name_provided__191.$metadata$ = {
     kind: 'class',
@@ -69366,26 +69878,77 @@
   };
   function _no_name_provided__192() {
   }
-  _no_name_provided__192.prototype.invoke_du2er7_k$ = function (p0, p1) {
-    return updateStyleDeclarations(p0, p1);
+  _no_name_provided__192.prototype.invoke_tl9r9p_k$ = function (p0, p1) {
+    return updateAttrs(p0, p1);
   };
   _no_name_provided__192.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = p1 instanceof DomElementWrapper ? p1 : THROW_CCE();
-    this.invoke_du2er7_k$(tmp, (!(p2 == null) ? isInterface(p2, StyleHolder) : false) ? p2 : THROW_CCE());
+    this.invoke_tl9r9p_k$(tmp, (!(p2 == null) ? isInterface(p2, Map_0) : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
   _no_name_provided__192.prototype._get_name__0_k$ = function () {
-    return 'updateStyleDeclarations';
+    return 'updateAttrs';
   };
   _no_name_provided__192.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__193($applyAttrs, $refEffect) {
+  function _no_name_provided__193() {
+  }
+  _no_name_provided__193.prototype.invoke_fy59l_k$ = function (p0, p1) {
+    return p0.updateEventListeners_5mgnmo_k$(p1);
+  };
+  _no_name_provided__193.prototype.invoke_osx4an_k$ = function (p1, p2) {
+    var tmp = p1 instanceof DomElementWrapper ? p1 : THROW_CCE();
+    this.invoke_fy59l_k$(tmp, (!(p2 == null) ? isInterface(p2, List) : false) ? p2 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__193.prototype._get_name__0_k$ = function () {
+    return 'updateEventListeners';
+  };
+  _no_name_provided__193.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__194() {
+  }
+  _no_name_provided__194.prototype.invoke_7q0vyf_k$ = function (p0, p1) {
+    return updateProperties(p0, p1);
+  };
+  _no_name_provided__194.prototype.invoke_osx4an_k$ = function (p1, p2) {
+    var tmp = p1 instanceof DomElementWrapper ? p1 : THROW_CCE();
+    this.invoke_7q0vyf_k$(tmp, (!(p2 == null) ? isInterface(p2, List) : false) ? p2 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__194.prototype._get_name__0_k$ = function () {
+    return 'updateProperties';
+  };
+  _no_name_provided__194.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__195() {
+  }
+  _no_name_provided__195.prototype.invoke_du2er7_k$ = function (p0, p1) {
+    return updateStyleDeclarations(p0, p1);
+  };
+  _no_name_provided__195.prototype.invoke_osx4an_k$ = function (p1, p2) {
+    var tmp = p1 instanceof DomElementWrapper ? p1 : THROW_CCE();
+    this.invoke_du2er7_k$(tmp, (!(p2 == null) ? isInterface(p2, StyleHolder) : false) ? p2 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__195.prototype._get_name__0_k$ = function () {
+    return 'updateStyleDeclarations';
+  };
+  _no_name_provided__195.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__196($applyAttrs, $refEffect) {
     this._$applyAttrs = $applyAttrs;
     this._$refEffect = $refEffect;
   }
-  _no_name_provided__193.prototype.invoke_iz8o09_k$ = function ($this$ComposeDomNode, $composer, $changed) {
+  _no_name_provided__196.prototype.invoke_iz8o09_k$ = function ($this$ComposeDomNode, $composer, $changed) {
     var $composer_0 = $composer;
     var $dirty = $changed;
     if (($changed & 14) === 0)
@@ -69404,87 +69967,87 @@
         {
           var tmp0__anonymous__1 = _Updater___init__impl_(_SkippableUpdater___get_composer__impl_($this$ComposeDomNode));
           var tmp = attrsBuilder.collect_0_k$();
-          Updater__set_impl_0(tmp0__anonymous__1, tmp, _no_name_provided_$factory_154());
+          Updater__set_impl_0(tmp0__anonymous__1, tmp, _no_name_provided_$factory_155());
           var tmp_0 = attrsBuilder.collectListeners_0_k$();
-          Updater__set_impl_0(tmp0__anonymous__1, tmp_0, _no_name_provided_$factory_155());
-          Updater__set_impl_0(tmp0__anonymous__1, attrsBuilder._propertyUpdates, _no_name_provided_$factory_156());
-          Updater__set_impl_0(tmp0__anonymous__1, attrsBuilder._styleBuilder, _no_name_provided_$factory_157());
+          Updater__set_impl_0(tmp0__anonymous__1, tmp_0, _no_name_provided_$factory_156());
+          Updater__set_impl_0(tmp0__anonymous__1, attrsBuilder._propertyUpdates, _no_name_provided_$factory_157());
+          Updater__set_impl_0(tmp0__anonymous__1, attrsBuilder._styleBuilder, _no_name_provided_$factory_158());
         }
         _SkippableUpdater___get_composer__impl_($this$ComposeDomNode).endReplaceableGroup_sv8swh_k$();
       }
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
   };
-  _no_name_provided__193.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+  _no_name_provided__196.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
     var tmp = p1 instanceof SkippableUpdater ? p1._composer_0 : THROW_CCE();
     var tmp_0 = (p2 == null ? true : isInterface(p2, Composer)) ? p2 : THROW_CCE();
     this.invoke_iz8o09_k$(tmp, tmp_0, (!(p3 == null) ? typeof p3 === 'number' : false) ? p3 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__193.$metadata$ = {
+  _no_name_provided__196.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__194($tmp0_safe_receiver, $scope) {
+  function _no_name_provided__197($tmp0_safe_receiver, $scope) {
     this._$tmp0_safe_receiver_0 = $tmp0_safe_receiver;
     this._$scope_1 = $scope;
   }
-  _no_name_provided__194.prototype.invoke_m1u8hh_k$ = function ($this$DisposableEffect) {
+  _no_name_provided__197.prototype.invoke_m1u8hh_k$ = function ($this$DisposableEffect) {
     return this._$tmp0_safe_receiver_0($this$DisposableEffect, this._$scope_1._get_element__0_k$());
   };
-  _no_name_provided__194.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__197.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_m1u8hh_k$(p1 instanceof DisposableEffectScope ? p1 : THROW_CCE());
   };
-  _no_name_provided__194.$metadata$ = {
+  _no_name_provided__197.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__195($elementBuilder, $applyAttrs, $content, $$changed) {
+  function _no_name_provided__198($elementBuilder, $applyAttrs, $content, $$changed) {
     this._$elementBuilder_0 = $elementBuilder;
     this._$applyAttrs_0 = $applyAttrs;
     this._$content_1 = $content;
     this._$$changed = $$changed;
   }
-  _no_name_provided__195.prototype.invoke_xtxync_k$ = function (p0, p1) {
+  _no_name_provided__198.prototype.invoke_xtxync_k$ = function (p0, p1) {
     return TagElement$composable$lambda(this._$elementBuilder_0, this._$applyAttrs_0, this._$content_1, this._$$changed, p0, p1);
   };
-  _no_name_provided__195.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__198.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
     this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__195.$metadata$ = {
+  _no_name_provided__198.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided_$factory_150($elementBuilder, $scope) {
-    var i = new _no_name_provided__188($elementBuilder, $scope);
+  function _no_name_provided_$factory_151($elementBuilder, $scope) {
+    var i = new _no_name_provided__191($elementBuilder, $scope);
     return function () {
       return i.invoke_0_k$();
     };
   }
-  function _no_name_provided_$factory_151($applyAttrs, $refEffect) {
-    var i = new _no_name_provided__193($applyAttrs, $refEffect);
+  function _no_name_provided_$factory_152($applyAttrs, $refEffect) {
+    var i = new _no_name_provided__196($applyAttrs, $refEffect);
     return function (p1, p2, p3) {
       i.invoke_iz8o09_k$(p1._composer_0, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_152($tmp0_safe_receiver, $scope) {
-    var i = new _no_name_provided__194($tmp0_safe_receiver, $scope);
+  function _no_name_provided_$factory_153($tmp0_safe_receiver, $scope) {
+    var i = new _no_name_provided__197($tmp0_safe_receiver, $scope);
     return function (p1) {
       return i.invoke_m1u8hh_k$(p1);
     };
   }
-  function _no_name_provided_$factory_153($elementBuilder, $applyAttrs, $content, $$changed) {
-    var i = new _no_name_provided__195($elementBuilder, $applyAttrs, $content, $$changed);
+  function _no_name_provided_$factory_154($elementBuilder, $applyAttrs, $content, $$changed) {
+    var i = new _no_name_provided__198($elementBuilder, $applyAttrs, $content, $$changed);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_154() {
-    var i = new _no_name_provided__189();
+  function _no_name_provided_$factory_155() {
+    var i = new _no_name_provided__192();
     var l = function (p1, p2) {
       i.invoke_tl9r9p_k$(p1, p2);
       return Unit_getInstance();
@@ -69492,8 +70055,8 @@
     l.callableName = i._get_name__0_k$();
     return l;
   }
-  function _no_name_provided_$factory_155() {
-    var i = new _no_name_provided__190();
+  function _no_name_provided_$factory_156() {
+    var i = new _no_name_provided__193();
     var l = function (p1, p2) {
       i.invoke_fy59l_k$(p1, p2);
       return Unit_getInstance();
@@ -69501,8 +70064,8 @@
     l.callableName = i._get_name__0_k$();
     return l;
   }
-  function _no_name_provided_$factory_156() {
-    var i = new _no_name_provided__191();
+  function _no_name_provided_$factory_157() {
+    var i = new _no_name_provided__194();
     var l = function (p1, p2) {
       i.invoke_7q0vyf_k$(p1, p2);
       return Unit_getInstance();
@@ -69510,8 +70073,8 @@
     l.callableName = i._get_name__0_k$();
     return l;
   }
-  function _no_name_provided_$factory_157() {
-    var i = new _no_name_provided__192();
+  function _no_name_provided_$factory_158() {
+    var i = new _no_name_provided__195();
     var l = function (p1, p2) {
       i.invoke_du2er7_k$(p1, p2);
       return Unit_getInstance();
@@ -69519,6 +70082,13 @@
     l.callableName = i._get_name__0_k$();
     return l;
   }
+  function DOMScope() {
+  }
+  DOMScope.$metadata$ = {
+    simpleName: 'DOMScope',
+    kind: 'interface',
+    interfaces: []
+  };
   ElementScope.prototype.DisposableRefEffect_4x5irg_k$ = function (effect) {
     illegalDecoyCallException('DisposableRefEffect');
   };
@@ -69535,13 +70105,6 @@
     simpleName: 'ElementScope',
     kind: 'interface',
     interfaces: [DOMScope]
-  };
-  function DOMScope() {
-  }
-  DOMScope.$metadata$ = {
-    simpleName: 'DOMScope',
-    kind: 'interface',
-    interfaces: []
   };
   function DomEffectScope() {
   }
@@ -69575,35 +70138,35 @@
   function _get_nextDisposableDomEffectKey_($this) {
     return $this._nextDisposableDomEffectKey;
   }
-  function _no_name_provided__196($effect, this$0) {
+  function _no_name_provided__199($effect, this$0) {
     this._$effect_0 = $effect;
-    this._this$0_63 = this$0;
+    this._this$0_64 = this$0;
   }
-  _no_name_provided__196.prototype.invoke_m1u8hh_k$ = function ($this$DisposableEffect) {
-    return this._$effect_0($this$DisposableEffect, this._this$0_63._get_element__0_k$());
+  _no_name_provided__199.prototype.invoke_m1u8hh_k$ = function ($this$DisposableEffect) {
+    return this._$effect_0($this$DisposableEffect, this._this$0_64._get_element__0_k$());
   };
-  _no_name_provided__196.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__199.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_m1u8hh_k$(p1 instanceof DisposableEffectScope ? p1 : THROW_CCE());
   };
-  _no_name_provided__196.$metadata$ = {
+  _no_name_provided__199.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__197($changed, $effect, $effectHolder, this$0) {
+  function _no_name_provided__200($changed, $effect, $effectHolder, this$0) {
     this._$changed_17 = $changed;
     this._$effect_1 = $effect;
     this._$effectHolder = $effectHolder;
-    this._this$0_64 = this$0;
+    this._this$0_65 = this$0;
   }
-  _no_name_provided__197.prototype.invoke_sv8swh_k$ = function () {
+  _no_name_provided__200.prototype.invoke_sv8swh_k$ = function () {
     if (this._$changed_17)
-      this._$effect_1(this._$effectHolder, this._this$0_64._get_element__0_k$());
+      this._$effect_1(this._$effectHolder, this._this$0_65._get_element__0_k$());
   };
-  _no_name_provided__197.prototype.invoke_0_k$ = function () {
+  _no_name_provided__200.prototype.invoke_0_k$ = function () {
     this.invoke_sv8swh_k$();
     return Unit_getInstance();
   };
-  _no_name_provided__197.$metadata$ = {
+  _no_name_provided__200.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -69624,7 +70187,7 @@
     var $composer_0 = $composer;
     $composer_0.startReplaceableGroup_majfzk_k$(653415121);
     sourceInformation($composer_0, 'C(DisposableRefEffect$composable)P(1)');
-    DisposableEffect$composable(key_0, _no_name_provided_$factory_158(effect, this), $composer_0, 14 & $changed);
+    DisposableEffect$composable(key_0, _no_name_provided_$factory_159(effect, this), $composer_0, 14 & $changed);
     $composer_0.endReplaceableGroup_sv8swh_k$();
   };
   ElementScopeBase.prototype.DomSideEffect$composable_n26f6s_k$ = function (key_0, effect, $composer, $changed) {
@@ -69680,7 +70243,7 @@
       break $l$block_3;
     }
     var effectHolder = tmp$ret$4;
-    SideEffect$composable(_no_name_provided_$factory_159(changed, effect, effectHolder, this), $composer_0, 0);
+    SideEffect$composable(_no_name_provided_$factory_160(changed, effect, effectHolder, this), $composer_0, 0);
     $composer_0.endReplaceableGroup_sv8swh_k$();
   };
   ElementScopeBase.prototype.DomSideEffect$composable_z01y8z_k$ = function (effect, $composer, $changed) {
@@ -69731,14 +70294,14 @@
     kind: 'class',
     interfaces: [RememberObserver, DomEffectScope]
   };
-  function _no_name_provided_$factory_158($effect, this$0) {
-    var i = new _no_name_provided__196($effect, this$0);
+  function _no_name_provided_$factory_159($effect, this$0) {
+    var i = new _no_name_provided__199($effect, this$0);
     return function (p1) {
       return i.invoke_m1u8hh_k$(p1);
     };
   }
-  function _no_name_provided_$factory_159($changed, $effect, $effectHolder, this$0) {
-    var i = new _no_name_provided__197($changed, $effect, $effectHolder, this$0);
+  function _no_name_provided_$factory_160($changed, $effect, $effectHolder, this$0) {
+    var i = new _no_name_provided__200($changed, $effect, $effectHolder, this$0);
     return function () {
       i.invoke_sv8swh_k$();
       return Unit_getInstance();
@@ -70008,11 +70571,11 @@
     return Style;
   }
   var Style;
-  function _no_name_provided__198($tagName) {
+  function _no_name_provided__201($tagName) {
     this._$tagName = $tagName;
     ElementBuilderImplementation.call(this, $tagName);
   }
-  _no_name_provided__198.$metadata$ = {
+  _no_name_provided__201.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -70020,7 +70583,7 @@
     Companion_instance_41 = this;
   }
   Companion_42.prototype.createBuilder_wltklz_k$ = function (tagName) {
-    return new _no_name_provided__198(tagName);
+    return new _no_name_provided__201(tagName);
   };
   Companion_42.$metadata$ = {
     simpleName: 'Companion',
@@ -70053,20 +70616,20 @@
     }
     return tmp$ret$0;
   }
-  function _no_name_provided__199(this$0) {
-    this._this$0_65 = this$0;
+  function _no_name_provided__202(this$0) {
+    this._this$0_66 = this$0;
   }
-  _no_name_provided__199.prototype.invoke_0_k$ = function () {
-    return document.createElement(this._this$0_65._tagName);
+  _no_name_provided__202.prototype.invoke_0_k$ = function () {
+    return document.createElement(this._this$0_66._tagName);
   };
-  _no_name_provided__199.$metadata$ = {
+  _no_name_provided__202.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
   function ElementBuilderImplementation(tagName) {
     this._tagName = tagName;
     var tmp = this;
-    tmp._el$delegate = lazy(_no_name_provided_$factory_160(this));
+    tmp._el$delegate = lazy(_no_name_provided_$factory_161(this));
   }
   ElementBuilderImplementation.prototype.create_0_k$ = function () {
     var tmp = _get_el_(this).cloneNode();
@@ -70105,7 +70668,7 @@
       $l$block_2: {
         var tmp0_remember$composable_0 = alt_1._v;
         var tmp1_remember$composable_0 = attrs_0._v;
-        var tmp2_remember$composable_0 = _no_name_provided_$factory_161(src_0, alt_1, attrs_0);
+        var tmp2_remember$composable_0 = _no_name_provided_$factory_162(src_0, alt_1, attrs_0);
         var tmp3_remember$composable_0 = $composer_0;
         var tmp4_remember$composable_0 = 14 & $dirty | 112 & $dirty | 896 & $dirty;
         var $composer_1 = tmp3_remember$composable_0;
@@ -70152,7 +70715,7 @@
     if (tmp0_safe_receiver === null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_162(src_0, alt_1, attrs_0, $changed, $default));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_163(src_0, alt_1, attrs_0, $changed, $default));
     }
   }
   function Iframe$composable(attrs, content, $composer, $changed, $default) {
@@ -70182,7 +70745,7 @@
     if (tmp0_safe_receiver === null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_163(attrs_0, content_0, $changed, $default));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_164(attrs_0, content_0, $changed, $default));
     }
   }
   function Div$composable(attrs, content, $composer, $changed, $default) {
@@ -70212,7 +70775,7 @@
     if (tmp0_safe_receiver === null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_164(attrs_0, content_0, $changed, $default));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_165(attrs_0, content_0, $changed, $default));
     }
   }
   function Text$composable(value, $composer, $changed) {
@@ -70224,7 +70787,7 @@
       $dirty = $dirty | ($composer_0.changed_wi7j7l_k$(value) ? 4 : 2);
     if (!(($dirty & 11 ^ 2) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
       {
-        var tmp0_ComposeNode$composable_0 = _no_name_provided_$factory_165();
+        var tmp0_ComposeNode$composable_0 = _no_name_provided_$factory_166();
         var tmp1_ComposeNode$composable_0 = $composer_0;
         var $composer_1 = tmp1_ComposeNode$composable_0;
         $composer_1.startReplaceableGroup_majfzk_k$(-440990274);
@@ -70237,13 +70800,13 @@
         $composer_1.startNode_sv8swh_k$();
         if ($composer_1._get_inserting__0_k$()) {
           var tmp_0 = $composer_1;
-          tmp_0.createNode_469i9b_k$(_no_name_provided_$factory_166(tmp0_ComposeNode$composable_0));
+          tmp_0.createNode_469i9b_k$(_no_name_provided_$factory_167(tmp0_ComposeNode$composable_0));
         } else {
           $composer_1.useNode_sv8swh_k$();
         }
         {
           var tmp2__anonymous__3 = _Updater___init__impl_($composer_1);
-          Updater__set_impl_0(tmp2__anonymous__3, value, _no_name_provided_$factory_167());
+          Updater__set_impl_0(tmp2__anonymous__3, value, _no_name_provided_$factory_168());
         }
         $composer_1.endNode_sv8swh_k$();
         $composer_1.endReplaceableGroup_sv8swh_k$();
@@ -70254,7 +70817,7 @@
     if (tmp0_safe_receiver === null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_168(value, $changed));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_169(value, $changed));
     }
   }
   function H1$composable(attrs, content, $composer, $changed, $default) {
@@ -70284,7 +70847,7 @@
     if (tmp0_safe_receiver === null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_169(attrs_0, content_0, $changed, $default));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_170(attrs_0, content_0, $changed, $default));
     }
   }
   function P$composable(attrs, content, $composer, $changed, $default) {
@@ -70314,7 +70877,7 @@
     if (tmp0_safe_receiver === null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_170(attrs_0, content_0, $changed, $default));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_171(attrs_0, content_0, $changed, $default));
     }
   }
   function H2$composable(attrs, content, $composer, $changed, $default) {
@@ -70344,11 +70907,11 @@
     if (tmp0_safe_receiver === null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_171(attrs_0, content_0, $changed, $default));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_172(attrs_0, content_0, $changed, $default));
     }
   }
   function Img$composable$lambda($src, $alt, $attrs) {
-    return _no_name_provided_$factory_172($src, $alt, $attrs);
+    return _no_name_provided_$factory_173($src, $alt, $attrs);
   }
   function Img$composable$lambda_0($src, $alt, $attrs, $$changed, $$default, $composer, $force) {
     return Img$composable($src, $alt._v, $attrs._v, $composer, $$changed | 1, $$default);
@@ -70371,167 +70934,113 @@
   function H2$composable$lambda($attrs, $content, $$changed, $$default, $composer, $force) {
     return H2$composable($attrs._v, $content._v, $composer, $$changed | 1, $$default);
   }
-  function _no_name_provided__200($src, $alt, $attrs) {
+  function _no_name_provided__203($src, $alt, $attrs) {
     this._$src = $src;
     this._$alt = $alt;
     this._$attrs = $attrs;
   }
-  _no_name_provided__200.prototype.invoke_0_k$ = function () {
+  _no_name_provided__203.prototype.invoke_0_k$ = function () {
     return Img$composable$lambda(this._$src, this._$alt, this._$attrs);
   };
-  _no_name_provided__200.$metadata$ = {
+  _no_name_provided__203.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__201($src, $alt, $attrs, $$changed, $$default) {
+  function _no_name_provided__204($src, $alt, $attrs, $$changed, $$default) {
     this._$src_0 = $src;
     this._$alt_0 = $alt;
     this._$attrs_0 = $attrs;
     this._$$changed_0 = $$changed;
     this._$$default = $$default;
   }
-  _no_name_provided__201.prototype.invoke_xtxync_k$ = function (p0, p1) {
+  _no_name_provided__204.prototype.invoke_xtxync_k$ = function (p0, p1) {
     return Img$composable$lambda_0(this._$src_0, this._$alt_0, this._$attrs_0, this._$$changed_0, this._$$default, p0, p1);
   };
-  _no_name_provided__201.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__204.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
     this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
-  };
-  _no_name_provided__201.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__202($attrs, $content, $$changed, $$default) {
-    this._$attrs_1 = $attrs;
-    this._$content_2 = $content;
-    this._$$changed_1 = $$changed;
-    this._$$default_0 = $$default;
-  }
-  _no_name_provided__202.prototype.invoke_xtxync_k$ = function (p0, p1) {
-    return Iframe$composable$lambda(this._$attrs_1, this._$content_2, this._$$changed_1, this._$$default_0, p0, p1);
-  };
-  _no_name_provided__202.prototype.invoke_osx4an_k$ = function (p1, p2) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
-    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__202.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__203($attrs, $content, $$changed, $$default) {
-    this._$attrs_2 = $attrs;
-    this._$content_3 = $content;
-    this._$$changed_2 = $$changed;
-    this._$$default_1 = $$default;
-  }
-  _no_name_provided__203.prototype.invoke_xtxync_k$ = function (p0, p1) {
-    return Div$composable$lambda(this._$attrs_2, this._$content_3, this._$$changed_2, this._$$default_1, p0, p1);
-  };
-  _no_name_provided__203.prototype.invoke_osx4an_k$ = function (p1, p2) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
-    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__203.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__204() {
-  }
-  _no_name_provided__204.prototype.invoke_0_k$ = function () {
-    return new DomNodeWrapper(document.createTextNode(''));
   };
   _no_name_provided__204.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__205($tmp0_ComposeNode$composable_0) {
-    this._$tmp0_ComposeNode$composable_0 = $tmp0_ComposeNode$composable_0;
+  function _no_name_provided__205($attrs, $content, $$changed, $$default) {
+    this._$attrs_1 = $attrs;
+    this._$content_2 = $content;
+    this._$$changed_1 = $$changed;
+    this._$$default_0 = $$default;
   }
-  _no_name_provided__205.prototype.invoke_0_k$ = function () {
-    return this._$tmp0_ComposeNode$composable_0();
+  _no_name_provided__205.prototype.invoke_xtxync_k$ = function (p0, p1) {
+    return Iframe$composable$lambda(this._$attrs_1, this._$content_2, this._$$changed_1, this._$$default_0, p0, p1);
+  };
+  _no_name_provided__205.prototype.invoke_osx4an_k$ = function (p1, p2) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
+    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
+    return Unit_getInstance();
   };
   _no_name_provided__205.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__206() {
+  function _no_name_provided__206($attrs, $content, $$changed, $$default) {
+    this._$attrs_2 = $attrs;
+    this._$content_3 = $content;
+    this._$$changed_2 = $$changed;
+    this._$$default_1 = $$default;
   }
-  _no_name_provided__206.prototype.invoke_51nd1v_k$ = function ($this$set, value) {
-    var tmp = $this$set._get_node__0_k$();
-    (tmp instanceof Text ? tmp : THROW_CCE()).data = value;
+  _no_name_provided__206.prototype.invoke_xtxync_k$ = function (p0, p1) {
+    return Div$composable$lambda(this._$attrs_2, this._$content_3, this._$$changed_2, this._$$default_1, p0, p1);
   };
   _no_name_provided__206.prototype.invoke_osx4an_k$ = function (p1, p2) {
-    var tmp = p1 instanceof DomNodeWrapper ? p1 : THROW_CCE();
-    this.invoke_51nd1v_k$(tmp, (!(p2 == null) ? typeof p2 === 'string' : false) ? p2 : THROW_CCE());
+    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
+    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
   _no_name_provided__206.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__207($value, $$changed) {
-    this._$value_2 = $value;
-    this._$$changed_3 = $$changed;
+  function _no_name_provided__207() {
   }
-  _no_name_provided__207.prototype.invoke_xtxync_k$ = function (p0, p1) {
-    return Text$composable$lambda(this._$value_2, this._$$changed_3, p0, p1);
-  };
-  _no_name_provided__207.prototype.invoke_osx4an_k$ = function (p1, p2) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
-    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
-    return Unit_getInstance();
+  _no_name_provided__207.prototype.invoke_0_k$ = function () {
+    return new DomNodeWrapper(document.createTextNode(''));
   };
   _no_name_provided__207.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__208($attrs, $content, $$changed, $$default) {
-    this._$attrs_3 = $attrs;
-    this._$content_4 = $content;
-    this._$$changed_4 = $$changed;
-    this._$$default_2 = $$default;
+  function _no_name_provided__208($tmp0_ComposeNode$composable_0) {
+    this._$tmp0_ComposeNode$composable_0 = $tmp0_ComposeNode$composable_0;
   }
-  _no_name_provided__208.prototype.invoke_xtxync_k$ = function (p0, p1) {
-    return H1$composable$lambda(this._$attrs_3, this._$content_4, this._$$changed_4, this._$$default_2, p0, p1);
-  };
-  _no_name_provided__208.prototype.invoke_osx4an_k$ = function (p1, p2) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
-    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
-    return Unit_getInstance();
+  _no_name_provided__208.prototype.invoke_0_k$ = function () {
+    return this._$tmp0_ComposeNode$composable_0();
   };
   _no_name_provided__208.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__209($attrs, $content, $$changed, $$default) {
-    this._$attrs_4 = $attrs;
-    this._$content_5 = $content;
-    this._$$changed_5 = $$changed;
-    this._$$default_3 = $$default;
+  function _no_name_provided__209() {
   }
-  _no_name_provided__209.prototype.invoke_xtxync_k$ = function (p0, p1) {
-    return P$composable$lambda(this._$attrs_4, this._$content_5, this._$$changed_5, this._$$default_3, p0, p1);
+  _no_name_provided__209.prototype.invoke_51nd1v_k$ = function ($this$set, value) {
+    var tmp = $this$set._get_node__0_k$();
+    (tmp instanceof Text ? tmp : THROW_CCE()).data = value;
   };
   _no_name_provided__209.prototype.invoke_osx4an_k$ = function (p1, p2) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
-    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
+    var tmp = p1 instanceof DomNodeWrapper ? p1 : THROW_CCE();
+    this.invoke_51nd1v_k$(tmp, (!(p2 == null) ? typeof p2 === 'string' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
   _no_name_provided__209.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__210($attrs, $content, $$changed, $$default) {
-    this._$attrs_5 = $attrs;
-    this._$content_6 = $content;
-    this._$$changed_6 = $$changed;
-    this._$$default_4 = $$default;
+  function _no_name_provided__210($value, $$changed) {
+    this._$value_2 = $value;
+    this._$$changed_3 = $$changed;
   }
   _no_name_provided__210.prototype.invoke_xtxync_k$ = function (p0, p1) {
-    return H2$composable$lambda(this._$attrs_5, this._$content_6, this._$$changed_6, this._$$default_4, p0, p1);
+    return Text$composable$lambda(this._$value_2, this._$$changed_3, p0, p1);
   };
   _no_name_provided__210.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
@@ -70542,22 +71051,76 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__211($src, $alt, $attrs) {
+  function _no_name_provided__211($attrs, $content, $$changed, $$default) {
+    this._$attrs_3 = $attrs;
+    this._$content_4 = $content;
+    this._$$changed_4 = $$changed;
+    this._$$default_2 = $$default;
+  }
+  _no_name_provided__211.prototype.invoke_xtxync_k$ = function (p0, p1) {
+    return H1$composable$lambda(this._$attrs_3, this._$content_4, this._$$changed_4, this._$$default_2, p0, p1);
+  };
+  _no_name_provided__211.prototype.invoke_osx4an_k$ = function (p1, p2) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
+    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__211.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__212($attrs, $content, $$changed, $$default) {
+    this._$attrs_4 = $attrs;
+    this._$content_5 = $content;
+    this._$$changed_5 = $$changed;
+    this._$$default_3 = $$default;
+  }
+  _no_name_provided__212.prototype.invoke_xtxync_k$ = function (p0, p1) {
+    return P$composable$lambda(this._$attrs_4, this._$content_5, this._$$changed_5, this._$$default_3, p0, p1);
+  };
+  _no_name_provided__212.prototype.invoke_osx4an_k$ = function (p1, p2) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
+    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__212.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__213($attrs, $content, $$changed, $$default) {
+    this._$attrs_5 = $attrs;
+    this._$content_6 = $content;
+    this._$$changed_6 = $$changed;
+    this._$$default_4 = $$default;
+  }
+  _no_name_provided__213.prototype.invoke_xtxync_k$ = function (p0, p1) {
+    return H2$composable$lambda(this._$attrs_5, this._$content_6, this._$$changed_6, this._$$default_4, p0, p1);
+  };
+  _no_name_provided__213.prototype.invoke_osx4an_k$ = function (p1, p2) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
+    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__213.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__214($src, $alt, $attrs) {
     this._$src_1 = $src;
     this._$alt_1 = $alt;
     this._$attrs_6 = $attrs;
   }
-  _no_name_provided__211.prototype.invoke_ksytq9_k$ = function ($this$TagElement) {
+  _no_name_provided__214.prototype.invoke_ksytq9_k$ = function ($this$TagElement) {
     alt(src($this$TagElement, this._$src_1), this._$alt_1._v);
     Unit_getInstance();
     if (!(this._$attrs_6._v == null)) {
       this._$attrs_6._v($this$TagElement);
     }};
-  _no_name_provided__211.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__214.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_ksytq9_k$(p1 instanceof AttrsBuilder ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__211.$metadata$ = {
+  _no_name_provided__214.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -70566,88 +71129,88 @@
       return _get_el_(receiver);
     }, null);
   }
-  function _no_name_provided_$factory_160(this$0) {
-    var i = new _no_name_provided__199(this$0);
+  function _no_name_provided_$factory_161(this$0) {
+    var i = new _no_name_provided__202(this$0);
     return function () {
       return i.invoke_0_k$();
     };
   }
-  function _no_name_provided_$factory_161($src, $alt, $attrs) {
-    var i = new _no_name_provided__200($src, $alt, $attrs);
+  function _no_name_provided_$factory_162($src, $alt, $attrs) {
+    var i = new _no_name_provided__203($src, $alt, $attrs);
     return function () {
       return i.invoke_0_k$();
     };
   }
-  function _no_name_provided_$factory_162($src, $alt, $attrs, $$changed, $$default) {
-    var i = new _no_name_provided__201($src, $alt, $attrs, $$changed, $$default);
-    return function (p1, p2) {
-      i.invoke_xtxync_k$(p1, p2);
-      return Unit_getInstance();
-    };
-  }
-  function _no_name_provided_$factory_163($attrs, $content, $$changed, $$default) {
-    var i = new _no_name_provided__202($attrs, $content, $$changed, $$default);
+  function _no_name_provided_$factory_163($src, $alt, $attrs, $$changed, $$default) {
+    var i = new _no_name_provided__204($src, $alt, $attrs, $$changed, $$default);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
   function _no_name_provided_$factory_164($attrs, $content, $$changed, $$default) {
-    var i = new _no_name_provided__203($attrs, $content, $$changed, $$default);
+    var i = new _no_name_provided__205($attrs, $content, $$changed, $$default);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_165() {
-    var i = new _no_name_provided__204();
+  function _no_name_provided_$factory_165($attrs, $content, $$changed, $$default) {
+    var i = new _no_name_provided__206($attrs, $content, $$changed, $$default);
+    return function (p1, p2) {
+      i.invoke_xtxync_k$(p1, p2);
+      return Unit_getInstance();
+    };
+  }
+  function _no_name_provided_$factory_166() {
+    var i = new _no_name_provided__207();
     return function () {
       return i.invoke_0_k$();
     };
   }
-  function _no_name_provided_$factory_166($tmp0_ComposeNode$composable_0) {
-    var i = new _no_name_provided__205($tmp0_ComposeNode$composable_0);
+  function _no_name_provided_$factory_167($tmp0_ComposeNode$composable_0) {
+    var i = new _no_name_provided__208($tmp0_ComposeNode$composable_0);
     return function () {
       return i.invoke_0_k$();
     };
   }
-  function _no_name_provided_$factory_167() {
-    var i = new _no_name_provided__206();
+  function _no_name_provided_$factory_168() {
+    var i = new _no_name_provided__209();
     return function (p1, p2) {
       i.invoke_51nd1v_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_168($value, $$changed) {
-    var i = new _no_name_provided__207($value, $$changed);
-    return function (p1, p2) {
-      i.invoke_xtxync_k$(p1, p2);
-      return Unit_getInstance();
-    };
-  }
-  function _no_name_provided_$factory_169($attrs, $content, $$changed, $$default) {
-    var i = new _no_name_provided__208($attrs, $content, $$changed, $$default);
+  function _no_name_provided_$factory_169($value, $$changed) {
+    var i = new _no_name_provided__210($value, $$changed);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
   function _no_name_provided_$factory_170($attrs, $content, $$changed, $$default) {
-    var i = new _no_name_provided__209($attrs, $content, $$changed, $$default);
+    var i = new _no_name_provided__211($attrs, $content, $$changed, $$default);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
   function _no_name_provided_$factory_171($attrs, $content, $$changed, $$default) {
-    var i = new _no_name_provided__210($attrs, $content, $$changed, $$default);
+    var i = new _no_name_provided__212($attrs, $content, $$changed, $$default);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_172($src, $alt, $attrs) {
-    var i = new _no_name_provided__211($src, $alt, $attrs);
+  function _no_name_provided_$factory_172($attrs, $content, $$changed, $$default) {
+    var i = new _no_name_provided__213($attrs, $content, $$changed, $$default);
+    return function (p1, p2) {
+      i.invoke_xtxync_k$(p1, p2);
+      return Unit_getInstance();
+    };
+  }
+  function _no_name_provided_$factory_173($src, $alt, $attrs) {
+    var i = new _no_name_provided__214($src, $alt, $attrs);
     return function (p1) {
       i.invoke_ksytq9_k$(p1);
       return Unit_getInstance();
@@ -70680,36 +71243,36 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__212() {
+  function _no_name_provided__215() {
   }
-  _no_name_provided__212.prototype.invoke_0_k$ = function () {
+  _no_name_provided__215.prototype.invoke_0_k$ = function () {
     {
       throw IllegalStateException_init_$Create$_0('No radio group checked value provided');
     }
   };
-  _no_name_provided__212.$metadata$ = {
+  _no_name_provided__215.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__213() {
+  function _no_name_provided__216() {
   }
-  _no_name_provided__213.prototype.invoke_0_k$ = function () {
+  _no_name_provided__216.prototype.invoke_0_k$ = function () {
     {
       throw IllegalStateException_init_$Create$_0('No radio group name provided');
     }
   };
-  _no_name_provided__213.$metadata$ = {
+  _no_name_provided__216.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided_$factory_173() {
-    var i = new _no_name_provided__212();
+  function _no_name_provided_$factory_174() {
+    var i = new _no_name_provided__215();
     return function () {
       return i.invoke_0_k$();
     };
   }
-  function _no_name_provided_$factory_174() {
-    var i = new _no_name_provided__213();
+  function _no_name_provided_$factory_175() {
+    var i = new _no_name_provided__216();
     return function () {
       return i.invoke_0_k$();
     };
@@ -71234,21 +71797,21 @@
   function _get_elementsLeft_($this) {
     return $this._elementsLeft;
   }
-  function _no_name_provided__214($this_elementDescriptors) {
+  function _no_name_provided__217($this_elementDescriptors) {
     this._$this_elementDescriptors = $this_elementDescriptors;
     this._elementsLeft = this._$this_elementDescriptors._get_elementsCount__0_k$();
   }
-  _no_name_provided__214.prototype.hasNext_0_k$ = function () {
+  _no_name_provided__217.prototype.hasNext_0_k$ = function () {
     return this._elementsLeft > 0;
   };
-  _no_name_provided__214.prototype.next_0_k$ = function () {
+  _no_name_provided__217.prototype.next_0_k$ = function () {
     var tmp = this._$this_elementDescriptors._get_elementsCount__0_k$();
     var tmp0_this = this;
     var tmp1 = tmp0_this._elementsLeft;
     tmp0_this._elementsLeft = tmp1 - 1 | 0;
     return this._$this_elementDescriptors.getElementDescriptor_ha5a7z_k$(tmp - tmp1 | 0);
   };
-  _no_name_provided__214.$metadata$ = {
+  _no_name_provided__217.$metadata$ = {
     kind: 'class',
     interfaces: [Iterator_3]
   };
@@ -71258,7 +71821,7 @@
   _no_name_provided__1_5.prototype.iterator_2_0_k$ = function () {
     var tmp$ret$0;
     $l$block: {
-      tmp$ret$0 = new _no_name_provided__214(this._$this_elementDescriptors_0);
+      tmp$ret$0 = new _no_name_provided__217(this._$this_elementDescriptors_0);
       break $l$block;
     }
     return tmp$ret$0;
@@ -71309,7 +71872,7 @@
   }
   function buildSerialDescriptor$default(serialName, kind, typeParameters, builder, $mask0, $handler) {
     if (!(($mask0 & 8) === 0)) {
-      builder = _no_name_provided_$factory_175();
+      builder = _no_name_provided_$factory_176();
     }return buildSerialDescriptor(serialName, kind, typeParameters, builder);
   }
   function _get_uniqueNames_($this) {
@@ -71430,26 +71993,26 @@
     }
     return tmp$ret$0;
   }
-  function _no_name_provided__215(this$0) {
-    this._this$0_66 = this$0;
+  function _no_name_provided__218(this$0) {
+    this._this$0_67 = this$0;
   }
-  _no_name_provided__215.prototype.invoke_0_k$ = function () {
-    return hashCodeImpl(this._this$0_66, this._this$0_66._typeParametersDescriptors);
+  _no_name_provided__218.prototype.invoke_0_k$ = function () {
+    return hashCodeImpl(this._this$0_67, this._this$0_67._typeParametersDescriptors);
   };
-  _no_name_provided__215.$metadata$ = {
+  _no_name_provided__218.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__216(this$0) {
-    this._this$0_67 = this$0;
+  function _no_name_provided__219(this$0) {
+    this._this$0_68 = this$0;
   }
-  _no_name_provided__216.prototype.invoke_ha5a7z_k$ = function (it) {
-    return this._this$0_67.getElementName_ha5a7z_k$(it) + ': ' + this._this$0_67.getElementDescriptor_ha5a7z_k$(it)._get_serialName__0_k$();
+  _no_name_provided__219.prototype.invoke_ha5a7z_k$ = function (it) {
+    return this._this$0_68.getElementName_ha5a7z_k$(it) + ': ' + this._this$0_68.getElementDescriptor_ha5a7z_k$(it)._get_serialName__0_k$();
   };
-  _no_name_provided__216.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__219.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_ha5a7z_k$((!(p1 == null) ? typeof p1 === 'number' : false) ? p1 : THROW_CCE());
   };
-  _no_name_provided__216.$metadata$ = {
+  _no_name_provided__219.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -71504,7 +72067,7 @@
     tmp_1._name2Index = toMap(tmp$ret$4);
     this._typeParametersDescriptors = compactArray(typeParameters);
     var tmp_2 = this;
-    tmp_2.__hashCode$delegate = lazy(_no_name_provided_$factory_176(this));
+    tmp_2.__hashCode$delegate = lazy(_no_name_provided_$factory_177(this));
   }
   SerialDescriptorImpl.prototype._get_serialName__0_k$ = function () {
     return this._serialName_0;
@@ -71597,23 +72160,23 @@
   SerialDescriptorImpl.prototype.toString = function () {
     var tmp = until(0, this._elementsCount);
     var tmp_0 = '' + this._serialName_0 + '(';
-    return joinToString$default_0(tmp, ', ', tmp_0, ')', 0, null, _no_name_provided_$factory_177(this), 24, null);
+    return joinToString$default_0(tmp, ', ', tmp_0, ')', 0, null, _no_name_provided_$factory_178(this), 24, null);
   };
   SerialDescriptorImpl.$metadata$ = {
     simpleName: 'SerialDescriptorImpl',
     kind: 'class',
     interfaces: [SerialDescriptor, CachedNames]
   };
-  function _no_name_provided__217() {
+  function _no_name_provided__220() {
   }
-  _no_name_provided__217.prototype.invoke_dot7f7_k$ = function ($this$null) {
+  _no_name_provided__220.prototype.invoke_dot7f7_k$ = function ($this$null) {
     return Unit_getInstance();
   };
-  _no_name_provided__217.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__220.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_dot7f7_k$(p1 instanceof ClassSerialDescriptorBuilder ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__217.$metadata$ = {
+  _no_name_provided__220.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -71622,21 +72185,21 @@
       return _get__hashCode_(receiver);
     }, null);
   }
-  function _no_name_provided_$factory_175() {
-    var i = new _no_name_provided__217();
+  function _no_name_provided_$factory_176() {
+    var i = new _no_name_provided__220();
     return function (p1) {
       i.invoke_dot7f7_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_176(this$0) {
-    var i = new _no_name_provided__215(this$0);
+  function _no_name_provided_$factory_177(this$0) {
+    var i = new _no_name_provided__218(this$0);
     return function () {
       return i.invoke_0_k$();
     };
   }
-  function _no_name_provided_$factory_177(this$0) {
-    var i = new _no_name_provided__216(this$0);
+  function _no_name_provided_$factory_178(this$0) {
+    var i = new _no_name_provided__219(this$0);
     return function (p1) {
       return i.invoke_ha5a7z_k$(p1);
     };
@@ -72269,17 +72832,17 @@
     kind: 'class',
     interfaces: [KSerializer]
   };
-  function _no_name_provided__218(this$0) {
-    this._this$0_68 = this$0;
+  function _no_name_provided__221(this$0) {
+    this._this$0_69 = this$0;
   }
-  _no_name_provided__218.prototype.invoke_dot7f7_k$ = function ($this$buildSerialDescriptor) {
-    $this$buildSerialDescriptor._annotations = this._this$0_68.__annotations;
+  _no_name_provided__221.prototype.invoke_dot7f7_k$ = function ($this$buildSerialDescriptor) {
+    $this$buildSerialDescriptor._annotations = this._this$0_69.__annotations;
   };
-  _no_name_provided__218.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__221.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_dot7f7_k$(p1 instanceof ClassSerialDescriptorBuilder ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__218.$metadata$ = {
+  _no_name_provided__221.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -72300,15 +72863,15 @@
   function _get__annotations_($this) {
     return $this.__annotations;
   }
-  function _no_name_provided__219($serialName, this$0) {
+  function _no_name_provided__222($serialName, this$0) {
     this._$serialName = $serialName;
-    this._this$0_69 = this$0;
+    this._this$0_70 = this$0;
   }
-  _no_name_provided__219.prototype.invoke_0_k$ = function () {
+  _no_name_provided__222.prototype.invoke_0_k$ = function () {
     var tmp = OBJECT_getInstance();
-    return buildSerialDescriptor$default(this._$serialName, tmp, [], _no_name_provided_$factory_179(this._this$0_69), 4, null);
+    return buildSerialDescriptor$default(this._$serialName, tmp, [], _no_name_provided_$factory_180(this._this$0_70), 4, null);
   };
-  _no_name_provided__219.$metadata$ = {
+  _no_name_provided__222.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -72317,7 +72880,7 @@
     this.__annotations = emptyList();
     var tmp = this;
     var tmp_0 = LazyThreadSafetyMode_PUBLICATION_getInstance();
-    tmp._descriptor$delegate = lazy_0(tmp_0, _no_name_provided_$factory_178(serialName, this));
+    tmp._descriptor$delegate = lazy_0(tmp_0, _no_name_provided_$factory_179(serialName, this));
   }
   ObjectSerializer.prototype._get_descriptor__0_k$ = function () {
     var tmp$ret$0;
@@ -72345,14 +72908,14 @@
       return receiver._get_descriptor__0_k$();
     }, null);
   }
-  function _no_name_provided_$factory_178($serialName, this$0) {
-    var i = new _no_name_provided__219($serialName, this$0);
+  function _no_name_provided_$factory_179($serialName, this$0) {
+    var i = new _no_name_provided__222($serialName, this$0);
     return function () {
       return i.invoke_0_k$();
     };
   }
-  function _no_name_provided_$factory_179(this$0) {
-    var i = new _no_name_provided__218(this$0);
+  function _no_name_provided_$factory_180(this$0) {
+    var i = new _no_name_provided__221(this$0);
     return function (p1) {
       i.invoke_dot7f7_k$(p1);
       return Unit_getInstance();
@@ -73833,21 +74396,21 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__220($serializer) {
+  function _no_name_provided__223($serializer) {
     this._$serializer = $serializer;
   }
-  _no_name_provided__220.prototype.invoke_lkp9i7_k$ = function (it) {
+  _no_name_provided__223.prototype.invoke_lkp9i7_k$ = function (it) {
     return this._$serializer;
   };
-  _no_name_provided__220.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__223.prototype.invoke_20e8_k$ = function (p1) {
     return this.invoke_lkp9i7_k$((!(p1 == null) ? isInterface(p1, List) : false) ? p1 : THROW_CCE());
   };
-  _no_name_provided__220.$metadata$ = {
+  _no_name_provided__223.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
   SerializersModuleCollector.prototype.contextual_4gjxmy_k$ = function (kClass, serializer_9) {
-    return this.contextual_2w6ks0_k$(kClass, _no_name_provided_$factory_180(serializer_9));
+    return this.contextual_2w6ks0_k$(kClass, _no_name_provided_$factory_181(serializer_9));
   };
   function SerializersModuleCollector() {
   }
@@ -73856,8 +74419,8 @@
     kind: 'interface',
     interfaces: []
   };
-  function _no_name_provided_$factory_180($serializer) {
-    var i = new _no_name_provided__220($serializer);
+  function _no_name_provided_$factory_181($serializer) {
+    var i = new _no_name_provided__223($serializer);
     return function (p1) {
       return i.invoke_lkp9i7_k$(p1);
     };
@@ -74217,7 +74780,7 @@
         var tmp$ret$3;
         $l$block_2: {
           var tmp0_remember$composable_0 = width_1._v;
-          var tmp1_remember$composable_0 = _no_name_provided_$factory_181(width_1);
+          var tmp1_remember$composable_0 = _no_name_provided_$factory_182(width_1);
           var tmp2_remember$composable_0 = $composer_0;
           var tmp3_remember$composable_0 = 14 & $dirty >> 3;
           var $composer_1 = tmp2_remember$composable_0;
@@ -74264,7 +74827,7 @@
         var tmp$ret$7;
         $l$block_6: {
           var tmp4_remember$composable_0 = width_1._v;
-          var tmp5_remember$composable_0 = _no_name_provided_$factory_182(media, width_1);
+          var tmp5_remember$composable_0 = _no_name_provided_$factory_183(media, width_1);
           var tmp6_remember$composable_0 = $composer_0;
           var tmp7_remember$composable_0 = 14 & $dirty | 112 & $dirty;
           var $composer_1_0 = tmp6_remember$composable_0;
@@ -74317,80 +74880,80 @@
     if (tmp0_safe_receiver === null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_183(media, width_1, height_0, $changed, $default));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_184(media, width_1, height_0, $changed, $default));
     }
   }
   function MediaView$composable$lambda($width) {
-    return _no_name_provided_$factory_184($width);
+    return _no_name_provided_$factory_185($width);
   }
   function MediaView$composable$lambda_0($media, $width) {
-    return _no_name_provided_$factory_185($media, $width);
+    return _no_name_provided_$factory_186($media, $width);
   }
   function MediaView$composable$lambda_1($media, $width, $height, $$changed, $$default, $composer, $force) {
     return MediaView$composable($media, $width._v, $height._v, $composer, $$changed | 1, $$default);
   }
-  function _no_name_provided__221($width) {
+  function _no_name_provided__224($width) {
     this._$width = $width;
   }
-  _no_name_provided__221.prototype.invoke_0_k$ = function () {
+  _no_name_provided__224.prototype.invoke_0_k$ = function () {
     return MediaView$composable$lambda(this._$width);
-  };
-  _no_name_provided__221.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__222($media, $width) {
-    this._$media = $media;
-    this._$width_0 = $width;
-  }
-  _no_name_provided__222.prototype.invoke_0_k$ = function () {
-    return MediaView$composable$lambda_0(this._$media, this._$width_0);
-  };
-  _no_name_provided__222.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__223($media, $width, $height, $$changed, $$default) {
-    this._$media_0 = $media;
-    this._$width_1 = $width;
-    this._$height = $height;
-    this._$$changed_7 = $$changed;
-    this._$$default_5 = $$default;
-  }
-  _no_name_provided__223.prototype.invoke_xtxync_k$ = function (p0, p1) {
-    return MediaView$composable$lambda_1(this._$media_0, this._$width_1, this._$height, this._$$changed_7, this._$$default_5, p0, p1);
-  };
-  _no_name_provided__223.prototype.invoke_osx4an_k$ = function (p1, p2) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
-    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__223.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__224($width) {
-    this._$width_2 = $width;
-  }
-  _no_name_provided__224.prototype.invoke_ksytq9_k$ = function ($this$Img) {
-    $this$Img.attr_jg38oy_k$('width', this._$width_2._v.toString());
-    Unit_getInstance();
-    $this$Img.attr_jg38oy_k$('height', this._$width_2._v.toString());
-    Unit_getInstance();
-  };
-  _no_name_provided__224.prototype.invoke_20e8_k$ = function (p1) {
-    this.invoke_ksytq9_k$(p1 instanceof AttrsBuilder ? p1 : THROW_CCE());
-    return Unit_getInstance();
   };
   _no_name_provided__224.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
   function _no_name_provided__225($media, $width) {
+    this._$media = $media;
+    this._$width_0 = $width;
+  }
+  _no_name_provided__225.prototype.invoke_0_k$ = function () {
+    return MediaView$composable$lambda_0(this._$media, this._$width_0);
+  };
+  _no_name_provided__225.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__226($media, $width, $height, $$changed, $$default) {
+    this._$media_0 = $media;
+    this._$width_1 = $width;
+    this._$height = $height;
+    this._$$changed_7 = $$changed;
+    this._$$default_5 = $$default;
+  }
+  _no_name_provided__226.prototype.invoke_xtxync_k$ = function (p0, p1) {
+    return MediaView$composable$lambda_1(this._$media_0, this._$width_1, this._$height, this._$$changed_7, this._$$default_5, p0, p1);
+  };
+  _no_name_provided__226.prototype.invoke_osx4an_k$ = function (p1, p2) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
+    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__226.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__227($width) {
+    this._$width_2 = $width;
+  }
+  _no_name_provided__227.prototype.invoke_ksytq9_k$ = function ($this$Img) {
+    $this$Img.attr_jg38oy_k$('width', this._$width_2._v.toString());
+    Unit_getInstance();
+    $this$Img.attr_jg38oy_k$('height', this._$width_2._v.toString());
+    Unit_getInstance();
+  };
+  _no_name_provided__227.prototype.invoke_20e8_k$ = function (p1) {
+    this.invoke_ksytq9_k$(p1 instanceof AttrsBuilder ? p1 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__227.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__228($media, $width) {
     this._$media_1 = $media;
     this._$width_3 = $width;
   }
-  _no_name_provided__225.prototype.invoke_52ex7k_k$ = function ($this$Iframe) {
+  _no_name_provided__228.prototype.invoke_52ex7k_k$ = function ($this$Iframe) {
     $this$Iframe.attr_jg38oy_k$('src', this._$media_1._url);
     Unit_getInstance();
     $this$Iframe.attr_jg38oy_k$('width', this._$width_3._v.toString());
@@ -74400,44 +74963,287 @@
     $this$Iframe.attr_jg38oy_k$('allow', 'fullscreen;');
     Unit_getInstance();
   };
-  _no_name_provided__225.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__228.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_52ex7k_k$(p1 instanceof AttrsBuilder ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__225.$metadata$ = {
+  _no_name_provided__228.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided_$factory_181($width) {
-    var i = new _no_name_provided__221($width);
+  function _no_name_provided_$factory_182($width) {
+    var i = new _no_name_provided__224($width);
     return function () {
       return i.invoke_0_k$();
     };
   }
-  function _no_name_provided_$factory_182($media, $width) {
-    var i = new _no_name_provided__222($media, $width);
+  function _no_name_provided_$factory_183($media, $width) {
+    var i = new _no_name_provided__225($media, $width);
     return function () {
       return i.invoke_0_k$();
     };
   }
-  function _no_name_provided_$factory_183($media, $width, $height, $$changed, $$default) {
-    var i = new _no_name_provided__223($media, $width, $height, $$changed, $$default);
+  function _no_name_provided_$factory_184($media, $width, $height, $$changed, $$default) {
+    var i = new _no_name_provided__226($media, $width, $height, $$changed, $$default);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_184($width) {
-    var i = new _no_name_provided__224($width);
+  function _no_name_provided_$factory_185($width) {
+    var i = new _no_name_provided__227($width);
     return function (p1) {
       i.invoke_ksytq9_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_185($media, $width) {
-    var i = new _no_name_provided__225($media, $width);
+  function _no_name_provided_$factory_186($media, $width) {
+    var i = new _no_name_provided__228($media, $width);
     return function (p1) {
       i.invoke_52ex7k_k$(p1);
+      return Unit_getInstance();
+    };
+  }
+  function _set_routePath_($this, _set___) {
+    var tmp0_setValue_0 = routePath$factory();
+    return $this._routePath$delegate._set_value__iav7o_k$(_set___);
+  }
+  function _get_routePath_($this) {
+    var tmp$ret$0;
+    $l$block: {
+      var tmp0_getValue_0 = routePath$factory_0();
+      tmp$ret$0 = $this._routePath$delegate._get_value__0_k$();
+      break $l$block;
+    }
+    return tmp$ret$0;
+  }
+  function init$composable$lambda($tmp0_rcvr, $Content, $$changed, $composer, $force) {
+    return $tmp0_rcvr.init$composable_6roh48_k$($Content, $composer, $$changed | 1);
+  }
+  function _no_name_provided__229($tmp0_rcvr, $Content, $$changed) {
+    this._$tmp0_rcvr = $tmp0_rcvr;
+    this._$Content = $Content;
+    this._$$changed_8 = $$changed;
+  }
+  _no_name_provided__229.prototype.invoke_xtxync_k$ = function (p0, p1) {
+    return init$composable$lambda(this._$tmp0_rcvr, this._$Content, this._$$changed_8, p0, p1);
+  };
+  _no_name_provided__229.prototype.invoke_osx4an_k$ = function (p1, p2) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
+    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__229.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function Routing() {
+    Routing_instance = this;
+    var tmp = this;
+    tmp._routePath$delegate = mutableStateOf$default('', null, 2, null);
+    this._$stable_43 = 0;
+  }
+  Routing.prototype.init_zdmnml_k$ = function (Content) {
+    illegalDecoyCallException('init');
+  };
+  Routing.prototype.navigate_5p04ns_k$ = function (destination) {
+    var destinationPath = destination.path_0_k$();
+    window.history.pushState(null, '', destinationPath);
+    _set_routePath_(this, destinationPath);
+  };
+  Routing.prototype.init$composable_6roh48_k$ = function (Content, $composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(725478381);
+    sourceInformation($composer_0, 'C(init$composable)');
+    var $dirty = $changed;
+    if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changed_wi7j7l_k$(Content) ? 4 : 2);
+    if (($changed & 112) === 0)
+      $dirty = $dirty | ($composer_0.changed_wi7j7l_k$(this) ? 32 : 16);
+    if (!(($dirty & 91 ^ 18) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
+      var $invokeComposable_dispatchReceiver = Content;
+      if ($invokeComposable_dispatchReceiver instanceof ComposableLambdaImpl)
+        $invokeComposable_dispatchReceiver.invoke_oku154_k$(Companion_getInstance_43().parse_6wfw3l_k$(_get_routePath_(this)), $composer_0, 112 & $dirty << 3);
+      else {
+        $invokeComposable_dispatchReceiver(Companion_getInstance_43().parse_6wfw3l_k$(_get_routePath_(this)), $composer_0, 112 & $dirty << 3);
+      }
+    } else
+      $composer_0.skipToGroupEnd_sv8swh_k$();
+    var tmp0_rcvr = this;
+    var tmp1_safe_receiver = $composer_0.endRestartGroup_0_k$();
+    if (tmp1_safe_receiver === null)
+      null;
+    else {
+      tmp1_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_187(tmp0_rcvr, Content, $changed));
+    }
+  };
+  Routing.$metadata$ = {
+    simpleName: 'Routing',
+    kind: 'object',
+    interfaces: []
+  };
+  var Routing_instance;
+  function Routing_getInstance() {
+    if (Routing_instance == null)
+      new Routing();
+    return Routing_instance;
+  }
+  function Home() {
+    Home_instance = this;
+    Route.call(this);
+    this._$stable_44 = 0;
+  }
+  Home.prototype.path_0_k$ = function () {
+    return '';
+  };
+  Home.$metadata$ = {
+    simpleName: 'Home',
+    kind: 'object',
+    interfaces: []
+  };
+  var Home_instance;
+  function Home_getInstance() {
+    if (Home_instance == null)
+      new Home();
+    return Home_instance;
+  }
+  function ProductDetails(productId) {
+    Route.call(this);
+    this._productId = productId;
+    this._$stable_45 = 0;
+  }
+  ProductDetails.prototype._get_productId__0_k$ = function () {
+    return this._productId;
+  };
+  ProductDetails.prototype.path_0_k$ = function () {
+    return '' + 'product/' + this._productId;
+  };
+  ProductDetails.prototype.component1_0_k$ = function () {
+    return this._productId;
+  };
+  ProductDetails.prototype.copy_6wfw3l_k$ = function (productId) {
+    return new ProductDetails(productId);
+  };
+  ProductDetails.prototype.copy$default_nmiqce_k$ = function (productId, $mask0, $handler) {
+    if (!(($mask0 & 1) === 0))
+      productId = this._productId;
+    return this.copy_6wfw3l_k$(productId);
+  };
+  ProductDetails.prototype.toString = function () {
+    return '' + 'ProductDetails(productId=' + this._productId + ')';
+  };
+  ProductDetails.prototype.hashCode = function () {
+    return getStringHashCode(this._productId);
+  };
+  ProductDetails.prototype.equals = function (other) {
+    if (this === other)
+      return true;
+    if (!(other instanceof ProductDetails))
+      return false;
+    else {
+    }
+    var tmp0_other_with_cast = other instanceof ProductDetails ? other : THROW_CCE();
+    if (!(this._productId === tmp0_other_with_cast._productId))
+      return false;
+    return true;
+  };
+  ProductDetails.$metadata$ = {
+    simpleName: 'ProductDetails',
+    kind: 'class',
+    interfaces: []
+  };
+  function Companion_44() {
+    Companion_instance_43 = this;
+  }
+  Companion_44.prototype.parse_6wfw3l_k$ = function (path) {
+    var tmp;
+    if (contains$default(path, 'product/', false, 2, null)) {
+      var tmp0_safe_receiver = getOrNull(split$default(path, ['/'], false, 0, 6, null), 1);
+      var tmp_0;
+      if (tmp0_safe_receiver == null) {
+        tmp_0 = null;
+      } else {
+        var tmp$ret$2;
+        $l$block_1: {
+          {
+          }
+          var tmp_1;
+          var tmp$ret$1;
+          $l$block_0: {
+            var tmp$ret$0;
+            $l$block: {
+              tmp$ret$0 = !isBlank(tmp0_safe_receiver);
+              break $l$block;
+            }
+            tmp$ret$1 = tmp$ret$0;
+            break $l$block_0;
+          }
+          if (tmp$ret$1) {
+            tmp_1 = tmp0_safe_receiver;
+          } else {
+            {
+              tmp_1 = null;
+            }
+          }
+          tmp$ret$2 = tmp_1;
+          break $l$block_1;
+        }
+        tmp_0 = tmp$ret$2;
+      }
+      var tmp1_elvis_lhs = tmp_0;
+      var tmp_2;
+      if (tmp1_elvis_lhs == null) {
+        return Home_getInstance();
+      } else {
+        tmp_2 = tmp1_elvis_lhs;
+      }
+      var productId = tmp_2;
+      tmp = new ProductDetails(productId);
+    } else {
+      {
+        tmp = Home_getInstance();
+      }
+    }
+    return tmp;
+  };
+  Companion_44.$metadata$ = {
+    simpleName: 'Companion',
+    kind: 'object',
+    interfaces: []
+  };
+  var Companion_instance_43;
+  function Companion_getInstance_43() {
+    if (Companion_instance_43 == null)
+      new Companion_44();
+    return Companion_instance_43;
+  }
+  function Route() {
+    Companion_getInstance_43();
+    this._$stable_46 = 0;
+  }
+  Route.$metadata$ = {
+    simpleName: 'Route',
+    kind: 'class',
+    interfaces: []
+  };
+  function routePath$factory() {
+    return getPropertyCallableRef('routePath', 1, KMutableProperty1, function (receiver) {
+      return _get_routePath_(receiver);
+    }, function (receiver_0, value) {
+      return _set_routePath_(receiver_0, value);
+    });
+  }
+  function routePath$factory_0() {
+    return getPropertyCallableRef('routePath', 1, KMutableProperty1, function (receiver) {
+      return _get_routePath_(receiver);
+    }, function (receiver_0, value) {
+      return _set_routePath_(receiver_0, value);
+    });
+  }
+  function _no_name_provided_$factory_187($tmp0_rcvr, $Content, $$changed) {
+    var i = new _no_name_provided__229($tmp0_rcvr, $Content, $$changed);
+    return function (p1, p2) {
+      i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
@@ -74671,7 +75477,7 @@
   var Transparent;
   function ThemeVariables() {
     ThemeVariables_instance = this;
-    this._$stable_43 = 0;
+    this._$stable_47 = 0;
   }
   ThemeVariables.$metadata$ = {
     simpleName: 'ThemeVariables',
@@ -74687,7 +75493,7 @@
   function Theme() {
     Theme_instance = this;
     StyleSheet.call(this);
-    this._$stable_44 = 0;
+    this._$stable_48 = 0;
   }
   Theme.$metadata$ = {
     simpleName: 'Theme',
@@ -74700,62 +75506,161 @@
       new Theme();
     return Theme_instance;
   }
-  function Header_0() {
-    illegalDecoyCallException('Header');
+  function main() {
+    renderComposable$composable('root', ComposableSingletons$BaldrAppKt_getInstance()._lambda_2_0);
+    Unit_getInstance();
   }
-  function _no_name_provided__226() {
+  function _no_name_provided__230() {
   }
-  _no_name_provided__226.prototype.invoke_k9hshx_k$ = function ($this$style) {
-    paddingLeft($this$style, _get_px_(16));
-    width($this$style, _get_px_(200));
-  };
-  _no_name_provided__226.prototype.invoke_20e8_k$ = function (p1) {
-    this.invoke_k9hshx_k$((!(p1 == null) ? isInterface(p1, StyleBuilder) : false) ? p1 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__226.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__227() {
-  }
-  _no_name_provided__227.prototype.invoke_ksytq9_k$ = function ($this$Img) {
-    $this$Img.style_gcyay2_k$(_no_name_provided_$factory_188());
-  };
-  _no_name_provided__227.prototype.invoke_20e8_k$ = function (p1) {
-    this.invoke_ksytq9_k$(p1 instanceof AttrsBuilder ? p1 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__227.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__228() {
-  }
-  _no_name_provided__228.prototype.invoke_ovmwdp_k$ = function ($this$Div, $composer, $changed) {
+  _no_name_provided__230.prototype.invoke_e5eg0u_k$ = function (it, $composer, $changed) {
     var $composer_0 = $composer;
-    if (!(($changed & 81 ^ 16) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
-      Img$composable('baldr.png', 'baldr', _no_name_provided_$factory_187(), $composer_0, 54, 0);
+    var $dirty = $changed;
+    if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changed_wi7j7l_k$(it) ? 4 : 2);
+    if (!(($dirty & 91 ^ 18) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
+      var tmp0_subject = it;
+      if (equals_0(tmp0_subject, Home_getInstance())) {
+        $composer_0.startReplaceableGroup_majfzk_k$(-1021703216);
+        Home$composable($composer_0, 0);
+        $composer_0.endReplaceableGroup_sv8swh_k$();
+      } else {
+        if (tmp0_subject instanceof ProductDetails) {
+          $composer_0.startReplaceableGroup_majfzk_k$(-1021703166);
+          ProductDetails$composable(it, $composer_0, 0);
+          $composer_0.endReplaceableGroup_sv8swh_k$();
+        } else {
+          {
+            $composer_0.startReplaceableGroup_majfzk_k$(-1021703134);
+            $composer_0.endReplaceableGroup_sv8swh_k$();
+          }
+        }
+      }
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
   };
-  _no_name_provided__228.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+  _no_name_provided__230.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+    var tmp = p1 instanceof Route ? p1 : THROW_CCE();
+    var tmp_0 = (p2 == null ? true : isInterface(p2, Composer)) ? p2 : THROW_CCE();
+    this.invoke_e5eg0u_k$(tmp, tmp_0, (!(p3 == null) ? typeof p3 === 'number' : false) ? p3 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__230.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__231() {
+  }
+  _no_name_provided__231.prototype.invoke_9m2agf_k$ = function ($this$renderComposable, $composer, $changed) {
+    var $composer_0 = $composer;
+    if (!(($changed & 81 ^ 16) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
+      Routing_getInstance().init$composable_6roh48_k$(ComposableSingletons$BaldrAppKt_getInstance()._lambda_1_1, $composer_0, 48);
+    } else
+      $composer_0.skipToGroupEnd_sv8swh_k$();
+  };
+  _no_name_provided__231.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+    var tmp = (!(p1 == null) ? isInterface(p1, DOMScope) : false) ? p1 : THROW_CCE();
+    var tmp_0 = (p2 == null ? true : isInterface(p2, Composer)) ? p2 : THROW_CCE();
+    this.invoke_9m2agf_k$(tmp, tmp_0, (!(p3 == null) ? typeof p3 === 'number' : false) ? p3 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__231.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function ComposableSingletons$BaldrAppKt() {
+    ComposableSingletons$BaldrAppKt_instance = this;
+    var tmp = this;
+    tmp._lambda_1_1 = composableLambdaInstance(-985534033, false, _no_name_provided_$factory_188());
+    var tmp_0 = this;
+    tmp_0._lambda_2_0 = composableLambdaInstance(-985534058, false, _no_name_provided_$factory_189());
+  }
+  ComposableSingletons$BaldrAppKt.prototype._get_lambda_1__0_k$ = function () {
+    return this._lambda_1_1;
+  };
+  ComposableSingletons$BaldrAppKt.prototype._get_lambda_2__0_k$ = function () {
+    return this._lambda_2_0;
+  };
+  ComposableSingletons$BaldrAppKt.$metadata$ = {
+    simpleName: 'ComposableSingletons$BaldrAppKt',
+    kind: 'object',
+    interfaces: []
+  };
+  var ComposableSingletons$BaldrAppKt_instance;
+  function ComposableSingletons$BaldrAppKt_getInstance() {
+    if (ComposableSingletons$BaldrAppKt_instance == null)
+      new ComposableSingletons$BaldrAppKt();
+    return ComposableSingletons$BaldrAppKt_instance;
+  }
+  function _no_name_provided_$factory_188() {
+    var i = new _no_name_provided__230();
+    return function (p1, p2, p3) {
+      i.invoke_e5eg0u_k$(p1, p2, p3);
+      return Unit_getInstance();
+    };
+  }
+  function _no_name_provided_$factory_189() {
+    var i = new _no_name_provided__231();
+    return function (p1, p2, p3) {
+      i.invoke_9m2agf_k$(p1, p2, p3);
+      return Unit_getInstance();
+    };
+  }
+  function Header_0() {
+    illegalDecoyCallException('Header');
+  }
+  function _no_name_provided__232() {
+  }
+  _no_name_provided__232.prototype.invoke_k9hshx_k$ = function ($this$style) {
+    paddingLeft($this$style, _get_px_(16));
+    width($this$style, _get_px_(200));
+  };
+  _no_name_provided__232.prototype.invoke_20e8_k$ = function (p1) {
+    this.invoke_k9hshx_k$((!(p1 == null) ? isInterface(p1, StyleBuilder) : false) ? p1 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__232.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__233() {
+  }
+  _no_name_provided__233.prototype.invoke_ksytq9_k$ = function ($this$Img) {
+    $this$Img.style_gcyay2_k$(_no_name_provided_$factory_192());
+  };
+  _no_name_provided__233.prototype.invoke_20e8_k$ = function (p1) {
+    this.invoke_ksytq9_k$(p1 instanceof AttrsBuilder ? p1 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__233.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__234() {
+  }
+  _no_name_provided__234.prototype.invoke_ovmwdp_k$ = function ($this$Div, $composer, $changed) {
+    var $composer_0 = $composer;
+    if (!(($changed & 81 ^ 16) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
+      Img$composable('baldr.png', 'baldr', _no_name_provided_$factory_191(), $composer_0, 54, 0);
+    } else
+      $composer_0.skipToGroupEnd_sv8swh_k$();
+  };
+  _no_name_provided__234.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
     var tmp = (!(p1 == null) ? isInterface(p1, ElementScope) : false) ? p1 : THROW_CCE();
     var tmp_0 = (p2 == null ? true : isInterface(p2, Composer)) ? p2 : THROW_CCE();
     this.invoke_ovmwdp_k$(tmp, tmp_0, (!(p3 == null) ? typeof p3 === 'number' : false) ? p3 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__228.$metadata$ = {
+  _no_name_provided__234.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
   function ComposableSingletons$HeaderKt() {
     ComposableSingletons$HeaderKt_instance = this;
     var tmp = this;
-    tmp._lambda_1_1 = composableLambdaInstance(-985534350, false, _no_name_provided_$factory_186());
+    tmp._lambda_1_2 = composableLambdaInstance(-985534347, false, _no_name_provided_$factory_190());
   }
   ComposableSingletons$HeaderKt.prototype._get_lambda_1__0_k$ = function () {
-    return this._lambda_1_1;
+    return this._lambda_1_2;
   };
   ComposableSingletons$HeaderKt.$metadata$ = {
     simpleName: 'ComposableSingletons$HeaderKt',
@@ -74770,290 +75675,72 @@
   }
   function Header$composable($composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(-1689759792);
+    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(1753593424);
     sourceInformation($composer_0, 'C(Header$composable)');
     if (!($changed === 0) ? true : !$composer_0._get_skipping__0_k$()) {
-      Div$composable(null, ComposableSingletons$HeaderKt_getInstance()._lambda_1_1, $composer_0, 0, 1);
+      Div$composable(null, ComposableSingletons$HeaderKt_getInstance()._lambda_1_2, $composer_0, 0, 1);
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
     var tmp0_safe_receiver = $composer_0.endRestartGroup_0_k$();
     if (tmp0_safe_receiver === null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_189($changed));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_193($changed));
     }
   }
   function Header$composable$lambda($$changed, $composer, $force) {
     return Header$composable($composer, $$changed | 1);
   }
-  function _no_name_provided__229($$changed) {
-    this._$$changed_8 = $$changed;
+  function _no_name_provided__235($$changed) {
+    this._$$changed_9 = $$changed;
   }
-  _no_name_provided__229.prototype.invoke_xtxync_k$ = function (p0, p1) {
-    return Header$composable$lambda(this._$$changed_8, p0, p1);
+  _no_name_provided__235.prototype.invoke_xtxync_k$ = function (p0, p1) {
+    return Header$composable$lambda(this._$$changed_9, p0, p1);
   };
-  _no_name_provided__229.prototype.invoke_osx4an_k$ = function (p1, p2) {
+  _no_name_provided__235.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
     this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
-  };
-  _no_name_provided__229.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided_$factory_186() {
-    var i = new _no_name_provided__228();
-    return function (p1, p2, p3) {
-      i.invoke_ovmwdp_k$(p1, p2, p3);
-      return Unit_getInstance();
-    };
-  }
-  function _no_name_provided_$factory_187() {
-    var i = new _no_name_provided__227();
-    return function (p1) {
-      i.invoke_ksytq9_k$(p1);
-      return Unit_getInstance();
-    };
-  }
-  function _no_name_provided_$factory_188() {
-    var i = new _no_name_provided__226();
-    return function (p1) {
-      i.invoke_k9hshx_k$(p1);
-      return Unit_getInstance();
-    };
-  }
-  function _no_name_provided_$factory_189($$changed) {
-    var i = new _no_name_provided__229($$changed);
-    return function (p1, p2) {
-      i.invoke_xtxync_k$(p1, p2);
-      return Unit_getInstance();
-    };
-  }
-  function main() {
-    renderComposable$composable('root', ComposableSingletons$MainKt_getInstance()._lambda_1_2);
-    Unit_getInstance();
-  }
-  function Content() {
-    illegalDecoyCallException('Content');
-  }
-  function _no_name_provided__230() {
-  }
-  _no_name_provided__230.prototype.invoke_9m2agf_k$ = function ($this$renderComposable, $composer, $changed) {
-    var $composer_0 = $composer;
-    if (!(($changed & 81 ^ 16) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
-      Content$composable($composer_0, 0);
-    } else
-      $composer_0.skipToGroupEnd_sv8swh_k$();
-  };
-  _no_name_provided__230.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
-    var tmp = (!(p1 == null) ? isInterface(p1, DOMScope) : false) ? p1 : THROW_CCE();
-    var tmp_0 = (p2 == null ? true : isInterface(p2, Composer)) ? p2 : THROW_CCE();
-    this.invoke_9m2agf_k$(tmp, tmp_0, (!(p3 == null) ? typeof p3 === 'number' : false) ? p3 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__230.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function ComposableSingletons$MainKt() {
-    ComposableSingletons$MainKt_instance = this;
-    var tmp = this;
-    tmp._lambda_1_2 = composableLambdaInstance(-985534296, false, _no_name_provided_$factory_190());
-  }
-  ComposableSingletons$MainKt.prototype._get_lambda_1__0_k$ = function () {
-    return this._lambda_1_2;
-  };
-  ComposableSingletons$MainKt.$metadata$ = {
-    simpleName: 'ComposableSingletons$MainKt',
-    kind: 'object',
-    interfaces: []
-  };
-  var ComposableSingletons$MainKt_instance;
-  function ComposableSingletons$MainKt_getInstance() {
-    if (ComposableSingletons$MainKt_instance == null)
-      new ComposableSingletons$MainKt();
-    return ComposableSingletons$MainKt_instance;
-  }
-  function Content$composable($composer, $changed) {
-    var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(-1449395068);
-    sourceInformation($composer_0, 'C(Content$composable)');
-    if (!($changed === 0) ? true : !$composer_0._get_skipping__0_k$()) {
-      Header$composable($composer_0, 0);
-      Text$composable('' + 'URL: ' + window.location.pathname, $composer_0, 0);
-      var tmp$ret$4;
-      $l$block_3: {
-        var tmp0_remember$composable_0 = $composer_0;
-        var $composer_1 = tmp0_remember$composable_0;
-        $composer_1.startReplaceableGroup_majfzk_k$(884179566);
-        sourceInformation($composer_1, 'C(remember$composable):Composables.kt#9igjgp');
-        var tmp$ret$3;
-        $l$block_2: {
-          var tmp1_cache_0_3 = $composer_1;
-          var tmp$ret$2;
-          $l$block_1: {
-            var tmp0_let_0_4 = tmp1_cache_0_3.rememberedValue_0_k$();
-            {
-            }
-            var tmp$ret$1;
-            $l$block_0: {
-              var tmp;
-              if (false ? true : tmp0_let_0_4 === Companion_getInstance_25()._Empty) {
-                var tmp$ret$0;
-                $l$block: {
-                  var tmp0_return_7 = mutableStateOf$default(null, null, 2, null);
-                  tmp$ret$0 = tmp0_return_7;
-                  break $l$block;
-                }
-                var value_2_2_5 = tmp$ret$0;
-                tmp1_cache_0_3.updateRememberedValue_qi8yb4_k$(value_2_2_5);
-                tmp = value_2_2_5;
-              } else {
-                tmp = tmp0_let_0_4;
-              }
-              tmp$ret$1 = tmp;
-              break $l$block_0;
-            }
-            tmp$ret$2 = tmp$ret$1;
-            break $l$block_1;
-          }
-          var tmp_0 = tmp$ret$2;
-          tmp$ret$3 = (tmp_0 == null ? true : isObject(tmp_0)) ? tmp_0 : THROW_CCE();
-          break $l$block_2;
-        }
-        var tmp0_2 = tmp$ret$3;
-        $composer_1.endReplaceableGroup_sv8swh_k$();
-        tmp$ret$4 = tmp0_2;
-        break $l$block_3;
-      }
-      var selectedProduct$delegate = tmp$ret$4;
-      var tmp0_safe_receiver = Content$composable$lambda(selectedProduct$delegate);
-      $composer_0.startReplaceableGroup_majfzk_k$(-1449394887);
-      if (tmp0_safe_receiver == null)
-        null;
-      else {
-        var tmp$ret$5;
-        $l$block_4: {
-          {
-          }
-          var tmp_1 = _no_name_provided_$factory_191();
-          var tmp_2 = $composer_0;
-          tmp$ret$5 = H1$composable(tmp_1, composableLambda(tmp_2, -819894872, true, _no_name_provided_$factory_192(selectedProduct$delegate)), $composer_0, 48, 0);
-          break $l$block_4;
-        }
-        Unit_getInstance();
-      }
-      $composer_0.endReplaceableGroup_sv8swh_k$();
-      Unit_getInstance();
-      Unit_getInstance();
-      var tmp_3 = $composer_0;
-      Products$composable(composableLambda(tmp_3, -819894787, true, _no_name_provided_$factory_193(selectedProduct$delegate)), $composer_0, 6);
-    } else
-      $composer_0.skipToGroupEnd_sv8swh_k$();
-    var tmp0_safe_receiver_0 = $composer_0.endRestartGroup_0_k$();
-    if (tmp0_safe_receiver_0 === null)
-      null;
-    else {
-      tmp0_safe_receiver_0.updateScope_wte2v3_k$(_no_name_provided_$factory_194($changed));
-    }
-  }
-  function Content$composable$lambda(selectedProduct$delegate) {
-    var tmp$ret$0;
-    $l$block: {
-      var tmp0_getValue_0 = getLocalDelegateReference('selectedProduct', KMutableProperty0, true, function () {
-        return THROW_ISE();
-      });
-      tmp$ret$0 = selectedProduct$delegate._get_value__0_k$();
-      break $l$block;
-    }
-    return tmp$ret$0;
-  }
-  function Content$composable$lambda_0(selectedProduct$delegate, value) {
-    var tmp0_setValue_0 = getLocalDelegateReference('selectedProduct', KMutableProperty0, true, function () {
-      return THROW_ISE();
-    });
-    return selectedProduct$delegate._set_value__iav7o_k$(value);
-  }
-  function Content$composable$lambda_1($$changed, $composer, $force) {
-    return Content$composable($composer, $$changed | 1);
-  }
-  function _no_name_provided__231() {
-  }
-  _no_name_provided__231.prototype.invoke_k9hshx_k$ = function ($this$style) {
-    color($this$style, Red);
-  };
-  _no_name_provided__231.prototype.invoke_20e8_k$ = function (p1) {
-    this.invoke_k9hshx_k$((!(p1 == null) ? isInterface(p1, StyleBuilder) : false) ? p1 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__231.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__232() {
-  }
-  _no_name_provided__232.prototype.invoke_52dv8o_k$ = function ($this$H1) {
-    $this$H1.style_gcyay2_k$(_no_name_provided_$factory_195());
-  };
-  _no_name_provided__232.prototype.invoke_20e8_k$ = function (p1) {
-    this.invoke_52dv8o_k$(p1 instanceof AttrsBuilder ? p1 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__232.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__233($selectedProduct$delegate) {
-    this._$selectedProduct$delegate = $selectedProduct$delegate;
-  }
-  _no_name_provided__233.prototype.invoke_j69ozo_k$ = function ($this$H1, $composer, $changed) {
-    var $composer_5 = $composer;
-    if (!(($changed & 81 ^ 16) === 0) ? true : !$composer_5._get_skipping__0_k$()) {
-      Text$composable(toString_0(Content$composable$lambda(this._$selectedProduct$delegate)), $composer_5, 0);
-    } else
-      $composer_5.skipToGroupEnd_sv8swh_k$();
-  };
-  _no_name_provided__233.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
-    var tmp = (!(p1 == null) ? isInterface(p1, ElementScope) : false) ? p1 : THROW_CCE();
-    var tmp_0 = (p2 == null ? true : isInterface(p2, Composer)) ? p2 : THROW_CCE();
-    this.invoke_j69ozo_k$(tmp, tmp_0, (!(p3 == null) ? typeof p3 === 'number' : false) ? p3 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__233.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function invoke$lambda($selectedProduct$delegate) {
-    return _no_name_provided_$factory_198($selectedProduct$delegate);
-  }
-  function invoke$lambda_0($selectedProduct$delegate) {
-    return _no_name_provided_$factory_199($selectedProduct$delegate);
-  }
-  function _no_name_provided__234($selectedProduct$delegate) {
-    this._$selectedProduct$delegate_0 = $selectedProduct$delegate;
-  }
-  _no_name_provided__234.prototype.invoke_0_k$ = function () {
-    return invoke$lambda(this._$selectedProduct$delegate_0);
-  };
-  _no_name_provided__234.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__235($selectedProduct$delegate) {
-    this._$selectedProduct$delegate_1 = $selectedProduct$delegate;
-  }
-  _no_name_provided__235.prototype.invoke_0_k$ = function () {
-    return invoke$lambda_0(this._$selectedProduct$delegate_1);
   };
   _no_name_provided__235.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__236($selectedProduct$delegate) {
-    this._$selectedProduct$delegate_2 = $selectedProduct$delegate;
+  function _no_name_provided_$factory_190() {
+    var i = new _no_name_provided__234();
+    return function (p1, p2, p3) {
+      i.invoke_ovmwdp_k$(p1, p2, p3);
+      return Unit_getInstance();
+    };
+  }
+  function _no_name_provided_$factory_191() {
+    var i = new _no_name_provided__233();
+    return function (p1) {
+      i.invoke_ksytq9_k$(p1);
+      return Unit_getInstance();
+    };
+  }
+  function _no_name_provided_$factory_192() {
+    var i = new _no_name_provided__232();
+    return function (p1) {
+      i.invoke_k9hshx_k$(p1);
+      return Unit_getInstance();
+    };
+  }
+  function _no_name_provided_$factory_193($$changed) {
+    var i = new _no_name_provided__235($$changed);
+    return function (p1, p2) {
+      i.invoke_xtxync_k$(p1, p2);
+      return Unit_getInstance();
+    };
+  }
+  function Home_0() {
+    illegalDecoyCallException('Home');
+  }
+  function _no_name_provided__236() {
   }
   _no_name_provided__236.prototype.invoke_yftk9z_k$ = function (it) {
-    Content$composable$lambda_0(this._$selectedProduct$delegate_2, it);
+    Routing_getInstance().navigate_5p04ns_k$(new ProductDetails(it._id_1));
   };
   _no_name_provided__236.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_yftk9z_k$(p1 instanceof Product ? p1 : THROW_CCE());
@@ -75063,11 +75750,10 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__237($selectedProduct$delegate) {
-    this._$selectedProduct$delegate_3 = $selectedProduct$delegate;
+  function _no_name_provided__237() {
   }
   _no_name_provided__237.prototype.invoke_yftk9z_k$ = function (it) {
-    Content$composable$lambda_0(this._$selectedProduct$delegate_3, it);
+    Routing_getInstance().navigate_5p04ns_k$(new ProductDetails(it._id_1));
   };
   _no_name_provided__237.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_yftk9z_k$(p1 instanceof Product ? p1 : THROW_CCE());
@@ -75077,100 +75763,17 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__238($selectedProduct$delegate) {
-    this._$selectedProduct$delegate_4 = $selectedProduct$delegate;
+  function _no_name_provided__238() {
   }
   _no_name_provided__238.prototype.invoke_5vwf3d_k$ = function ($composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 11 ^ 2) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
       var tmp0_type = MediaType_IMAGE_getInstance();
       var tmp = Product_init_$Create$('Fidget Spinner', 'stress reliever', null, 24.99, 'BGN', listOf_0(new Media('https://www.powerplanetonline.com/cdnassets/gyro_fidget_spinner_negro_ad_l.jpg', tmp0_type, 'fidget-spinner')), 'p1', 0.0, 4, null);
-      var tmp$ret$3;
-      $l$block_2: {
-        var tmp0_remember$composable_0 = _no_name_provided_$factory_196(this._$selectedProduct$delegate_4);
-        var tmp1_remember$composable_0 = $composer_0;
-        var $composer_1 = tmp1_remember$composable_0;
-        $composer_1.startReplaceableGroup_majfzk_k$(884179877);
-        sourceInformation($composer_1, 'C(remember$composable)P(1):Composables.kt#9igjgp');
-        var tmp$ret$2;
-        $l$block_1: {
-          var tmp1_cache_0_3 = $composer_1;
-          var tmp2_cache_0_4 = $composer_1.changed_wi7j7l_k$(this._$selectedProduct$delegate_4);
-          var tmp$ret$1;
-          $l$block_0: {
-            var tmp0_let_0_5 = tmp1_cache_0_3.rememberedValue_0_k$();
-            {
-            }
-            var tmp$ret$0;
-            $l$block: {
-              var tmp_0;
-              if (tmp2_cache_0_4 ? true : tmp0_let_0_5 === Companion_getInstance_25()._Empty) {
-                var value_2_2_6 = tmp0_remember$composable_0();
-                tmp1_cache_0_3.updateRememberedValue_qi8yb4_k$(value_2_2_6);
-                tmp_0 = value_2_2_6;
-              } else {
-                tmp_0 = tmp0_let_0_5;
-              }
-              tmp$ret$0 = tmp_0;
-              break $l$block;
-            }
-            tmp$ret$1 = tmp$ret$0;
-            break $l$block_0;
-          }
-          var tmp_1 = tmp$ret$1;
-          tmp$ret$2 = (tmp_1 == null ? true : isObject(tmp_1)) ? tmp_1 : THROW_CCE();
-          break $l$block_1;
-        }
-        var tmp0_2 = tmp$ret$2;
-        $composer_1.endReplaceableGroup_sv8swh_k$();
-        tmp$ret$3 = tmp0_2;
-        break $l$block_2;
-      }
-      ProductItem$composable(tmp, tmp$ret$3, $composer_0, 0);
+      ProductItem$composable(tmp, _no_name_provided_$factory_195(), $composer_0, 0);
       var tmp1_type = MediaType_YOUTUBE_VIDEO_getInstance();
-      var tmp_2 = Product_init_$Create$('Feel Flux', 'kinetic toy', null, 64.99, 'BGN', listOf_0(new Media('https://www.youtube.com/embed/eq9bpu3zArI', tmp1_type, 'feel-flux')), 'p2', 0.1, 4, null);
-      var tmp$ret$7;
-      $l$block_6: {
-        var tmp2_remember$composable_0 = _no_name_provided_$factory_197(this._$selectedProduct$delegate_4);
-        var tmp3_remember$composable_0 = $composer_0;
-        var $composer_1_0 = tmp3_remember$composable_0;
-        $composer_1_0.startReplaceableGroup_majfzk_k$(884179877);
-        sourceInformation($composer_1_0, 'C(remember$composable)P(1):Composables.kt#9igjgp');
-        var tmp$ret$6;
-        $l$block_5: {
-          var tmp1_cache_0_3_0 = $composer_1_0;
-          var tmp2_cache_0_4_0 = $composer_1_0.changed_wi7j7l_k$(this._$selectedProduct$delegate_4);
-          var tmp$ret$5;
-          $l$block_4: {
-            var tmp0_let_0_5_0 = tmp1_cache_0_3_0.rememberedValue_0_k$();
-            {
-            }
-            var tmp$ret$4;
-            $l$block_3: {
-              var tmp_3;
-              if (tmp2_cache_0_4_0 ? true : tmp0_let_0_5_0 === Companion_getInstance_25()._Empty) {
-                var value_2_2_6_0 = tmp2_remember$composable_0();
-                tmp1_cache_0_3_0.updateRememberedValue_qi8yb4_k$(value_2_2_6_0);
-                tmp_3 = value_2_2_6_0;
-              } else {
-                tmp_3 = tmp0_let_0_5_0;
-              }
-              tmp$ret$4 = tmp_3;
-              break $l$block_3;
-            }
-            tmp$ret$5 = tmp$ret$4;
-            break $l$block_4;
-          }
-          var tmp_4 = tmp$ret$5;
-          tmp$ret$6 = (tmp_4 == null ? true : isObject(tmp_4)) ? tmp_4 : THROW_CCE();
-          break $l$block_5;
-        }
-        var tmp0_2_0 = tmp$ret$6;
-        $composer_1_0.endReplaceableGroup_sv8swh_k$();
-        tmp$ret$7 = tmp0_2_0;
-        break $l$block_6;
-      }
-      ProductItem$composable(tmp_2, tmp$ret$7, $composer_0, 0);
+      var tmp_0 = Product_init_$Create$('Feel Flux', 'kinetic toy', null, 64.99, 'BGN', listOf_0(new Media('https://www.youtube.com/embed/eq9bpu3zArI', tmp1_type, 'feel-flux')), 'p2', 0.1, 4, null);
+      ProductItem$composable(tmp_0, _no_name_provided_$factory_196(), $composer_0, 0);
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
   };
@@ -75183,11 +75786,50 @@
     kind: 'class',
     interfaces: []
   };
+  function ComposableSingletons$HomeKt() {
+    ComposableSingletons$HomeKt_instance = this;
+    var tmp = this;
+    tmp._lambda_1_3 = composableLambdaInstance(-985534454, false, _no_name_provided_$factory_194());
+  }
+  ComposableSingletons$HomeKt.prototype._get_lambda_1__0_k$ = function () {
+    return this._lambda_1_3;
+  };
+  ComposableSingletons$HomeKt.$metadata$ = {
+    simpleName: 'ComposableSingletons$HomeKt',
+    kind: 'object',
+    interfaces: []
+  };
+  var ComposableSingletons$HomeKt_instance;
+  function ComposableSingletons$HomeKt_getInstance() {
+    if (ComposableSingletons$HomeKt_instance == null)
+      new ComposableSingletons$HomeKt();
+    return ComposableSingletons$HomeKt_instance;
+  }
+  function Home$composable($composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(-2133825866);
+    sourceInformation($composer_0, 'C(Home$composable)');
+    if (!($changed === 0) ? true : !$composer_0._get_skipping__0_k$()) {
+      Header$composable($composer_0, 0);
+      Text$composable('' + 'URL: ' + window.location.pathname, $composer_0, 0);
+      Products$composable(ComposableSingletons$HomeKt_getInstance()._lambda_1_3, $composer_0, 0);
+    } else
+      $composer_0.skipToGroupEnd_sv8swh_k$();
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_0_k$();
+    if (tmp0_safe_receiver === null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_197($changed));
+    }
+  }
+  function Home$composable$lambda($$changed, $composer, $force) {
+    return Home$composable($composer, $$changed | 1);
+  }
   function _no_name_provided__239($$changed) {
-    this._$$changed_9 = $$changed;
+    this._$$changed_10 = $$changed;
   }
   _no_name_provided__239.prototype.invoke_xtxync_k$ = function (p0, p1) {
-    return Content$composable$lambda_1(this._$$changed_9, p0, p1);
+    return Home$composable$lambda(this._$$changed_10, p0, p1);
   };
   _no_name_provided__239.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
@@ -75198,71 +75840,31 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided_$factory_190() {
-    var i = new _no_name_provided__230();
-    return function (p1, p2, p3) {
-      i.invoke_9m2agf_k$(p1, p2, p3);
-      return Unit_getInstance();
-    };
-  }
-  function _no_name_provided_$factory_191() {
-    var i = new _no_name_provided__232();
-    return function (p1) {
-      i.invoke_52dv8o_k$(p1);
-      return Unit_getInstance();
-    };
-  }
-  function _no_name_provided_$factory_192($selectedProduct$delegate) {
-    var i = new _no_name_provided__233($selectedProduct$delegate);
-    return function (p1, p2, p3) {
-      i.invoke_j69ozo_k$(p1, p2, p3);
-      return Unit_getInstance();
-    };
-  }
-  function _no_name_provided_$factory_193($selectedProduct$delegate) {
-    var i = new _no_name_provided__238($selectedProduct$delegate);
+  function _no_name_provided_$factory_194() {
+    var i = new _no_name_provided__238();
     return function (p1, p2) {
       i.invoke_5vwf3d_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_194($$changed) {
+  function _no_name_provided_$factory_195() {
+    var i = new _no_name_provided__236();
+    return function (p1) {
+      i.invoke_yftk9z_k$(p1);
+      return Unit_getInstance();
+    };
+  }
+  function _no_name_provided_$factory_196() {
+    var i = new _no_name_provided__237();
+    return function (p1) {
+      i.invoke_yftk9z_k$(p1);
+      return Unit_getInstance();
+    };
+  }
+  function _no_name_provided_$factory_197($$changed) {
     var i = new _no_name_provided__239($$changed);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
-      return Unit_getInstance();
-    };
-  }
-  function _no_name_provided_$factory_195() {
-    var i = new _no_name_provided__231();
-    return function (p1) {
-      i.invoke_k9hshx_k$(p1);
-      return Unit_getInstance();
-    };
-  }
-  function _no_name_provided_$factory_196($selectedProduct$delegate) {
-    var i = new _no_name_provided__234($selectedProduct$delegate);
-    return function () {
-      return i.invoke_0_k$();
-    };
-  }
-  function _no_name_provided_$factory_197($selectedProduct$delegate) {
-    var i = new _no_name_provided__235($selectedProduct$delegate);
-    return function () {
-      return i.invoke_0_k$();
-    };
-  }
-  function _no_name_provided_$factory_198($selectedProduct$delegate) {
-    var i = new _no_name_provided__236($selectedProduct$delegate);
-    return function (p1) {
-      i.invoke_yftk9z_k$(p1);
-      return Unit_getInstance();
-    };
-  }
-  function _no_name_provided_$factory_199($selectedProduct$delegate) {
-    var i = new _no_name_provided__237($selectedProduct$delegate);
-    return function (p1) {
-      i.invoke_yftk9z_k$(p1);
       return Unit_getInstance();
     };
   }
@@ -75271,7 +75873,7 @@
   }
   function ProductItem$composable(product, onClick, $composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(-2012001575);
+    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(1495906627);
     sourceInformation($composer_0, 'C(ProductItem$composable)P(1)');
     var $dirty = $changed;
     if (($changed & 14) === 0)
@@ -75279,16 +75881,16 @@
     if (($changed & 112) === 0)
       $dirty = $dirty | ($composer_0.changed_wi7j7l_k$(onClick) ? 32 : 16);
     if (!(($dirty & 91 ^ 18) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
-      var tmp = _no_name_provided_$factory_200(onClick, product);
+      var tmp = _no_name_provided_$factory_198(onClick, product);
       var tmp_0 = $composer_0;
-      Div$composable(tmp, composableLambda(tmp_0, -819895267, true, _no_name_provided_$factory_201(product)), $composer_0, 48, 0);
+      Div$composable(tmp, composableLambda(tmp_0, -819895274, true, _no_name_provided_$factory_199(product)), $composer_0, 48, 0);
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
     var tmp0_safe_receiver = $composer_0.endRestartGroup_0_k$();
     if (tmp0_safe_receiver === null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_202(product, onClick, $changed));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_200(product, onClick, $changed));
     }
   }
   function ProductItem$composable$lambda($product, $onClick, $$changed, $composer, $force) {
@@ -75417,8 +76019,8 @@
     this._$product_0 = $product;
   }
   _no_name_provided__242.prototype.invoke_4sn14n_k$ = function ($this$Div) {
-    $this$Div.style_gcyay2_k$(_no_name_provided_$factory_203());
-    $this$Div.onClick$default_xsm4ka_k$(null, _no_name_provided_$factory_204(this._$onClick_0, this._$product_0), 1, null);
+    $this$Div.style_gcyay2_k$(_no_name_provided_$factory_201());
+    $this$Div.onClick$default_xsm4ka_k$(null, _no_name_provided_$factory_202(this._$onClick_0, this._$product_0), 1, null);
   };
   _no_name_provided__242.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_4sn14n_k$(p1 instanceof AttrsBuilder ? p1 : THROW_CCE());
@@ -75575,7 +76177,7 @@
     var $composer_0 = $composer;
     if (!(($changed & 81 ^ 16) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
       var tmp = $composer_0;
-      H1$composable(null, composableLambda(tmp, -819895627, true, _no_name_provided_$factory_210(this._$product_2)), $composer_0, 48, 1);
+      H1$composable(null, composableLambda(tmp, -819895602, true, _no_name_provided_$factory_208(this._$product_2)), $composer_0, 48, 1);
       var tmp0_safe_receiver = this._$product_2._tagline;
       if (tmp0_safe_receiver == null)
         null;
@@ -75585,7 +76187,7 @@
           {
           }
           var tmp_0 = $composer_0;
-          tmp$ret$0 = P$composable(null, composableLambda(tmp_0, -819895750, true, _no_name_provided_$factory_211(tmp0_safe_receiver)), $composer_0, 48, 1);
+          tmp$ret$0 = P$composable(null, composableLambda(tmp_0, -819895753, true, _no_name_provided_$factory_209(tmp0_safe_receiver)), $composer_0, 48, 1);
           break $l$block;
         }
         Unit_getInstance();
@@ -75628,7 +76230,7 @@
   function _no_name_provided__248() {
   }
   _no_name_provided__248.prototype.invoke_4sn14n_k$ = function ($this$Div) {
-    $this$Div.style_gcyay2_k$(_no_name_provided_$factory_207());
+    $this$Div.style_gcyay2_k$(_no_name_provided_$factory_205());
   };
   _no_name_provided__248.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_4sn14n_k$(p1 instanceof AttrsBuilder ? p1 : THROW_CCE());
@@ -75645,9 +76247,9 @@
     var $composer_0 = $composer;
     if (!(($changed & 81 ^ 16) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
       var tmp = $composer_0;
-      Div$composable(null, composableLambda(tmp, -819895640, true, _no_name_provided_$factory_208(this._$product_4)), $composer_0, 48, 1);
+      Div$composable(null, composableLambda(tmp, -819895643, true, _no_name_provided_$factory_206(this._$product_4)), $composer_0, 48, 1);
       var tmp_0 = $composer_0;
-      H2$composable(null, composableLambda(tmp_0, -819895361, true, _no_name_provided_$factory_209(this._$product_4)), $composer_0, 48, 1);
+      H2$composable(null, composableLambda(tmp_0, -819895368, true, _no_name_provided_$factory_207(this._$product_4)), $composer_0, 48, 1);
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
   };
@@ -75668,9 +76270,9 @@
     var $composer_0 = $composer;
     if (!(($changed & 81 ^ 16) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
       MediaView$composable(first(this._$product_5._media), 420, 420, $composer_0, 432, 0);
-      var tmp = _no_name_provided_$factory_205();
+      var tmp = _no_name_provided_$factory_203();
       var tmp_0 = $composer_0;
-      Div$composable(tmp, composableLambda(tmp_0, -819895654, true, _no_name_provided_$factory_206(this._$product_5)), $composer_0, 48, 0);
+      Div$composable(tmp, composableLambda(tmp_0, -819895657, true, _no_name_provided_$factory_204(this._$product_5)), $composer_0, 48, 0);
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
   };
@@ -75687,10 +76289,10 @@
   function _no_name_provided__251($product, $onClick, $$changed) {
     this._$product_6 = $product;
     this._$onClick_1 = $onClick;
-    this._$$changed_10 = $$changed;
+    this._$$changed_11 = $$changed;
   }
   _no_name_provided__251.prototype.invoke_xtxync_k$ = function (p0, p1) {
-    return ProductItem$composable$lambda(this._$product_6, this._$onClick_1, this._$$changed_10, p0, p1);
+    return ProductItem$composable$lambda(this._$product_6, this._$onClick_1, this._$$changed_11, p0, p1);
   };
   _no_name_provided__251.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
@@ -75701,111 +76303,111 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided_$factory_200($onClick, $product) {
+  function _no_name_provided_$factory_198($onClick, $product) {
     var i = new _no_name_provided__242($onClick, $product);
     return function (p1) {
       i.invoke_4sn14n_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_201($product) {
+  function _no_name_provided_$factory_199($product) {
     var i = new _no_name_provided__250($product);
     return function (p1, p2, p3) {
       i.invoke_ovmwdp_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_202($product, $onClick, $$changed) {
+  function _no_name_provided_$factory_200($product, $onClick, $$changed) {
     var i = new _no_name_provided__251($product, $onClick, $$changed);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_203() {
+  function _no_name_provided_$factory_201() {
     var i = new _no_name_provided__240();
     return function (p1) {
       i.invoke_k9hshx_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_204($onClick, $product) {
+  function _no_name_provided_$factory_202($onClick, $product) {
     var i = new _no_name_provided__241($onClick, $product);
     return function (p1) {
       i.invoke_9dcepc_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_205() {
+  function _no_name_provided_$factory_203() {
     var i = new _no_name_provided__248();
     return function (p1) {
       i.invoke_4sn14n_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_206($product) {
+  function _no_name_provided_$factory_204($product) {
     var i = new _no_name_provided__249($product);
     return function (p1, p2, p3) {
       i.invoke_ovmwdp_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_207() {
+  function _no_name_provided_$factory_205() {
     var i = new _no_name_provided__243();
     return function (p1) {
       i.invoke_k9hshx_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_208($product) {
+  function _no_name_provided_$factory_206($product) {
     var i = new _no_name_provided__246($product);
     return function (p1, p2, p3) {
       i.invoke_ovmwdp_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_209($product) {
+  function _no_name_provided_$factory_207($product) {
     var i = new _no_name_provided__247($product);
     return function (p1, p2, p3) {
       i.invoke_j69ozo_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_210($product) {
+  function _no_name_provided_$factory_208($product) {
     var i = new _no_name_provided__244($product);
     return function (p1, p2, p3) {
       i.invoke_j69ozo_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_211($tmp0_safe_receiver) {
+  function _no_name_provided_$factory_209($tmp0_safe_receiver) {
     var i = new _no_name_provided__245($tmp0_safe_receiver);
     return function (p1, p2, p3) {
       i.invoke_owl2sw_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function Products(Content_0) {
+  function Products(Content) {
     illegalDecoyCallException('Products');
   }
-  function Products$composable(Content_0, $composer, $changed) {
+  function Products$composable(Content, $composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(1181756720);
+    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(-1175592720);
     sourceInformation($composer_0, 'C(Products$composable)');
     var $dirty = $changed;
     if (($changed & 14) === 0)
-      $dirty = $dirty | ($composer_0.changed_wi7j7l_k$(Content_0) ? 4 : 2);
+      $dirty = $dirty | ($composer_0.changed_wi7j7l_k$(Content) ? 4 : 2);
     if (!(($dirty & 11 ^ 2) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
-      var tmp = _no_name_provided_$factory_212();
+      var tmp = _no_name_provided_$factory_210();
       var tmp_0 = $composer_0;
-      Div$composable(tmp, composableLambda(tmp_0, -819894410, true, _no_name_provided_$factory_213(Content_0, $dirty)), $composer_0, 48, 0);
+      Div$composable(tmp, composableLambda(tmp_0, -819894413, true, _no_name_provided_$factory_211(Content, $dirty)), $composer_0, 48, 0);
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
     var tmp0_safe_receiver = $composer_0.endRestartGroup_0_k$();
     if (tmp0_safe_receiver === null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_214(Content_0, $changed));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_212(Content, $changed));
     }
   }
   function Products$composable$lambda($Content, $$changed, $composer, $force) {
@@ -75916,7 +76518,7 @@
   function _no_name_provided__253() {
   }
   _no_name_provided__253.prototype.invoke_4sn14n_k$ = function ($this$Div) {
-    $this$Div.style_gcyay2_k$(_no_name_provided_$factory_215());
+    $this$Div.style_gcyay2_k$(_no_name_provided_$factory_213());
   };
   _no_name_provided__253.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_4sn14n_k$(p1 instanceof AttrsBuilder ? p1 : THROW_CCE());
@@ -75927,13 +76529,13 @@
     interfaces: []
   };
   function _no_name_provided__254($Content, $$dirty) {
-    this._$Content = $Content;
+    this._$Content_0 = $Content;
     this._$$dirty = $$dirty;
   }
   _no_name_provided__254.prototype.invoke_ovmwdp_k$ = function ($this$Div, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81 ^ 16) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
-      var $invokeComposable_dispatchReceiver = this._$Content;
+      var $invokeComposable_dispatchReceiver = this._$Content_0;
       if ($invokeComposable_dispatchReceiver instanceof ComposableLambdaImpl)
         $invokeComposable_dispatchReceiver.invoke_uhotyh_k$($composer_0, 14 & this._$$dirty);
       else {
@@ -75953,11 +76555,11 @@
     interfaces: []
   };
   function _no_name_provided__255($Content, $$changed) {
-    this._$Content_0 = $Content;
-    this._$$changed_11 = $$changed;
+    this._$Content_1 = $Content;
+    this._$$changed_12 = $$changed;
   }
   _no_name_provided__255.prototype.invoke_xtxync_k$ = function (p0, p1) {
-    return Products$composable$lambda(this._$Content_0, this._$$changed_11, p0, p1);
+    return Products$composable$lambda(this._$Content_1, this._$$changed_12, p0, p1);
   };
   _no_name_provided__255.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
@@ -75968,31 +76570,78 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided_$factory_212() {
+  function _no_name_provided_$factory_210() {
     var i = new _no_name_provided__253();
     return function (p1) {
       i.invoke_4sn14n_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_213($Content, $$dirty) {
+  function _no_name_provided_$factory_211($Content, $$dirty) {
     var i = new _no_name_provided__254($Content, $$dirty);
     return function (p1, p2, p3) {
       i.invoke_ovmwdp_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_214($Content, $$changed) {
+  function _no_name_provided_$factory_212($Content, $$changed) {
     var i = new _no_name_provided__255($Content, $$changed);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_215() {
+  function _no_name_provided_$factory_213() {
     var i = new _no_name_provided__252();
     return function (p1) {
       i.invoke_k9hshx_k$(p1);
+      return Unit_getInstance();
+    };
+  }
+  function ProductDetails_0(productDetails) {
+    illegalDecoyCallException('ProductDetails');
+  }
+  function ProductDetails$composable(productDetails, $composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(965483107);
+    sourceInformation($composer_0, 'C(ProductDetails$composable)');
+    var $dirty = $changed;
+    if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changed_wi7j7l_k$(productDetails) ? 4 : 2);
+    if (!(($dirty & 11 ^ 2) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
+      Text$composable('' + 'Product details for ' + productDetails._productId, $composer_0, 0);
+    } else
+      $composer_0.skipToGroupEnd_sv8swh_k$();
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_0_k$();
+    if (tmp0_safe_receiver === null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_214(productDetails, $changed));
+    }
+  }
+  function ProductDetails$composable$lambda($productDetails, $$changed, $composer, $force) {
+    return ProductDetails$composable($productDetails, $composer, $$changed | 1);
+  }
+  function _no_name_provided__256($productDetails, $$changed) {
+    this._$productDetails = $productDetails;
+    this._$$changed_13 = $$changed;
+  }
+  _no_name_provided__256.prototype.invoke_xtxync_k$ = function (p0, p1) {
+    return ProductDetails$composable$lambda(this._$productDetails, this._$$changed_13, p0, p1);
+  };
+  _no_name_provided__256.prototype.invoke_osx4an_k$ = function (p1, p2) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
+    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__256.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided_$factory_214($productDetails, $$changed) {
+    var i = new _no_name_provided__256($productDetails, $$changed);
+    return function (p1, p2) {
+      i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
@@ -76455,7 +77104,7 @@
   INVALID_SNAPSHOT = 0;
   sync_0 = new Object();
   sync_1 = new Object();
-  LocalInspectionTables = staticCompositionLocalOf(_no_name_provided_$factory_119());
+  LocalInspectionTables = staticCompositionLocalOf(_no_name_provided_$factory_120());
   nextHash = 1;
   DefaultMonotonicFrameClock = new MonotonicClockImpl();
   IDENTITY_HASHCODE_FIELD = 'kotlinIdentityHashcodeValue$';
@@ -76533,8 +77182,8 @@
   Style = new ElementBuilderImplementation('style');
   radioGroupScopeImpl = new RadioGroupScope();
   generatedRadioGroupNamesCounter = 0;
-  radioGroupCompositionLocalValue = compositionLocalOf$default(null, _no_name_provided_$factory_173(), 1, null);
-  radioGroupCompositionLocalName = compositionLocalOf$default(null, _no_name_provided_$factory_174(), 1, null);
+  radioGroupCompositionLocalValue = compositionLocalOf$default(null, _no_name_provided_$factory_174(), 1, null);
+  radioGroupCompositionLocalName = compositionLocalOf$default(null, _no_name_provided_$factory_175(), 1, null);
   normalizedKeys = mapOf([to('Esc', 'Escape'), to('Spacebar', ' '), to('Left', 'ArrowLeft'), to('Up', 'ArrowUp'), to('Right', 'ArrowRight'), to('Down', 'ArrowDown'), to('Del', 'Delete'), to('Apps', 'ContextMenu'), to('Menu', 'ContextMenu'), to('Scroll', 'ScrollLock'), to('MozPrintableKey', 'Unidentified')]);
   EMPTY_DESCRIPTOR_ARRAY = EMPTY_DESCRIPTOR_ARRAY$init$();
   EMPTY_SERIALIZER_ARRAY = EMPTY_SERIALIZER_ARRAY$init$();

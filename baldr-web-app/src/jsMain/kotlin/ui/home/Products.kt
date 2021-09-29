@@ -1,4 +1,4 @@
-package ui
+package ui.home
 
 import androidx.compose.runtime.Composable
 import css.Ivy

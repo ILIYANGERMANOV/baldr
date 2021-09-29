@@ -1,42 +1,19 @@
-package ui
+package ui.home
 
-import androidx.compose.runtime.*
-import css.Red
+import androidx.compose.runtime.Composable
+import core.Route
+import core.Routing
 import data.Media
 import data.MediaType
 import data.Product
 import kotlinx.browser.window
-import org.jetbrains.compose.web.css.color
-import org.jetbrains.compose.web.dom.H1
 import org.jetbrains.compose.web.dom.Text
-import org.jetbrains.compose.web.renderComposable
-
-
-fun main() {
-    renderComposable(rootElementId = "root") {
-        Content()
-    }
-}
 
 @Composable
-fun Content() {
+fun Home() {
     Header()
 
     Text("URL: ${window.location.pathname}")
-
-    var selectedProduct: Product? by remember {
-        mutableStateOf(null)
-    }
-
-    selectedProduct?.let {
-        H1({
-            style {
-                color(Red)
-            }
-        }) {
-            Text(selectedProduct.toString())
-        }
-    }
 
     Products {
         ProductItem(
@@ -57,7 +34,7 @@ fun Content() {
                 orderId = 0.0
             )
         ) {
-            selectedProduct = it
+            Routing.navigate(Route.ProductDetails(productId = it.id))
         }
 
         ProductItem(
@@ -78,9 +55,7 @@ fun Content() {
                 orderId = 0.1
             )
         ) {
-            selectedProduct = it
+            Routing.navigate(Route.ProductDetails(productId = it.id))
         }
     }
 }
-
-
