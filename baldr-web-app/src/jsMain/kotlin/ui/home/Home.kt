@@ -1,14 +1,10 @@
 package ui.home
 
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.*
 import com.benasher44.uuid.uuid4
 import data.Media
 import data.MediaType
 import data.Product
-import io.ktor.client.engine.js.*
 import kotlinx.coroutines.launch
 import logic.restClient
 import navigation.Route
@@ -23,25 +19,36 @@ import util.log
 fun Home() {
     Header()
 
-    Products {
-        var products: List<Product> by remember {
-            mutableStateOf(emptyList())
-        }
+    var products: List<Product> by remember {
+        mutableStateOf(emptyList())
+    }
 
-        LaunchedEffect(true) {
-            products = restClient().getProducts().products
-        }
+    LaunchedEffect(true) {
+        products = restClient().getProducts().products
+    }
 
-        for (product in products) {
-            ProductItem(product) {
+    for (i in products.indices step 2) {
+        ProductsRow {
+            ProductItem(products[i]) {
                 Routing.navigate(
                     Route.ProductDetails(
-                        productId = product.id
+                        productId = it.id
                     )
                 )
             }
+
+            products.getOrNull(i + 1)?.let { secondProduct ->
+                ProductItem(secondProduct) {
+                    Routing.navigate(
+                        Route.ProductDetails(
+                            productId = it.id
+                        )
+                    )
+                }
+            }
         }
     }
+
 
     val coroutineScope = rememberCoroutineScope()
     Button(

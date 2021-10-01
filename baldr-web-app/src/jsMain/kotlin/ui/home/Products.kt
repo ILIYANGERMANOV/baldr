@@ -6,7 +6,7 @@ import org.jetbrains.compose.web.css.*
 import org.jetbrains.compose.web.dom.Div
 
 @Composable
-fun Products(
+fun ProductsRow(
     Content: @Composable () -> Unit
 ) {
     Div({
@@ -17,6 +17,8 @@ fun Products(
             flexDirection(FlexDirection.Row)
             alignContent(AlignContent.Center)
             justifyContent(JustifyContent.Center)
+            paddingTop(16.px)
+            paddingBottom(16.px)
         }
     }) {
         Content()
