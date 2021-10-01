@@ -42,7 +42,6 @@ class RestClient(
     suspend fun getProducts(): ProductsResponse {
         return client.get("${API_URL}/baldr/products/all") {
             accept(ContentType.Application.Json)
-            header("Access-Control-Allow-Origin", "*")
         }
     }
 
