@@ -1,6 +1,7 @@
 package ui.home
 
 import androidx.compose.runtime.Composable
+import com.benasher44.uuid.uuid4
 import data.Media
 import data.MediaType
 import data.Product
@@ -30,7 +31,7 @@ fun Home() {
                     )
                 ),
 
-                id = "p1",
+                id = uuid4(),
                 orderId = 0.0
             )
         ) {
@@ -51,7 +52,7 @@ fun Home() {
                     )
                 ),
 
-                id = "p2",
+                id = uuid4(),
                 orderId = 0.1
             )
         ) {

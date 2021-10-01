@@ -47,6 +47,9 @@ kotlin {
 
                 //https://ktor.io/docs/client-logging.html
                 implementation("io.ktor:ktor-client-logging:$ktorVersion")
+
+                //UUID: https://search.maven.org/artifact/com.benasher44/uuid
+                implementation("com.benasher44:uuid:0.3.1")
             }
         }
     }

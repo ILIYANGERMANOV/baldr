@@ -1,6 +1,8 @@
 package navigation
 
 import androidx.compose.runtime.*
+import com.benasher44.uuid.Uuid
+import com.benasher44.uuid.uuidFrom
 import kotlinx.browser.window
 import util.log
 
@@ -41,7 +43,7 @@ sealed class Route {
         override fun path() = ""
     }
 
-    data class ProductDetails(val productId: String) : Route() {
+    data class ProductDetails(val productId: Uuid) : Route() {
         override fun path() = "/product/${productId}"
     }
 
@@ -52,7 +54,7 @@ sealed class Route {
                     val productId = path.split("/")
                         .getOrNull(2)
                         ?.takeIf { it.isNotBlank() } ?: return Home
-                    ProductDetails(productId)
+                    ProductDetails(uuidFrom(productId))
                 }
                 else -> Home
             }
