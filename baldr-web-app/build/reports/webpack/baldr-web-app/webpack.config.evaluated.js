@@ -32,11 +32,11 @@
   },
   entry: {
     main: [
-      '/home/iliyan/work/repo/baldr/baldr-web-app/build/js/packages/baldr-web-app/kotlin/baldr-web-app.js'
+      '/home/iliyan/ivy/repo/baldr/baldr-web-app/build/js/packages/baldr-web-app/kotlin/baldr-web-app.js'
     ]
   },
   output: {
-    path: '/home/iliyan/work/repo/baldr/baldr-web-app/build/distributions',
+    path: '/home/iliyan/ivy/repo/baldr/baldr-web-app/build/distributions',
     filename: [Function: filename],
     library: 'baldr-web-app',
     libraryTarget: 'umd',
@@ -49,7 +49,7 @@
   devServer: {
     open: true,
     static: [
-      '/home/iliyan/work/repo/baldr/baldr-web-app/build/processedResources/js/main'
+      '/home/iliyan/ivy/repo/baldr/baldr-web-app/build/processedResources/js/main'
     ],
     historyApiFallback: true
   },

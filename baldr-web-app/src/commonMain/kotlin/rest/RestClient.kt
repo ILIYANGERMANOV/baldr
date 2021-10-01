@@ -40,11 +40,15 @@ class RestClient(
     }
 
     suspend fun getProducts(): ProductsResponse {
-        return client.get("${API_URL}/baldr/products/all")
+        return client.get("${API_URL}/baldr/products/all") {
+            accept(ContentType.Application.Json)
+            header("Access-Control-Allow-Origin", "*")
+        }
     }
 
     suspend fun getProduct(productId: Uuid): ProductResponse {
         return client.get("${API_URL}/baldr/products/single") {
+            accept(ContentType.Application.Json)
             parameter("productId", productId.toString())
         }
     }

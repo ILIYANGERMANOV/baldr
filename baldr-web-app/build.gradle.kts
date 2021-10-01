@@ -22,11 +22,16 @@ kotlin {
         browser()
         binaries.executable()
     }
+
+
+
     sourceSets {
-        val ktorVersion = "1.6.3"
+        val ktorVersion = "1.6.4"
 
         val jsMain by getting {
             dependencies {
+                implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.31")
+
                 implementation(compose.web.core)
                 implementation(compose.runtime)
                 implementation("io.ktor:ktor-client-js:$ktorVersion")
@@ -37,15 +42,18 @@ kotlin {
             dependencies {
                 implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.31")
 
-                implementation("io.ktor:ktor-client-core:$ktorVersion")
-
                 //https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-core
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2")
 
-                //https://ktor.io/docs/json.html#configure_serializer
+                //ktor
+                implementation("io.ktor:ktor-client-core:$ktorVersion")
+                //ktor CIO is broken... can't build
+                //                implementation("io.ktor:ktor-client-cio:$ktorVersion")
+
+                //ktor: https://ktor.io/docs/json.html#configure_serializer
                 implementation("io.ktor:ktor-client-serialization:$ktorVersion")
 
-                //https://ktor.io/docs/client-logging.html
+                //ktor: https://ktor.io/docs/client-logging.html
                 implementation("io.ktor:ktor-client-logging:$ktorVersion")
 
                 //UUID: https://search.maven.org/artifact/com.benasher44/uuid

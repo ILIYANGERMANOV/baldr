@@ -4,8 +4,8 @@
   "private": true,
   "workspaces": [
     "packages/baldr-web-app",
-    "packages_imported/ktor-ktor-client-core-js-ir/1.6.3",
     "packages_imported/kotlin/1.5.31",
+    "packages_imported/ktor-ktor-client-core-js-ir/1.6.4",
     "packages_imported/kotlin-test-js-runner/1.5.31",
     "packages_imported/kotlin-test/1.5.31"
   ],
