@@ -1,6 +1,7 @@
 package rest
 
 import com.benasher44.uuid.Uuid
+import com.benasher44.uuid.uuidFrom
 import io.ktor.client.*
 import io.ktor.client.engine.*
 import io.ktor.client.features.json.*
@@ -9,6 +10,13 @@ import io.ktor.client.features.logging.*
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import io.ktor.http.*
+import kotlinx.serialization.ExperimentalSerializationApi
+import kotlinx.serialization.KSerializer
+import kotlinx.serialization.Serializer
+import kotlinx.serialization.descriptors.PrimitiveKind
+import kotlinx.serialization.descriptors.PrimitiveSerialDescriptor
+import kotlinx.serialization.encoding.Decoder
+import kotlinx.serialization.encoding.Encoder
 import rest.request.DeleteProductRequest
 import rest.request.ProductResponse
 import rest.request.ProductsResponse
@@ -64,5 +72,20 @@ class RestClient(
             contentType(ContentType.Application.Json)
             body = request
         }
+    }
+}
+
+@OptIn(ExperimentalSerializationApi::class)
+@Serializer(forClass = Uuid::class)
+object UuidSerializer : KSerializer<Uuid> {
+    override val descriptor = PrimitiveSerialDescriptor("Uuid", PrimitiveKind.STRING)
+
+
+    override fun serialize(encoder: Encoder, value: Uuid) {
+        encoder.encodeString(value.toString())
+    }
+
+    override fun deserialize(decoder: Decoder): Uuid {
+        return uuidFrom(decoder.decodeString())
     }
 }

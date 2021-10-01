@@ -1,8 +1,11 @@
 // Add compose gradle plugin
 plugins {
     //https://github.com/JetBrains/compose-jb
-    kotlin("multiplatform") version "1.5.31"
+    val kotlinVersion = "1.5.31"
+
+    kotlin("multiplatform") version kotlinVersion
     id("org.jetbrains.compose") version "1.0.0-alpha4-build362"
+    kotlin("plugin.serialization") version kotlinVersion
 }
 
 group = "com.baldr"
@@ -24,8 +27,11 @@ kotlin {
     }
 
 
-
     sourceSets {
+        all {
+            languageSettings.optIn("kotlin.RequiresOptIn")
+        }
+
         val ktorVersion = "1.6.4"
 
         val jsMain by getting {
@@ -52,6 +58,7 @@ kotlin {
 
                 //ktor: https://ktor.io/docs/json.html#configure_serializer
                 implementation("io.ktor:ktor-client-serialization:$ktorVersion")
+
 
                 //ktor: https://ktor.io/docs/client-logging.html
                 implementation("io.ktor:ktor-client-logging:$ktorVersion")

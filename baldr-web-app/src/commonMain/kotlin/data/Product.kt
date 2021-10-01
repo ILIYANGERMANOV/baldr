@@ -2,8 +2,11 @@ package data
 
 import com.benasher44.uuid.Uuid
 import com.benasher44.uuid.uuid4
+import kotlinx.serialization.Serializable
+import rest.UuidSerializer
 
 
+@Serializable
 data class Product(
     val name: String,
     val tagline: String?,
@@ -17,6 +20,7 @@ data class Product(
     val attributes: List<Attribute> = emptyList(),
     val relatedProducts: List<RelatedProductEntry> = emptyList(),
 
+    @Serializable(with = UuidSerializer::class)
     val id: Uuid = uuid4(),
     val orderNum: Double = 0.0,
     val archived: Boolean = false
