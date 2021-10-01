@@ -12,13 +12,12 @@ data class Product(
     val description: String? = null,
     val color: Int? = null,
 
-    val media: List<Media>,
-    val attributes: List<Attribute> = emptyList(),
 
-    val relatedProducts: List<Uuid> = emptyList(),
-    val colorVariants: List<ColorVariant> = emptyList(),
+    val media: List<Media> = emptyList(),
+    val attributes: List<Attribute> = emptyList(),
+    val relatedProducts: List<RelatedProductEntry> = emptyList(),
 
     val id: Uuid = uuid4(),
-    val orderId: Double = 0.0,
+    val orderNum: Double = 0.0,
     val archived: Boolean = false
 )

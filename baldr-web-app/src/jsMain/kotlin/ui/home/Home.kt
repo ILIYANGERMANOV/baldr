@@ -27,12 +27,14 @@ fun Home() {
                     Media(
                         url = "https://www.powerplanetonline.com/cdnassets/gyro_fidget_spinner_negro_ad_l.jpg",
                         alt = "fidget-spinner",
-                        type = MediaType.IMAGE
+                        type = MediaType.IMAGE,
+                        orderNum = 0.0,
+                        productId = uuid4()
                     )
                 ),
 
                 id = uuid4(),
-                orderId = 0.0
+                orderNum = 0.0
             )
         ) {
             Routing.navigate(Route.ProductDetails(productId = it.id))
@@ -48,12 +50,14 @@ fun Home() {
                     Media(
                         url = "https://www.youtube.com/embed/eq9bpu3zArI",
                         alt = "feel-flux",
-                        type = MediaType.YOUTUBE_VIDEO
+                        type = MediaType.YOUTUBE_VIDEO,
+                        orderNum = 0.0,
+                        productId = uuid4()
                     )
                 ),
 
                 id = uuid4(),
-                orderId = 0.1
+                orderNum = 0.1
             )
         ) {
             Routing.navigate(Route.ProductDetails(productId = it.id))

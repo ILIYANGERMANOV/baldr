@@ -1,5 +1,5 @@
 
 <com.baldr:baldr-web-app>:
 components:css:data:
-navigation:rest:ui:ui.home:
+navigation:rest:rest.request:ui:ui.home:
 ui.product:util
