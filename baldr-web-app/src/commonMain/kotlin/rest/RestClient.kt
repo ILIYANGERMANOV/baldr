@@ -19,6 +19,8 @@ class RestClient(
 ) {
     companion object {
         const val API_URL = "https://ivy-apps.com"
+
+        const val BALDR_PASSWORD = "magazinTopMax112$"
     }
 
     private val client: HttpClient = HttpClient(engine) {
@@ -33,6 +35,8 @@ class RestClient(
             logger = Logger.DEFAULT
             level = LogLevel.HEADERS
         }
+
+        this.developmentMode = true
     }
 
     suspend fun getProducts(): ProductsResponse {

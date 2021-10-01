@@ -13,11 +13,11 @@ let config = {
 
 // entry
 config.entry = {
-    main: ["/home/iliyan/ivy/repo/baldr/baldr-web-app/build/js/packages/baldr-web-app/kotlin/baldr-web-app.js"]
+    main: ["/home/iliyan/work/repo/baldr/baldr-web-app/build/js/packages/baldr-web-app/kotlin/baldr-web-app.js"]
 };
 
 config.output = {
-    path: "/home/iliyan/ivy/repo/baldr/baldr-web-app/build/distributions",
+    path: "/home/iliyan/work/repo/baldr/baldr-web-app/build/distributions",
     filename: (chunkData) => {
         return chunkData.chunk.name === 'main'
             ? "baldr-web-app.js"
@@ -41,7 +41,7 @@ config.ignoreWarnings = [/Failed to parse source map/]
 config.devServer = {
   "open": true,
   "static": [
-    "/home/iliyan/ivy/repo/baldr/baldr-web-app/build/processedResources/js/main"
+    "/home/iliyan/work/repo/baldr/baldr-web-app/build/processedResources/js/main"
   ]
 };
 
@@ -52,7 +52,7 @@ config.devServer = {
     const handler = (percentage, message, ...args) => {
         const p = percentage * 100;
         let msg = `${Math.trunc(p / 10)}${Math.trunc(p % 10)}% ${message} ${args.join(' ')}`;
-        msg = msg.replace("/home/iliyan/ivy/repo/baldr/baldr-web-app/build/js", '');;
+        msg = msg.replace("/home/iliyan/work/repo/baldr/baldr-web-app/build/js", '');;
         console.log(msg);
     };
 
@@ -84,7 +84,7 @@ config.devServer = {
     const util = require('util');
     const fs = require('fs');
     const evaluatedConfig = util.inspect(config, {showHidden: false, depth: null, compact: false});
-    fs.writeFile("/home/iliyan/ivy/repo/baldr/baldr-web-app/build/reports/webpack/baldr-web-app/webpack.config.evaluated.js", evaluatedConfig, function (err) {});
+    fs.writeFile("/home/iliyan/work/repo/baldr/baldr-web-app/build/reports/webpack/baldr-web-app/webpack.config.evaluated.js", evaluatedConfig, function (err) {});
 })(config);
 
 module.exports = config

@@ -8,7 +8,7 @@ data class Media(
     val id: Uuid = uuid4(),
     val url: String,
     val type: MediaType,
-    val alt: String?,
+    val alt: String? = null,
     val productId: Uuid,
     val orderNum: Double
 )
