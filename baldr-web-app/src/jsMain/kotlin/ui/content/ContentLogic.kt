@@ -27,17 +27,26 @@ class ContentLogic(
         productId = route.productId ?: uuid4()
     }
 
-    fun addMedia(url: String) {
+    fun addMedia(url: String, type: MediaType) {
         log("Adding media...")
+        val finalUrl = when (type) {
+            MediaType.IMAGE -> url
+            MediaType.YOUTUBE_VIDEO -> {
+                //Default: https://youtu.be/qpNlFPiokIs
+                //Correct: https://www.youtube.com/embed/qpNlFPiokIs
+                "https://www.youtube.com/embed/${url}"
+            }
+        }
+
         productMedia.value = productMedia.value.plus(
             Media(
                 productId = productId,
-                url = url,
-                type = if (url.contains("youtu"))
-                    MediaType.YOUTUBE_VIDEO else MediaType.IMAGE,
-                orderNum = productMedia.value.maxOf { it.orderNum } + 1
+                url = finalUrl,
+                type = type,
+                orderNum = productMedia.value.maxOfOrNull { it.orderNum }?.plus(1) ?: 0.0
             )
         )
+        log("Media added: ${productMedia.value.lastOrNull()}")
     }
 
     fun updateMedia(updatedMedia: Media) {

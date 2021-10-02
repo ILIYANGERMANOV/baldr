@@ -7,10 +7,10 @@ import components.MediaView
 import core.Route
 import core.observeAsState
 import data.Media
+import data.MediaType
 import kotlinx.coroutines.launch
 import org.jetbrains.compose.web.css.*
 import org.jetbrains.compose.web.dom.*
-import org.w3c.dom.url.URL
 import ui.home.ProductsRow
 import util.onStart
 
@@ -49,7 +49,7 @@ fun ContentUi(route: Route.Content) {
                     media = media,
                     onAdd = logic::addMedia,
                     onChanged = logic::updateMedia,
-                    onDelete = logic::removeMedia
+                    onRemove = logic::removeMedia
                 )
             }
 
@@ -57,7 +57,7 @@ fun ContentUi(route: Route.Content) {
                 media = null,
                 onAdd = logic::addMedia,
                 onChanged = logic::updateMedia,
-                onDelete = logic::removeMedia
+                onRemove = logic::removeMedia
             )
         }
 
@@ -145,8 +145,8 @@ private fun ContentNumberInput(
 private fun ContentMedia(
     media: Media?,
     onChanged: (Media) -> Unit,
-    onAdd: (url: String) -> Unit,
-    onDelete: (Media) -> Unit
+    onAdd: (url: String, MediaType) -> Unit,
+    onRemove: (Media) -> Unit
 ) {
     Div({
         style {
@@ -172,7 +172,7 @@ private fun ContentMedia(
         }
 
         var url by remember(media) {
-            mutableStateOf("")
+            mutableStateOf(media?.url ?: "")
         }
 
         TextInput(
@@ -193,12 +193,38 @@ private fun ContentMedia(
                             )
                         )
                     } else {
-                        onAdd(url)
+                        onAdd(url, MediaType.IMAGE)
                     }
                 }
             }
         ) {
             Text(if (media != null) "Update" else "Add")
+        }
+
+        if (media == null) {
+            Button(
+                attrs = {
+                    onClick {
+                        onAdd(url, MediaType.YOUTUBE_VIDEO)
+                    }
+                }
+            ) {
+                Text("Add Video")
+            }
+        }
+
+        Br()
+
+        if (media != null) {
+            Button(
+                attrs = {
+                    onClick {
+                        onRemove(media)
+                    }
+                }
+            ) {
+                Text("Remove")
+            }
         }
     }
 }
