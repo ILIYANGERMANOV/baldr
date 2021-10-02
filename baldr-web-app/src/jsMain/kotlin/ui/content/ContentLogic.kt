@@ -3,12 +3,15 @@ package ui.content
 import com.benasher44.uuid.Uuid
 import com.benasher44.uuid.uuid4
 import core.LiveData
-import logic.restClient
 import core.Route
 import data.Media
 import data.MediaType
 import data.Product
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.launch
+import logic.restClient
 import rest.RestClient
+import rest.request.DeleteProductRequest
 import rest.request.UploadProductRequest
 import util.log
 
@@ -23,8 +26,20 @@ class ContentLogic(
 
     lateinit var productId: Uuid
 
-    fun start(route: Route.Content) {
+    fun start(coroutineScope: CoroutineScope, route: Route.Content) {
         productId = route.productId ?: uuid4()
+
+        if (route.productId != null) {
+            coroutineScope.launch {
+                val product = restClient.getProduct(productId = productId).product
+
+                name.value = product.name
+                tagline.value = product.tagline ?: ""
+                price.value = product.price
+                description.value = product.description ?: ""
+                productMedia.value = product.media
+            }
+        }
     }
 
     fun addMedia(url: String, type: MediaType) {
@@ -71,10 +86,33 @@ class ContentLogic(
                     price = price.value,
                     currency = "BGN",
                     media = productMedia.value,
+                    description = description.value,
                     orderNum = 0.0
                 ),
                 password = RestClient.BALDR_PASSWORD
             )
         )
+
+        clear()
+    }
+
+    suspend fun deleteProduct() {
+        restClient().deleteProduct(
+            DeleteProductRequest(
+                productId = productId,
+                password = RestClient.BALDR_PASSWORD
+            )
+        )
+
+        clear()
+    }
+
+    private fun clear() {
+        productId = uuid4()
+        name.value = ""
+        tagline.value = ""
+        price.value = 0.0
+        description.value = ""
+        productMedia.value = emptyList()
     }
 }

@@ -1,7 +1,5 @@
 package ui.content
 
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.*
 import components.MediaView
 import core.Route
@@ -20,8 +18,9 @@ fun ContentUi(route: Route.Content) {
         ContentLogic()
     }
 
+    val coroutineScope = rememberCoroutineScope()
     onStart {
-        logic.start(route)
+        logic.start(coroutineScope, route)
     }
 
     Div {
@@ -87,7 +86,6 @@ fun ContentUi(route: Route.Content) {
 
         Br()
 
-        val coroutineScope = rememberCoroutineScope()
         Button(
             attrs = {
                 onClick {
@@ -98,6 +96,22 @@ fun ContentUi(route: Route.Content) {
             }
         ) {
             Text("Submit")
+        }
+
+        if (route.productId != null) {
+            Br()
+
+            Button(
+                attrs = {
+                    onClick {
+                        coroutineScope.launch {
+                            logic.deleteProduct()
+                        }
+                    }
+                }
+            ) {
+                Text("Delete product")
+            }
         }
     }
 }
@@ -198,7 +212,7 @@ private fun ContentMedia(
                 }
             }
         ) {
-            Text(if (media != null) "Update" else "Add")
+            Text(if (media != null) "Update" else "Add Image")
         }
 
         if (media == null) {
@@ -213,9 +227,10 @@ private fun ContentMedia(
             }
         }
 
-        Br()
-
         if (media != null) {
+            Br()
+            Br()
+
             Button(
                 attrs = {
                     onClick {

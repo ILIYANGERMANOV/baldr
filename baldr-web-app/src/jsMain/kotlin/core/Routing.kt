@@ -56,13 +56,15 @@ sealed class Route {
     companion object {
         fun parse(path: String): Route {
             return when {
-                path.startsWith("/product/") -> {
+                path.startsWith("/product/") &&
+                        !path.endsWith("/content") -> {
                     val productId = path.split("/")
                         .getOrNull(2)
                         ?.takeIf { it.isNotBlank() } ?: return Home
                     ProductDetails(uuidFrom(productId))
                 }
-                path.startsWith("/content") -> {
+                path.startsWith("/content") ||
+                        path.endsWith("/content") -> {
                     val productId = path.split("/")
                         .getOrNull(2)
                         ?.let { uuidFrom(it) }
