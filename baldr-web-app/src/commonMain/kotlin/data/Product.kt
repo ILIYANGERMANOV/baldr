@@ -8,9 +8,9 @@ import rest.UuidSerializer
 
 @Serializable
 data class Product(
-    val name: String,
-    val tagline: String?,
-    val price: Double,
+    val name: String = "",
+    val tagline: String? = null,
+    val price: Double = 0.0,
     val currency: String,
     val description: String? = null,
     val color: Int? = null,
