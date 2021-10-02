@@ -1,11 +1,12 @@
 package ui
 
 import kotlinx.browser.window
-import navigation.Route
-import navigation.Routing
+import core.Route
+import core.Routing
 import org.jetbrains.compose.web.renderComposable
-import ui.home.Home
-import ui.product.ProductDetails
+import ui.content.ContentUi
+import ui.home.HomeUi
+import ui.product.ProductUi
 import util.log
 
 
@@ -17,8 +18,9 @@ fun main() {
             //NOTE: Must log state path so the compose function is updated
             log("Routing.init: '$routePath' (state path = $statePath) translated to $route")
             when (route) {
-                Route.Home -> Home()
-                is Route.ProductDetails -> ProductDetails(route)
+                is Route.Home -> HomeUi()
+                is Route.ProductDetails -> ProductUi(route)
+                is Route.Content -> ContentUi(route)
             }
         }
     }
