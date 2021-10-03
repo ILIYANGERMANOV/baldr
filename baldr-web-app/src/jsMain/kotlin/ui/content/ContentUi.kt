@@ -1,12 +1,14 @@
 package ui.content
 
 import androidx.compose.runtime.*
+import components.Button
+import components.CoroutineButton
 import components.MediaView
 import core.Route
+import core.Routing
 import core.observeAsState
 import data.Media
 import data.MediaType
-import kotlinx.coroutines.launch
 import org.jetbrains.compose.web.css.*
 import org.jetbrains.compose.web.dom.*
 import ui.home.ProductsRow
@@ -26,6 +28,12 @@ fun ContentUi(route: Route.Content) {
     Div {
         H1 {
             Text("Baldr Content")
+        }
+
+        Button(
+            text = "Back to home"
+        ) {
+            Routing.navigate(Route.Home)
         }
 
         val name by logic.name.observeAsState()
@@ -86,31 +94,21 @@ fun ContentUi(route: Route.Content) {
 
         Br()
 
-        Button(
-            attrs = {
-                onClick {
-                    coroutineScope.launch {
-                        logic.submit()
-                    }
-                }
-            }
+        CoroutineButton(
+            text = "Submit",
+            coroutineScope = coroutineScope
         ) {
-            Text("Submit")
+            logic.submit()
         }
 
         if (route.productId != null) {
             Br()
 
-            Button(
-                attrs = {
-                    onClick {
-                        coroutineScope.launch {
-                            logic.deleteProduct()
-                        }
-                    }
-                }
+            CoroutineButton(
+                text = "Delete product",
+                coroutineScope = coroutineScope
             ) {
-                Text("Delete product")
+                logic.deleteProduct()
             }
         }
     }
@@ -198,32 +196,24 @@ private fun ContentMedia(
         }
 
         Button(
-            attrs = {
-                onClick {
-                    if (media != null) {
-                        onChanged(
-                            media.copy(
-                                url = url
-                            )
-                        )
-                    } else {
-                        onAdd(url, MediaType.IMAGE)
-                    }
-                }
-            }
+            text = if (media != null) "Update" else "Add Image",
         ) {
-            Text(if (media != null) "Update" else "Add Image")
+            if (media != null) {
+                onChanged(
+                    media.copy(
+                        url = url
+                    )
+                )
+            } else {
+                onAdd(url, MediaType.IMAGE)
+            }
         }
 
         if (media == null) {
             Button(
-                attrs = {
-                    onClick {
-                        onAdd(url, MediaType.YOUTUBE_VIDEO)
-                    }
-                }
+                text = "Add Video",
             ) {
-                Text("Add Video")
+                onAdd(url, MediaType.YOUTUBE_VIDEO)
             }
         }
 
@@ -232,13 +222,9 @@ private fun ContentMedia(
             Br()
 
             Button(
-                attrs = {
-                    onClick {
-                        onRemove(media)
-                    }
-                }
+                text = "Remove",
             ) {
-                Text("Remove")
+                onRemove(media)
             }
         }
     }

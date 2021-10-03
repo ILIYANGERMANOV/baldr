@@ -40,7 +40,7 @@ sealed class Route {
     abstract fun path(): String
 
     object Home : Route() {
-        override fun path() = ""
+        override fun path() = "/home"
     }
 
     data class ProductDetails(val productId: Uuid) : Route() {
@@ -71,6 +71,9 @@ sealed class Route {
                     Content(
                         productId = productId
                     )
+                }
+                path == "/home" -> {
+                    Home
                 }
                 else -> Home
             }
