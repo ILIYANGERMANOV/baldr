@@ -1,9 +1,7 @@
 package ui.content
 
 import androidx.compose.runtime.*
-import components.Button
-import components.CoroutineButton
-import components.MediaView
+import components.*
 import core.Route
 import core.Routing
 import core.observeAsState
@@ -26,15 +24,20 @@ fun ContentUi(route: Route.Content) {
     }
 
     Div {
-        H1 {
-            Text("Baldr Content")
+        Row {
+            H1 {
+                Text("Baldr Content")
+            }
+
+            Spacer(width = 16.px)
+
+            Button(
+                text = "Back to home"
+            ) {
+                Routing.navigate(Route.Home)
+            }
         }
 
-        Button(
-            text = "Back to home"
-        ) {
-            Routing.navigate(Route.Home)
-        }
 
         val name by logic.name.observeAsState()
         val tagline by logic.tagline.observeAsState()
