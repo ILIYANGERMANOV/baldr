@@ -51,8 +51,6 @@
     errors: false
   },
   devServer: {
-    historyApiFallback: true,
-    open: 'http://localhost',
-    port: 80
+    historyApiFallback: true
   }
 }
