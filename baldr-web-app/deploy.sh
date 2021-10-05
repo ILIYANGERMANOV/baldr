@@ -12,8 +12,14 @@ TOTAL_STEPS=4
 log_step() {
   bold=$(tput bold)
   normal=$(tput sgr0)
-  echo "${bold}[DEPLOY $CURRENT_STEP/$TOTAL_STEPS] $1${normal}"
+  log_bold "[DEPLOY $CURRENT_STEP/$TOTAL_STEPS] $1"
   ((CURRENT_STEP=CURRENT_STEP+1))
+}
+
+log_bold() {
+    bold=$(tput bold)
+    normal=$(tput sgr0)
+    echo "${bold}$1${normal}"
 }
 
 #Machine requirements:
@@ -26,7 +32,7 @@ log_step() {
 #sudo mkdir -p /var/www/baldr.bg
 #sudo rm /etc/nginx/sites-enabled/default
 
-set -x
+#set -x //used for debug purposes
 log_step "Building web pack..."
 ./gradlew jsBrowserDevelopmentWebpack || exit
 
@@ -41,4 +47,4 @@ exec_command_on_server "cp /var/www/baldr.bg/*.html /var/www/baldr.bg/product" |
 exec_command_on_server "cp /var/www/baldr.bg/*.js /var/www/baldr.bg/product" || exit
 exec_command_on_server "cp -r /var/www/baldr.bg/assets /var/www/baldr.bg/product/" || exit
 
-echo "baldr.bg deployed successfully on $SERVER_IP"
+log_bold "baldr.bg deployed successfully on $SERVER_IP"
