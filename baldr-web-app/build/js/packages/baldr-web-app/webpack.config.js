@@ -68,6 +68,8 @@ config.ignoreWarnings = [/Failed to parse source map/]
 config.devServer = {
     ...config.devServer, // Merge with other devServer settings
     "historyApiFallback": true,
+    open: 'http://localhost',
+    port: 80,
 };
 
 

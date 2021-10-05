@@ -7,7 +7,7 @@ exec_command_on_server() {
 }
 
 CURRENT_STEP=1
-TOTAL_STEPS=3
+TOTAL_STEPS=4
 
 log_step() {
   bold=$(tput bold)
@@ -31,9 +31,14 @@ log_step "Building web pack..."
 ./gradlew jsBrowserDevelopmentWebpack || exit
 
 log_step "Modifying index.html for deploy..."
-sed -i 's,http://localhost:8080/baldr-web-app.js,/var/www/baldr.bg/baldr-web-app.js,g' build/developmentExecutable/index.html || exit
+sed -i 's,http://localhost:8080/baldr-web-app.js,baldr-web-app.js,g' build/developmentExecutable/index.html || exit
 
 log_step "Copying web pack files on server..."
-scp build/developmentExecutable/* root@$SERVER_IP:/var/www/baldr.bg || exit
+scp -r build/developmentExecutable/* root@$SERVER_IP:/var/www/baldr.bg || exit
+
+log_step "Add support for '/product' routing"
+exec_command_on_server "cp /var/www/baldr.bg/*.html /var/www/baldr.bg/product" || exit
+exec_command_on_server "cp /var/www/baldr.bg/*.js /var/www/baldr.bg/product" || exit
+exec_command_on_server "cp -r /var/www/baldr.bg/assets /var/www/baldr.bg/product/" || exit
 
 echo "baldr.bg deployed successfully on $SERVER_IP"

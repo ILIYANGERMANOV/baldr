@@ -11,7 +11,7 @@ import org.jetbrains.compose.web.dom.Img
 fun Header() {
     Div {
         Img(
-            src = "baldr.png",
+            src = "assets/baldr.png",
             alt = "baldr",
             attrs = {
                 style {
