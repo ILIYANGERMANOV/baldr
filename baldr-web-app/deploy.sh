@@ -10,7 +10,9 @@ CURRENT_STEP=1
 TOTAL_STEPS=3
 
 log_step() {
-  echo "[DEPLOY $CURRENT_STEP/$TOTAL_STEPS] $1"
+  bold=$(tput bold)
+  normal=$(tput sgr0)
+  echo "${bold}[DEPLOY $CURRENT_STEP/$TOTAL_STEPS] $1${normal}"
   ((CURRENT_STEP=CURRENT_STEP+1))
 }
 
