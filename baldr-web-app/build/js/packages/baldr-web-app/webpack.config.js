@@ -17,7 +17,7 @@ config.entry = {
 };
 
 config.output = {
-    path: "/home/iliyan/ivy/repo/baldr/baldr-web-app/build/distributions",
+    path: "/home/iliyan/ivy/repo/baldr/baldr-web-app/build/developmentExecutable",
     filename: (chunkData) => {
         return chunkData.chunk.name === 'main'
             ? "baldr-web-app.js"
@@ -36,14 +36,6 @@ config.module.rules.push({
 });
 config.devtool = 'eval-source-map';
 config.ignoreWarnings = [/Failed to parse source map/]
-
-// dev server
-config.devServer = {
-  "open": true,
-  "static": [
-    "/home/iliyan/ivy/repo/baldr/baldr-web-app/build/processedResources/js/main"
-  ]
-};
 
 // Report progress to console
 // noinspection JSUnnecessarySemicolon

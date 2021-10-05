@@ -36,7 +36,7 @@
     ]
   },
   output: {
-    path: '/home/iliyan/ivy/repo/baldr/baldr-web-app/build/distributions',
+    path: '/home/iliyan/ivy/repo/baldr/baldr-web-app/build/developmentExecutable',
     filename: [Function: filename],
     library: 'baldr-web-app',
     libraryTarget: 'umd',
@@ -46,15 +46,11 @@
   ignoreWarnings: [
     /Failed to parse source map/
   ],
-  devServer: {
-    open: true,
-    static: [
-      '/home/iliyan/ivy/repo/baldr/baldr-web-app/build/processedResources/js/main'
-    ],
-    historyApiFallback: true
-  },
   stats: {
     warnings: false,
     errors: false
+  },
+  devServer: {
+    historyApiFallback: true
   }
 }
